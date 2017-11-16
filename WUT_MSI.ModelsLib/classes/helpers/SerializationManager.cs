@@ -12,6 +12,7 @@ namespace WUT_MSI.ModelsLib.classes.helpers
     {
         public void Serialize<T>(string fileName, T @object)
         {
+            File.Delete(fileName);
             using (FileStream file = new FileStream(fileName, FileMode.OpenOrCreate))
             {
                 XmlSerializer serializer = new XmlSerializer(typeof(T));
@@ -22,12 +23,11 @@ namespace WUT_MSI.ModelsLib.classes.helpers
         public T Deserialize<T>(string fileName) where T : class
         {
             T @object = null;
-            if (File.Exists(fileName))
-                using (FileStream file = new FileStream(fileName, FileMode.Open))
-                {
-                    XmlSerializer deserializer = new XmlSerializer(typeof(T));
-                    @object = deserializer.Deserialize(file) as T;
-                }
+            using (FileStream file = new FileStream(fileName, FileMode.Open))
+            {
+                XmlSerializer deserializer = new XmlSerializer(typeof(T));
+                @object = deserializer.Deserialize(file) as T;
+            }
             return @object;
         }
     }

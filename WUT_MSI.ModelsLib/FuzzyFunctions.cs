@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 using WUT_MSI.Models.classes;
 using WUT_MSI.ModelsLib.classes.helpers;
@@ -30,16 +31,22 @@ namespace WUT_MSI.Models
                 }
                 catch (Exception e)
                 {
-                    m.Serialize<FuzzyProps>(Environment.CurrentDirectory + "/FuzzyProps.xml", instance);
                     res = new FuzzyProps();
                 }
                 return res;
             }
-
+            static FuzzyProps()
+            {
+                if (!File.Exists(Environment.CurrentDirectory + "/FuzzyProps.xml"))
+                {
+                    SerializationManager m = new SerializationManager();
+                    m.Serialize<FuzzyProps>(Environment.CurrentDirectory + "/FuzzyProps.xml", new FuzzyProps());
+                }
+            }
             private static void SaveFuzzyProps()
             {
                 SerializationManager m = new SerializationManager();
-                m.Serialize<FuzzyProps>(Environment.CurrentDirectory + "/FuzzyProps.xml", instance);
+                m.Serialize<FuzzyProps>(Environment.CurrentDirectory + "/FuzzyProps.xml", Instance);
             }
             public double MaxDistance { get; set; } = double.MinValue;
             public double MinDistance { get; set; } = double.MaxValue;

@@ -15,10 +15,14 @@ namespace WUT_MSI.ApiTestConsole
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine(FuzzyProps.Instance.MaxArea);
+            //Console.WriteLine(FuzzyProps.Instance.MaxArea);
+            //Console.WriteLine(FuzzyProps.Instance.MaxDistance);
+            //Console.WriteLine(FuzzyProps.Instance.MaxMonuments);
+            //Console.WriteLine(FuzzyProps.Instance.MaxTemp);
+            //FuzzyProps.SetArea(10987655678);
             Console.WriteLine("Rozpoczynam przygotowanie...");
             var countries = PrepareCountries();
-            Console.WriteLine("Przygotowanie Zakończone...\n liczba wczynach panstw {0}\n Pozdrawiam MB",countries.Count);
+            Console.WriteLine("Przygotowanie Zakończone...\n liczba wczynach panstw {0}\n Pozdrawiam MB", countries.Count);
             SerializationManager sm = new SerializationManager();
             sm.Serialize<List<Country>>(Environment.CurrentDirectory + "/Countries.xml", countries);
             Thread.Sleep(10000);
