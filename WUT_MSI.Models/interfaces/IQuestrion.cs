@@ -4,9 +4,10 @@ using System.Text;
 
 namespace WUT_MSI.Models.interfaces
 {
-    public interface IQuestrion
+    public interface IQuestrion<TParam>
     {
         string Question { get; }
-        List<IAnswer> Answer { get; }
+        List<IAnswer<TParam>> Answers { get; }
+        Func<TParam, double> FuzzyFunction { get; }
     }
 }

@@ -10,5 +10,7 @@ namespace WUT_MSI.Models
         uint Area { get; }
         uint Distance { get; }
         float LevelOfModern { get; }
+        string Climate { get; }
+        int CountOfMonuments { get; }
     }
 }
