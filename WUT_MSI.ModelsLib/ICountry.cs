@@ -8,9 +8,10 @@ namespace WUT_MSI.Models
     {
         string DisplayName { get; }
         uint Area { get; }
-        uint Distance { get; }
+        double Distance { get; }
         float LevelOfModern { get; }
         string Climate { get; }
-        int CountOfMonuments { get; }
+        ulong CountOfMonuments { get; }
+        int Population { get; }
     }
 }

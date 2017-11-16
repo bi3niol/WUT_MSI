@@ -41,7 +41,7 @@ namespace WUT_MSI.Models.classes
         public List<string> otherNames { get; set; }
     }
 
-    public class RootObject
+    public class ApiCountry
     {
         public string name { get; set; }
         public List<string> topLevelDomain { get; set; }
