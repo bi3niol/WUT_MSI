@@ -51,13 +51,17 @@
     <Compile Include="classes\Answer.cs" />
     <Compile Include="classes\CountriesApiModels.cs" />
     <Compile Include="classes\Country.cs" />
+    <Compile Include="classes\Evaluator.cs" />
+    <Compile Include="classes\helpers\CountryQuestionGetter.cs" />
     <Compile Include="classes\helpers\DistanceCalculator.cs" />
     <Compile Include="classes\helpers\GeneralHelper.cs" />
     <Compile Include="classes\MonumentApiModels.cs" />
+    <Compile Include="classes\Question.cs" />
     <Compile Include="FuzzyFunctions.cs" />
     <Compile Include="ICountry.cs" />
     <Compile Include="interfaces\IAnswer.cs" />
-    <Compile Include="interfaces\IQuestrion.cs" />
+    <Compile Include="interfaces\IQuestion.cs" />
+    <Compile Include="interfaces\IQuestionGetter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resource.Designer.cs">
       <DependentUpon>Resource.resx</DependentUpon>
