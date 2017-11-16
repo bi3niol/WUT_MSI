@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace WUT_MSI.Models.interfaces
 {
@@ -6,5 +7,6 @@ namespace WUT_MSI.Models.interfaces
     {
         string DisplayLabel { get; }
         bool MatchToAnswer(TParam parameter, Func<TParam, double> FuzzyFunction);
+        ICollection<TParam> CutSet(ICollection<TParam> set, Func<TParam, double> FuzzyFunction);
     }
 }
