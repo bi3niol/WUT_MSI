@@ -61,7 +61,7 @@ namespace WUT_MSI.ModelsLib {
         }
         
         /// <summary>
-        /// Wyszukuje zlokalizowany ciąg podobny do ciągu 21.0117800.
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu 21.
         /// </summary>
         internal static string WawGeoLength {
             get {
@@ -70,7 +70,7 @@ namespace WUT_MSI.ModelsLib {
         }
         
         /// <summary>
-        /// Wyszukuje zlokalizowany ciąg podobny do ciągu 52.2297700.
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu 52.
         /// </summary>
         internal static string WawGeoWidth {
             get {

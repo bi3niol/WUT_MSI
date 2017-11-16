@@ -118,9 +118,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="WawGeoLength" xml:space="preserve">
-    <value>21.0117800</value>
+    <value>21</value>
   </data>
   <data name="WawGeoWidth" xml:space="preserve">
-    <value>52.2297700</value>
+    <value>52</value>
   </data>
 </root>

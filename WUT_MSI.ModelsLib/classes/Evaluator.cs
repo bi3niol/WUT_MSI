@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using WUT_MSI.Models.classes;
 using WUT_MSI.Models.interfaces;
+using WUT_MSI.ModelsLib.classes.exceptions;
 using WUT_MSI.ModelsLib.interfaces;
 
 namespace WUT_MSI.ModelsLib.classes
@@ -23,6 +24,13 @@ namespace WUT_MSI.ModelsLib.classes
         public void SetEvaluatingSet(List<Tparam> evaluatingSet)
         {
             CurrentAnswerSet = evaluatingSet;
+        }
+
+        public IQuestion<Tparam> GetQuestion()
+        {
+            if (!QuestionGetter.HasQuestion)
+                throw new NoMoreQuestionsException();
+            return QuestionGetter.GetNextQuestion(CurrentAnswerSet);
         }
     }
 }
