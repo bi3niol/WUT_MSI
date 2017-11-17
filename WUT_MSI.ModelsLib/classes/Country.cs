@@ -1,5 +1,6 @@
 ﻿using System;
 using WUT_MSI.Models.classes.helpers;
+using WUT_MSI.Models.interfaces;
 using WUT_MSI.ModelsLib;
 using WUT_MSI.ModelsLib.apis;
 using WUT_MSI.ModelsLib.classes.helpers;
@@ -17,6 +18,7 @@ namespace WUT_MSI.Models.classes
         public ulong CountOfMonuments { get; set; }
         public int Population { get; set; }
         public int TimeZone { get; set; }
+        public double Result { get; set; }
 
         public Country() { }
 

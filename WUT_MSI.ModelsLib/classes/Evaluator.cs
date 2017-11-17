@@ -10,7 +10,7 @@ using WUT_MSI.ModelsLib.interfaces;
 
 namespace WUT_MSI.ModelsLib.classes
 {
-    public class Evaluator<Tparam>
+    public class Evaluator<Tparam> where Tparam : IFuzzy
     {
         public List<Tparam> CurrentAnswerSet { get; private set; }
         private IQuestionGetter<Tparam> QuestionGetter { get; }

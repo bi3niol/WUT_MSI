@@ -4,8 +4,14 @@
   <MinDistance>68.536297359317729</MinDistance>
   <MaxTemp>-1.7976931348623157E+308</MaxTemp>
   <MinTemp>1.7976931348623157E+308</MinTemp>
-  <MaxArea>14000000</MaxArea>
+  <MaxArea>17124442</MaxArea>
   <MinArea>0</MinArea>
   <MaxMonuments>-1.7976931348623157E+308</MaxMonuments>
   <MinMonuments>1.7976931348623157E+308</MinMonuments>
+  <MaxPopulation>1.7976931348623157E+308</MaxPopulation>
+  <MinPopulation>-1.7976931348623157E+308</MinPopulation>
+  <MaxDensity>INF</MaxDensity>
+  <MinDensity>0</MinDensity>
+  <MaxGINI>65.8</MaxGINI>
+  <MinGINI>0</MinGINI>
 </FuzzyProps>

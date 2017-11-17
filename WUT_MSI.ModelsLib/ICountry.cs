@@ -1,8 +1,9 @@
-﻿using WUT_MSI.ModelsLib.classes.helpers;
+﻿using WUT_MSI.Models.interfaces;
+using WUT_MSI.ModelsLib.classes.helpers;
 
 namespace WUT_MSI.Models
 {
-    public interface ICountry
+    public interface ICountry : IFuzzy
     {
         string DisplayName { get; }
         uint Area { get; }

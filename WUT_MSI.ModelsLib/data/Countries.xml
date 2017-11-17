@@ -29,7 +29,7 @@
     <Distance>1226.4518620430583</Distance>
     <GINI>34.5</GINI>
     <Climate>Cold</Climate>
-    <CountOfMonuments>1780</CountOfMonuments>
+    <CountOfMonuments>0</CountOfMonuments>
     <Population>2886026</Population>
     <TimeZone>1</TimeZone>
   </Country>
@@ -40,7 +40,7 @@
     <Distance>2942.7800044311507</Distance>
     <GINI>35.3</GINI>
     <Climate>Subtropical</Climate>
-    <CountOfMonuments>383</CountOfMonuments>
+    <CountOfMonuments>0</CountOfMonuments>
     <Population>40400000</Population>
     <TimeZone>1</TimeZone>
   </Country>
@@ -111,13 +111,24 @@
     <TimeZone>-4</TimeZone>
   </Country>
   <Country>
+    <DisplayName>Argentina</DisplayName>
+    <Capital>Buenos Aires</Capital>
+    <Area>2780400</Area>
+    <Distance>11206.78519072816</Distance>
+    <GINI>44.5</GINI>
+    <Climate>Subtropical</Climate>
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>43590400</Population>
+    <TimeZone>-3</TimeZone>
+  </Country>
+  <Country>
     <DisplayName>Armenia</DisplayName>
     <Capital>Yerevan</Capital>
     <Area>29743</Area>
     <Distance>2118.9890151210643</Distance>
     <GINI>30.9</GINI>
     <Climate>Subtropical</Climate>
-    <CountOfMonuments>24319</CountOfMonuments>
+    <CountOfMonuments>0</CountOfMonuments>
     <Population>2994400</Population>
     <TimeZone>4</TimeZone>
   </Country>
@@ -150,7 +161,7 @@
     <Distance>738.8995221355425</Distance>
     <GINI>26</GINI>
     <Climate>Cold</Climate>
-    <CountOfMonuments>38079</CountOfMonuments>
+    <CountOfMonuments>0</CountOfMonuments>
     <Population>8725931</Population>
     <TimeZone>1</TimeZone>
   </Country>
@@ -208,6 +219,17 @@
     <CountOfMonuments>0</CountOfMonuments>
     <Population>285000</Population>
     <TimeZone>-4</TimeZone>
+  </Country>
+  <Country>
+    <DisplayName>Belarus</DisplayName>
+    <Capital>Minsk</Capital>
+    <Area>207600</Area>
+    <Distance>492.5001856126313</Distance>
+    <GINI>26.5</GINI>
+    <Climate>Cold</Climate>
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>9498700</Population>
+    <TimeZone>3</TimeZone>
   </Country>
   <Country>
     <DisplayName>Belgium</DisplayName>
@@ -414,7 +436,7 @@
     <Distance>5157.8006960134735</Distance>
     <GINI>38.9</GINI>
     <Climate>Tropical</Climate>
-    <CountOfMonuments>112</CountOfMonuments>
+    <CountOfMonuments>0</CountOfMonuments>
     <Population>22709892</Population>
     <TimeZone>1</TimeZone>
   </Country>
@@ -463,13 +485,24 @@
     <TimeZone>1</TimeZone>
   </Country>
   <Country>
+    <DisplayName>Chile</DisplayName>
+    <Capital>Santiago</Capital>
+    <Area>756102</Area>
+    <Distance>11094.330343122922</Distance>
+    <GINI>52.1</GINI>
+    <Climate>Subtropical</Climate>
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>18191900</Population>
+    <TimeZone>-6</TimeZone>
+  </Country>
+  <Country>
     <DisplayName>China</DisplayName>
     <Capital>Beijing</Capital>
     <Area>9640011</Area>
     <Distance>6060.1181648136853</Distance>
     <GINI>47</GINI>
     <Climate>Subtropical</Climate>
-    <CountOfMonuments>2232</CountOfMonuments>
+    <CountOfMonuments>0</CountOfMonuments>
     <Population>1377422166</Population>
     <TimeZone>8</TimeZone>
   </Country>
@@ -494,6 +527,17 @@
     <CountOfMonuments>0</CountOfMonuments>
     <Population>550</Population>
     <TimeZone>6</TimeZone>
+  </Country>
+  <Country>
+    <DisplayName>Colombia</DisplayName>
+    <Capital>BogotĂˇ</Capital>
+    <Area>1141748</Area>
+    <Distance>8317.3616669989678</Distance>
+    <GINI>55.9</GINI>
+    <Climate>Tropical</Climate>
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>48759958</Population>
+    <TimeZone>-5</TimeZone>
   </Country>
   <Country>
     <DisplayName>Comoros</DisplayName>
@@ -557,7 +601,7 @@
     <Distance>848.96983940672931</Distance>
     <GINI>33.7</GINI>
     <Climate>Cold</Climate>
-    <CountOfMonuments>6229</CountOfMonuments>
+    <CountOfMonuments>0</CountOfMonuments>
     <Population>4190669</Population>
     <TimeZone>1</TimeZone>
   </Country>
@@ -601,7 +645,7 @@
     <Distance>452.57908320712119</Distance>
     <GINI>26</GINI>
     <Climate>Cold</Climate>
-    <CountOfMonuments>41026</CountOfMonuments>
+    <CountOfMonuments>0</CountOfMonuments>
     <Population>10558524</Population>
     <TimeZone>1</TimeZone>
   </Country>
@@ -667,7 +711,7 @@
     <Distance>2850.5716899840827</Distance>
     <GINI>30.8</GINI>
     <Climate>Subtropical</Climate>
-    <CountOfMonuments>172</CountOfMonuments>
+    <CountOfMonuments>0</CountOfMonuments>
     <Population>91290000</Population>
     <TimeZone>2</TimeZone>
   </Country>
@@ -678,7 +722,7 @@
     <Distance>8648.8350055557876</Distance>
     <GINI>48.3</GINI>
     <Climate>Tropical</Climate>
-    <CountOfMonuments>641</CountOfMonuments>
+    <CountOfMonuments>0</CountOfMonuments>
     <Population>6520675</Population>
     <TimeZone>-6</TimeZone>
   </Country>
@@ -711,7 +755,7 @@
     <Distance>851.27014055067184</Distance>
     <GINI>36</GINI>
     <Climate>Cold</Climate>
-    <CountOfMonuments>24552</CountOfMonuments>
+    <CountOfMonuments>0</CountOfMonuments>
     <Population>1315944</Population>
     <TimeZone>2</TimeZone>
   </Country>
@@ -771,6 +815,17 @@
     <TimeZone>2</TimeZone>
   </Country>
   <Country>
+    <DisplayName>France</DisplayName>
+    <Capital>Paris</Capital>
+    <Area>640679</Area>
+    <Distance>1463.4979438465985</Distance>
+    <GINI>32.7</GINI>
+    <Climate>Cold</Climate>
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>66710000</Population>
+    <TimeZone>-10</TimeZone>
+  </Country>
+  <Country>
     <DisplayName>French Polynesia</DisplayName>
     <Capital>PapeetÄ“</Capital>
     <Area>4167</Area>
@@ -821,7 +876,7 @@
     <Distance>1901.897759609252</Distance>
     <GINI>41.3</GINI>
     <Climate>Cold</Climate>
-    <CountOfMonuments>7398</CountOfMonuments>
+    <CountOfMonuments>0</CountOfMonuments>
     <Population>3720400</Population>
     <TimeZone>-5</TimeZone>
   </Country>
@@ -986,9 +1041,20 @@
     <Distance>560.81064228911066</Distance>
     <GINI>31.2</GINI>
     <Climate>Cold</Climate>
-    <CountOfMonuments>1174</CountOfMonuments>
+    <CountOfMonuments>0</CountOfMonuments>
     <Population>9823000</Population>
     <TimeZone>1</TimeZone>
+  </Country>
+  <Country>
+    <DisplayName>India</DisplayName>
+    <Capital>New Delhi</Capital>
+    <Area>3287590</Area>
+    <Distance>5236.446088241918</Distance>
+    <GINI>33.4</GINI>
+    <Climate>Tropical</Climate>
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>1295210000</Population>
+    <TimeZone>5</TimeZone>
   </Country>
   <Country>
     <DisplayName>Indonesia</DisplayName>
@@ -1041,7 +1107,7 @@
     <Distance>2469.0074438330807</Distance>
     <GINI>39.2</GINI>
     <Climate>Subtropical</Climate>
-    <CountOfMonuments>1349</CountOfMonuments>
+    <CountOfMonuments>0</CountOfMonuments>
     <Population>8527400</Population>
     <TimeZone>2</TimeZone>
   </Country>
@@ -1052,7 +1118,7 @@
     <Distance>1163.8681750548021</Distance>
     <GINI>36</GINI>
     <Climate>Cold</Climate>
-    <CountOfMonuments>5166</CountOfMonuments>
+    <CountOfMonuments>0</CountOfMonuments>
     <Population>60665551</Population>
     <TimeZone>1</TimeZone>
   </Country>
@@ -1239,7 +1305,7 @@
     <Distance>1047.0227172823818</Distance>
     <GINI>30.8</GINI>
     <Climate>Cold</Climate>
-    <CountOfMonuments>907</CountOfMonuments>
+    <CountOfMonuments>0</CountOfMonuments>
     <Population>576200</Population>
     <TimeZone>1</TimeZone>
   </Country>
@@ -1316,7 +1382,7 @@
     <Distance>1852.6487121267764</Distance>
     <GINI>0</GINI>
     <Climate>Subtropical</Climate>
-    <CountOfMonuments>116</CountOfMonuments>
+    <CountOfMonuments>0</CountOfMonuments>
     <Population>425384</Population>
     <TimeZone>1</TimeZone>
   </Country>
@@ -1349,7 +1415,7 @@
     <Distance>9026.97937493186</Distance>
     <GINI>47</GINI>
     <Climate>Tropical</Climate>
-    <CountOfMonuments>9947</CountOfMonuments>
+    <CountOfMonuments>0</CountOfMonuments>
     <Population>122273473</Population>
     <TimeZone>-8</TimeZone>
   </Country>
@@ -1470,7 +1536,7 @@
     <Distance>5077.5324555926554</Distance>
     <GINI>32.8</GINI>
     <Climate>Subtropical</Climate>
-    <CountOfMonuments>39</CountOfMonuments>
+    <CountOfMonuments>0</CountOfMonuments>
     <Population>28431500</Population>
     <TimeZone>5</TimeZone>
   </Country>
@@ -1481,7 +1547,7 @@
     <Distance>1046.659583142482</Distance>
     <GINI>30.9</GINI>
     <Climate>Cold</Climate>
-    <CountOfMonuments>63259</CountOfMonuments>
+    <CountOfMonuments>0</CountOfMonuments>
     <Population>17019800</Population>
     <TimeZone>-4</TimeZone>
   </Country>
@@ -1536,7 +1602,7 @@
     <Distance>4759.6344286319854</Distance>
     <GINI>48.8</GINI>
     <Climate>Tropical</Climate>
-    <CountOfMonuments>64</CountOfMonuments>
+    <CountOfMonuments>0</CountOfMonuments>
     <Population>186988000</Population>
     <TimeZone>1</TimeZone>
   </Country>
@@ -1613,7 +1679,7 @@
     <Distance>4156.4387089439851</Distance>
     <GINI>30</GINI>
     <Climate>Subtropical</Climate>
-    <CountOfMonuments>1137</CountOfMonuments>
+    <CountOfMonuments>0</CountOfMonuments>
     <Population>194125062</Population>
     <TimeZone>5</TimeZone>
   </Country>
@@ -1635,7 +1701,7 @@
     <Distance>8416.0578788157673</Distance>
     <GINI>51.9</GINI>
     <Climate>Tropical</Climate>
-    <CountOfMonuments>220</CountOfMonuments>
+    <CountOfMonuments>0</CountOfMonuments>
     <Population>3814672</Population>
     <TimeZone>-5</TimeZone>
   </Country>
@@ -1668,9 +1734,20 @@
     <Distance>9582.941860038236</Distance>
     <GINI>48.1</GINI>
     <Climate>Tropical</Climate>
-    <CountOfMonuments>2151</CountOfMonuments>
+    <CountOfMonuments>0</CountOfMonuments>
     <Population>31488700</Population>
     <TimeZone>-5</TimeZone>
+  </Country>
+  <Country>
+    <DisplayName>Philippines</DisplayName>
+    <Capital>Manila</Capital>
+    <Area>342353</Area>
+    <Distance>8171.0039331434718</Distance>
+    <GINI>43</GINI>
+    <Climate>Tropical</Climate>
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>103279800</Population>
+    <TimeZone>8</TimeZone>
   </Country>
   <Country>
     <DisplayName>Pitcairn</DisplayName>
@@ -1690,7 +1767,7 @@
     <Distance>68.536297359317729</Distance>
     <GINI>34.1</GINI>
     <Climate>Cold</Climate>
-    <CountOfMonuments>77182</CountOfMonuments>
+    <CountOfMonuments>0</CountOfMonuments>
     <Population>38437239</Population>
     <TimeZone>1</TimeZone>
   </Country>
@@ -1701,7 +1778,7 @@
     <Distance>2426.2494479485877</Distance>
     <GINI>38.5</GINI>
     <Climate>Subtropical</Climate>
-    <CountOfMonuments>4495</CountOfMonuments>
+    <CountOfMonuments>0</CountOfMonuments>
     <Population>10374822</Population>
     <TimeZone>-1</TimeZone>
   </Country>
@@ -1734,9 +1811,31 @@
     <Distance>1039.0624849959906</Distance>
     <GINI>0</GINI>
     <Climate>Cold</Climate>
-    <CountOfMonuments>1411</CountOfMonuments>
+    <CountOfMonuments>0</CountOfMonuments>
     <Population>1733842</Population>
     <TimeZone>1</TimeZone>
+  </Country>
+  <Country>
+    <DisplayName>Romania</DisplayName>
+    <Capital>Bucharest</Capital>
+    <Area>238391</Area>
+    <Distance>721.99995319816821</Distance>
+    <GINI>30</GINI>
+    <Climate>Cold</Climate>
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>19861408</Population>
+    <TimeZone>2</TimeZone>
+  </Country>
+  <Country>
+    <DisplayName>Russian Federation</DisplayName>
+    <Capital>Moscow</Capital>
+    <Area>17124442</Area>
+    <Distance>5487.1205922640384</Distance>
+    <GINI>40.1</GINI>
+    <Climate>Temperate</Climate>
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>146599183</Population>
+    <TimeZone>3</TimeZone>
   </Country>
   <Country>
     <DisplayName>Rwanda</DisplayName>
@@ -1899,7 +1998,7 @@
     <Distance>385.04894376940524</Distance>
     <GINI>26</GINI>
     <Climate>Cold</Climate>
-    <CountOfMonuments>29916</CountOfMonuments>
+    <CountOfMonuments>14721</CountOfMonuments>
     <Population>5426252</Population>
     <TimeZone>1</TimeZone>
   </Country>
@@ -1943,7 +2042,7 @@
     <Distance>9019.37727081072</Distance>
     <GINI>63.1</GINI>
     <Climate>Subtropical</Climate>
-    <CountOfMonuments>4835</CountOfMonuments>
+    <CountOfMonuments>0</CountOfMonuments>
     <Population>55653654</Population>
     <TimeZone>2</TimeZone>
   </Country>
@@ -2031,7 +2130,7 @@
     <Distance>1050.5437724657145</Distance>
     <GINI>33.7</GINI>
     <Climate>Cold</Climate>
-    <CountOfMonuments>21488</CountOfMonuments>
+    <CountOfMonuments>6878</CountOfMonuments>
     <Population>8341600</Population>
     <TimeZone>1</TimeZone>
   </Country>
@@ -2086,7 +2185,7 @@
     <Distance>6802.9879458871492</Distance>
     <GINI>40</GINI>
     <Climate>Tropical</Climate>
-    <CountOfMonuments>8578</CountOfMonuments>
+    <CountOfMonuments>0</CountOfMonuments>
     <Population>65327652</Population>
     <TimeZone>7</TimeZone>
   </Country>
@@ -2141,7 +2240,7 @@
     <Distance>2165.9998595945044</Distance>
     <GINI>41.4</GINI>
     <Climate>Subtropical</Climate>
-    <CountOfMonuments>943</CountOfMonuments>
+    <CountOfMonuments>0</CountOfMonuments>
     <Population>11154400</Population>
     <TimeZone>1</TimeZone>
   </Country>
@@ -2196,9 +2295,20 @@
     <Distance>5727.2277080221511</Distance>
     <GINI>44.3</GINI>
     <Climate>Tropical</Climate>
-    <CountOfMonuments>552</CountOfMonuments>
+    <CountOfMonuments>0</CountOfMonuments>
     <Population>33860700</Population>
     <TimeZone>3</TimeZone>
+  </Country>
+  <Country>
+    <DisplayName>Ukraine</DisplayName>
+    <Capital>Kiev</Capital>
+    <Area>603700</Area>
+    <Distance>824.55818328626356</Distance>
+    <GINI>26.4</GINI>
+    <Climate>Cold</Climate>
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>42692393</Population>
+    <TimeZone>2</TimeZone>
   </Country>
   <Country>
     <DisplayName>United Arab Emirates</DisplayName>
@@ -2223,13 +2333,24 @@
     <TimeZone>-8</TimeZone>
   </Country>
   <Country>
+    <DisplayName>United States of America</DisplayName>
+    <Capital>Washington, D.C.</Capital>
+    <Area>9629091</Area>
+    <Distance>8236.0833382811652</Distance>
+    <GINI>48</GINI>
+    <Climate>Subtropical</Climate>
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>323947000</Population>
+    <TimeZone>-12</TimeZone>
+  </Country>
+  <Country>
     <DisplayName>Uruguay</DisplayName>
     <Capital>Montevideo</Capital>
     <Area>181034</Area>
     <Distance>10834.450714464183</Distance>
     <GINI>39.7</GINI>
     <Climate>Subtropical</Climate>
-    <CountOfMonuments>1333</CountOfMonuments>
+    <CountOfMonuments>0</CountOfMonuments>
     <Population>3480222</Population>
     <TimeZone>-3</TimeZone>
   </Country>
@@ -2254,6 +2375,17 @@
     <CountOfMonuments>0</CountOfMonuments>
     <Population>277500</Population>
     <TimeZone>11</TimeZone>
+  </Country>
+  <Country>
+    <DisplayName>Venezuela (Bolivarian Republic of)</DisplayName>
+    <Capital>Caracas</Capital>
+    <Area>916445</Area>
+    <Distance>7716.54586012626</Distance>
+    <GINI>44.8</GINI>
+    <Climate>Tropical</Climate>
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>31028700</Population>
+    <TimeZone>-4</TimeZone>
   </Country>
   <Country>
     <DisplayName>Viet Nam</DisplayName>

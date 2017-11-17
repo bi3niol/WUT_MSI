@@ -85,7 +85,7 @@ namespace WUT_MSI.ModelsLib
 
         public static void SetDendity(int Population, double Area)
         {
-            double Density = Population / Area;
+            double Density = Population / (Area + 1);
 
             if (Instance.MaxDensity < Density)
                 Instance.MaxDensity = Density;
