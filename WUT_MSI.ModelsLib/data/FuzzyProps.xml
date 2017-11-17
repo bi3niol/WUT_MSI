@@ -8,9 +8,9 @@
   <MinArea>0</MinArea>
   <MaxMonuments>-1.7976931348623157E+308</MaxMonuments>
   <MinMonuments>1.7976931348623157E+308</MinMonuments>
-  <MaxPopulation>1.7976931348623157E+308</MaxPopulation>
-  <MinPopulation>-1.7976931348623157E+308</MinPopulation>
-  <MaxDensity>INF</MaxDensity>
+  <MaxPopulation>1377422166</MaxPopulation>
+  <MinPopulation>0</MinPopulation>
+  <MaxDensity>20938.709677419356</MaxDensity>
   <MinDensity>0</MinDensity>
   <MaxGINI>65.8</MaxGINI>
   <MinGINI>0</MinGINI>
