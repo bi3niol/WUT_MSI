@@ -26,7 +26,7 @@ namespace WUT_MSI.Models.classes
             return BottomLimit<= FuzzyFunction(parameter) && TopLimit>= FuzzyFunction(parameter);
         }
 
-        public ICollection<TParam> CutSet(ICollection<TParam> set, Func<TParam, double> FuzzyFunction)
+        public List<TParam> CutSet(ICollection<TParam> set, Func<TParam, double> FuzzyFunction)
         {
             return set.Where(p => MatchToAnswer(p, FuzzyFunction)).ToList();
         }

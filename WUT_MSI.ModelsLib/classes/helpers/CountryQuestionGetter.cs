@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using WUT_MSI.Models.classes;
 using WUT_MSI.Models.interfaces;
+using WUT_MSI.ModelsLib.classes.exceptions;
 using WUT_MSI.ModelsLib.interfaces;
 
 namespace WUT_MSI.ModelsLib.classes.helpers
@@ -34,8 +35,14 @@ namespace WUT_MSI.ModelsLib.classes.helpers
         public IQuestion<Country> GetNextQuestion(List<Country> currentEvaluatingSet)
         {
             var index = random.Next() % Questions.Count;
+            var tmp = index;
             while (IsQuestionUsed[index])
+            {
                 index = (index + 1) % Questions.Count;
+                if (tmp == index)
+                    throw new NoMoreQuestionsException();
+            }
+            IsQuestionUsed[index] = true;
             return Questions[index];
         }
     }

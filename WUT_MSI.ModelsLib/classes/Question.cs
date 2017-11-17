@@ -13,6 +13,14 @@ namespace WUT_MSI.ModelsLib.classes
         public Func<Tparam, double> FuzzyFunction { get; }
         public string DisplayQuestion { get; }
 
+        public IAnswer<Tparam> this[int i]
+        {
+            get
+            {
+                return Answers[i];
+            }
+        }
+
         public Question(string displayQuestion, List<IAnswer<Tparam>> answers, Func<Tparam, double> fuzzyFunction)
         {
             Answers = answers;

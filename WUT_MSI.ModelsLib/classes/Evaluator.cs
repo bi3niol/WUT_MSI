@@ -12,13 +12,15 @@ namespace WUT_MSI.ModelsLib.classes
 {
     public class Evaluator<Tparam>
     {
-        private List<Tparam> CurrentAnswerSet { get; set; }
+        public List<Tparam> CurrentAnswerSet { get; private set; }
         private IQuestionGetter<Tparam> QuestionGetter { get; }
+        private IQuestion<Tparam> CurrentProccessingQuestion;
         public Evaluator(IQuestionGetter<Tparam> questionGetter)
         {
             if (questionGetter == null)
                 throw new Exception("parametr QuestionGetter nie moze byc nullem");
             QuestionGetter = questionGetter;
+            CurrentProccessingQuestion = QuestionGetter.GetNextQuestion(CurrentAnswerSet);
         }
 
         public void SetEvaluatingSet(List<Tparam> evaluatingSet)
@@ -26,11 +28,31 @@ namespace WUT_MSI.ModelsLib.classes
             CurrentAnswerSet = evaluatingSet;
         }
 
+        public IQuestion<Tparam> this[int i]
+        {
+            get
+            {
+                var answer = CurrentProccessingQuestion[i];
+                CurrentAnswerSet = answer.CutSet(CurrentAnswerSet, CurrentProccessingQuestion.FuzzyFunction);
+
+                if (!QuestionGetter.HasQuestion)
+                    throw new NoMoreQuestionsException();
+                CurrentProccessingQuestion = QuestionGetter.GetNextQuestion(CurrentAnswerSet);
+                return CurrentProccessingQuestion;
+            }
+        }
+
         public IQuestion<Tparam> GetQuestion()
         {
             if (!QuestionGetter.HasQuestion)
                 throw new NoMoreQuestionsException();
-            return QuestionGetter.GetNextQuestion(CurrentAnswerSet);
+            CurrentProccessingQuestion = QuestionGetter.GetNextQuestion(CurrentAnswerSet);
+            return CurrentProccessingQuestion;
+        }
+
+        public List<Tparam> GetAnswerSet()
+        {
+            return CurrentAnswerSet.ToList();
         }
     }
 }
