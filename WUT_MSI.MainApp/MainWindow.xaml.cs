@@ -12,6 +12,11 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WUT_MSI.MainApp.Managers;
+using WUT_MSI.Models;
+using WUT_MSI.Models.classes;
+using WUT_MSI.ModelsLib.classes.helpers;
+using WUT_MSI.ModelsLib.interfaces;
 
 namespace WUT_MSI.MainApp
 {
@@ -20,9 +25,13 @@ namespace WUT_MSI.MainApp
 	/// </summary>
 	public partial class MainWindow: Window
 	{
+        private IQuestionGetter<Country> questionGetter;
+
 		public MainWindow()
 		{
 			InitializeComponent();
-		}
+
+            questionGetter = new CountryQuestionGetter(QuestionGenerator.GetQuestions());
+        }
 	}
 }

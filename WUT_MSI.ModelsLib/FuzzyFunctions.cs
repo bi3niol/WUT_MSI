@@ -31,7 +31,7 @@ namespace WUT_MSI.Models
                     case ClimateEnum.Tropical:
                         return 0.9;
                     case ClimateEnum.Subtropical:
-                        return 0.65;
+                        return 0.7;
                     case ClimateEnum.Temperate:
                         return 0.4;
                     case ClimateEnum.Cold:
