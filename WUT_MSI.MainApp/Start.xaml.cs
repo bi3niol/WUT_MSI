@@ -16,15 +16,18 @@ using System.Windows.Shapes;
 namespace WUT_MSI.MainApp
 {
 	/// <summary>
-	/// Interaction logic for MainWindow.xaml
+	/// Interaction logic for Start.xaml
 	/// </summary>
-	public partial class MainWindow: Window
+	public partial class Start: Page
 	{
-		public MainWindow()
+		public Start()
 		{
 			InitializeComponent();
+		}
 
-			MainFrame.Content = new Start();
+		private void Start_Click(object sender, RoutedEventArgs e)
+		{
+			NavigationService.Navigate(new QuestionPage());
 		}
 	}
 }
