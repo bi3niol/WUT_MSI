@@ -1,4 +1,4 @@
-﻿<Page x:Class="WUT_MSI.MainApp.QuestionPage"
+﻿<Page x:Class="WUT_MSI.MainApp.ResultPage"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -6,20 +6,21 @@
       xmlns:local="clr-namespace:WUT_MSI.MainApp"
       mc:Ignorable="d" 
       d:DesignHeight="350" d:DesignWidth="525"
-      Title="QuestionPage">
-
+      Title="ResultPage">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition Height="4*"/>
+            <RowDefinition/>
         </Grid.RowDefinitions>
-        <Label Content="{Binding DisplayQuestion}" VerticalAlignment="Center" HorizontalAlignment="Center" />
-        <ListView x:Name="AnswerList" ItemsSource="{Binding Answers}" Grid.Row="1" Margin="20">
+        <Label Content="Wyniki:"/>
+        <ListView x:Name="AnswerList" ItemsSource="{Binding}" Grid.Row="1" Margin="20">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <Label Content="{Binding DisplayLabel}"/>
+                    <Label Content="{Binding DisplayName}"/>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+        <Button Content="Wróć do menu" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" Click="Button_Click" Padding="10, 5"/>
     </Grid>
 </Page>

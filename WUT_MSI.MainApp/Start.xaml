@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:WUT_MSI.MainApp"
       mc:Ignorable="d" 
       d:DesignHeight="350" d:DesignWidth="525"
-      Title="Start">
+      Title="Start" Background="#2196f3">
 
     <Grid>
         <Grid.RowDefinitions>
@@ -15,7 +15,7 @@
             <RowDefinition/>
             <RowDefinition Height="2*"/>
         </Grid.RowDefinitions>
-        <Label Content="MSI - Rozmytość" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Label Content="MSI - Rozmytość" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontStyle="Oblique" FontWeight="Bold"/>
         <Button Content="Start" VerticalAlignment="Center" Width="100" Click="Start_Click" Grid.Row="2" Padding="5"/>
     </Grid>
 </Page>

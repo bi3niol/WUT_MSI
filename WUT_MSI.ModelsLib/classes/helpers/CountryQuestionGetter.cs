@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WUT_MSI.Models;
 using WUT_MSI.Models.classes;
 using WUT_MSI.Models.interfaces;
 using WUT_MSI.ModelsLib.classes.exceptions;
@@ -10,13 +11,13 @@ using WUT_MSI.ModelsLib.interfaces;
 
 namespace WUT_MSI.ModelsLib.classes.helpers
 {
-    public class CountryQuestionGetter : IQuestionGetter<Country>
+    public class CountryQuestionGetter : IQuestionGetter<ICountry>
     {
         private bool[] IsQuestionUsed { get; }
-        private List<IQuestion<Country>> Questions { get; }
+        private List<IQuestion<ICountry>> Questions { get; }
         private Random random = new Random();
 
-        public CountryQuestionGetter(List<IQuestion<Country>> Questions)
+        public CountryQuestionGetter(List<IQuestion<ICountry>> Questions)
         {
             if (Questions == null || Questions.Count==0)
                 throw new Exception("parametr Questions nie moze byc pusty");
@@ -32,7 +33,7 @@ namespace WUT_MSI.ModelsLib.classes.helpers
             }
         }
 
-        public IQuestion<Country> GetNextQuestion(List<Country> currentEvaluatingSet)
+        public IQuestion<ICountry> GetNextQuestion(List<ICountry> currentEvaluatingSet)
         {
             var index = random.Next() % Questions.Count;
             var tmp = index;

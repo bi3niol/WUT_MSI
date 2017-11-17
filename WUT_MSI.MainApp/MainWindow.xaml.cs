@@ -11,14 +11,9 @@ namespace WUT_MSI.MainApp
     /// </summary>
     public partial class MainWindow: Window
 	{
-        private Evaluator<Country> evaluator;
-
 		public MainWindow()
 		{
 			InitializeComponent();
-
-            evaluator = new Evaluator<Country>(new CountryQuestionGetter(QuestionGenerator.GetQuestions()));
-       
 
 			MainFrame.Content = new Start();
 		}
