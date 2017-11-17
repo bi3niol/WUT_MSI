@@ -10,7 +10,7 @@ namespace WUT_MSI.Models
         {
             public static double Invoke(ICountry country)
             {
-                return country.Distance / FuzzyProps.Instance.MaxDistance;
+                return (FuzzyProps.Instance.MaxDistance + country.Distance) / 2 / FuzzyProps.Instance.MaxDistance;
             }
         }
 
@@ -18,7 +18,7 @@ namespace WUT_MSI.Models
         {
             public static double Invoke(ICountry country)
             {
-                return country.Area / FuzzyProps.Instance.MaxArea;
+                return (FuzzyProps.Instance.MaxArea + country.Area) / 2 / FuzzyProps.Instance.MaxArea;
             }
         }
 
@@ -46,7 +46,7 @@ namespace WUT_MSI.Models
         {
             public static double Invoke(ICountry country)
             {
-                return country.Area / FuzzyProps.Instance.MaxArea;
+                return (FuzzyProps.Instance.MaxArea + country.Area) / 2 * MedicineFuzzy.Invoke(country) / Math.Pow(DevelopementFuzzy.Invoke(country), 2);
             }
         }
 
@@ -54,7 +54,7 @@ namespace WUT_MSI.Models
         {
             public static double Invoke(ICountry country)
             {
-                return country.Population / FuzzyProps.Instance.MaxPopulation;
+                return (FuzzyProps.Instance.MaxPopulation + country.Population) / 2 / FuzzyProps.Instance.MaxPopulation;
             }
         }
 
@@ -64,7 +64,7 @@ namespace WUT_MSI.Models
             {
                 double current = country.Population / country.Area;
 
-                return current / FuzzyProps.Instance.MaxDensity;
+                return (FuzzyProps.Instance.MaxDensity + current) / 2 / FuzzyProps.Instance.MaxDensity;
             }
         }
 
@@ -103,7 +103,7 @@ namespace WUT_MSI.Models
         {
             public static double Invoke(ICountry country)
             {
-                return country.CountOfMonuments / FuzzyProps.Instance.MaxMonuments;
+                return (FuzzyProps.Instance.MaxMonuments + country.CountOfMonuments) / 2 / FuzzyProps.Instance.MaxMonuments;
             }
         }
 
@@ -112,15 +112,12 @@ namespace WUT_MSI.Models
             public static double Invoke(ICountry country)
             {
                 if (country.GINI > 40 && country.GINI <= 55)
-                    return 0.7;
+                    return Math.Pow(0.9 * PopulationFuzzy.Invoke(country), 2);
 
-                if (country.GINI > 20 && country.GINI <= 40)
-                    return 0.4;
+                if (country.GINI > 20 && country.GINI <= 70)
+                    return Math.Pow(0.6 * PopulationFuzzy.Invoke(country), 2);
 
-                if (country.GINI <= 20)
-                    return 0.2;
-
-                return 0.2;
+                return Math.Pow(0.25 * PopulationFuzzy.Invoke(country), 2);
             }
         }
 
@@ -128,17 +125,7 @@ namespace WUT_MSI.Models
         {
             public static double Invoke(ICountry country)
             {
-
-                if (country.GINI > 40 && country.GINI <= 55)
-                    return 0.9;
-
-                if (country.GINI > 20 && country.GINI <= 40)
-                    return 0.6;
-
-                if (country.GINI <= 20)
-                    return 0.25;
-
-                return 0.25;
+                return (FuzzyProps.Instance.MaxGINI - country.GINI) / FuzzyProps.Instance.MaxGINI * (Math.Sin(Math.Pow(PopulationFuzzy.Invoke(country), 2)));
             }
         }
 
@@ -146,38 +133,13 @@ namespace WUT_MSI.Models
         {
             public static double Invoke(ICountry country)
             {
-                if (country.GINI > 40 && country.GINI <= 55)
+                if (country.GINI > 40 && country.GINI <= 45)
                     return 0.8;
 
-                if (country.GINI > 20 && country.GINI <= 40)
+                if (country.GINI > 20 && country.GINI <= 70)
                     return 0.55;
 
-                if (country.GINI <= 20)
-                    return 0.3;
-
                 return 0.3;
-            }
-        }
-
-        public class VuclansFuzzy
-        {
-            public static double Invoke(ICountry country)
-            {
-                if (country.Climate == ClimateEnum.Tropical || country.Climate == ClimateEnum.Subtropical)
-                    return 1;
-
-                return 0;
-            }
-        }
-
-        public class IslandFuzzy
-        {
-            public static double Invoke(ICountry country)
-            {
-                if (country.Climate == ClimateEnum.Tropical || country.Climate == ClimateEnum.Subtropical)
-                    return 1;
-
-                return 0;
             }
         }
     }
