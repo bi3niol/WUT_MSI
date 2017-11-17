@@ -60,6 +60,7 @@
     <Compile Include="classes\MonumentApiModels.cs" />
     <Compile Include="classes\Question.cs" />
     <Compile Include="FuzzyFunctions.cs" />
+    <Compile Include="FuzzyProps.cs" />
     <Compile Include="ICountry.cs" />
     <Compile Include="interfaces\IAnswer.cs" />
     <Compile Include="interfaces\IQuestion.cs" />
