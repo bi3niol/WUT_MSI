@@ -1,0 +1,2153 @@
+<?xml version="1.0"?>
+<ArrayOfCountry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Country>
+    <DisplayName>Afghanistan</DisplayName>
+    <Capital>Kabul</Capital>
+    <Area>652230</Area>
+    <Distance>3683.4089782763485</Distance>
+    <GINI>27.8</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>27657145</Population>
+  </Country>
+  <Country>
+    <DisplayName>Ă…land Islands</DisplayName>
+    <Capital>Mariehamn</Capital>
+    <Area>1580</Area>
+    <Distance>906.69842091311682</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>28875</Population>
+  </Country>
+  <Country>
+    <DisplayName>Albania</DisplayName>
+    <Capital>Tirana</Capital>
+    <Area>28748</Area>
+    <Distance>1226.4518620430583</Distance>
+    <GINI>34.5</GINI>
+    <Climate />
+    <CountOfMonuments>1780</CountOfMonuments>
+    <Population>2886026</Population>
+  </Country>
+  <Country>
+    <DisplayName>Algeria</DisplayName>
+    <Capital>Algiers</Capital>
+    <Area>2381741</Area>
+    <Distance>2942.7800044311507</Distance>
+    <GINI>35.3</GINI>
+    <Climate />
+    <CountOfMonuments>383</CountOfMonuments>
+    <Population>40400000</Population>
+  </Country>
+  <Country>
+    <DisplayName>American Samoa</DisplayName>
+    <Capital>Pago Pago</Capital>
+    <Area>199</Area>
+    <Distance>15029.557736067462</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>57100</Population>
+  </Country>
+  <Country>
+    <DisplayName>Andorra</DisplayName>
+    <Capital>Andorra la Vella</Capital>
+    <Area>468</Area>
+    <Distance>1704.2706444488954</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>126</CountOfMonuments>
+    <Population>78014</Population>
+  </Country>
+  <Country>
+    <DisplayName>Angola</DisplayName>
+    <Capital>Luanda</Capital>
+    <Area>1246700</Area>
+    <Distance>7182.2743481007719</Distance>
+    <GINI>58.6</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>25868000</Population>
+  </Country>
+  <Country>
+    <DisplayName>Anguilla</DisplayName>
+    <Capital>The Valley</Capital>
+    <Area>91</Area>
+    <Distance>6884.1154428064956</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>13452</Population>
+  </Country>
+  <Country>
+    <DisplayName>Antarctica</DisplayName>
+    <Capital />
+    <Area>14000000</Area>
+    <Distance>14144.244141991212</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>166</CountOfMonuments>
+    <Population>1000</Population>
+  </Country>
+  <Country>
+    <DisplayName>Antigua and Barbuda</DisplayName>
+    <Capital>Saint John's</Capital>
+    <Area>442</Area>
+    <Distance>6880.4672975019548</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>86295</Population>
+  </Country>
+  <Country>
+    <DisplayName>Armenia</DisplayName>
+    <Capital>Yerevan</Capital>
+    <Area>29743</Area>
+    <Distance>2118.9890151210643</Distance>
+    <GINI>30.9</GINI>
+    <Climate />
+    <CountOfMonuments>24319</CountOfMonuments>
+    <Population>2994400</Population>
+  </Country>
+  <Country>
+    <DisplayName>Aruba</DisplayName>
+    <Capital>Oranjestad</Capital>
+    <Area>180</Area>
+    <Distance>7629.1904965491085</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>107394</Population>
+  </Country>
+  <Country>
+    <DisplayName>Australia</DisplayName>
+    <Capital>Canberra</Capital>
+    <Area>7692024</Area>
+    <Distance>11673.186564960768</Distance>
+    <GINI>30.5</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>24117360</Population>
+  </Country>
+  <Country>
+    <DisplayName>Austria</DisplayName>
+    <Capital>Vienna</Capital>
+    <Area>83871</Area>
+    <Distance>738.8995221355425</Distance>
+    <GINI>26</GINI>
+    <Climate />
+    <CountOfMonuments>38079</CountOfMonuments>
+    <Population>8725931</Population>
+  </Country>
+  <Country>
+    <DisplayName>Azerbaijan</DisplayName>
+    <Capital>Baku</Capital>
+    <Area>86600</Area>
+    <Distance>2222.0548255135304</Distance>
+    <GINI>33.7</GINI>
+    <Climate />
+    <CountOfMonuments>6068</CountOfMonuments>
+    <Population>9730500</Population>
+  </Country>
+  <Country>
+    <DisplayName>Bahamas</DisplayName>
+    <Capital>Nassau</Capital>
+    <Area>13943</Area>
+    <Distance>7330.6988291789185</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>378040</Population>
+  </Country>
+  <Country>
+    <DisplayName>Bahrain</DisplayName>
+    <Capital>Manama</Capital>
+    <Area>765</Area>
+    <Distance>3532.5524424614018</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>1404900</Population>
+  </Country>
+  <Country>
+    <DisplayName>Bangladesh</DisplayName>
+    <Capital>Dhaka</Capital>
+    <Area>147570</Area>
+    <Distance>5663.8474328063</Distance>
+    <GINI>32.1</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>161006790</Population>
+  </Country>
+  <Country>
+    <DisplayName>Barbados</DisplayName>
+    <Capital>Bridgetown</Capital>
+    <Area>430</Area>
+    <Distance>7010.889020692649</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>285000</Population>
+  </Country>
+  <Country>
+    <DisplayName>Belize</DisplayName>
+    <Capital>Belmopan</Capital>
+    <Area>22966</Area>
+    <Distance>8458.310716648848</Distance>
+    <GINI>53.1</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>370300</Population>
+  </Country>
+  <Country>
+    <DisplayName>Benin</DisplayName>
+    <Capital>Porto-Novo</Capital>
+    <Area>112622</Area>
+    <Distance>4902.5746344682</Distance>
+    <GINI>38.6</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>10653654</Population>
+  </Country>
+  <Country>
+    <DisplayName>Bermuda</DisplayName>
+    <Capital>Hamilton</Capital>
+    <Area>54</Area>
+    <Distance>6271.5315447739686</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>61954</Population>
+  </Country>
+  <Country>
+    <DisplayName>Bhutan</DisplayName>
+    <Capital>Thimphu</Capital>
+    <Area>38394</Area>
+    <Distance>5488.837496908186</Distance>
+    <GINI>38.1</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>775620</Population>
+  </Country>
+  <Country>
+    <DisplayName>Bolivia (Plurinational State of)</DisplayName>
+    <Capital>Sucre</Capital>
+    <Area>1098581</Area>
+    <Distance>9682.0009851542745</Distance>
+    <GINI>56.3</GINI>
+    <Climate />
+    <CountOfMonuments>970</CountOfMonuments>
+    <Population>10985059</Population>
+  </Country>
+  <Country>
+    <DisplayName>Bonaire, Sint Eustatius and Saba</DisplayName>
+    <Capital>Kralendijk</Capital>
+    <Area>294</Area>
+    <Distance>7557.0830057664771</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>17408</Population>
+  </Country>
+  <Country>
+    <DisplayName>Bosnia and Herzegovina</DisplayName>
+    <Capital>Sarajevo</Capital>
+    <Area>51209</Area>
+    <Distance>913.99785490501222</Distance>
+    <GINI>36.2</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>3531159</Population>
+  </Country>
+  <Country>
+    <DisplayName>Botswana</DisplayName>
+    <Capital>Gaborone</Capital>
+    <Area>582000</Area>
+    <Distance>8240.349122272095</Distance>
+    <GINI>61</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>2141206</Population>
+  </Country>
+  <Country>
+    <DisplayName>Bouvet Island</DisplayName>
+    <Capital />
+    <Area>49</Area>
+    <Distance>11909.551076202568</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>0</Population>
+  </Country>
+  <Country>
+    <DisplayName>British Indian Ocean Territory</DisplayName>
+    <Capital>Diego Garcia</Capital>
+    <Area>60</Area>
+    <Distance>7325.797651699756</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>3000</Population>
+  </Country>
+  <Country>
+    <DisplayName>Virgin Islands (British)</DisplayName>
+    <Capital>Road Town</Capital>
+    <Area>151</Area>
+    <Distance>6957.1008632582989</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>28514</Population>
+  </Country>
+  <Country>
+    <DisplayName>Virgin Islands (U.S.)</DisplayName>
+    <Capital>Charlotte Amalie</Capital>
+    <Area>346</Area>
+    <Distance>6980.3104172449512</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>114743</Population>
+  </Country>
+  <Country>
+    <DisplayName>Brunei Darussalam</DisplayName>
+    <Capital>Bandar Seri Begawan</Capital>
+    <Area>5765</Area>
+    <Distance>8316.9290515589764</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>411900</Population>
+  </Country>
+  <Country>
+    <DisplayName>Bulgaria</DisplayName>
+    <Capital>Sofia</Capital>
+    <Area>110879</Area>
+    <Distance>1038.7224686249726</Distance>
+    <GINI>28.2</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>7153784</Population>
+  </Country>
+  <Country>
+    <DisplayName>Burkina Faso</DisplayName>
+    <Capital>Ouagadougou</Capital>
+    <Area>272967</Area>
+    <Distance>4618.8477143629225</Distance>
+    <GINI>39.8</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>19034397</Population>
+  </Country>
+  <Country>
+    <DisplayName>Burundi</DisplayName>
+    <Capital>Bujumbura</Capital>
+    <Area>27834</Area>
+    <Distance>6209.0524143185494</Distance>
+    <GINI>33.3</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>10114505</Population>
+  </Country>
+  <Country>
+    <DisplayName>Cambodia</DisplayName>
+    <Capital>Phnom Penh</Capital>
+    <Area>181035</Area>
+    <Distance>7210.5849707351417</Distance>
+    <GINI>37.9</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>15626444</Population>
+  </Country>
+  <Country>
+    <DisplayName>Cameroon</DisplayName>
+    <Capital>YaoundĂ©</Capital>
+    <Area>475442</Area>
+    <Distance>5157.8006960134735</Distance>
+    <GINI>38.9</GINI>
+    <Climate />
+    <CountOfMonuments>112</CountOfMonuments>
+    <Population>22709892</Population>
+  </Country>
+  <Country>
+    <DisplayName>Cabo Verde</DisplayName>
+    <Capital>Praia</Capital>
+    <Area>4033</Area>
+    <Distance>5056.9258669471246</Distance>
+    <GINI>50.5</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>531239</Population>
+  </Country>
+  <Country>
+    <DisplayName>Cayman Islands</DisplayName>
+    <Capital>George Town</Capital>
+    <Area>264</Area>
+    <Distance>7841.0143584271864</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>58238</Population>
+  </Country>
+  <Country>
+    <DisplayName>Central African Republic</DisplayName>
+    <Capital>Bangui</Capital>
+    <Area>622984</Area>
+    <Distance>5009.463</Distance>
+    <GINI>56.3</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>4998000</Population>
+  </Country>
+  <Country>
+    <DisplayName>Chad</DisplayName>
+    <Capital>N'Djamena</Capital>
+    <Area>1284000</Area>
+    <Distance>4121.1719882007028</Distance>
+    <GINI>39.8</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>14497000</Population>
+  </Country>
+  <Country>
+    <DisplayName>China</DisplayName>
+    <Capital>Beijing</Capital>
+    <Area>9640011</Area>
+    <Distance>6060.1181648136853</Distance>
+    <GINI>47</GINI>
+    <Climate />
+    <CountOfMonuments>2232</CountOfMonuments>
+    <Population>1377422166</Population>
+  </Country>
+  <Country>
+    <DisplayName>Christmas Island</DisplayName>
+    <Capital>Flying Fish Cove</Capital>
+    <Area>135</Area>
+    <Distance>9059.7910296775062</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>2072</Population>
+  </Country>
+  <Country>
+    <DisplayName>Cocos (Keeling) Islands</DisplayName>
+    <Capital>West Island</Capital>
+    <Area>14</Area>
+    <Distance>8863.8596243527518</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>550</Population>
+  </Country>
+  <Country>
+    <DisplayName>Comoros</DisplayName>
+    <Capital>Moroni</Capital>
+    <Area>1862</Area>
+    <Distance>7318.6987738388543</Distance>
+    <GINI>64.3</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>806153</Population>
+  </Country>
+  <Country>
+    <DisplayName>Congo</DisplayName>
+    <Capital>Brazzaville</Capital>
+    <Area>342000</Area>
+    <Distance>5914.3472697480092</Distance>
+    <GINI>47.3</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>4741000</Population>
+  </Country>
+  <Country>
+    <DisplayName>Congo (Democratic Republic of the)</DisplayName>
+    <Capital>Kinshasa</Capital>
+    <Area>2344858</Area>
+    <Distance>5795.20072696153</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>85026000</Population>
+  </Country>
+  <Country>
+    <DisplayName>Cook Islands</DisplayName>
+    <Capital>Avarua</Capital>
+    <Area>236</Area>
+    <Distance>14830.761488967941</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>18100</Population>
+  </Country>
+  <Country>
+    <DisplayName>Croatia</DisplayName>
+    <Capital>Zagreb</Capital>
+    <Area>56594</Area>
+    <Distance>848.96983940672931</Distance>
+    <GINI>33.7</GINI>
+    <Climate />
+    <CountOfMonuments>6229</CountOfMonuments>
+    <Population>4190669</Population>
+  </Country>
+  <Country>
+    <DisplayName>Cuba</DisplayName>
+    <Capital>Havana</Capital>
+    <Area>109884</Area>
+    <Distance>7710.0235419274959</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>11239004</Population>
+  </Country>
+  <Country>
+    <DisplayName>Cyprus</DisplayName>
+    <Capital>Nicosia</Capital>
+    <Area>9251</Area>
+    <Distance>2063.448448189296</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>847000</Population>
+  </Country>
+  <Country>
+    <DisplayName>Czech Republic</DisplayName>
+    <Capital>Prague</Capital>
+    <Area>78865</Area>
+    <Distance>452.57908320712119</Distance>
+    <GINI>26</GINI>
+    <Climate />
+    <CountOfMonuments>41026</CountOfMonuments>
+    <Population>10558524</Population>
+  </Country>
+  <Country>
+    <DisplayName>Denmark</DisplayName>
+    <Capital>Copenhagen</Capital>
+    <Area>43094</Area>
+    <Distance>875.58173593906326</Distance>
+    <GINI>24</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>5717014</Population>
+  </Country>
+  <Country>
+    <DisplayName>Djibouti</DisplayName>
+    <Capital>Djibouti</Capital>
+    <Area>23200</Area>
+    <Distance>4753.9645851804262</Distance>
+    <GINI>40</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>900000</Population>
+  </Country>
+  <Country>
+    <DisplayName>Dominica</DisplayName>
+    <Capital>Roseau</Capital>
+    <Area>751</Area>
+    <Distance>6958.9337192898529</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>71293</Population>
+  </Country>
+  <Country>
+    <DisplayName>Dominican Republic</DisplayName>
+    <Capital>Santo Domingo</Capital>
+    <Area>48671</Area>
+    <Distance>7277.7134059830314</Distance>
+    <GINI>47.2</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>10075045</Population>
+  </Country>
+  <Country>
+    <DisplayName>Ecuador</DisplayName>
+    <Capital>Quito</Capital>
+    <Area>276841</Area>
+    <Distance>9039.360499742641</Distance>
+    <GINI>49.3</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>16545799</Population>
+  </Country>
+  <Country>
+    <DisplayName>Egypt</DisplayName>
+    <Capital>Cairo</Capital>
+    <Area>1002450</Area>
+    <Distance>2850.5716899840827</Distance>
+    <GINI>30.8</GINI>
+    <Climate />
+    <CountOfMonuments>172</CountOfMonuments>
+    <Population>91290000</Population>
+  </Country>
+  <Country>
+    <DisplayName>El Salvador</DisplayName>
+    <Capital>San Salvador</Capital>
+    <Area>21041</Area>
+    <Distance>8648.8350055557876</Distance>
+    <GINI>48.3</GINI>
+    <Climate />
+    <CountOfMonuments>641</CountOfMonuments>
+    <Population>6520675</Population>
+  </Country>
+  <Country>
+    <DisplayName>Equatorial Guinea</DisplayName>
+    <Capital>Malabo</Capital>
+    <Area>28051</Area>
+    <Distance>5616.8941022279123</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>1222442</Population>
+  </Country>
+  <Country>
+    <DisplayName>Eritrea</DisplayName>
+    <Capital>Asmara</Capital>
+    <Area>117600</Area>
+    <Distance>4299.6709471960849</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>5352000</Population>
+  </Country>
+  <Country>
+    <DisplayName>Estonia</DisplayName>
+    <Capital>Tallinn</Capital>
+    <Area>45227</Area>
+    <Distance>851.27014055067184</Distance>
+    <GINI>36</GINI>
+    <Climate />
+    <CountOfMonuments>24552</CountOfMonuments>
+    <Population>1315944</Population>
+  </Country>
+  <Country>
+    <DisplayName>Ethiopia</DisplayName>
+    <Capital>Addis Ababa</Capital>
+    <Area>1104300</Area>
+    <Distance>5034.807730763413</Distance>
+    <GINI>29.8</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>92206005</Population>
+  </Country>
+  <Country>
+    <DisplayName>Falkland Islands (Malvinas)</DisplayName>
+    <Capital>Stanley</Capital>
+    <Area>12173</Area>
+    <Distance>12784.967125317977</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>2563</Population>
+  </Country>
+  <Country>
+    <DisplayName>Faroe Islands</DisplayName>
+    <Capital>TĂłrshavn</Capital>
+    <Area>1393</Area>
+    <Distance>2218.5285820751242</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>49376</Population>
+  </Country>
+  <Country>
+    <DisplayName>Fiji</DisplayName>
+    <Capital>Suva</Capital>
+    <Area>18272</Area>
+    <Distance>13119.542323784541</Distance>
+    <GINI>42.8</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>867000</Population>
+  </Country>
+  <Country>
+    <DisplayName>Finland</DisplayName>
+    <Capital>Helsinki</Capital>
+    <Area>338424</Area>
+    <Distance>1379.1098547611646</Distance>
+    <GINI>26.9</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>5491817</Population>
+  </Country>
+  <Country>
+    <DisplayName>French Polynesia</DisplayName>
+    <Capital>PapeetÄ“</Capital>
+    <Area>4167</Area>
+    <Distance>13318.651252817816</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>271800</Population>
+  </Country>
+  <Country>
+    <DisplayName>French Southern Territories</DisplayName>
+    <Capital>Port-aux-FranĂ§ais</Capital>
+    <Area>7747</Area>
+    <Distance>11744.780067542819</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>140</Population>
+  </Country>
+  <Country>
+    <DisplayName>Gabon</DisplayName>
+    <Capital>Libreville</Capital>
+    <Area>267668</Area>
+    <Distance>5933.9961067090017</Distance>
+    <GINI>41.5</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>1802278</Population>
+  </Country>
+  <Country>
+    <DisplayName>Gambia</DisplayName>
+    <Capital>Banjul</Capital>
+    <Area>11295</Area>
+    <Distance>5002.9505778243774</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>1882450</Population>
+  </Country>
+  <Country>
+    <DisplayName>Georgia</DisplayName>
+    <Capital>Tbilisi</Capital>
+    <Area>69700</Area>
+    <Distance>1901.897759609252</Distance>
+    <GINI>41.3</GINI>
+    <Climate />
+    <CountOfMonuments>7398</CountOfMonuments>
+    <Population>3720400</Population>
+  </Country>
+  <Country>
+    <DisplayName>Germany</DisplayName>
+    <Capital>Berlin</Capital>
+    <Area>357114</Area>
+    <Distance>829.935369846553</Distance>
+    <GINI>28.3</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>81770900</Population>
+  </Country>
+  <Country>
+    <DisplayName>Ghana</DisplayName>
+    <Capital>Accra</Capital>
+    <Area>238533</Area>
+    <Distance>5145.5439614416846</Distance>
+    <GINI>42.8</GINI>
+    <Climate />
+    <CountOfMonuments>57</CountOfMonuments>
+    <Population>27670174</Population>
+  </Country>
+  <Country>
+    <DisplayName>Gibraltar</DisplayName>
+    <Capital>Gibraltar</Capital>
+    <Area>6</Area>
+    <Distance>2526.1042019870674</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>33140</Population>
+  </Country>
+  <Country>
+    <DisplayName>Greece</DisplayName>
+    <Capital>Athens</Capital>
+    <Area>131990</Area>
+    <Distance>1448.8001817403824</Distance>
+    <GINI>34.3</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>10858018</Population>
+  </Country>
+  <Country>
+    <DisplayName>Greenland</DisplayName>
+    <Capital>Nuuk</Capital>
+    <Area>2166086</Area>
+    <Distance>4736.5971277422423</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>55847</Population>
+  </Country>
+  <Country>
+    <DisplayName>Grenada</DisplayName>
+    <Capital>St. George's</Capital>
+    <Area>344</Area>
+    <Distance>7198.0704148792211</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>103328</Population>
+  </Country>
+  <Country>
+    <DisplayName>Guam</DisplayName>
+    <Capital>HagĂĄtĂ±a</Capital>
+    <Area>549</Area>
+    <Distance>9506.4649707926546</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>184200</Population>
+  </Country>
+  <Country>
+    <DisplayName>Guatemala</DisplayName>
+    <Capital>Guatemala City</Capital>
+    <Area>108889</Area>
+    <Distance>8639.7531257663231</Distance>
+    <GINI>55.9</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>16176133</Population>
+  </Country>
+  <Country>
+    <DisplayName>Guernsey</DisplayName>
+    <Capital>St. Peter Port</Capital>
+    <Area>78</Area>
+    <Distance>1640.7327879555992</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>62999</Population>
+  </Country>
+  <Country>
+    <DisplayName>Guinea</DisplayName>
+    <Capital>Conakry</Capital>
+    <Area>245857</Area>
+    <Distance>5034.4560437272967</Distance>
+    <GINI>39.4</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>12947000</Population>
+  </Country>
+  <Country>
+    <DisplayName>Guinea-Bissau</DisplayName>
+    <Capital>Bissau</Capital>
+    <Area>36125</Area>
+    <Distance>5090.729705352207</Distance>
+    <GINI>35.5</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>1547777</Population>
+  </Country>
+  <Country>
+    <DisplayName>Guyana</DisplayName>
+    <Capital>Georgetown</Capital>
+    <Area>214969</Area>
+    <Distance>7578.7310982137715</Distance>
+    <GINI>44.5</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>746900</Population>
+  </Country>
+  <Country>
+    <DisplayName>Haiti</DisplayName>
+    <Capital>Port-au-Prince</Capital>
+    <Area>27750</Area>
+    <Distance>7381.49874479417</Distance>
+    <GINI>59.2</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>11078033</Population>
+  </Country>
+  <Country>
+    <DisplayName>Heard Island and McDonald Islands</DisplayName>
+    <Capital />
+    <Area>412</Area>
+    <Distance>12221.024885905583</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>0</Population>
+  </Country>
+  <Country>
+    <DisplayName>Holy See</DisplayName>
+    <Capital>Rome</Capital>
+    <Area>0</Area>
+    <Distance>1267.8852724385295</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>451</Population>
+  </Country>
+  <Country>
+    <DisplayName>Hong Kong</DisplayName>
+    <Capital>City of Victoria</Capital>
+    <Area>1104</Area>
+    <Distance>7193.0613567088521</Distance>
+    <GINI>53.3</GINI>
+    <Climate />
+    <CountOfMonuments>114</CountOfMonuments>
+    <Population>7324300</Population>
+  </Country>
+  <Country>
+    <DisplayName>Hungary</DisplayName>
+    <Capital>Budapest</Capital>
+    <Area>93028</Area>
+    <Distance>560.81064228911066</Distance>
+    <GINI>31.2</GINI>
+    <Climate />
+    <CountOfMonuments>1174</CountOfMonuments>
+    <Population>9823000</Population>
+  </Country>
+  <Country>
+    <DisplayName>Iceland</DisplayName>
+    <Capital>ReykjavĂ­k</Capital>
+    <Area>103000</Area>
+    <Distance>3039.5398551939888</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>334300</Population>
+  </Country>
+  <Country>
+    <DisplayName>Indonesia</DisplayName>
+    <Capital>Jakarta</Capital>
+    <Area>1904569</Area>
+    <Distance>9289.810349755855</Distance>
+    <GINI>34</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>258705000</Population>
+  </Country>
+  <Country>
+    <DisplayName>CĂ´te d'Ivoire</DisplayName>
+    <Capital>Yamoussoukro</Capital>
+    <Area>322463</Area>
+    <Distance>5212.2082263969978</Distance>
+    <GINI>41.5</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>22671331</Population>
+  </Country>
+  <Country>
+    <DisplayName>Iran (Islamic Republic of)</DisplayName>
+    <Capital>Tehran</Capital>
+    <Area>1648195</Area>
+    <Distance>3125.2102444869556</Distance>
+    <GINI>38.3</GINI>
+    <Climate />
+    <CountOfMonuments>26644</CountOfMonuments>
+    <Population>79369900</Population>
+  </Country>
+  <Country>
+    <DisplayName>Iraq</DisplayName>
+    <Capital>Baghdad</Capital>
+    <Area>438317</Area>
+    <Distance>2637.898302596594</Distance>
+    <GINI>30.9</GINI>
+    <Climate />
+    <CountOfMonuments>161</CountOfMonuments>
+    <Population>37883543</Population>
+  </Country>
+  <Country>
+    <DisplayName>Ireland</DisplayName>
+    <Capital>Dublin</Capital>
+    <Area>70273</Area>
+    <Distance>1990.6676982767706</Distance>
+    <GINI>34.3</GINI>
+    <Climate />
+    <CountOfMonuments>622</CountOfMonuments>
+    <Population>6378000</Population>
+  </Country>
+  <Country>
+    <DisplayName>Isle of Man</DisplayName>
+    <Capital>Douglas</Capital>
+    <Area>572</Area>
+    <Distance>1765.5329906591917</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>84497</Population>
+  </Country>
+  <Country>
+    <DisplayName>Israel</DisplayName>
+    <Capital>Jerusalem</Capital>
+    <Area>20770</Area>
+    <Distance>2469.0074438330807</Distance>
+    <GINI>39.2</GINI>
+    <Climate />
+    <CountOfMonuments>1349</CountOfMonuments>
+    <Population>8527400</Population>
+  </Country>
+  <Country>
+    <DisplayName>Italy</DisplayName>
+    <Capital>Rome</Capital>
+    <Area>301336</Area>
+    <Distance>1163.8681750548021</Distance>
+    <GINI>36</GINI>
+    <Climate />
+    <CountOfMonuments>5166</CountOfMonuments>
+    <Population>60665551</Population>
+  </Country>
+  <Country>
+    <DisplayName>Jamaica</DisplayName>
+    <Capital>Kingston</Capital>
+    <Area>10991</Area>
+    <Distance>7725.8929477836882</Distance>
+    <GINI>45.5</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>2723246</Population>
+  </Country>
+  <Country>
+    <DisplayName>Jersey</DisplayName>
+    <Capital>Saint Helier</Capital>
+    <Area>116</Area>
+    <Distance>1617.0009238349917</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>100800</Population>
+  </Country>
+  <Country>
+    <DisplayName>Jordan</DisplayName>
+    <Capital>Amman</Capital>
+    <Area>89342</Area>
+    <Distance>2553.8104216520151</Distance>
+    <GINI>35.4</GINI>
+    <Climate />
+    <CountOfMonuments>79</CountOfMonuments>
+    <Population>9531712</Population>
+  </Country>
+  <Country>
+    <DisplayName>Kazakhstan</DisplayName>
+    <Capital>Astana</Capital>
+    <Area>2724900</Area>
+    <Distance>3251.8375120327723</Distance>
+    <GINI>29</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>17753200</Population>
+  </Country>
+  <Country>
+    <DisplayName>Kenya</DisplayName>
+    <Capital>Nairobi</Capital>
+    <Area>580367</Area>
+    <Distance>5795.711419739464</Distance>
+    <GINI>47.7</GINI>
+    <Climate />
+    <CountOfMonuments>208</CountOfMonuments>
+    <Population>47251000</Population>
+  </Country>
+  <Country>
+    <DisplayName>Kiribati</DisplayName>
+    <Capital>South Tarawa</Capital>
+    <Area>811</Area>
+    <Distance>11841.997714455967</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>113400</Population>
+  </Country>
+  <Country>
+    <DisplayName>Kuwait</DisplayName>
+    <Capital>Kuwait City</Capital>
+    <Area>17818</Area>
+    <Distance>3025.0658170901315</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>4183658</Population>
+  </Country>
+  <Country>
+    <DisplayName>Kyrgyzstan</DisplayName>
+    <Capital>Bishkek</Capital>
+    <Area>199951</Area>
+    <Distance>3898.2806841409893</Distance>
+    <GINI>36.2</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>6047800</Population>
+  </Country>
+  <Country>
+    <DisplayName>Lao People's Democratic Republic</DisplayName>
+    <Capital>Vientiane</Capital>
+    <Area>236800</Area>
+    <Distance>6889.7960691471935</Distance>
+    <GINI>36.7</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>6492400</Population>
+  </Country>
+  <Country>
+    <DisplayName>Latvia</DisplayName>
+    <Capital>Riga</Capital>
+    <Area>64559</Area>
+    <Distance>620.45703907732172</Distance>
+    <GINI>36.6</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>1961600</Population>
+  </Country>
+  <Country>
+    <DisplayName>Lebanon</DisplayName>
+    <Capital>Beirut</Capital>
+    <Area>10452</Area>
+    <Distance>2263.4871015547378</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>5988000</Population>
+  </Country>
+  <Country>
+    <DisplayName>Lesotho</DisplayName>
+    <Capital>Maseru</Capital>
+    <Area>30355</Area>
+    <Distance>9087.2436461948855</Distance>
+    <GINI>52.5</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>1894194</Population>
+  </Country>
+  <Country>
+    <DisplayName>Libya</DisplayName>
+    <Capital>Tripoli</Capital>
+    <Area>1759540</Area>
+    <Distance>3018.1541747075207</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>6385000</Population>
+  </Country>
+  <Country>
+    <DisplayName>Liechtenstein</DisplayName>
+    <Capital>Vaduz</Capital>
+    <Area>160</Area>
+    <Distance>946.18071524804918</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>37623</Population>
+  </Country>
+  <Country>
+    <DisplayName>Lithuania</DisplayName>
+    <Capital>Vilnius</Capital>
+    <Area>65300</Area>
+    <Distance>490.46333407185841</Distance>
+    <GINI>37.6</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>2872294</Population>
+  </Country>
+  <Country>
+    <DisplayName>Luxembourg</DisplayName>
+    <Capital>Luxembourg</Capital>
+    <Area>2586</Area>
+    <Distance>1047.0227172823818</Distance>
+    <GINI>30.8</GINI>
+    <Climate />
+    <CountOfMonuments>907</CountOfMonuments>
+    <Population>576200</Population>
+  </Country>
+  <Country>
+    <DisplayName>Macao</DisplayName>
+    <Capital />
+    <Area>30</Area>
+    <Distance>7159.8682096335415</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>649100</Population>
+  </Country>
+  <Country>
+    <DisplayName>Macedonia (the former Yugoslav Republic of)</DisplayName>
+    <Capital>Skopje</Capital>
+    <Area>25713</Area>
+    <Distance>1133.8408397364442</Distance>
+    <GINI>43.2</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>2058539</Population>
+  </Country>
+  <Country>
+    <DisplayName>Madagascar</DisplayName>
+    <Capital>Antananarivo</Capital>
+    <Area>587041</Area>
+    <Distance>8210.8346412222072</Distance>
+    <GINI>44.1</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>22434363</Population>
+  </Country>
+  <Country>
+    <DisplayName>Malawi</DisplayName>
+    <Capital>Lilongwe</Capital>
+    <Area>118484</Area>
+    <Distance>7345.7849859079306</Distance>
+    <GINI>39</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>16832910</Population>
+  </Country>
+  <Country>
+    <DisplayName>Malaysia</DisplayName>
+    <Capital>Kuala Lumpur</Capital>
+    <Area>330803</Area>
+    <Distance>8348.1102504739738</Distance>
+    <GINI>46.2</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>31405416</Population>
+  </Country>
+  <Country>
+    <DisplayName>Maldives</DisplayName>
+    <Capital>MalĂ©</Capital>
+    <Area>300</Area>
+    <Distance>6492.5138073679127</Distance>
+    <GINI>37.4</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>344023</Population>
+  </Country>
+  <Country>
+    <DisplayName>Mali</DisplayName>
+    <Capital>Bamako</Capital>
+    <Area>1240192</Area>
+    <Distance>4256.3507027533587</Distance>
+    <GINI>33</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>18135000</Population>
+  </Country>
+  <Country>
+    <DisplayName>Malta</DisplayName>
+    <Capital>Valletta</Capital>
+    <Area>316</Area>
+    <Distance>1852.6487121267764</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>116</CountOfMonuments>
+    <Population>425384</Population>
+  </Country>
+  <Country>
+    <DisplayName>Marshall Islands</DisplayName>
+    <Capital>Majuro</Capital>
+    <Area>181</Area>
+    <Distance>11154.190344766657</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>54880</Population>
+  </Country>
+  <Country>
+    <DisplayName>Mauritania</DisplayName>
+    <Capital>Nouakchott</Capital>
+    <Area>1030700</Area>
+    <Distance>4219.6149105096511</Distance>
+    <GINI>40.5</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>3718678</Population>
+  </Country>
+  <Country>
+    <DisplayName>Mauritius</DisplayName>
+    <Capital>Port Louis</Capital>
+    <Area>2040</Area>
+    <Distance>8427.58105050487</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>1262879</Population>
+  </Country>
+  <Country>
+    <DisplayName>Mexico</DisplayName>
+    <Capital>Mexico City</Capital>
+    <Area>1964375</Area>
+    <Distance>9026.97937493186</Distance>
+    <GINI>47</GINI>
+    <Climate />
+    <CountOfMonuments>9947</CountOfMonuments>
+    <Population>122273473</Population>
+  </Country>
+  <Country>
+    <DisplayName>Micronesia (Federated States of)</DisplayName>
+    <Capital>Palikir</Capital>
+    <Area>702</Area>
+    <Distance>10661.707215379805</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>102800</Population>
+  </Country>
+  <Country>
+    <DisplayName>Moldova (Republic of)</DisplayName>
+    <Capital>ChiČ™inÄu</Capital>
+    <Area>33846</Area>
+    <Distance>781.3025611217389</Distance>
+    <GINI>33</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>3553100</Population>
+  </Country>
+  <Country>
+    <DisplayName>Monaco</DisplayName>
+    <Capital>Monaco</Capital>
+    <Area>2</Area>
+    <Distance>1309.8363776813985</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>38400</Population>
+  </Country>
+  <Country>
+    <DisplayName>Mongolia</DisplayName>
+    <Capital>Ulan Bator</Capital>
+    <Area>1564110</Area>
+    <Distance>5795.6657326592695</Distance>
+    <GINI>36.5</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>3093100</Population>
+  </Country>
+  <Country>
+    <DisplayName>Montenegro</DisplayName>
+    <Capital>Podgorica</Capital>
+    <Area>13812</Area>
+    <Distance>1063.9520477267454</Distance>
+    <GINI>30</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>621810</Population>
+  </Country>
+  <Country>
+    <DisplayName>Montserrat</DisplayName>
+    <Capital>Plymouth</Capital>
+    <Area>102</Area>
+    <Distance>6921.9730563327839</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>4922</Population>
+  </Country>
+  <Country>
+    <DisplayName>Morocco</DisplayName>
+    <Capital>Rabat</Capital>
+    <Area>446550</Area>
+    <Distance>2851.7196743112709</Distance>
+    <GINI>40.9</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>33337529</Population>
+  </Country>
+  <Country>
+    <DisplayName>Myanmar</DisplayName>
+    <Capital>Naypyidaw</Capital>
+    <Area>676578</Area>
+    <Distance>6245.242198230304</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>51419420</Population>
+  </Country>
+  <Country>
+    <DisplayName>Namibia</DisplayName>
+    <Capital>Windhoek</Capital>
+    <Area>825615</Area>
+    <Distance>8242.3439764014056</Distance>
+    <GINI>63.9</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>2324388</Population>
+  </Country>
+  <Country>
+    <DisplayName>Nauru</DisplayName>
+    <Capital>Yaren</Capital>
+    <Area>21</Area>
+    <Distance>11584.983833631892</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>10084</Population>
+  </Country>
+  <Country>
+    <DisplayName>Nepal</DisplayName>
+    <Capital>Kathmandu</Capital>
+    <Area>147181</Area>
+    <Distance>5077.5324555926554</Distance>
+    <GINI>32.8</GINI>
+    <Climate />
+    <CountOfMonuments>39</CountOfMonuments>
+    <Population>28431500</Population>
+  </Country>
+  <Country>
+    <DisplayName>Netherlands</DisplayName>
+    <Capital>Amsterdam</Capital>
+    <Area>41850</Area>
+    <Distance>1046.659583142482</Distance>
+    <GINI>30.9</GINI>
+    <Climate />
+    <CountOfMonuments>63259</CountOfMonuments>
+    <Population>17019800</Population>
+  </Country>
+  <Country>
+    <DisplayName>New Caledonia</DisplayName>
+    <Capital>NoumĂ©a</Capital>
+    <Area>18575</Area>
+    <Distance>12846.258122124613</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>268767</Population>
+  </Country>
+  <Country>
+    <DisplayName>New Zealand</DisplayName>
+    <Capital>Wellington</Capital>
+    <Area>270467</Area>
+    <Distance>14735.659245982803</Distance>
+    <GINI>36.2</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>4697854</Population>
+  </Country>
+  <Country>
+    <DisplayName>Nicaragua</DisplayName>
+    <Capital>Managua</Capital>
+    <Area>130373</Area>
+    <Distance>8463.2695911876326</Distance>
+    <GINI>40.5</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>6262703</Population>
+  </Country>
+  <Country>
+    <DisplayName>Niger</DisplayName>
+    <Capital>Niamey</Capital>
+    <Area>1267000</Area>
+    <Distance>4105.4173206111036</Distance>
+    <GINI>34.6</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>20715000</Population>
+  </Country>
+  <Country>
+    <DisplayName>Nigeria</DisplayName>
+    <Capital>Abuja</Capital>
+    <Area>923768</Area>
+    <Distance>4759.6344286319854</Distance>
+    <GINI>48.8</GINI>
+    <Climate />
+    <CountOfMonuments>64</CountOfMonuments>
+    <Population>186988000</Population>
+  </Country>
+  <Country>
+    <DisplayName>Niue</DisplayName>
+    <Capital>Alofi</Capital>
+    <Area>260</Area>
+    <Distance>15285.591302922572</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>1470</Population>
+  </Country>
+  <Country>
+    <DisplayName>Norfolk Island</DisplayName>
+    <Capital>Kingston</Capital>
+    <Area>36</Area>
+    <Distance>13520.61764569733</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>2302</Population>
+  </Country>
+  <Country>
+    <DisplayName>Korea (Democratic People's Republic of)</DisplayName>
+    <Capital>Pyongyang</Capital>
+    <Area>120538</Area>
+    <Distance>7386.6449001038573</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>25281000</Population>
+  </Country>
+  <Country>
+    <DisplayName>Northern Mariana Islands</DisplayName>
+    <Capital>Saipan</Capital>
+    <Area>464</Area>
+    <Distance>9480.6750804645962</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>56940</Population>
+  </Country>
+  <Country>
+    <DisplayName>Norway</DisplayName>
+    <Capital>Oslo</Capital>
+    <Area>323802</Area>
+    <Distance>1344.4736964845029</Distance>
+    <GINI>25.8</GINI>
+    <Climate />
+    <CountOfMonuments>16737</CountOfMonuments>
+    <Population>5223256</Population>
+  </Country>
+  <Country>
+    <DisplayName>Oman</DisplayName>
+    <Capital>Muscat</Capital>
+    <Area>309500</Area>
+    <Distance>4242.2577437443533</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>4420133</Population>
+  </Country>
+  <Country>
+    <DisplayName>Pakistan</DisplayName>
+    <Capital>Islamabad</Capital>
+    <Area>881912</Area>
+    <Distance>4156.4387089439851</Distance>
+    <GINI>30</GINI>
+    <Climate />
+    <CountOfMonuments>1137</CountOfMonuments>
+    <Population>194125062</Population>
+  </Country>
+  <Country>
+    <DisplayName>Palau</DisplayName>
+    <Capital>Ngerulmud</Capital>
+    <Area>459</Area>
+    <Distance>9222.30837802263</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>17950</Population>
+  </Country>
+  <Country>
+    <DisplayName>Panama</DisplayName>
+    <Capital>Panama City</Capital>
+    <Area>75417</Area>
+    <Distance>8416.0578788157673</Distance>
+    <GINI>51.9</GINI>
+    <Climate />
+    <CountOfMonuments>220</CountOfMonuments>
+    <Population>3814672</Population>
+  </Country>
+  <Country>
+    <DisplayName>Paraguay</DisplayName>
+    <Capital>AsunciĂłn</Capital>
+    <Area>406752</Area>
+    <Distance>9951.0265617575169</Distance>
+    <GINI>52.4</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>6854536</Population>
+  </Country>
+  <Country>
+    <DisplayName>Peru</DisplayName>
+    <Capital>Lima</Capital>
+    <Area>1285216</Area>
+    <Distance>9582.941860038236</Distance>
+    <GINI>48.1</GINI>
+    <Climate />
+    <CountOfMonuments>2151</CountOfMonuments>
+    <Population>31488700</Population>
+  </Country>
+  <Country>
+    <DisplayName>Pitcairn</DisplayName>
+    <Capital>Adamstown</Capital>
+    <Area>47</Area>
+    <Distance>13447.87914283719</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>56</Population>
+  </Country>
+  <Country>
+    <DisplayName>Poland</DisplayName>
+    <Capital>Warsaw</Capital>
+    <Area>312679</Area>
+    <Distance>68.536297359317729</Distance>
+    <GINI>34.1</GINI>
+    <Climate />
+    <CountOfMonuments>77182</CountOfMonuments>
+    <Population>38437239</Population>
+  </Country>
+  <Country>
+    <DisplayName>Portugal</DisplayName>
+    <Capital>Lisbon</Capital>
+    <Area>92090</Area>
+    <Distance>2426.2494479485877</Distance>
+    <GINI>38.5</GINI>
+    <Climate />
+    <CountOfMonuments>4495</CountOfMonuments>
+    <Population>10374822</Population>
+  </Country>
+  <Country>
+    <DisplayName>Puerto Rico</DisplayName>
+    <Capital>San Juan</Capital>
+    <Area>8870</Area>
+    <Distance>7076.6447856735567</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>3474182</Population>
+  </Country>
+  <Country>
+    <DisplayName>Qatar</DisplayName>
+    <Capital>Doha</Capital>
+    <Area>11586</Area>
+    <Distance>3605.669768265544</Distance>
+    <GINI>41.1</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>2587564</Population>
+  </Country>
+  <Country>
+    <DisplayName>Republic of Kosovo</DisplayName>
+    <Capital>Pristina</Capital>
+    <Area>10908</Area>
+    <Distance>1039.0624849959906</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>1411</CountOfMonuments>
+    <Population>1733842</Population>
+  </Country>
+  <Country>
+    <DisplayName>Rwanda</DisplayName>
+    <Capital>Kigali</Capital>
+    <Area>26338</Area>
+    <Distance>6042.919104056009</Distance>
+    <GINI>50.8</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>11553188</Population>
+  </Country>
+  <Country>
+    <DisplayName>Saint BarthĂ©lemy</DisplayName>
+    <Capital>Gustavia</Capital>
+    <Area>21</Area>
+    <Distance>6883.3615129187547</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>9417</Population>
+  </Country>
+  <Country>
+    <DisplayName>Saint Kitts and Nevis</DisplayName>
+    <Capital>Basseterre</Capital>
+    <Area>261</Area>
+    <Distance>6916.6176020711819</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>46204</Population>
+  </Country>
+  <Country>
+    <DisplayName>Saint Martin (French part)</DisplayName>
+    <Capital>Marigot</Capital>
+    <Area>53</Area>
+    <Distance>6939.2411857058305</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>36979</Population>
+  </Country>
+  <Country>
+    <DisplayName>Saint Pierre and Miquelon</DisplayName>
+    <Capital>Saint-Pierre</Capital>
+    <Area>242</Area>
+    <Distance>5331.2566233322332</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>6069</Population>
+  </Country>
+  <Country>
+    <DisplayName>Saint Vincent and the Grenadines</DisplayName>
+    <Capital>Kingstown</Capital>
+    <Area>389</Area>
+    <Distance>7095.5222320243474</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>109991</Population>
+  </Country>
+  <Country>
+    <DisplayName>Samoa</DisplayName>
+    <Capital>Apia</Capital>
+    <Area>2842</Area>
+    <Distance>15128.578699233225</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>194899</Population>
+  </Country>
+  <Country>
+    <DisplayName>San Marino</DisplayName>
+    <Capital>City of San Marino</Capital>
+    <Area>61</Area>
+    <Distance>1089.0906228569954</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>33005</Population>
+  </Country>
+  <Country>
+    <DisplayName>Sao Tome and Principe</DisplayName>
+    <Capital>SĂŁo TomĂ©</Capital>
+    <Area>964</Area>
+    <Distance>5757.9014426886488</Distance>
+    <GINI>50.8</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>187356</Population>
+  </Country>
+  <Country>
+    <DisplayName>Saudi Arabia</DisplayName>
+    <Capital>Riyadh</Capital>
+    <Area>2149690</Area>
+    <Distance>3426.324575038147</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>32248200</Population>
+  </Country>
+  <Country>
+    <DisplayName>Senegal</DisplayName>
+    <Capital>Dakar</Capital>
+    <Area>196722</Area>
+    <Distance>4863.0035148781408</Distance>
+    <GINI>39.2</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>14799859</Population>
+  </Country>
+  <Country>
+    <DisplayName>Serbia</DisplayName>
+    <Capital>Belgrade</Capital>
+    <Area>88361</Area>
+    <Distance>890.5712</Distance>
+    <GINI>27.8</GINI>
+    <Climate />
+    <CountOfMonuments>2370</CountOfMonuments>
+    <Population>7076372</Population>
+  </Country>
+  <Country>
+    <DisplayName>Seychelles</DisplayName>
+    <Capital>Victoria</Capital>
+    <Area>452</Area>
+    <Distance>6732.1328524407254</Distance>
+    <GINI>65.8</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>91400</Population>
+  </Country>
+  <Country>
+    <DisplayName>Sierra Leone</DisplayName>
+    <Capital>Freetown</Capital>
+    <Area>71740</Area>
+    <Distance>5330.2030144943028</Distance>
+    <GINI>42.5</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>7075641</Population>
+  </Country>
+  <Country>
+    <DisplayName>Singapore</DisplayName>
+    <Capital>Singapore</Capital>
+    <Area>710</Area>
+    <Distance>7998.39846473677</Distance>
+    <GINI>48.1</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>5535000</Population>
+  </Country>
+  <Country>
+    <DisplayName>Sint Maarten (Dutch part)</DisplayName>
+    <Capital>Philipsburg</Capital>
+    <Area>34</Area>
+    <Distance>6890.6228156064362</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>38247</Population>
+  </Country>
+  <Country>
+    <DisplayName>Slovakia</DisplayName>
+    <Capital>Bratislava</Capital>
+    <Area>49037</Area>
+    <Distance>385.04894376940524</Distance>
+    <GINI>26</GINI>
+    <Climate />
+    <CountOfMonuments>29916</CountOfMonuments>
+    <Population>5426252</Population>
+  </Country>
+  <Country>
+    <DisplayName>Slovenia</DisplayName>
+    <Capital>Ljubljana</Capital>
+    <Area>20273</Area>
+    <Distance>780.08937056391233</Distance>
+    <GINI>31.2</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>2064188</Population>
+  </Country>
+  <Country>
+    <DisplayName>Solomon Islands</DisplayName>
+    <Capital>Honiara</Capital>
+    <Area>28896</Area>
+    <Distance>11578.720554097483</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>642000</Population>
+  </Country>
+  <Country>
+    <DisplayName>Somalia</DisplayName>
+    <Capital>Mogadishu</Capital>
+    <Area>637657</Area>
+    <Distance>5053.9996723871773</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>11079000</Population>
+  </Country>
+  <Country>
+    <DisplayName>South Africa</DisplayName>
+    <Capital>Pretoria</Capital>
+    <Area>1221037</Area>
+    <Distance>9019.37727081072</Distance>
+    <GINI>63.1</GINI>
+    <Climate />
+    <CountOfMonuments>4835</CountOfMonuments>
+    <Population>55653654</Population>
+  </Country>
+  <Country>
+    <DisplayName>Korea (Republic of)</DisplayName>
+    <Capital>Seoul</Capital>
+    <Area>100210</Area>
+    <Distance>7487.68266675918</Distance>
+    <GINI>31.3</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>50801405</Population>
+  </Country>
+  <Country>
+    <DisplayName>South Sudan</DisplayName>
+    <Capital>Juba</Capital>
+    <Area>619745</Area>
+    <Distance>5047.2957806019949</Distance>
+    <GINI>45.5</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>12131000</Population>
+  </Country>
+  <Country>
+    <DisplayName>Sri Lanka</DisplayName>
+    <Capital>Colombo</Capital>
+    <Area>65610</Area>
+    <Distance>6481.1053184606071</Distance>
+    <GINI>40.3</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>20966000</Population>
+  </Country>
+  <Country>
+    <DisplayName>Sudan</DisplayName>
+    <Capital>Khartoum</Capital>
+    <Area>1886068</Area>
+    <Distance>4164.8223021661979</Distance>
+    <GINI>35.3</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>39598700</Population>
+  </Country>
+  <Country>
+    <DisplayName>Suriname</DisplayName>
+    <Capital>Paramaribo</Capital>
+    <Area>163820</Area>
+    <Distance>7510.1302031384457</Distance>
+    <GINI>52.9</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>541638</Population>
+  </Country>
+  <Country>
+    <DisplayName>Swaziland</DisplayName>
+    <Capital>Lobamba</Capital>
+    <Area>17364</Area>
+    <Distance>8768.31051099912</Distance>
+    <GINI>51.5</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>1132657</Population>
+  </Country>
+  <Country>
+    <DisplayName>Sweden</DisplayName>
+    <Capital>Stockholm</Capital>
+    <Area>450295</Area>
+    <Distance>1186.7373238430203</Distance>
+    <GINI>25</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>9894888</Population>
+  </Country>
+  <Country>
+    <DisplayName>Switzerland</DisplayName>
+    <Capital>Bern</Capital>
+    <Area>41284</Area>
+    <Distance>1050.5437724657145</Distance>
+    <GINI>33.7</GINI>
+    <Climate />
+    <CountOfMonuments>21488</CountOfMonuments>
+    <Population>8341600</Population>
+  </Country>
+  <Country>
+    <DisplayName>Syrian Arab Republic</DisplayName>
+    <Capital>Damascus</Capital>
+    <Area>185180</Area>
+    <Distance>2222.3674283103851</Distance>
+    <GINI>35.8</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>18564000</Population>
+  </Country>
+  <Country>
+    <DisplayName>Taiwan</DisplayName>
+    <Capital>Taipei</Capital>
+    <Area>36193</Area>
+    <Distance>7552.3513820740782</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>23503349</Population>
+  </Country>
+  <Country>
+    <DisplayName>Tajikistan</DisplayName>
+    <Capital>Dushanbe</Capital>
+    <Area>143100</Area>
+    <Distance>3719.8635568885179</Distance>
+    <GINI>30.8</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>8593600</Population>
+  </Country>
+  <Country>
+    <DisplayName>Tanzania, United Republic of</DisplayName>
+    <Capital>Dodoma</Capital>
+    <Area>945087</Area>
+    <Distance>6527.547127402413</Distance>
+    <GINI>37.6</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>55155000</Population>
+  </Country>
+  <Country>
+    <DisplayName>Thailand</DisplayName>
+    <Capital>Bangkok</Capital>
+    <Area>513120</Area>
+    <Distance>6802.9879458871492</Distance>
+    <GINI>40</GINI>
+    <Climate />
+    <CountOfMonuments>8578</CountOfMonuments>
+    <Population>65327652</Population>
+  </Country>
+  <Country>
+    <DisplayName>Timor-Leste</DisplayName>
+    <Capital>Dili</Capital>
+    <Area>14874</Area>
+    <Distance>9877.5205610901721</Distance>
+    <GINI>31.9</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>1167242</Population>
+  </Country>
+  <Country>
+    <DisplayName>Togo</DisplayName>
+    <Capital>LomĂ©</Capital>
+    <Area>56785</Area>
+    <Distance>5083.2564767666872</Distance>
+    <GINI>34.4</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>7143000</Population>
+  </Country>
+  <Country>
+    <DisplayName>Tokelau</DisplayName>
+    <Capital>Fakaofo</Capital>
+    <Area>12</Area>
+    <Distance>14868.732984023996</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>1411</Population>
+  </Country>
+  <Country>
+    <DisplayName>Tonga</DisplayName>
+    <Capital>Nuku'alofa</Capital>
+    <Area>747</Area>
+    <Distance>15642.603407634852</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>103252</Population>
+  </Country>
+  <Country>
+    <DisplayName>Trinidad and Tobago</DisplayName>
+    <Capital>Port of Spain</Capital>
+    <Area>5130</Area>
+    <Distance>7239.8791349969688</Distance>
+    <GINI>40.3</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>1349667</Population>
+  </Country>
+  <Country>
+    <DisplayName>Tunisia</DisplayName>
+    <Capital>Tunis</Capital>
+    <Area>163610</Area>
+    <Distance>2165.9998595945044</Distance>
+    <GINI>41.4</GINI>
+    <Climate />
+    <CountOfMonuments>943</CountOfMonuments>
+    <Population>11154400</Population>
+  </Country>
+  <Country>
+    <DisplayName>Turkey</DisplayName>
+    <Capital>Ankara</Capital>
+    <Area>783562</Area>
+    <Distance>1736.3699656113918</Distance>
+    <GINI>39</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>78741053</Population>
+  </Country>
+  <Country>
+    <DisplayName>Turkmenistan</DisplayName>
+    <Capital>Ashgabat</Capital>
+    <Area>488100</Area>
+    <Distance>2988.1417601686326</Distance>
+    <GINI>40.8</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>4751120</Population>
+  </Country>
+  <Country>
+    <DisplayName>Turks and Caicos Islands</DisplayName>
+    <Capital>Cockburn Town</Capital>
+    <Area>948</Area>
+    <Distance>7183.5187414698148</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>31458</Population>
+  </Country>
+  <Country>
+    <DisplayName>Uganda</DisplayName>
+    <Capital>Kampala</Capital>
+    <Area>241550</Area>
+    <Distance>5727.2277080221511</Distance>
+    <GINI>44.3</GINI>
+    <Climate />
+    <CountOfMonuments>552</CountOfMonuments>
+    <Population>33860700</Population>
+  </Country>
+  <Country>
+    <DisplayName>United Arab Emirates</DisplayName>
+    <Capital>Abu Dhabi</Capital>
+    <Area>83600</Area>
+    <Distance>3851.0986756359507</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>9856000</Population>
+  </Country>
+  <Country>
+    <DisplayName>United Kingdom of Great Britain and Northern Ireland</DisplayName>
+    <Capital>London</Capital>
+    <Area>242900</Area>
+    <Distance>1591.9803208175254</Distance>
+    <GINI>34</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>65110000</Population>
+  </Country>
+  <Country>
+    <DisplayName>Uruguay</DisplayName>
+    <Capital>Montevideo</Capital>
+    <Area>181034</Area>
+    <Distance>10834.450714464183</Distance>
+    <GINI>39.7</GINI>
+    <Climate />
+    <CountOfMonuments>1333</CountOfMonuments>
+    <Population>3480222</Population>
+  </Country>
+  <Country>
+    <DisplayName>Uzbekistan</DisplayName>
+    <Capital>Tashkent</Capital>
+    <Area>447400</Area>
+    <Distance>3191.3405059454808</Distance>
+    <GINI>36.7</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>31576400</Population>
+  </Country>
+  <Country>
+    <DisplayName>Vanuatu</DisplayName>
+    <Capital>Port Vila</Capital>
+    <Area>12189</Area>
+    <Distance>12547.060839925714</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>277500</Population>
+  </Country>
+  <Country>
+    <DisplayName>Viet Nam</DisplayName>
+    <Capital>Hanoi</Capital>
+    <Area>331212</Area>
+    <Distance>7164.4577714178413</Distance>
+    <GINI>35.6</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>92700000</Population>
+  </Country>
+  <Country>
+    <DisplayName>Wallis and Futuna</DisplayName>
+    <Capital>Mata-Utu</Capital>
+    <Area>142</Area>
+    <Distance>15346.251565699949</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>11750</Population>
+  </Country>
+  <Country>
+    <DisplayName>Western Sahara</DisplayName>
+    <Capital>El AaiĂşn</Capital>
+    <Area>266000</Area>
+    <Distance>3847.3087242902857</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>510713</Population>
+  </Country>
+  <Country>
+    <DisplayName>Yemen</DisplayName>
+    <Capital>Sana'a</Capital>
+    <Area>527968</Area>
+    <Distance>4515.4784903408226</Distance>
+    <GINI>37.7</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>27478000</Population>
+  </Country>
+  <Country>
+    <DisplayName>Zambia</DisplayName>
+    <Capital>Lusaka</Capital>
+    <Area>752612</Area>
+    <Distance>7483.9963651952785</Distance>
+    <GINI>54.6</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>15933883</Population>
+  </Country>
+  <Country>
+    <DisplayName>Zimbabwe</DisplayName>
+    <Capital>Harare</Capital>
+    <Area>390757</Area>
+    <Distance>8038.8405378100606</Distance>
+    <GINI>0</GINI>
+    <Climate />
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>14240168</Population>
+  </Country>
+</ArrayOfCountry>

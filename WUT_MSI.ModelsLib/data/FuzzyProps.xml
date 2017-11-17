@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<FuzzyProps xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MaxDistance>15642.603407634852</MaxDistance>
+  <MinDistance>68.536297359317729</MinDistance>
+  <MaxTemp>-1.7976931348623157E+308</MaxTemp>
+  <MinTemp>1.7976931348623157E+308</MinTemp>
+  <MaxArea>14000000</MaxArea>
+  <MinArea>0</MinArea>
+  <MaxMonuments>-1.7976931348623157E+308</MaxMonuments>
+  <MinMonuments>1.7976931348623157E+308</MinMonuments>
+</FuzzyProps>
