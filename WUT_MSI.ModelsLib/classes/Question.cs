@@ -7,7 +7,7 @@ using WUT_MSI.Models.interfaces;
 
 namespace WUT_MSI.ModelsLib.classes
 {
-    public class Question<Tparam> : IQuestion<Tparam>
+    public class Question<Tparam> : IQuestion<Tparam> where Tparam : IFuzzy
     {
         public List<IAnswer<Tparam>> Answers { get; }
         public Func<Tparam, double> FuzzyFunction { get; }

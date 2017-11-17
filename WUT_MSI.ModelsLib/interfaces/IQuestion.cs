@@ -4,7 +4,7 @@ using System.Text;
 
 namespace WUT_MSI.Models.interfaces
 {
-    public interface IQuestion<TParam>
+    public interface IQuestion<TParam> where TParam : IFuzzy
     {
         IAnswer<TParam> this[int i] { get; }
         string DisplayQuestion { get; }

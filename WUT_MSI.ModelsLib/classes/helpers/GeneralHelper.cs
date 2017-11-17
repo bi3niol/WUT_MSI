@@ -7,7 +7,7 @@ namespace WUT_MSI.ModelsLib.classes.helpers
 {
     public class GeneralHelper
     {
-        public static bool CheckIfAnswerHasResult<Tparam>(IAnswer<Tparam> answer,List<Tparam> proccessingSet, Func<Tparam,double> fuzzyFunction)
+        public static bool CheckIfAnswerHasResult<Tparam>(IAnswer<Tparam> answer,List<Tparam> proccessingSet, Func<Tparam,double> fuzzyFunction) where Tparam : IFuzzy
         {
             return proccessingSet.Any(p=>answer.MatchToAnswer(p,fuzzyFunction));
         }

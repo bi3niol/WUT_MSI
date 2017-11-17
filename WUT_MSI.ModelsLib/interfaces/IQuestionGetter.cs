@@ -7,9 +7,9 @@ using WUT_MSI.Models.interfaces;
 
 namespace WUT_MSI.ModelsLib.interfaces
 {
-    public interface IQuestionGetter<Tparam>
+    public interface IQuestionGetter<TParam> where TParam : IFuzzy
     {
         bool HasQuestion { get; }
-        IQuestion<Tparam> GetNextQuestion(List<Tparam> currentEvaluatingSet);
+        IQuestion<TParam> GetNextQuestion(List<TParam> currentEvaluatingSet);
     }
 }
