@@ -69,7 +69,7 @@ namespace WUT_MSI.ModelsLib
 
         public double MaxDensity { get; set; } = double.MinValue;
         public double MinDensity { get; set; } = double.MaxValue;
-
+        
         public static void SetDendity(int Population, double Area)
         {
             double Density = Population / Area;
