@@ -10,14 +10,17 @@ namespace WUT_MSI.Models.classes
         public string DisplayLabel { get; }
 
         protected double BottomLimit { get; set; }
-
         protected double TopLimit { get; set; }
+        protected double Center { get; }
+        protected double Range { get; }
 
         public Answer(double bottomLimit, double topLimit, string dispalyLabel)
         {
             DisplayLabel = dispalyLabel;
             BottomLimit = bottomLimit;
             TopLimit = topLimit;
+            Center = (TopLimit + BottomLimit) / 2;
+            Range = TopLimit - BottomLimit;
         }
 
         public bool MatchToAnswer(TParam parameter, Func<TParam, double> FuzzyFunction)
@@ -26,7 +29,11 @@ namespace WUT_MSI.Models.classes
             bool isMatch = BottomLimit <= currentResult && TopLimit >= currentResult;
 
             if (isMatch)
-                parameter.Result *= (currentResult + 1) / 2;
+            {
+                parameter.CumSum += (1 - 2 * Math.Abs(Center - currentResult) / Range);
+                parameter.QuestionsNum++;
+                parameter.Result = (int)(parameter.CumSum / parameter.QuestionsNum * 100);
+            }
 
             return isMatch;
         }

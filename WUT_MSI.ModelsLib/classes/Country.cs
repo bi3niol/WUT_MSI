@@ -18,13 +18,14 @@ namespace WUT_MSI.Models.classes
         public ulong CountOfMonuments { get; set; }
         public int Population { get; set; }
         public int TimeZone { get; set; }
-        public double Result { get; set; } = 1.0;
+        public double Result { get; set; }
+        public double CumSum { get; set; }
+        public double QuestionsNum { get; set; }
 
-        public Country() { Result = 1; }
+        public Country() {  }
 
         public Country(ApiCountry apiCountry)
         {
-            Result = 1;
             DisplayName = apiCountry.name;
             Capital = apiCountry.capital;
             Area = (uint)apiCountry.area;
