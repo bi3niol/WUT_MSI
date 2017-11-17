@@ -69,7 +69,20 @@ namespace WUT_MSI.ModelsLib
 
         public double MaxDensity { get; set; } = double.MinValue;
         public double MinDensity { get; set; } = double.MaxValue;
-        
+
+        public float MaxGINI { get; set; } = float.MinValue;
+        public float MinGINI { get; set; } = float.MaxValue;
+
+        public static void SetGINI(float giny)
+        {
+            if (Instance.MaxGINI < giny)
+                Instance.MaxGINI = giny;
+            if (Instance.MinGINI > giny)
+                Instance.MinGINI = giny;
+
+            SaveFuzzyProps();
+        }
+
         public static void SetDendity(int Population, double Area)
         {
             double Density = Population / Area;

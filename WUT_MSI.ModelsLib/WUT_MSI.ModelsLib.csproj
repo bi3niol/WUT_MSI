@@ -53,6 +53,7 @@
     <Compile Include="classes\CountriesApiModels.cs" />
     <Compile Include="classes\Country.cs" />
     <Compile Include="classes\Evaluator.cs" />
+    <Compile Include="classes\exceptions\HasAnswerException.cs" />
     <Compile Include="classes\exceptions\NoMoreQuestionsException.cs" />
     <Compile Include="classes\helpers\ClimateEnum.cs" />
     <Compile Include="classes\helpers\CountryQuestionGetter.cs" />

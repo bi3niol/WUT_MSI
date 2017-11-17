@@ -33,6 +33,8 @@ namespace WUT_MSI.ModelsLib.classes
             get
             {
                 CurrentAnswerSet = answer.CutSet(CurrentAnswerSet, CurrentProccessingQuestion.FuzzyFunction);
+                if (CurrentAnswerSet.Count <= 5)
+                    throw new HasAnswerException();
                 if (!QuestionGetter.HasQuestion)
                     throw new NoMoreQuestionsException();
                 CurrentProccessingQuestion = QuestionGetter.GetNextQuestion(CurrentAnswerSet);
