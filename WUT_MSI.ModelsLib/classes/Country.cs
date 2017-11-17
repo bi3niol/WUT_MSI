@@ -35,6 +35,7 @@ namespace WUT_MSI.Models.classes
             FuzzyProps.SetArea(Area);
             FuzzyProps.SetDistance(Distance);
             FuzzyProps.SetPopulation(Population);
+            FuzzyProps.SetDendity(Population, Area);
         }
     }
 }

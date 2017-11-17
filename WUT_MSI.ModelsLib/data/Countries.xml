@@ -6,9 +6,10 @@
     <Area>652230</Area>
     <Distance>3683.4089782763485</Distance>
     <GINI>27.8</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>27657145</Population>
+    <TimeZone>4</TimeZone>
   </Country>
   <Country>
     <DisplayName>Ă…land Islands</DisplayName>
@@ -16,9 +17,10 @@
     <Area>1580</Area>
     <Distance>906.69842091311682</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Temperate</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>28875</Population>
+    <TimeZone>2</TimeZone>
   </Country>
   <Country>
     <DisplayName>Albania</DisplayName>
@@ -26,9 +28,10 @@
     <Area>28748</Area>
     <Distance>1226.4518620430583</Distance>
     <GINI>34.5</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>1780</CountOfMonuments>
     <Population>2886026</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Algeria</DisplayName>
@@ -36,9 +39,10 @@
     <Area>2381741</Area>
     <Distance>2942.7800044311507</Distance>
     <GINI>35.3</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>383</CountOfMonuments>
     <Population>40400000</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>American Samoa</DisplayName>
@@ -46,9 +50,10 @@
     <Area>199</Area>
     <Distance>15029.557736067462</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>57100</Population>
+    <TimeZone>-11</TimeZone>
   </Country>
   <Country>
     <DisplayName>Andorra</DisplayName>
@@ -56,9 +61,10 @@
     <Area>468</Area>
     <Distance>1704.2706444488954</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>126</CountOfMonuments>
     <Population>78014</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Angola</DisplayName>
@@ -66,9 +72,10 @@
     <Area>1246700</Area>
     <Distance>7182.2743481007719</Distance>
     <GINI>58.6</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>25868000</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Anguilla</DisplayName>
@@ -76,9 +83,10 @@
     <Area>91</Area>
     <Distance>6884.1154428064956</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>13452</Population>
+    <TimeZone>-4</TimeZone>
   </Country>
   <Country>
     <DisplayName>Antarctica</DisplayName>
@@ -86,9 +94,10 @@
     <Area>14000000</Area>
     <Distance>14144.244141991212</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Temperate</Climate>
     <CountOfMonuments>166</CountOfMonuments>
     <Population>1000</Population>
+    <TimeZone>-3</TimeZone>
   </Country>
   <Country>
     <DisplayName>Antigua and Barbuda</DisplayName>
@@ -96,9 +105,10 @@
     <Area>442</Area>
     <Distance>6880.4672975019548</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>86295</Population>
+    <TimeZone>-4</TimeZone>
   </Country>
   <Country>
     <DisplayName>Armenia</DisplayName>
@@ -106,9 +116,10 @@
     <Area>29743</Area>
     <Distance>2118.9890151210643</Distance>
     <GINI>30.9</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>24319</CountOfMonuments>
     <Population>2994400</Population>
+    <TimeZone>4</TimeZone>
   </Country>
   <Country>
     <DisplayName>Aruba</DisplayName>
@@ -116,9 +127,10 @@
     <Area>180</Area>
     <Distance>7629.1904965491085</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>107394</Population>
+    <TimeZone>-4</TimeZone>
   </Country>
   <Country>
     <DisplayName>Australia</DisplayName>
@@ -126,9 +138,10 @@
     <Area>7692024</Area>
     <Distance>11673.186564960768</Distance>
     <GINI>30.5</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>24117360</Population>
+    <TimeZone>5</TimeZone>
   </Country>
   <Country>
     <DisplayName>Austria</DisplayName>
@@ -136,9 +149,10 @@
     <Area>83871</Area>
     <Distance>738.8995221355425</Distance>
     <GINI>26</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>38079</CountOfMonuments>
     <Population>8725931</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Azerbaijan</DisplayName>
@@ -146,9 +160,10 @@
     <Area>86600</Area>
     <Distance>2222.0548255135304</Distance>
     <GINI>33.7</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>6068</CountOfMonuments>
     <Population>9730500</Population>
+    <TimeZone>4</TimeZone>
   </Country>
   <Country>
     <DisplayName>Bahamas</DisplayName>
@@ -156,9 +171,10 @@
     <Area>13943</Area>
     <Distance>7330.6988291789185</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>378040</Population>
+    <TimeZone>-5</TimeZone>
   </Country>
   <Country>
     <DisplayName>Bahrain</DisplayName>
@@ -166,9 +182,10 @@
     <Area>765</Area>
     <Distance>3532.5524424614018</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>1404900</Population>
+    <TimeZone>3</TimeZone>
   </Country>
   <Country>
     <DisplayName>Bangladesh</DisplayName>
@@ -176,9 +193,10 @@
     <Area>147570</Area>
     <Distance>5663.8474328063</Distance>
     <GINI>32.1</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>161006790</Population>
+    <TimeZone>6</TimeZone>
   </Country>
   <Country>
     <DisplayName>Barbados</DisplayName>
@@ -186,9 +204,21 @@
     <Area>430</Area>
     <Distance>7010.889020692649</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>285000</Population>
+    <TimeZone>-4</TimeZone>
+  </Country>
+  <Country>
+    <DisplayName>Belgium</DisplayName>
+    <Capital>Brussels</Capital>
+    <Area>30528</Area>
+    <Distance>1172.3332543127519</Distance>
+    <GINI>33</GINI>
+    <Climate>Cold</Climate>
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>11319511</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Belize</DisplayName>
@@ -196,9 +226,10 @@
     <Area>22966</Area>
     <Distance>8458.310716648848</Distance>
     <GINI>53.1</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>370300</Population>
+    <TimeZone>-6</TimeZone>
   </Country>
   <Country>
     <DisplayName>Benin</DisplayName>
@@ -206,9 +237,10 @@
     <Area>112622</Area>
     <Distance>4902.5746344682</Distance>
     <GINI>38.6</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>10653654</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Bermuda</DisplayName>
@@ -216,9 +248,10 @@
     <Area>54</Area>
     <Distance>6271.5315447739686</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>61954</Population>
+    <TimeZone>-4</TimeZone>
   </Country>
   <Country>
     <DisplayName>Bhutan</DisplayName>
@@ -226,9 +259,10 @@
     <Area>38394</Area>
     <Distance>5488.837496908186</Distance>
     <GINI>38.1</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>775620</Population>
+    <TimeZone>6</TimeZone>
   </Country>
   <Country>
     <DisplayName>Bolivia (Plurinational State of)</DisplayName>
@@ -236,9 +270,10 @@
     <Area>1098581</Area>
     <Distance>9682.0009851542745</Distance>
     <GINI>56.3</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>970</CountOfMonuments>
     <Population>10985059</Population>
+    <TimeZone>-4</TimeZone>
   </Country>
   <Country>
     <DisplayName>Bonaire, Sint Eustatius and Saba</DisplayName>
@@ -246,9 +281,10 @@
     <Area>294</Area>
     <Distance>7557.0830057664771</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>17408</Population>
+    <TimeZone>-4</TimeZone>
   </Country>
   <Country>
     <DisplayName>Bosnia and Herzegovina</DisplayName>
@@ -256,9 +292,10 @@
     <Area>51209</Area>
     <Distance>913.99785490501222</Distance>
     <GINI>36.2</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>3531159</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Botswana</DisplayName>
@@ -266,9 +303,10 @@
     <Area>582000</Area>
     <Distance>8240.349122272095</Distance>
     <GINI>61</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>2141206</Population>
+    <TimeZone>2</TimeZone>
   </Country>
   <Country>
     <DisplayName>Bouvet Island</DisplayName>
@@ -276,9 +314,21 @@
     <Area>49</Area>
     <Distance>11909.551076202568</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>0</Population>
+    <TimeZone>1</TimeZone>
+  </Country>
+  <Country>
+    <DisplayName>Brazil</DisplayName>
+    <Capital>BrasĂ­lia</Capital>
+    <Area>8515767</Area>
+    <Distance>8646.8352417763126</Distance>
+    <GINI>54.7</GINI>
+    <Climate>Tropical</Climate>
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>206135893</Population>
+    <TimeZone>-5</TimeZone>
   </Country>
   <Country>
     <DisplayName>British Indian Ocean Territory</DisplayName>
@@ -286,9 +336,10 @@
     <Area>60</Area>
     <Distance>7325.797651699756</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>3000</Population>
+    <TimeZone>6</TimeZone>
   </Country>
   <Country>
     <DisplayName>Virgin Islands (British)</DisplayName>
@@ -296,9 +347,10 @@
     <Area>151</Area>
     <Distance>6957.1008632582989</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>28514</Population>
+    <TimeZone>-4</TimeZone>
   </Country>
   <Country>
     <DisplayName>Virgin Islands (U.S.)</DisplayName>
@@ -306,9 +358,10 @@
     <Area>346</Area>
     <Distance>6980.3104172449512</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>114743</Population>
+    <TimeZone>-4</TimeZone>
   </Country>
   <Country>
     <DisplayName>Brunei Darussalam</DisplayName>
@@ -316,9 +369,10 @@
     <Area>5765</Area>
     <Distance>8316.9290515589764</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>411900</Population>
+    <TimeZone>8</TimeZone>
   </Country>
   <Country>
     <DisplayName>Bulgaria</DisplayName>
@@ -326,19 +380,10 @@
     <Area>110879</Area>
     <Distance>1038.7224686249726</Distance>
     <GINI>28.2</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>7153784</Population>
-  </Country>
-  <Country>
-    <DisplayName>Burkina Faso</DisplayName>
-    <Capital>Ouagadougou</Capital>
-    <Area>272967</Area>
-    <Distance>4618.8477143629225</Distance>
-    <GINI>39.8</GINI>
-    <Climate />
-    <CountOfMonuments>0</CountOfMonuments>
-    <Population>19034397</Population>
+    <TimeZone>2</TimeZone>
   </Country>
   <Country>
     <DisplayName>Burundi</DisplayName>
@@ -346,9 +391,10 @@
     <Area>27834</Area>
     <Distance>6209.0524143185494</Distance>
     <GINI>33.3</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>10114505</Population>
+    <TimeZone>2</TimeZone>
   </Country>
   <Country>
     <DisplayName>Cambodia</DisplayName>
@@ -356,9 +402,10 @@
     <Area>181035</Area>
     <Distance>7210.5849707351417</Distance>
     <GINI>37.9</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>15626444</Population>
+    <TimeZone>7</TimeZone>
   </Country>
   <Country>
     <DisplayName>Cameroon</DisplayName>
@@ -366,9 +413,10 @@
     <Area>475442</Area>
     <Distance>5157.8006960134735</Distance>
     <GINI>38.9</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>112</CountOfMonuments>
     <Population>22709892</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Cabo Verde</DisplayName>
@@ -376,9 +424,10 @@
     <Area>4033</Area>
     <Distance>5056.9258669471246</Distance>
     <GINI>50.5</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>531239</Population>
+    <TimeZone>-1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Cayman Islands</DisplayName>
@@ -386,9 +435,10 @@
     <Area>264</Area>
     <Distance>7841.0143584271864</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>58238</Population>
+    <TimeZone>-5</TimeZone>
   </Country>
   <Country>
     <DisplayName>Central African Republic</DisplayName>
@@ -396,9 +446,10 @@
     <Area>622984</Area>
     <Distance>5009.463</Distance>
     <GINI>56.3</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>4998000</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Chad</DisplayName>
@@ -406,9 +457,10 @@
     <Area>1284000</Area>
     <Distance>4121.1719882007028</Distance>
     <GINI>39.8</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>14497000</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>China</DisplayName>
@@ -416,9 +468,10 @@
     <Area>9640011</Area>
     <Distance>6060.1181648136853</Distance>
     <GINI>47</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>2232</CountOfMonuments>
     <Population>1377422166</Population>
+    <TimeZone>8</TimeZone>
   </Country>
   <Country>
     <DisplayName>Christmas Island</DisplayName>
@@ -426,9 +479,10 @@
     <Area>135</Area>
     <Distance>9059.7910296775062</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>2072</Population>
+    <TimeZone>7</TimeZone>
   </Country>
   <Country>
     <DisplayName>Cocos (Keeling) Islands</DisplayName>
@@ -436,9 +490,10 @@
     <Area>14</Area>
     <Distance>8863.8596243527518</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>550</Population>
+    <TimeZone>6</TimeZone>
   </Country>
   <Country>
     <DisplayName>Comoros</DisplayName>
@@ -446,9 +501,10 @@
     <Area>1862</Area>
     <Distance>7318.6987738388543</Distance>
     <GINI>64.3</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>806153</Population>
+    <TimeZone>3</TimeZone>
   </Country>
   <Country>
     <DisplayName>Congo</DisplayName>
@@ -456,9 +512,10 @@
     <Area>342000</Area>
     <Distance>5914.3472697480092</Distance>
     <GINI>47.3</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>4741000</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Congo (Democratic Republic of the)</DisplayName>
@@ -466,9 +523,10 @@
     <Area>2344858</Area>
     <Distance>5795.20072696153</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>85026000</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Cook Islands</DisplayName>
@@ -476,9 +534,21 @@
     <Area>236</Area>
     <Distance>14830.761488967941</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>18100</Population>
+    <TimeZone>-10</TimeZone>
+  </Country>
+  <Country>
+    <DisplayName>Costa Rica</DisplayName>
+    <Capital>San JosĂ©</Capital>
+    <Area>51100</Area>
+    <Distance>8581.7937660589123</Distance>
+    <GINI>50.7</GINI>
+    <Climate>Tropical</Climate>
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>4890379</Population>
+    <TimeZone>-6</TimeZone>
   </Country>
   <Country>
     <DisplayName>Croatia</DisplayName>
@@ -486,9 +556,10 @@
     <Area>56594</Area>
     <Distance>848.96983940672931</Distance>
     <GINI>33.7</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>6229</CountOfMonuments>
     <Population>4190669</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Cuba</DisplayName>
@@ -496,9 +567,21 @@
     <Area>109884</Area>
     <Distance>7710.0235419274959</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>11239004</Population>
+    <TimeZone>-5</TimeZone>
+  </Country>
+  <Country>
+    <DisplayName>CuraĂ§ao</DisplayName>
+    <Capital>Willemstad</Capital>
+    <Area>444</Area>
+    <Distance>7596.2886171484324</Distance>
+    <GINI>0</GINI>
+    <Climate>Tropical</Climate>
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>154843</Population>
+    <TimeZone>-4</TimeZone>
   </Country>
   <Country>
     <DisplayName>Cyprus</DisplayName>
@@ -506,9 +589,10 @@
     <Area>9251</Area>
     <Distance>2063.448448189296</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>847000</Population>
+    <TimeZone>2</TimeZone>
   </Country>
   <Country>
     <DisplayName>Czech Republic</DisplayName>
@@ -516,9 +600,10 @@
     <Area>78865</Area>
     <Distance>452.57908320712119</Distance>
     <GINI>26</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>41026</CountOfMonuments>
     <Population>10558524</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Denmark</DisplayName>
@@ -526,9 +611,10 @@
     <Area>43094</Area>
     <Distance>875.58173593906326</Distance>
     <GINI>24</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>5717014</Population>
+    <TimeZone>-4</TimeZone>
   </Country>
   <Country>
     <DisplayName>Djibouti</DisplayName>
@@ -536,9 +622,10 @@
     <Area>23200</Area>
     <Distance>4753.9645851804262</Distance>
     <GINI>40</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>900000</Population>
+    <TimeZone>3</TimeZone>
   </Country>
   <Country>
     <DisplayName>Dominica</DisplayName>
@@ -546,9 +633,10 @@
     <Area>751</Area>
     <Distance>6958.9337192898529</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>71293</Population>
+    <TimeZone>-4</TimeZone>
   </Country>
   <Country>
     <DisplayName>Dominican Republic</DisplayName>
@@ -556,9 +644,10 @@
     <Area>48671</Area>
     <Distance>7277.7134059830314</Distance>
     <GINI>47.2</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>10075045</Population>
+    <TimeZone>-4</TimeZone>
   </Country>
   <Country>
     <DisplayName>Ecuador</DisplayName>
@@ -566,9 +655,10 @@
     <Area>276841</Area>
     <Distance>9039.360499742641</Distance>
     <GINI>49.3</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>16545799</Population>
+    <TimeZone>-6</TimeZone>
   </Country>
   <Country>
     <DisplayName>Egypt</DisplayName>
@@ -576,9 +666,10 @@
     <Area>1002450</Area>
     <Distance>2850.5716899840827</Distance>
     <GINI>30.8</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>172</CountOfMonuments>
     <Population>91290000</Population>
+    <TimeZone>2</TimeZone>
   </Country>
   <Country>
     <DisplayName>El Salvador</DisplayName>
@@ -586,9 +677,10 @@
     <Area>21041</Area>
     <Distance>8648.8350055557876</Distance>
     <GINI>48.3</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>641</CountOfMonuments>
     <Population>6520675</Population>
+    <TimeZone>-6</TimeZone>
   </Country>
   <Country>
     <DisplayName>Equatorial Guinea</DisplayName>
@@ -596,9 +688,10 @@
     <Area>28051</Area>
     <Distance>5616.8941022279123</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>1222442</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Eritrea</DisplayName>
@@ -606,9 +699,10 @@
     <Area>117600</Area>
     <Distance>4299.6709471960849</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>5352000</Population>
+    <TimeZone>3</TimeZone>
   </Country>
   <Country>
     <DisplayName>Estonia</DisplayName>
@@ -616,9 +710,10 @@
     <Area>45227</Area>
     <Distance>851.27014055067184</Distance>
     <GINI>36</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>24552</CountOfMonuments>
     <Population>1315944</Population>
+    <TimeZone>2</TimeZone>
   </Country>
   <Country>
     <DisplayName>Ethiopia</DisplayName>
@@ -626,9 +721,10 @@
     <Area>1104300</Area>
     <Distance>5034.807730763413</Distance>
     <GINI>29.8</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>92206005</Population>
+    <TimeZone>3</TimeZone>
   </Country>
   <Country>
     <DisplayName>Falkland Islands (Malvinas)</DisplayName>
@@ -636,9 +732,10 @@
     <Area>12173</Area>
     <Distance>12784.967125317977</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>2563</Population>
+    <TimeZone>-4</TimeZone>
   </Country>
   <Country>
     <DisplayName>Faroe Islands</DisplayName>
@@ -646,9 +743,10 @@
     <Area>1393</Area>
     <Distance>2218.5285820751242</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Temperate</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>49376</Population>
+    <TimeZone>0</TimeZone>
   </Country>
   <Country>
     <DisplayName>Fiji</DisplayName>
@@ -656,9 +754,10 @@
     <Area>18272</Area>
     <Distance>13119.542323784541</Distance>
     <GINI>42.8</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>867000</Population>
+    <TimeZone>12</TimeZone>
   </Country>
   <Country>
     <DisplayName>Finland</DisplayName>
@@ -666,9 +765,10 @@
     <Area>338424</Area>
     <Distance>1379.1098547611646</Distance>
     <GINI>26.9</GINI>
-    <Climate />
+    <Climate>Temperate</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>5491817</Population>
+    <TimeZone>2</TimeZone>
   </Country>
   <Country>
     <DisplayName>French Polynesia</DisplayName>
@@ -676,9 +776,10 @@
     <Area>4167</Area>
     <Distance>13318.651252817816</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>271800</Population>
+    <TimeZone>-10</TimeZone>
   </Country>
   <Country>
     <DisplayName>French Southern Territories</DisplayName>
@@ -686,9 +787,10 @@
     <Area>7747</Area>
     <Distance>11744.780067542819</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>140</Population>
+    <TimeZone>5</TimeZone>
   </Country>
   <Country>
     <DisplayName>Gabon</DisplayName>
@@ -696,9 +798,10 @@
     <Area>267668</Area>
     <Distance>5933.9961067090017</Distance>
     <GINI>41.5</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>1802278</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Gambia</DisplayName>
@@ -706,9 +809,10 @@
     <Area>11295</Area>
     <Distance>5002.9505778243774</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>1882450</Population>
+    <TimeZone>0</TimeZone>
   </Country>
   <Country>
     <DisplayName>Georgia</DisplayName>
@@ -716,9 +820,10 @@
     <Area>69700</Area>
     <Distance>1901.897759609252</Distance>
     <GINI>41.3</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>7398</CountOfMonuments>
     <Population>3720400</Population>
+    <TimeZone>-5</TimeZone>
   </Country>
   <Country>
     <DisplayName>Germany</DisplayName>
@@ -726,19 +831,10 @@
     <Area>357114</Area>
     <Distance>829.935369846553</Distance>
     <GINI>28.3</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>81770900</Population>
-  </Country>
-  <Country>
-    <DisplayName>Ghana</DisplayName>
-    <Capital>Accra</Capital>
-    <Area>238533</Area>
-    <Distance>5145.5439614416846</Distance>
-    <GINI>42.8</GINI>
-    <Climate />
-    <CountOfMonuments>57</CountOfMonuments>
-    <Population>27670174</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Gibraltar</DisplayName>
@@ -746,9 +842,10 @@
     <Area>6</Area>
     <Distance>2526.1042019870674</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>33140</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Greece</DisplayName>
@@ -756,9 +853,10 @@
     <Area>131990</Area>
     <Distance>1448.8001817403824</Distance>
     <GINI>34.3</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>10858018</Population>
+    <TimeZone>2</TimeZone>
   </Country>
   <Country>
     <DisplayName>Greenland</DisplayName>
@@ -766,9 +864,10 @@
     <Area>2166086</Area>
     <Distance>4736.5971277422423</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Temperate</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>55847</Population>
+    <TimeZone>-4</TimeZone>
   </Country>
   <Country>
     <DisplayName>Grenada</DisplayName>
@@ -776,9 +875,10 @@
     <Area>344</Area>
     <Distance>7198.0704148792211</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>103328</Population>
+    <TimeZone>-4</TimeZone>
   </Country>
   <Country>
     <DisplayName>Guam</DisplayName>
@@ -786,9 +886,10 @@
     <Area>549</Area>
     <Distance>9506.4649707926546</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>184200</Population>
+    <TimeZone>10</TimeZone>
   </Country>
   <Country>
     <DisplayName>Guatemala</DisplayName>
@@ -796,9 +897,10 @@
     <Area>108889</Area>
     <Distance>8639.7531257663231</Distance>
     <GINI>55.9</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>16176133</Population>
+    <TimeZone>-6</TimeZone>
   </Country>
   <Country>
     <DisplayName>Guernsey</DisplayName>
@@ -806,29 +908,10 @@
     <Area>78</Area>
     <Distance>1640.7327879555992</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>62999</Population>
-  </Country>
-  <Country>
-    <DisplayName>Guinea</DisplayName>
-    <Capital>Conakry</Capital>
-    <Area>245857</Area>
-    <Distance>5034.4560437272967</Distance>
-    <GINI>39.4</GINI>
-    <Climate />
-    <CountOfMonuments>0</CountOfMonuments>
-    <Population>12947000</Population>
-  </Country>
-  <Country>
-    <DisplayName>Guinea-Bissau</DisplayName>
-    <Capital>Bissau</Capital>
-    <Area>36125</Area>
-    <Distance>5090.729705352207</Distance>
-    <GINI>35.5</GINI>
-    <Climate />
-    <CountOfMonuments>0</CountOfMonuments>
-    <Population>1547777</Population>
+    <TimeZone>0</TimeZone>
   </Country>
   <Country>
     <DisplayName>Guyana</DisplayName>
@@ -836,9 +919,10 @@
     <Area>214969</Area>
     <Distance>7578.7310982137715</Distance>
     <GINI>44.5</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>746900</Population>
+    <TimeZone>-4</TimeZone>
   </Country>
   <Country>
     <DisplayName>Haiti</DisplayName>
@@ -846,9 +930,10 @@
     <Area>27750</Area>
     <Distance>7381.49874479417</Distance>
     <GINI>59.2</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>11078033</Population>
+    <TimeZone>-5</TimeZone>
   </Country>
   <Country>
     <DisplayName>Heard Island and McDonald Islands</DisplayName>
@@ -856,9 +941,10 @@
     <Area>412</Area>
     <Distance>12221.024885905583</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>0</Population>
+    <TimeZone>5</TimeZone>
   </Country>
   <Country>
     <DisplayName>Holy See</DisplayName>
@@ -866,9 +952,21 @@
     <Area>0</Area>
     <Distance>1267.8852724385295</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>451</Population>
+    <TimeZone>1</TimeZone>
+  </Country>
+  <Country>
+    <DisplayName>Honduras</DisplayName>
+    <Capital>Tegucigalpa</Capital>
+    <Area>112492</Area>
+    <Distance>8440.8272790098727</Distance>
+    <GINI>57</GINI>
+    <Climate>Tropical</Climate>
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>8576532</Population>
+    <TimeZone>-6</TimeZone>
   </Country>
   <Country>
     <DisplayName>Hong Kong</DisplayName>
@@ -876,9 +974,10 @@
     <Area>1104</Area>
     <Distance>7193.0613567088521</Distance>
     <GINI>53.3</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>114</CountOfMonuments>
     <Population>7324300</Population>
+    <TimeZone>8</TimeZone>
   </Country>
   <Country>
     <DisplayName>Hungary</DisplayName>
@@ -886,19 +985,10 @@
     <Area>93028</Area>
     <Distance>560.81064228911066</Distance>
     <GINI>31.2</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>1174</CountOfMonuments>
     <Population>9823000</Population>
-  </Country>
-  <Country>
-    <DisplayName>Iceland</DisplayName>
-    <Capital>ReykjavĂ­k</Capital>
-    <Area>103000</Area>
-    <Distance>3039.5398551939888</Distance>
-    <GINI>0</GINI>
-    <Climate />
-    <CountOfMonuments>0</CountOfMonuments>
-    <Population>334300</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Indonesia</DisplayName>
@@ -906,19 +996,10 @@
     <Area>1904569</Area>
     <Distance>9289.810349755855</Distance>
     <GINI>34</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>258705000</Population>
-  </Country>
-  <Country>
-    <DisplayName>CĂ´te d'Ivoire</DisplayName>
-    <Capital>Yamoussoukro</Capital>
-    <Area>322463</Area>
-    <Distance>5212.2082263969978</Distance>
-    <GINI>41.5</GINI>
-    <Climate />
-    <CountOfMonuments>0</CountOfMonuments>
-    <Population>22671331</Population>
+    <TimeZone>7</TimeZone>
   </Country>
   <Country>
     <DisplayName>Iran (Islamic Republic of)</DisplayName>
@@ -926,9 +1007,10 @@
     <Area>1648195</Area>
     <Distance>3125.2102444869556</Distance>
     <GINI>38.3</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>26644</CountOfMonuments>
     <Population>79369900</Population>
+    <TimeZone>3</TimeZone>
   </Country>
   <Country>
     <DisplayName>Iraq</DisplayName>
@@ -936,19 +1018,10 @@
     <Area>438317</Area>
     <Distance>2637.898302596594</Distance>
     <GINI>30.9</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>161</CountOfMonuments>
     <Population>37883543</Population>
-  </Country>
-  <Country>
-    <DisplayName>Ireland</DisplayName>
-    <Capital>Dublin</Capital>
-    <Area>70273</Area>
-    <Distance>1990.6676982767706</Distance>
-    <GINI>34.3</GINI>
-    <Climate />
-    <CountOfMonuments>622</CountOfMonuments>
-    <Population>6378000</Population>
+    <TimeZone>3</TimeZone>
   </Country>
   <Country>
     <DisplayName>Isle of Man</DisplayName>
@@ -956,9 +1029,10 @@
     <Area>572</Area>
     <Distance>1765.5329906591917</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>84497</Population>
+    <TimeZone>0</TimeZone>
   </Country>
   <Country>
     <DisplayName>Israel</DisplayName>
@@ -966,9 +1040,10 @@
     <Area>20770</Area>
     <Distance>2469.0074438330807</Distance>
     <GINI>39.2</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>1349</CountOfMonuments>
     <Population>8527400</Population>
+    <TimeZone>2</TimeZone>
   </Country>
   <Country>
     <DisplayName>Italy</DisplayName>
@@ -976,9 +1051,10 @@
     <Area>301336</Area>
     <Distance>1163.8681750548021</Distance>
     <GINI>36</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>5166</CountOfMonuments>
     <Population>60665551</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Jamaica</DisplayName>
@@ -986,9 +1062,21 @@
     <Area>10991</Area>
     <Distance>7725.8929477836882</Distance>
     <GINI>45.5</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>2723246</Population>
+    <TimeZone>-5</TimeZone>
+  </Country>
+  <Country>
+    <DisplayName>Japan</DisplayName>
+    <Capital>Tokyo</Capital>
+    <Area>377930</Area>
+    <Distance>8214.1809298246444</Distance>
+    <GINI>38.1</GINI>
+    <Climate>Subtropical</Climate>
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>126960000</Population>
+    <TimeZone>9</TimeZone>
   </Country>
   <Country>
     <DisplayName>Jersey</DisplayName>
@@ -996,9 +1084,10 @@
     <Area>116</Area>
     <Distance>1617.0009238349917</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>100800</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Jordan</DisplayName>
@@ -1006,9 +1095,10 @@
     <Area>89342</Area>
     <Distance>2553.8104216520151</Distance>
     <GINI>35.4</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>79</CountOfMonuments>
     <Population>9531712</Population>
+    <TimeZone>3</TimeZone>
   </Country>
   <Country>
     <DisplayName>Kazakhstan</DisplayName>
@@ -1016,9 +1106,10 @@
     <Area>2724900</Area>
     <Distance>3251.8375120327723</Distance>
     <GINI>29</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>17753200</Population>
+    <TimeZone>5</TimeZone>
   </Country>
   <Country>
     <DisplayName>Kenya</DisplayName>
@@ -1026,9 +1117,10 @@
     <Area>580367</Area>
     <Distance>5795.711419739464</Distance>
     <GINI>47.7</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>208</CountOfMonuments>
     <Population>47251000</Population>
+    <TimeZone>3</TimeZone>
   </Country>
   <Country>
     <DisplayName>Kiribati</DisplayName>
@@ -1036,9 +1128,10 @@
     <Area>811</Area>
     <Distance>11841.997714455967</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>113400</Population>
+    <TimeZone>12</TimeZone>
   </Country>
   <Country>
     <DisplayName>Kuwait</DisplayName>
@@ -1046,9 +1139,10 @@
     <Area>17818</Area>
     <Distance>3025.0658170901315</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>4183658</Population>
+    <TimeZone>3</TimeZone>
   </Country>
   <Country>
     <DisplayName>Kyrgyzstan</DisplayName>
@@ -1056,9 +1150,10 @@
     <Area>199951</Area>
     <Distance>3898.2806841409893</Distance>
     <GINI>36.2</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>6047800</Population>
+    <TimeZone>6</TimeZone>
   </Country>
   <Country>
     <DisplayName>Lao People's Democratic Republic</DisplayName>
@@ -1066,9 +1161,10 @@
     <Area>236800</Area>
     <Distance>6889.7960691471935</Distance>
     <GINI>36.7</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>6492400</Population>
+    <TimeZone>7</TimeZone>
   </Country>
   <Country>
     <DisplayName>Latvia</DisplayName>
@@ -1076,9 +1172,10 @@
     <Area>64559</Area>
     <Distance>620.45703907732172</Distance>
     <GINI>36.6</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>1961600</Population>
+    <TimeZone>2</TimeZone>
   </Country>
   <Country>
     <DisplayName>Lebanon</DisplayName>
@@ -1086,9 +1183,10 @@
     <Area>10452</Area>
     <Distance>2263.4871015547378</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>5988000</Population>
+    <TimeZone>2</TimeZone>
   </Country>
   <Country>
     <DisplayName>Lesotho</DisplayName>
@@ -1096,9 +1194,10 @@
     <Area>30355</Area>
     <Distance>9087.2436461948855</Distance>
     <GINI>52.5</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>1894194</Population>
+    <TimeZone>2</TimeZone>
   </Country>
   <Country>
     <DisplayName>Libya</DisplayName>
@@ -1106,9 +1205,10 @@
     <Area>1759540</Area>
     <Distance>3018.1541747075207</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>6385000</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Liechtenstein</DisplayName>
@@ -1116,9 +1216,10 @@
     <Area>160</Area>
     <Distance>946.18071524804918</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>37623</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Lithuania</DisplayName>
@@ -1126,9 +1227,10 @@
     <Area>65300</Area>
     <Distance>490.46333407185841</Distance>
     <GINI>37.6</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>2872294</Population>
+    <TimeZone>2</TimeZone>
   </Country>
   <Country>
     <DisplayName>Luxembourg</DisplayName>
@@ -1136,9 +1238,10 @@
     <Area>2586</Area>
     <Distance>1047.0227172823818</Distance>
     <GINI>30.8</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>907</CountOfMonuments>
     <Population>576200</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Macao</DisplayName>
@@ -1146,9 +1249,10 @@
     <Area>30</Area>
     <Distance>7159.8682096335415</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>649100</Population>
+    <TimeZone>8</TimeZone>
   </Country>
   <Country>
     <DisplayName>Macedonia (the former Yugoslav Republic of)</DisplayName>
@@ -1156,9 +1260,10 @@
     <Area>25713</Area>
     <Distance>1133.8408397364442</Distance>
     <GINI>43.2</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>2058539</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Madagascar</DisplayName>
@@ -1166,9 +1271,10 @@
     <Area>587041</Area>
     <Distance>8210.8346412222072</Distance>
     <GINI>44.1</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>22434363</Population>
+    <TimeZone>3</TimeZone>
   </Country>
   <Country>
     <DisplayName>Malawi</DisplayName>
@@ -1176,9 +1282,10 @@
     <Area>118484</Area>
     <Distance>7345.7849859079306</Distance>
     <GINI>39</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>16832910</Population>
+    <TimeZone>2</TimeZone>
   </Country>
   <Country>
     <DisplayName>Malaysia</DisplayName>
@@ -1186,9 +1293,10 @@
     <Area>330803</Area>
     <Distance>8348.1102504739738</Distance>
     <GINI>46.2</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>31405416</Population>
+    <TimeZone>8</TimeZone>
   </Country>
   <Country>
     <DisplayName>Maldives</DisplayName>
@@ -1196,19 +1304,10 @@
     <Area>300</Area>
     <Distance>6492.5138073679127</Distance>
     <GINI>37.4</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>344023</Population>
-  </Country>
-  <Country>
-    <DisplayName>Mali</DisplayName>
-    <Capital>Bamako</Capital>
-    <Area>1240192</Area>
-    <Distance>4256.3507027533587</Distance>
-    <GINI>33</GINI>
-    <Climate />
-    <CountOfMonuments>0</CountOfMonuments>
-    <Population>18135000</Population>
+    <TimeZone>5</TimeZone>
   </Country>
   <Country>
     <DisplayName>Malta</DisplayName>
@@ -1216,9 +1315,10 @@
     <Area>316</Area>
     <Distance>1852.6487121267764</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>116</CountOfMonuments>
     <Population>425384</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Marshall Islands</DisplayName>
@@ -1226,19 +1326,10 @@
     <Area>181</Area>
     <Distance>11154.190344766657</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>54880</Population>
-  </Country>
-  <Country>
-    <DisplayName>Mauritania</DisplayName>
-    <Capital>Nouakchott</Capital>
-    <Area>1030700</Area>
-    <Distance>4219.6149105096511</Distance>
-    <GINI>40.5</GINI>
-    <Climate />
-    <CountOfMonuments>0</CountOfMonuments>
-    <Population>3718678</Population>
+    <TimeZone>12</TimeZone>
   </Country>
   <Country>
     <DisplayName>Mauritius</DisplayName>
@@ -1246,9 +1337,10 @@
     <Area>2040</Area>
     <Distance>8427.58105050487</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>1262879</Population>
+    <TimeZone>4</TimeZone>
   </Country>
   <Country>
     <DisplayName>Mexico</DisplayName>
@@ -1256,9 +1348,10 @@
     <Area>1964375</Area>
     <Distance>9026.97937493186</Distance>
     <GINI>47</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>9947</CountOfMonuments>
     <Population>122273473</Population>
+    <TimeZone>-8</TimeZone>
   </Country>
   <Country>
     <DisplayName>Micronesia (Federated States of)</DisplayName>
@@ -1266,9 +1359,10 @@
     <Area>702</Area>
     <Distance>10661.707215379805</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>102800</Population>
+    <TimeZone>10</TimeZone>
   </Country>
   <Country>
     <DisplayName>Moldova (Republic of)</DisplayName>
@@ -1276,9 +1370,10 @@
     <Area>33846</Area>
     <Distance>781.3025611217389</Distance>
     <GINI>33</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>3553100</Population>
+    <TimeZone>2</TimeZone>
   </Country>
   <Country>
     <DisplayName>Monaco</DisplayName>
@@ -1286,9 +1381,10 @@
     <Area>2</Area>
     <Distance>1309.8363776813985</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>38400</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Mongolia</DisplayName>
@@ -1296,9 +1392,10 @@
     <Area>1564110</Area>
     <Distance>5795.6657326592695</Distance>
     <GINI>36.5</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>3093100</Population>
+    <TimeZone>7</TimeZone>
   </Country>
   <Country>
     <DisplayName>Montenegro</DisplayName>
@@ -1306,9 +1403,10 @@
     <Area>13812</Area>
     <Distance>1063.9520477267454</Distance>
     <GINI>30</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>621810</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Montserrat</DisplayName>
@@ -1316,19 +1414,21 @@
     <Area>102</Area>
     <Distance>6921.9730563327839</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>4922</Population>
+    <TimeZone>-4</TimeZone>
   </Country>
   <Country>
-    <DisplayName>Morocco</DisplayName>
-    <Capital>Rabat</Capital>
-    <Area>446550</Area>
-    <Distance>2851.7196743112709</Distance>
-    <GINI>40.9</GINI>
-    <Climate />
+    <DisplayName>Mozambique</DisplayName>
+    <Capital>Maputo</Capital>
+    <Area>801590</Area>
+    <Distance>7878.9714694708573</Distance>
+    <GINI>45.7</GINI>
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
-    <Population>33337529</Population>
+    <Population>26423700</Population>
+    <TimeZone>2</TimeZone>
   </Country>
   <Country>
     <DisplayName>Myanmar</DisplayName>
@@ -1336,9 +1436,10 @@
     <Area>676578</Area>
     <Distance>6245.242198230304</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>51419420</Population>
+    <TimeZone>6</TimeZone>
   </Country>
   <Country>
     <DisplayName>Namibia</DisplayName>
@@ -1346,9 +1447,10 @@
     <Area>825615</Area>
     <Distance>8242.3439764014056</Distance>
     <GINI>63.9</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>2324388</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Nauru</DisplayName>
@@ -1356,9 +1458,10 @@
     <Area>21</Area>
     <Distance>11584.983833631892</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>10084</Population>
+    <TimeZone>12</TimeZone>
   </Country>
   <Country>
     <DisplayName>Nepal</DisplayName>
@@ -1366,9 +1469,10 @@
     <Area>147181</Area>
     <Distance>5077.5324555926554</Distance>
     <GINI>32.8</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>39</CountOfMonuments>
     <Population>28431500</Population>
+    <TimeZone>5</TimeZone>
   </Country>
   <Country>
     <DisplayName>Netherlands</DisplayName>
@@ -1376,9 +1480,10 @@
     <Area>41850</Area>
     <Distance>1046.659583142482</Distance>
     <GINI>30.9</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>63259</CountOfMonuments>
     <Population>17019800</Population>
+    <TimeZone>-4</TimeZone>
   </Country>
   <Country>
     <DisplayName>New Caledonia</DisplayName>
@@ -1386,9 +1491,10 @@
     <Area>18575</Area>
     <Distance>12846.258122124613</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>268767</Population>
+    <TimeZone>11</TimeZone>
   </Country>
   <Country>
     <DisplayName>New Zealand</DisplayName>
@@ -1396,9 +1502,10 @@
     <Area>270467</Area>
     <Distance>14735.659245982803</Distance>
     <GINI>36.2</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>4697854</Population>
+    <TimeZone>-11</TimeZone>
   </Country>
   <Country>
     <DisplayName>Nicaragua</DisplayName>
@@ -1406,9 +1513,10 @@
     <Area>130373</Area>
     <Distance>8463.2695911876326</Distance>
     <GINI>40.5</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>6262703</Population>
+    <TimeZone>-6</TimeZone>
   </Country>
   <Country>
     <DisplayName>Niger</DisplayName>
@@ -1416,9 +1524,10 @@
     <Area>1267000</Area>
     <Distance>4105.4173206111036</Distance>
     <GINI>34.6</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>20715000</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Nigeria</DisplayName>
@@ -1426,9 +1535,10 @@
     <Area>923768</Area>
     <Distance>4759.6344286319854</Distance>
     <GINI>48.8</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>64</CountOfMonuments>
     <Population>186988000</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Niue</DisplayName>
@@ -1436,9 +1546,10 @@
     <Area>260</Area>
     <Distance>15285.591302922572</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>1470</Population>
+    <TimeZone>-11</TimeZone>
   </Country>
   <Country>
     <DisplayName>Norfolk Island</DisplayName>
@@ -1446,9 +1557,10 @@
     <Area>36</Area>
     <Distance>13520.61764569733</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>2302</Population>
+    <TimeZone>11</TimeZone>
   </Country>
   <Country>
     <DisplayName>Korea (Democratic People's Republic of)</DisplayName>
@@ -1456,9 +1568,10 @@
     <Area>120538</Area>
     <Distance>7386.6449001038573</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>25281000</Population>
+    <TimeZone>9</TimeZone>
   </Country>
   <Country>
     <DisplayName>Northern Mariana Islands</DisplayName>
@@ -1466,9 +1579,10 @@
     <Area>464</Area>
     <Distance>9480.6750804645962</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>56940</Population>
+    <TimeZone>10</TimeZone>
   </Country>
   <Country>
     <DisplayName>Norway</DisplayName>
@@ -1476,9 +1590,10 @@
     <Area>323802</Area>
     <Distance>1344.4736964845029</Distance>
     <GINI>25.8</GINI>
-    <Climate />
+    <Climate>Temperate</Climate>
     <CountOfMonuments>16737</CountOfMonuments>
     <Population>5223256</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Oman</DisplayName>
@@ -1486,9 +1601,10 @@
     <Area>309500</Area>
     <Distance>4242.2577437443533</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>4420133</Population>
+    <TimeZone>4</TimeZone>
   </Country>
   <Country>
     <DisplayName>Pakistan</DisplayName>
@@ -1496,9 +1612,10 @@
     <Area>881912</Area>
     <Distance>4156.4387089439851</Distance>
     <GINI>30</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>1137</CountOfMonuments>
     <Population>194125062</Population>
+    <TimeZone>5</TimeZone>
   </Country>
   <Country>
     <DisplayName>Palau</DisplayName>
@@ -1506,9 +1623,10 @@
     <Area>459</Area>
     <Distance>9222.30837802263</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>17950</Population>
+    <TimeZone>9</TimeZone>
   </Country>
   <Country>
     <DisplayName>Panama</DisplayName>
@@ -1516,9 +1634,21 @@
     <Area>75417</Area>
     <Distance>8416.0578788157673</Distance>
     <GINI>51.9</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>220</CountOfMonuments>
     <Population>3814672</Population>
+    <TimeZone>-5</TimeZone>
+  </Country>
+  <Country>
+    <DisplayName>Papua New Guinea</DisplayName>
+    <Capital>Port Moresby</Capital>
+    <Area>462840</Area>
+    <Distance>10782.455411186485</Distance>
+    <GINI>50.9</GINI>
+    <Climate>Tropical</Climate>
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>8083700</Population>
+    <TimeZone>10</TimeZone>
   </Country>
   <Country>
     <DisplayName>Paraguay</DisplayName>
@@ -1526,9 +1656,10 @@
     <Area>406752</Area>
     <Distance>9951.0265617575169</Distance>
     <GINI>52.4</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>6854536</Population>
+    <TimeZone>-4</TimeZone>
   </Country>
   <Country>
     <DisplayName>Peru</DisplayName>
@@ -1536,9 +1667,10 @@
     <Area>1285216</Area>
     <Distance>9582.941860038236</Distance>
     <GINI>48.1</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>2151</CountOfMonuments>
     <Population>31488700</Population>
+    <TimeZone>-5</TimeZone>
   </Country>
   <Country>
     <DisplayName>Pitcairn</DisplayName>
@@ -1546,9 +1678,10 @@
     <Area>47</Area>
     <Distance>13447.87914283719</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>56</Population>
+    <TimeZone>-8</TimeZone>
   </Country>
   <Country>
     <DisplayName>Poland</DisplayName>
@@ -1556,9 +1689,10 @@
     <Area>312679</Area>
     <Distance>68.536297359317729</Distance>
     <GINI>34.1</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>77182</CountOfMonuments>
     <Population>38437239</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Portugal</DisplayName>
@@ -1566,9 +1700,10 @@
     <Area>92090</Area>
     <Distance>2426.2494479485877</Distance>
     <GINI>38.5</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>4495</CountOfMonuments>
     <Population>10374822</Population>
+    <TimeZone>-1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Puerto Rico</DisplayName>
@@ -1576,9 +1711,10 @@
     <Area>8870</Area>
     <Distance>7076.6447856735567</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>3474182</Population>
+    <TimeZone>-4</TimeZone>
   </Country>
   <Country>
     <DisplayName>Qatar</DisplayName>
@@ -1586,9 +1722,10 @@
     <Area>11586</Area>
     <Distance>3605.669768265544</Distance>
     <GINI>41.1</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>2587564</Population>
+    <TimeZone>3</TimeZone>
   </Country>
   <Country>
     <DisplayName>Republic of Kosovo</DisplayName>
@@ -1596,9 +1733,10 @@
     <Area>10908</Area>
     <Distance>1039.0624849959906</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>1411</CountOfMonuments>
     <Population>1733842</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Rwanda</DisplayName>
@@ -1606,9 +1744,10 @@
     <Area>26338</Area>
     <Distance>6042.919104056009</Distance>
     <GINI>50.8</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>11553188</Population>
+    <TimeZone>2</TimeZone>
   </Country>
   <Country>
     <DisplayName>Saint BarthĂ©lemy</DisplayName>
@@ -1616,9 +1755,10 @@
     <Area>21</Area>
     <Distance>6883.3615129187547</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>9417</Population>
+    <TimeZone>-4</TimeZone>
   </Country>
   <Country>
     <DisplayName>Saint Kitts and Nevis</DisplayName>
@@ -1626,9 +1766,21 @@
     <Area>261</Area>
     <Distance>6916.6176020711819</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>46204</Population>
+    <TimeZone>-4</TimeZone>
+  </Country>
+  <Country>
+    <DisplayName>Saint Lucia</DisplayName>
+    <Capital>Castries</Capital>
+    <Area>616</Area>
+    <Distance>7040.1146128360906</Distance>
+    <GINI>42.6</GINI>
+    <Climate>Tropical</Climate>
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>186000</Population>
+    <TimeZone>-4</TimeZone>
   </Country>
   <Country>
     <DisplayName>Saint Martin (French part)</DisplayName>
@@ -1636,9 +1788,10 @@
     <Area>53</Area>
     <Distance>6939.2411857058305</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>36979</Population>
+    <TimeZone>-4</TimeZone>
   </Country>
   <Country>
     <DisplayName>Saint Pierre and Miquelon</DisplayName>
@@ -1646,9 +1799,10 @@
     <Area>242</Area>
     <Distance>5331.2566233322332</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>6069</Population>
+    <TimeZone>-3</TimeZone>
   </Country>
   <Country>
     <DisplayName>Saint Vincent and the Grenadines</DisplayName>
@@ -1656,9 +1810,10 @@
     <Area>389</Area>
     <Distance>7095.5222320243474</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>109991</Population>
+    <TimeZone>-4</TimeZone>
   </Country>
   <Country>
     <DisplayName>Samoa</DisplayName>
@@ -1666,9 +1821,10 @@
     <Area>2842</Area>
     <Distance>15128.578699233225</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>194899</Population>
+    <TimeZone>13</TimeZone>
   </Country>
   <Country>
     <DisplayName>San Marino</DisplayName>
@@ -1676,19 +1832,10 @@
     <Area>61</Area>
     <Distance>1089.0906228569954</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>33005</Population>
-  </Country>
-  <Country>
-    <DisplayName>Sao Tome and Principe</DisplayName>
-    <Capital>SĂŁo TomĂ©</Capital>
-    <Area>964</Area>
-    <Distance>5757.9014426886488</Distance>
-    <GINI>50.8</GINI>
-    <Climate />
-    <CountOfMonuments>0</CountOfMonuments>
-    <Population>187356</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Saudi Arabia</DisplayName>
@@ -1696,19 +1843,10 @@
     <Area>2149690</Area>
     <Distance>3426.324575038147</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>32248200</Population>
-  </Country>
-  <Country>
-    <DisplayName>Senegal</DisplayName>
-    <Capital>Dakar</Capital>
-    <Area>196722</Area>
-    <Distance>4863.0035148781408</Distance>
-    <GINI>39.2</GINI>
-    <Climate />
-    <CountOfMonuments>0</CountOfMonuments>
-    <Population>14799859</Population>
+    <TimeZone>3</TimeZone>
   </Country>
   <Country>
     <DisplayName>Serbia</DisplayName>
@@ -1716,9 +1854,10 @@
     <Area>88361</Area>
     <Distance>890.5712</Distance>
     <GINI>27.8</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>2370</CountOfMonuments>
     <Population>7076372</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Seychelles</DisplayName>
@@ -1726,19 +1865,10 @@
     <Area>452</Area>
     <Distance>6732.1328524407254</Distance>
     <GINI>65.8</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>91400</Population>
-  </Country>
-  <Country>
-    <DisplayName>Sierra Leone</DisplayName>
-    <Capital>Freetown</Capital>
-    <Area>71740</Area>
-    <Distance>5330.2030144943028</Distance>
-    <GINI>42.5</GINI>
-    <Climate />
-    <CountOfMonuments>0</CountOfMonuments>
-    <Population>7075641</Population>
+    <TimeZone>4</TimeZone>
   </Country>
   <Country>
     <DisplayName>Singapore</DisplayName>
@@ -1746,9 +1876,10 @@
     <Area>710</Area>
     <Distance>7998.39846473677</Distance>
     <GINI>48.1</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>5535000</Population>
+    <TimeZone>8</TimeZone>
   </Country>
   <Country>
     <DisplayName>Sint Maarten (Dutch part)</DisplayName>
@@ -1756,9 +1887,10 @@
     <Area>34</Area>
     <Distance>6890.6228156064362</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>38247</Population>
+    <TimeZone>-4</TimeZone>
   </Country>
   <Country>
     <DisplayName>Slovakia</DisplayName>
@@ -1766,9 +1898,10 @@
     <Area>49037</Area>
     <Distance>385.04894376940524</Distance>
     <GINI>26</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>29916</CountOfMonuments>
     <Population>5426252</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Slovenia</DisplayName>
@@ -1776,9 +1909,10 @@
     <Area>20273</Area>
     <Distance>780.08937056391233</Distance>
     <GINI>31.2</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>2064188</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Solomon Islands</DisplayName>
@@ -1786,9 +1920,10 @@
     <Area>28896</Area>
     <Distance>11578.720554097483</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>642000</Population>
+    <TimeZone>11</TimeZone>
   </Country>
   <Country>
     <DisplayName>Somalia</DisplayName>
@@ -1796,9 +1931,10 @@
     <Area>637657</Area>
     <Distance>5053.9996723871773</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>11079000</Population>
+    <TimeZone>3</TimeZone>
   </Country>
   <Country>
     <DisplayName>South Africa</DisplayName>
@@ -1806,9 +1942,10 @@
     <Area>1221037</Area>
     <Distance>9019.37727081072</Distance>
     <GINI>63.1</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>4835</CountOfMonuments>
     <Population>55653654</Population>
+    <TimeZone>2</TimeZone>
   </Country>
   <Country>
     <DisplayName>Korea (Republic of)</DisplayName>
@@ -1816,9 +1953,10 @@
     <Area>100210</Area>
     <Distance>7487.68266675918</Distance>
     <GINI>31.3</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>50801405</Population>
+    <TimeZone>9</TimeZone>
   </Country>
   <Country>
     <DisplayName>South Sudan</DisplayName>
@@ -1826,9 +1964,10 @@
     <Area>619745</Area>
     <Distance>5047.2957806019949</Distance>
     <GINI>45.5</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>12131000</Population>
+    <TimeZone>3</TimeZone>
   </Country>
   <Country>
     <DisplayName>Sri Lanka</DisplayName>
@@ -1836,9 +1975,10 @@
     <Area>65610</Area>
     <Distance>6481.1053184606071</Distance>
     <GINI>40.3</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>20966000</Population>
+    <TimeZone>5</TimeZone>
   </Country>
   <Country>
     <DisplayName>Sudan</DisplayName>
@@ -1846,9 +1986,10 @@
     <Area>1886068</Area>
     <Distance>4164.8223021661979</Distance>
     <GINI>35.3</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>39598700</Population>
+    <TimeZone>3</TimeZone>
   </Country>
   <Country>
     <DisplayName>Suriname</DisplayName>
@@ -1856,9 +1997,10 @@
     <Area>163820</Area>
     <Distance>7510.1302031384457</Distance>
     <GINI>52.9</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>541638</Population>
+    <TimeZone>-3</TimeZone>
   </Country>
   <Country>
     <DisplayName>Swaziland</DisplayName>
@@ -1866,9 +2008,10 @@
     <Area>17364</Area>
     <Distance>8768.31051099912</Distance>
     <GINI>51.5</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>1132657</Population>
+    <TimeZone>2</TimeZone>
   </Country>
   <Country>
     <DisplayName>Sweden</DisplayName>
@@ -1876,9 +2019,10 @@
     <Area>450295</Area>
     <Distance>1186.7373238430203</Distance>
     <GINI>25</GINI>
-    <Climate />
+    <Climate>Temperate</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>9894888</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Switzerland</DisplayName>
@@ -1886,9 +2030,10 @@
     <Area>41284</Area>
     <Distance>1050.5437724657145</Distance>
     <GINI>33.7</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>21488</CountOfMonuments>
     <Population>8341600</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Syrian Arab Republic</DisplayName>
@@ -1896,9 +2041,10 @@
     <Area>185180</Area>
     <Distance>2222.3674283103851</Distance>
     <GINI>35.8</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>18564000</Population>
+    <TimeZone>2</TimeZone>
   </Country>
   <Country>
     <DisplayName>Taiwan</DisplayName>
@@ -1906,9 +2052,10 @@
     <Area>36193</Area>
     <Distance>7552.3513820740782</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>23503349</Population>
+    <TimeZone>8</TimeZone>
   </Country>
   <Country>
     <DisplayName>Tajikistan</DisplayName>
@@ -1916,9 +2063,10 @@
     <Area>143100</Area>
     <Distance>3719.8635568885179</Distance>
     <GINI>30.8</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>8593600</Population>
+    <TimeZone>5</TimeZone>
   </Country>
   <Country>
     <DisplayName>Tanzania, United Republic of</DisplayName>
@@ -1926,9 +2074,10 @@
     <Area>945087</Area>
     <Distance>6527.547127402413</Distance>
     <GINI>37.6</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>55155000</Population>
+    <TimeZone>3</TimeZone>
   </Country>
   <Country>
     <DisplayName>Thailand</DisplayName>
@@ -1936,9 +2085,10 @@
     <Area>513120</Area>
     <Distance>6802.9879458871492</Distance>
     <GINI>40</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>8578</CountOfMonuments>
     <Population>65327652</Population>
+    <TimeZone>7</TimeZone>
   </Country>
   <Country>
     <DisplayName>Timor-Leste</DisplayName>
@@ -1946,19 +2096,10 @@
     <Area>14874</Area>
     <Distance>9877.5205610901721</Distance>
     <GINI>31.9</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>1167242</Population>
-  </Country>
-  <Country>
-    <DisplayName>Togo</DisplayName>
-    <Capital>LomĂ©</Capital>
-    <Area>56785</Area>
-    <Distance>5083.2564767666872</Distance>
-    <GINI>34.4</GINI>
-    <Climate />
-    <CountOfMonuments>0</CountOfMonuments>
-    <Population>7143000</Population>
+    <TimeZone>9</TimeZone>
   </Country>
   <Country>
     <DisplayName>Tokelau</DisplayName>
@@ -1966,9 +2107,10 @@
     <Area>12</Area>
     <Distance>14868.732984023996</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>1411</Population>
+    <TimeZone>13</TimeZone>
   </Country>
   <Country>
     <DisplayName>Tonga</DisplayName>
@@ -1976,9 +2118,10 @@
     <Area>747</Area>
     <Distance>15642.603407634852</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>103252</Population>
+    <TimeZone>13</TimeZone>
   </Country>
   <Country>
     <DisplayName>Trinidad and Tobago</DisplayName>
@@ -1986,9 +2129,10 @@
     <Area>5130</Area>
     <Distance>7239.8791349969688</Distance>
     <GINI>40.3</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>1349667</Population>
+    <TimeZone>-4</TimeZone>
   </Country>
   <Country>
     <DisplayName>Tunisia</DisplayName>
@@ -1996,9 +2140,10 @@
     <Area>163610</Area>
     <Distance>2165.9998595945044</Distance>
     <GINI>41.4</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>943</CountOfMonuments>
     <Population>11154400</Population>
+    <TimeZone>1</TimeZone>
   </Country>
   <Country>
     <DisplayName>Turkey</DisplayName>
@@ -2006,9 +2151,10 @@
     <Area>783562</Area>
     <Distance>1736.3699656113918</Distance>
     <GINI>39</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>78741053</Population>
+    <TimeZone>2</TimeZone>
   </Country>
   <Country>
     <DisplayName>Turkmenistan</DisplayName>
@@ -2016,9 +2162,10 @@
     <Area>488100</Area>
     <Distance>2988.1417601686326</Distance>
     <GINI>40.8</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>4751120</Population>
+    <TimeZone>5</TimeZone>
   </Country>
   <Country>
     <DisplayName>Turks and Caicos Islands</DisplayName>
@@ -2026,9 +2173,21 @@
     <Area>948</Area>
     <Distance>7183.5187414698148</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>31458</Population>
+    <TimeZone>-4</TimeZone>
+  </Country>
+  <Country>
+    <DisplayName>Tuvalu</DisplayName>
+    <Capital>Funafuti</Capital>
+    <Area>26</Area>
+    <Distance>12664.703332578192</Distance>
+    <GINI>0</GINI>
+    <Climate>Tropical</Climate>
+    <CountOfMonuments>0</CountOfMonuments>
+    <Population>10640</Population>
+    <TimeZone>12</TimeZone>
   </Country>
   <Country>
     <DisplayName>Uganda</DisplayName>
@@ -2036,9 +2195,10 @@
     <Area>241550</Area>
     <Distance>5727.2277080221511</Distance>
     <GINI>44.3</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>552</CountOfMonuments>
     <Population>33860700</Population>
+    <TimeZone>3</TimeZone>
   </Country>
   <Country>
     <DisplayName>United Arab Emirates</DisplayName>
@@ -2046,9 +2206,10 @@
     <Area>83600</Area>
     <Distance>3851.0986756359507</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>9856000</Population>
+    <TimeZone>4</TimeZone>
   </Country>
   <Country>
     <DisplayName>United Kingdom of Great Britain and Northern Ireland</DisplayName>
@@ -2056,9 +2217,10 @@
     <Area>242900</Area>
     <Distance>1591.9803208175254</Distance>
     <GINI>34</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>65110000</Population>
+    <TimeZone>-8</TimeZone>
   </Country>
   <Country>
     <DisplayName>Uruguay</DisplayName>
@@ -2066,9 +2228,10 @@
     <Area>181034</Area>
     <Distance>10834.450714464183</Distance>
     <GINI>39.7</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>1333</CountOfMonuments>
     <Population>3480222</Population>
+    <TimeZone>-3</TimeZone>
   </Country>
   <Country>
     <DisplayName>Uzbekistan</DisplayName>
@@ -2076,9 +2239,10 @@
     <Area>447400</Area>
     <Distance>3191.3405059454808</Distance>
     <GINI>36.7</GINI>
-    <Climate />
+    <Climate>Cold</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>31576400</Population>
+    <TimeZone>5</TimeZone>
   </Country>
   <Country>
     <DisplayName>Vanuatu</DisplayName>
@@ -2086,9 +2250,10 @@
     <Area>12189</Area>
     <Distance>12547.060839925714</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>277500</Population>
+    <TimeZone>11</TimeZone>
   </Country>
   <Country>
     <DisplayName>Viet Nam</DisplayName>
@@ -2096,9 +2261,10 @@
     <Area>331212</Area>
     <Distance>7164.4577714178413</Distance>
     <GINI>35.6</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>92700000</Population>
+    <TimeZone>7</TimeZone>
   </Country>
   <Country>
     <DisplayName>Wallis and Futuna</DisplayName>
@@ -2106,9 +2272,10 @@
     <Area>142</Area>
     <Distance>15346.251565699949</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>11750</Population>
+    <TimeZone>12</TimeZone>
   </Country>
   <Country>
     <DisplayName>Western Sahara</DisplayName>
@@ -2116,9 +2283,10 @@
     <Area>266000</Area>
     <Distance>3847.3087242902857</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Subtropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>510713</Population>
+    <TimeZone>0</TimeZone>
   </Country>
   <Country>
     <DisplayName>Yemen</DisplayName>
@@ -2126,9 +2294,10 @@
     <Area>527968</Area>
     <Distance>4515.4784903408226</Distance>
     <GINI>37.7</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>27478000</Population>
+    <TimeZone>3</TimeZone>
   </Country>
   <Country>
     <DisplayName>Zambia</DisplayName>
@@ -2136,9 +2305,10 @@
     <Area>752612</Area>
     <Distance>7483.9963651952785</Distance>
     <GINI>54.6</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>15933883</Population>
+    <TimeZone>2</TimeZone>
   </Country>
   <Country>
     <DisplayName>Zimbabwe</DisplayName>
@@ -2146,8 +2316,9 @@
     <Area>390757</Area>
     <Distance>8038.8405378100606</Distance>
     <GINI>0</GINI>
-    <Climate />
+    <Climate>Tropical</Climate>
     <CountOfMonuments>0</CountOfMonuments>
     <Population>14240168</Population>
+    <TimeZone>2</TimeZone>
   </Country>
 </ArrayOfCountry>

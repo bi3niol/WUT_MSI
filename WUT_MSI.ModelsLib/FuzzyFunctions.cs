@@ -63,9 +63,8 @@ namespace WUT_MSI.Models
             public static double Invoke(ICountry country)
             {
                 double current = country.Population / country.Area;
-                double max = FuzzyProps.Instance.MaxPopulation / FuzzyProps.Instance.MinArea;
 
-                return current / max;
+                return current / FuzzyProps.Instance.MaxDensity;
             }
         }
 

@@ -64,8 +64,23 @@ namespace WUT_MSI.ModelsLib
         public double MaxMonuments { get; set; } = double.MinValue;
         public double MinMonuments { get; set; } = double.MaxValue;
 
-        public double MaxPopulation { get; set; } = double.MaxValue;
-        public double MinPopulation { get; set; } = double.MinValue;
+        public double MaxPopulation { get; set; } = double.MinValue;
+        public double MinPopulation { get; set; } = double.MaxValue;
+
+        public double MaxDensity { get; set; } = double.MinValue;
+        public double MinDensity { get; set; } = double.MaxValue;
+
+        public static void SetDendity(int Population, double Area)
+        {
+            double Density = Population / Area;
+
+            if (Instance.MaxDensity < Density)
+                Instance.MaxDensity = Density;
+            if (Instance.MinDensity > Density)
+                Instance.MinDensity = Density;
+
+            SaveFuzzyProps();
+        }
 
         public static void SetPopulation(int Population)
         {
