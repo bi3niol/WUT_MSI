@@ -44,6 +44,7 @@ namespace WUT_MSI.MainApp
 
         private void AnswerList_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            if (AnswerList.SelectedValue == null) return;
             try
             {
 
@@ -52,7 +53,10 @@ namespace WUT_MSI.MainApp
                 {
                     question = evaluator.GetQuestion();
                 }
+                Question = question;
                 Answers = Question.Answers.Where(i => GeneralHelper.CheckIfAnswerHasResult(i, evaluator.CurrentAnswerSet, Question.FuzzyFunction)).ToList();
+                this.DataContext = Question;
+                AnswerList.ItemsSource = Answers;
             }
             catch (HasAnswerException)
             {
@@ -61,6 +65,10 @@ namespace WUT_MSI.MainApp
             catch (NoMoreQuestionsException)
             {
                 NavigationService.Navigate(new ResultPage(evaluator.CurrentAnswerSet));
+            }
+            catch(Exception ex)
+            {
+
             }
         }
     }

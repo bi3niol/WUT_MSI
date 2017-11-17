@@ -33,13 +33,13 @@ namespace WUT_MSI.MainApp.Managers
             questions.Add(
                 new Question<ICountry>
                 (
-                    "Jak klimat dominuje?",
+                    "Jak temperatura dominuje?",
                     new List<IAnswer<ICountry>>()
                     {
-                        new Answer<ICountry>(0.8, int.MaxValue, "Tropikalny"),
-                        new Answer<ICountry>(0.6, 0.8, "Sybtropikalny"),
-                        new Answer<ICountry>(0.3, 0.6, "Umiarkowany"),
-                        new Answer<ICountry>(0, 0.3, "Chłodny")
+                        new Answer<ICountry>(0.8, int.MaxValue, "Wysoka"),
+                        new Answer<ICountry>(0.6, 0.8, "Srednia"),
+                        new Answer<ICountry>(0.3, 0.6, "umiarkowana"),
+                        new Answer<ICountry>(0, 0.3, "niska")
                     },
                     FuzzyFunctions.ClimeteFuzzy.Invoke
                 ));
@@ -84,44 +84,44 @@ namespace WUT_MSI.MainApp.Managers
                     FuzzyFunctions.RainsFuzzy.Invoke
                 ));
 
-            questions.Add(
-                new Question<ICountry>
-                (
-                    "Jaki jest poziom bezpieczeństwa kraju?",
-                    new List<IAnswer<ICountry>>()
-                    {
-                        new Answer<ICountry>(0.6, int.MaxValue, "Wysoki"),
-                        new Answer<ICountry>(0.4, 0.6, "Średni"),
-                        new Answer<ICountry>(0, 0.4, "Niski"),
-                    },
-                    FuzzyFunctions.SafetyFuzzy.Invoke
-                ));
+            //questions.Add(
+            //    new Question<ICountry>
+            //    (
+            //        "Jaki jest poziom bezpieczeństwa kraju?",
+            //        new List<IAnswer<ICountry>>()
+            //        {
+            //            new Answer<ICountry>(0.6, int.MaxValue, "Wysoki"),
+            //            new Answer<ICountry>(0.4, 0.6, "Średni"),
+            //            new Answer<ICountry>(0, 0.4, "Niski"),
+            //        },
+            //        FuzzyFunctions.SafetyFuzzy.Invoke
+            //    ));
 
-            questions.Add(
-               new Question<ICountry>
-               (
-                   "Jaki jest poziom medycyny w kraju?",
-                   new List<IAnswer<ICountry>>()
-                   {
-                        new Answer<ICountry>(0.7, int.MaxValue, "Wysoki"),
-                        new Answer<ICountry>(0.5, 0.7, "Średni"),
-                        new Answer<ICountry>(0, 0.5, "Niski"),
-                   },
-                   FuzzyFunctions.MedicineFuzzy.Invoke
-               ));
+            //questions.Add(
+            //   new Question<ICountry>
+            //   (
+            //       "Jaki jest poziom medycyny w kraju?",
+            //       new List<IAnswer<ICountry>>()
+            //       {
+            //            new Answer<ICountry>(0.7, int.MaxValue, "Wysoki"),
+            //            new Answer<ICountry>(0.5, 0.7, "Średni"),
+            //            new Answer<ICountry>(0, 0.5, "Niski"),
+            //       },
+            //       FuzzyFunctions.MedicineFuzzy.Invoke
+            //   ));
 
-            questions.Add(
-               new Question<ICountry>
-               (
-                   "Jak duży jest koszt pobytu?",
-                   new List<IAnswer<ICountry>>()
-                   {
-                        new Answer<ICountry>(0.6, int.MaxValue, "Wysoki"),
-                        new Answer<ICountry>(0.3, 0.6, "Średni"),
-                        new Answer<ICountry>(0, 0.3, "Niski"),
-                   },
-                   FuzzyFunctions.MedicineFuzzy.Invoke
-               ));
+            //questions.Add(
+            //   new Question<ICountry>
+            //   (
+            //       "Jak duży jest koszt pobytu?",
+            //       new List<IAnswer<ICountry>>()
+            //       {
+            //            new Answer<ICountry>(0.6, int.MaxValue, "Wysoki"),
+            //            new Answer<ICountry>(0.3, 0.6, "Średni"),
+            //            new Answer<ICountry>(0, 0.3, "Niski"),
+            //       },
+            //       FuzzyFunctions.CostFuzzy.Invoke
+            //   ));
 
             questions.Add(
                new Question<ICountry>
@@ -129,9 +129,9 @@ namespace WUT_MSI.MainApp.Managers
                    "Czy państwo jest atrakcyjne turystycznie?",
                    new List<IAnswer<ICountry>>()
                    {
-                        new Answer<ICountry>(0.7, int.MaxValue, "Bardzo"),
-                        new Answer<ICountry>(0.45, 0.6, "Raczej tak"),
-                        new Answer<ICountry>(0.25, 0.45, "Raczej nie"),
+                        new Answer<ICountry>(0.3, int.MaxValue, "Bardzo"),
+                        new Answer<ICountry>(0.2, 0.5, "Raczej tak"),
+                        new Answer<ICountry>(0.1, 0.3, "Raczej nie"),
                         new Answer<ICountry>(0, 0.25, "Wcale"),
                    },
                    FuzzyFunctions.MonumentsFuzzy.Invoke
@@ -143,8 +143,8 @@ namespace WUT_MSI.MainApp.Managers
                    "Jak dużo ludności mieszka w kraju?",
                    new List<IAnswer<ICountry>>()
                    {
-                        new Answer<ICountry>(0.7, int.MaxValue, "Dużo"),
-                        new Answer<ICountry>(0.35, 0.7, "Raczej nie"),
+                        new Answer<ICountry>(0.3, int.MaxValue, "Dużo"),
+                        new Answer<ICountry>(0.14, 0.5, "Średnio"),
                         new Answer<ICountry>(0, 0.35, "Mało"),
                    },
                    FuzzyFunctions.PopulationFuzzy.Invoke
@@ -156,8 +156,8 @@ namespace WUT_MSI.MainApp.Managers
                    "Jaka jest gęstość zaludnienia?",
                    new List<IAnswer<ICountry>>()
                    {
-                        new Answer<ICountry>(0.7, int.MaxValue, "Duża"),
-                        new Answer<ICountry>(0.45, 0.7, "Średnia"),
+                        new Answer<ICountry>(0.5, int.MaxValue, "Duża"),
+                        new Answer<ICountry>(0.25, 0.6, "Średnia"),
                         new Answer<ICountry>(0, 0.45, "Mała"),
                    },
                    FuzzyFunctions.DensityFuzzy.Invoke
@@ -169,8 +169,8 @@ namespace WUT_MSI.MainApp.Managers
                    "Jak duży chcesz mieć jetlag?",
                    new List<IAnswer<ICountry>>()
                    {
-                        new Answer<ICountry>(0.65, int.MaxValue, "Duży"),
-                        new Answer<ICountry>(0.35, 0.65, "Średni"),
+                        new Answer<ICountry>(0.5, int.MaxValue, "Duży"),
+                        new Answer<ICountry>(0.25, 0.55, "Średni"),
                         new Answer<ICountry>(0, 0.35, "Mały"),
                    },
                    FuzzyFunctions.JetFuzzy.Invoke

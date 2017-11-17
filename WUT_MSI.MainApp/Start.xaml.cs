@@ -34,6 +34,8 @@ namespace WUT_MSI.MainApp
 		private void Start_Click(object sender, RoutedEventArgs e)
 		{
             var evaluator = new Evaluator<ICountry>(new CountryQuestionGetter(QuestionGenerator.GetQuestions()));
+            SerializationManager m = new SerializationManager();
+            evaluator.SetEvaluatingSet(m.Deserialize<List<Country>>("Countries.xml").Select(item=>(ICountry)item).ToList());
             NavigationService.Navigate(new QuestionPage(evaluator));
 		}
 	}

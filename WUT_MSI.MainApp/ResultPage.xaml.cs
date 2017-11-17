@@ -27,12 +27,14 @@ namespace WUT_MSI.MainApp
         {
             InitializeComponent();
 
-            this.DataContext = country;
+            var list = country.OrderByDescending(item => item.Result).ToList();
+            list = list.Take(Math.Min(5,list.Count)).ToList();
+            this.DataContext = list;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            NavigationService.Navigate(new Start());
         }
     }
 }

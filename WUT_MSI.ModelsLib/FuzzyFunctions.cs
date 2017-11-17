@@ -62,7 +62,14 @@ namespace WUT_MSI.Models
         {
             public static double Invoke(ICountry country)
             {
-                double current = country.Population / country.Area;
+                double current;
+                if (country.Area == 0)
+                {
+                    Random r = new Random();
+                    current = (r.NextDouble() + 0.3) * 100/2;
+                }
+                else
+                 current = country.Population / country.Area;
 
                 return (FuzzyProps.Instance.MaxDensity + current) / 2 / FuzzyProps.Instance.MaxDensity;
             }
@@ -72,10 +79,10 @@ namespace WUT_MSI.Models
         {
             public static double Invoke(ICountry country)
             {
-                int polishTimeZone = 1;
-                int maxTimeZones = 12;
+                double polishTimeZone = 1;
+                double maxTimeZones = 12;
 
-                return Math.Abs(polishTimeZone - country.TimeZone) / (maxTimeZones + polishTimeZone);
+                return Math.Abs(polishTimeZone - (double)country.TimeZone) / (maxTimeZones + polishTimeZone);
             }
         }
 
