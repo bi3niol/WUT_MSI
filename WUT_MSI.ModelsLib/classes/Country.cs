@@ -32,6 +32,7 @@ namespace WUT_MSI.Models.classes
             CountOfMonuments = MonumentsAPi.GetMonumentsCount(apiCountry.alpha2Code);
             GINI = apiCountry.gini.HasValue? (float)apiCountry.gini:0;
 
+            FuzzyProps.SetGINI(GINI);
             FuzzyProps.SetArea(Area);
             FuzzyProps.SetDistance(Distance);
             FuzzyProps.SetPopulation(Population);
