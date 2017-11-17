@@ -28,13 +28,11 @@ namespace WUT_MSI.ModelsLib.classes
             CurrentAnswerSet = evaluatingSet;
         }
 
-        public IQuestion<Tparam> this[int i]
+        public IQuestion<Tparam> this[IAnswer<Tparam> answer]
         {
             get
             {
-                var answer = CurrentProccessingQuestion[i];
                 CurrentAnswerSet = answer.CutSet(CurrentAnswerSet, CurrentProccessingQuestion.FuzzyFunction);
-
                 if (!QuestionGetter.HasQuestion)
                     throw new NoMoreQuestionsException();
                 CurrentProccessingQuestion = QuestionGetter.GetNextQuestion(CurrentAnswerSet);
