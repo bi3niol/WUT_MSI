@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using WUT_MSI.ModelsLib.classes.helpers;
 
 namespace WUT_MSI.Models
 {
@@ -10,8 +8,9 @@ namespace WUT_MSI.Models
         uint Area { get; }
         double Distance { get; }
         float GINI { get; }
-        string Climate { get; }
+        ClimateEnum Climate { get; }
         ulong CountOfMonuments { get; }
         int Population { get; }
+        int TimeZone { get; }
     }
 }

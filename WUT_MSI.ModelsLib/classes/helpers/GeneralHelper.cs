@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using WUT_MSI.Models.interfaces;
 
 namespace WUT_MSI.ModelsLib.classes.helpers
@@ -13,10 +11,21 @@ namespace WUT_MSI.ModelsLib.classes.helpers
         {
             return proccessingSet.Any(p=>answer.MatchToAnswer(p,fuzzyFunction));
         }
-        public static string GetClimate(double geoWidh)
-        {
 
-            return "";
+        public static ClimateEnum GetClimate(double geoWidh)
+        {
+            double absGeo = Math.Abs(geoWidh);
+
+            if (absGeo >= 0 && absGeo <= 23.5)
+                return ClimateEnum.Tropical;
+
+            if (absGeo > 23.5 && absGeo <= 40)
+                return ClimateEnum.Subtropical;
+
+            if (absGeo > 40 && absGeo >= 60)
+                return ClimateEnum.Temperate;
+
+            return ClimateEnum.Cold;
         }
     }
 }

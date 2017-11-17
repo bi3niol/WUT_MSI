@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using WUT_MSI.Models.classes.helpers;
 using WUT_MSI.ModelsLib;
 using WUT_MSI.ModelsLib.apis;
@@ -15,9 +13,10 @@ namespace WUT_MSI.Models.classes
         public uint Area { get; set; }
         public double Distance { get; set; }
         public float GINI { get; set; }
-        public string Climate { get; set; }
+        public ClimateEnum Climate { get; set; }
         public ulong CountOfMonuments { get; set; }
         public int Population { get; set; }
+        public int TimeZone { get; set; }
 
         public Country() { }
 
@@ -27,6 +26,7 @@ namespace WUT_MSI.Models.classes
             Capital = apiCountry.capital;
             Area = (uint)apiCountry.area;
             Population = apiCountry.population;
+            TimeZone = TimeZoneHelper.GetTimeZome(apiCountry.timezones);
             Climate = GeneralHelper.GetClimate(apiCountry.latlng[0]);
             Distance = DistanceCalculator.GetDistance(Convert.ToDouble(Resource.WawGeoWidth), Convert.ToDouble(Resource.WawGeoLength), apiCountry.latlng[0], apiCountry.latlng[1]);
             CountOfMonuments = MonumentsAPi.GetMonumentsCount(apiCountry.alpha2Code);
@@ -34,6 +34,7 @@ namespace WUT_MSI.Models.classes
 
             FuzzyProps.SetArea(Area);
             FuzzyProps.SetDistance(Distance);
+            FuzzyProps.SetPopulation(Population);
         }
     }
 }

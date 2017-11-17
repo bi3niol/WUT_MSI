@@ -53,10 +53,12 @@
     <Compile Include="classes\Country.cs" />
     <Compile Include="classes\Evaluator.cs" />
     <Compile Include="classes\exceptions\NoMoreQuestionsException.cs" />
+    <Compile Include="classes\helpers\ClimateEnum.cs" />
     <Compile Include="classes\helpers\CountryQuestionGetter.cs" />
     <Compile Include="classes\helpers\DistanceCalculator.cs" />
     <Compile Include="classes\helpers\GeneralHelper.cs" />
     <Compile Include="classes\helpers\SerializationManager.cs" />
+    <Compile Include="classes\helpers\TimeZoneHelper.cs" />
     <Compile Include="classes\MonumentApiModels.cs" />
     <Compile Include="classes\Question.cs" />
     <Compile Include="FuzzyFunctions.cs" />

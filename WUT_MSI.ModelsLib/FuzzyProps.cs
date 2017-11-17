@@ -11,6 +11,7 @@ namespace WUT_MSI.ModelsLib
     public class FuzzyProps
     {
         private static FuzzyProps instance;
+
         public static FuzzyProps Instance
         {
             get
@@ -20,6 +21,7 @@ namespace WUT_MSI.ModelsLib
                 return instance;
             }
         }
+
         private static FuzzyProps GetFuzzyProps()
         {
             SerializationManager m = new SerializationManager();
@@ -34,6 +36,7 @@ namespace WUT_MSI.ModelsLib
             }
             return res;
         }
+
         static FuzzyProps()
         {
             if (!File.Exists(Environment.CurrentDirectory + "/FuzzyProps.xml"))
@@ -42,11 +45,13 @@ namespace WUT_MSI.ModelsLib
                 m.Serialize<FuzzyProps>(Environment.CurrentDirectory + "/FuzzyProps.xml", new FuzzyProps());
             }
         }
+
         private static void SaveFuzzyProps()
         {
             SerializationManager m = new SerializationManager();
             m.Serialize<FuzzyProps>(Environment.CurrentDirectory + "/FuzzyProps.xml", Instance);
         }
+
         public double MaxDistance { get; set; } = double.MinValue;
         public double MinDistance { get; set; } = double.MaxValue;
 
@@ -58,6 +63,19 @@ namespace WUT_MSI.ModelsLib
 
         public double MaxMonuments { get; set; } = double.MinValue;
         public double MinMonuments { get; set; } = double.MaxValue;
+
+        public double MaxPopulation { get; set; } = double.MaxValue;
+        public double MinPopulation { get; set; } = double.MinValue;
+
+        public static void SetPopulation(int Population)
+        {
+            if (Instance.MaxPopulation < Population)
+                Instance.MaxPopulation = Population;
+            if (Instance.MinPopulation > Population)
+                Instance.MinPopulation = Population;
+
+            SaveFuzzyProps();
+        }
 
         public static void SetMonument(double Monument)
         {
