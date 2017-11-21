@@ -26,11 +26,12 @@ namespace WUT_MSI.Models.classes
         public bool MatchToAnswer(TParam parameter, Func<TParam, double> FuzzyFunction)
         {
             double currentResult = FuzzyFunction(parameter);
-            bool isMatch = BottomLimit <= currentResult && TopLimit >= currentResult;
+            bool isMatch = true;//= BottomLimit <= currentResult && TopLimit >= currentResult;
 
             if (isMatch)
             {
-                parameter.CumSum += (1 - 2 * Math.Abs(Center - currentResult) / Range);
+                var tmp = (1 - 2 * Math.Abs(Center - currentResult) / Range);
+                parameter.CumSum += tmp<0?0:tmp;
                 parameter.QuestionsNum++;
                 parameter.Result = (int)(parameter.CumSum / parameter.QuestionsNum * 100);
             }

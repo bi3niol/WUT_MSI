@@ -99,7 +99,7 @@ namespace WUT_MSI.Models
                     case ClimateEnum.Temperate:
                         return 0.7;
                     case ClimateEnum.Cold:
-                        return 0.4;
+                        return 0.2;
                     default:
                         return 0;
                 }
