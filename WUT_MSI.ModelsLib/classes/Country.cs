@@ -19,8 +19,10 @@ namespace WUT_MSI.Models.classes
         public int Population { get; set; }
         public int TimeZone { get; set; }
         public double Result { get; set; }
+        public double CumSum { get; set; }
+        public double QuestionsNum { get; set; }
 
-        public Country() { }
+        public Country() {  }
 
         public Country(ApiCountry apiCountry)
         {

@@ -17,7 +17,14 @@
         <ListView x:Name="AnswerList" ItemsSource="{Binding}" Grid.Row="1" Margin="20">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <Label Content="{Binding DisplayName}"/>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2*"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Label Content="{Binding DisplayName}"/>
+                        <Label Content="{Binding Result}" Grid.Column="1"/>
+                    </Grid>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>

@@ -9,7 +9,7 @@ namespace WUT_MSI.ModelsLib.classes.helpers
     {
         public static bool CheckIfAnswerHasResult<Tparam>(IAnswer<Tparam> answer,List<Tparam> proccessingSet, Func<Tparam,double> fuzzyFunction) where Tparam : IFuzzy
         {
-            return proccessingSet.Any(p=>answer.MatchToAnswer(p,fuzzyFunction));
+            return proccessingSet.Any(p=>answer.MatchToAnswer(p,fuzzyFunction,true));
         }
 
         public static ClimateEnum GetClimate(double geoWidh)
