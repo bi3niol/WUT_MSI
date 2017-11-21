@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:WUT_MSI.MainApp"
       mc:Ignorable="d" 
       d:DesignHeight="350" d:DesignWidth="525"
-      Title="ResultPage">
+      Title="MSI - Rozmytość">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition/>
