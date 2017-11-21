@@ -38,8 +38,8 @@ namespace WUT_MSI.MainApp.Managers
                     {
                         new Answer<ICountry>(0.8, 1, "Wysoka"),
                         new Answer<ICountry>(0.6, 0.8, "Srednia"),
-                        new Answer<ICountry>(0.3, 0.6, "umiarkowana"),
-                        new Answer<ICountry>(0, 0.3, "niska")
+                        new Answer<ICountry>(0.3, 0.5, "umiarkowana"),
+                        new Answer<ICountry>(0.1, 0.3, "niska")
                     },
                     FuzzyFunctions.ClimeteFuzzy.Invoke
                 ));
@@ -51,9 +51,9 @@ namespace WUT_MSI.MainApp.Managers
                     new List<IAnswer<ICountry>>()
                     {
                         new Answer<ICountry>(0.8,1, "Bardzo duży"),
-                        new Answer<ICountry>(0.6, 0.8, "Duży"),
-                        new Answer<ICountry>(0.3, 0.6, "Średni"),
-                        new Answer<ICountry>(0, 0.3, "Mały")
+                        new Answer<ICountry>(0.4, 0.8, "Duży"),
+                        new Answer<ICountry>(0.2, 0.4, "Średni"),
+                        new Answer<ICountry>(0, 0.2, "Mały")
                     },
                     FuzzyFunctions.AreaFuzzy.Invoke
                 ));
@@ -143,9 +143,9 @@ namespace WUT_MSI.MainApp.Managers
                    "Jak dużo ludności mieszka w kraju?",
                    new List<IAnswer<ICountry>>()
                    {
-                        new Answer<ICountry>(0.7, 1, "Dużo"),
-                        new Answer<ICountry>(0.4, 0.7, "Średnio"),
-                        new Answer<ICountry>(0, 0.4, "Mało"),
+                        new Answer<ICountry>(0.6, 1, "Dużo"),
+                        new Answer<ICountry>(0.3, 0.6, "Średnio"),
+                        new Answer<ICountry>(0, 0.3, "Mało"),
                    },
                    FuzzyFunctions.PopulationFuzzy.Invoke
                ));
@@ -156,7 +156,8 @@ namespace WUT_MSI.MainApp.Managers
                    "Jaka jest gęstość zaludnienia?",
                    new List<IAnswer<ICountry>>()
                    {
-                        new Answer<ICountry>(0.5, 1, "Duża"),
+                        new Answer<ICountry>(0.7, 1, "Bardzo Duża"),
+                        new Answer<ICountry>(0.5, 0.7, "Duża"),
                         new Answer<ICountry>(0.25, 0.5, "Średnia"),
                         new Answer<ICountry>(0, 0.3, "Mała"),
                    },
