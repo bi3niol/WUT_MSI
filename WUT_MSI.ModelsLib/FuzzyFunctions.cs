@@ -10,7 +10,7 @@ namespace WUT_MSI.Models
         {
             public static double Invoke(ICountry country)
             {
-                return (FuzzyProps.Instance.MaxDistance + country.Distance) / 2 / FuzzyProps.Instance.MaxDistance;
+                return country.Distance / (FuzzyProps.Instance.MaxDistance - FuzzyProps.Instance.MinDistance);
             }
         }
 
@@ -54,7 +54,7 @@ namespace WUT_MSI.Models
         {
             public static double Invoke(ICountry country)
             {
-                return (FuzzyProps.Instance.MaxPopulation + country.Population) / 2 / FuzzyProps.Instance.MaxPopulation;
+                return country.Population / ( FuzzyProps.Instance.MaxPopulation - FuzzyProps.Instance.MinPopulation);
             }
         }
 
@@ -71,7 +71,7 @@ namespace WUT_MSI.Models
                 else
                  current = country.Population / country.Area;
 
-                return (FuzzyProps.Instance.MaxDensity + current) / 2 / FuzzyProps.Instance.MaxDensity;
+                return current / (FuzzyProps.Instance.MaxDensity - FuzzyProps.Instance.MinDensity);
             }
         }
 
@@ -110,7 +110,7 @@ namespace WUT_MSI.Models
         {
             public static double Invoke(ICountry country)
             {
-                return (FuzzyProps.Instance.MaxMonuments + country.CountOfMonuments) / 2 / FuzzyProps.Instance.MaxMonuments;
+                return  country.CountOfMonuments / FuzzyProps.Instance.MaxMonuments * AreaFuzzy.Invoke(country);
             }
         }
 

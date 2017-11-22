@@ -22,10 +22,10 @@ namespace WUT_MSI.MainApp.Managers
                     "Jak daleko znajduje się państwo?",
                     new List<IAnswer<ICountry>>()
                     {
-                        new Answer<ICountry>(0, 0.4, "Blisko"),
-                        new Answer<ICountry>(0.4, 0.6, "Średnio"),
-                        new Answer<ICountry>(0.6, 0.8, "Daleko"),
-                        new Answer<ICountry>(0.8, 1, "Bardzo daleko")
+                        new Answer<ICountry>(-0.4, 0.4, "Blisko"),
+                        new Answer<ICountry>(0.0, 0.66, "Średnio"),
+                        new Answer<ICountry>(0.33, 0.99, "Daleko"),
+                        new Answer<ICountry>(0.6, 1.4, "Bardzo daleko")
                     },
                     FuzzyFunctions.DistanceFuzzy.Invoke
                 ));
@@ -36,10 +36,10 @@ namespace WUT_MSI.MainApp.Managers
                     "Jak temperatura dominuje?",
                     new List<IAnswer<ICountry>>()
                     {
-                        new Answer<ICountry>(0.8, 1, "Wysoka"),
-                        new Answer<ICountry>(0.6, 0.8, "Srednia"),
-                        new Answer<ICountry>(0.3, 0.5, "umiarkowana"),
-                        new Answer<ICountry>(0.1, 0.3, "niska")
+                        new Answer<ICountry>(0.8, 1.0, "Wysoka"),
+                        new Answer<ICountry>(0.6, 0.8, "Średnia"),
+                        new Answer<ICountry>(0.3, 0.5, "Umiarkowana"),
+                        new Answer<ICountry>(0.1, 0.3, "Niska")
                     },
                     FuzzyFunctions.ClimeteFuzzy.Invoke
                 ));
@@ -50,26 +50,26 @@ namespace WUT_MSI.MainApp.Managers
                     "Jak duży jest kraj?",
                     new List<IAnswer<ICountry>>()
                     {
-                        new Answer<ICountry>(0.8,1, "Bardzo duży"),
-                        new Answer<ICountry>(0.4, 0.8, "Duży"),
-                        new Answer<ICountry>(0.2, 0.4, "Średni"),
-                        new Answer<ICountry>(0, 0.2, "Mały")
+                        new Answer<ICountry>(0.5556,1.4444, "Bardzo duży"),
+                        new Answer<ICountry>(0.4, 0.7, "Duży"),
+                        new Answer<ICountry>(0.35, 0.65, "Średni"),
+                        new Answer<ICountry>(0.4385, 0.5615, "Mały")
                     },
                     FuzzyFunctions.AreaFuzzy.Invoke
                 ));
 
-            questions.Add(
-                new Question<ICountry>
-                (
-                    "W jakim stopniu kraj jest rozwinięty?",
-                    new List<IAnswer<ICountry>>()
-                    {
-                        new Answer<ICountry>(0.6,1, "Bardzo"),
-                        new Answer<ICountry>(0.35, 0.6, "Średno"),
-                        new Answer<ICountry>(0, 0.35, "Słabo"),
-                    },
-                    FuzzyFunctions.DevelopementFuzzy.Invoke
-                ));
+            //questions.Add(
+            //    new Question<ICountry>
+            //    (
+            //        "W jakim stopniu kraj jest rozwinięty?",
+            //        new List<IAnswer<ICountry>>()
+            //        {
+            //            new Answer<ICountry>(0.6,1, "Bardzo"),
+            //            new Answer<ICountry>(0.35, 0.6, "Średno"),
+            //            new Answer<ICountry>(0, 0.35, "Słabo"),
+            //        },
+            //        FuzzyFunctions.DevelopementFuzzy.Invoke
+            //    ));
 
             questions.Add(
                 new Question<ICountry>
@@ -129,10 +129,10 @@ namespace WUT_MSI.MainApp.Managers
                    "Czy państwo jest atrakcyjne turystycznie?",
                    new List<IAnswer<ICountry>>()
                    {
-                        new Answer<ICountry>(0.5, 1, "Bardzo"),
-                        new Answer<ICountry>(0.2, 0.5, "Raczej tak"),
-                        new Answer<ICountry>(0.1, 0.3, "Raczej nie"),
-                        new Answer<ICountry>(0, 0.25, "Wcale"),
+                       new Answer<ICountry>(0.5,1.5, "Bardzo"),
+                        new Answer<ICountry>(0.1154, 0.7556, "Raczej tak"),
+                        new Answer<ICountry>(-0.0015, 0.2154, "Raczej nie"),
+                        new Answer<ICountry>(-0.2015, 0.2015, "Wcale")
                    },
                    FuzzyFunctions.MonumentsFuzzy.Invoke
                ));
@@ -143,9 +143,9 @@ namespace WUT_MSI.MainApp.Managers
                    "Jak dużo ludności mieszka w kraju?",
                    new List<IAnswer<ICountry>>()
                    {
-                        new Answer<ICountry>(0.6, 1, "Dużo"),
-                        new Answer<ICountry>(0.3, 0.6, "Średnio"),
-                        new Answer<ICountry>(0, 0.3, "Mało"),
+                        new Answer<ICountry>(0.02, 1.98, "Dużo"),
+                        new Answer<ICountry>(-0.02, 0.06, "Średnio"),
+                        new Answer<ICountry>(-0.04, 0.04, "Mało"),
                    },
                    FuzzyFunctions.PopulationFuzzy.Invoke
                ));
@@ -156,10 +156,10 @@ namespace WUT_MSI.MainApp.Managers
                    "Jaka jest gęstość zaludnienia?",
                    new List<IAnswer<ICountry>>()
                    {
-                        new Answer<ICountry>(0.7, 1, "Bardzo Duża"),
-                        new Answer<ICountry>(0.5, 0.7, "Duża"),
-                        new Answer<ICountry>(0.25, 0.5, "Średnia"),
-                        new Answer<ICountry>(0, 0.3, "Mała"),
+                        new Answer<ICountry>(0.0, 2.0, "Bardzo Duża"),
+                        new Answer<ICountry>(-0.394, 0.406, "Duża"),
+                        new Answer<ICountry>(-0.296, 0.304, "Średnia"),
+                        new Answer<ICountry>(-0.12, 0.12, "Mała"),
                    },
                    FuzzyFunctions.DensityFuzzy.Invoke
                ));
@@ -170,9 +170,9 @@ namespace WUT_MSI.MainApp.Managers
                    "Jak duży chcesz mieć jetlag?",
                    new List<IAnswer<ICountry>>()
                    {
-                        new Answer<ICountry>(0.7, 1, "Duży"),
-                        new Answer<ICountry>(0.4, 0.7, "Średni"),
-                        new Answer<ICountry>(0, 0.4, "Mały"),
+                        new Answer<ICountry>(0.6, 1.4, "Duży"),
+                        new Answer<ICountry>(0.1, 0.9, "Średni"),
+                        new Answer<ICountry>(-0.4, 0.4, "Mały"),
                    },
                    FuzzyFunctions.JetFuzzy.Invoke
                ));
