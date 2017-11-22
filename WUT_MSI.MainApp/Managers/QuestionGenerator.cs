@@ -123,19 +123,19 @@ namespace WUT_MSI.MainApp.Managers
             //       FuzzyFunctions.CostFuzzy.Invoke
             //   ));
 
-            questions.Add(
-               new Question<ICountry>
-               (
-                   "Czy państwo jest atrakcyjne turystycznie?",
-                   new List<IAnswer<ICountry>>()
-                   {
-                       new Answer<ICountry>(0.5,1.5, "Bardzo"),
-                        new Answer<ICountry>(0.1154, 0.7556, "Raczej tak"),
-                        new Answer<ICountry>(-0.0015, 0.2154, "Raczej nie"),
-                        new Answer<ICountry>(-0.2015, 0.2015, "Wcale")
-                   },
-                   FuzzyFunctions.MonumentsFuzzy.Invoke
-               ));
+            //questions.Add(
+            //   new Question<ICountry>
+            //   (
+            //       "Czy państwo jest atrakcyjne turystycznie?",
+            //       new List<IAnswer<ICountry>>()
+            //       {
+            //           new Answer<ICountry>(0.5,1.5, "Bardzo"),
+            //            new Answer<ICountry>(0.1154, 0.7556, "Raczej tak"),
+            //            new Answer<ICountry>(-0.0015, 0.2154, "Raczej nie"),
+            //            new Answer<ICountry>(-0.2015, 0.2015, "Wcale")
+            //       },
+            //       FuzzyFunctions.MonumentsFuzzy.Invoke
+            //   ));
 
             questions.Add(
                new Question<ICountry>

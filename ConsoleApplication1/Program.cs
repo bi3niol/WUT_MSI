@@ -20,33 +20,44 @@ namespace ConsoleApplication1
 
             //foreach (var item in list)
             //    Console.WriteLine(FuzzyFunctions.JetFuzzy.Invoke(item));
-            GeneratorCSV generatorArea = new GeneratorCSV("Area");
+            //GeneratorCSV generatorArea = new GeneratorCSV("Area");
 
-            foreach (var item in list)
-                generatorArea.Generate(item.DisplayName, item.Area);
-            generatorArea.Save();
+            //foreach (var item in list)
+            //    generatorArea.Generate(item.DisplayName, item.Area);
+            //generatorArea.Save();
 
-            GeneratorCSV generatorPopulation = new GeneratorCSV("Population");
+            //GeneratorCSV generatorPopulation = new GeneratorCSV("Population");
 
-            foreach (var item in list)
-                generatorPopulation.Generate(item.DisplayName, item.Population);
-            generatorPopulation.Save();
+            //foreach (var item in list)
+            //    generatorPopulation.Generate(item.DisplayName, item.Population);
+            //generatorPopulation.Save();
 
-            GeneratorCSV generatorGINI = new GeneratorCSV("GINI");
+            //GeneratorCSV generatorGINI = new GeneratorCSV("GINI");
 
-            foreach (var item in list)
-                generatorGINI.Generate(item.DisplayName, item.GINI);
-            generatorGINI.Save();
+            //foreach (var item in list)
+            //    generatorGINI.Generate(item.DisplayName, item.GINI);
+            //generatorGINI.Save();
 
-            GeneratorCSV generatorDensity = new GeneratorCSV("Density");
+            //GeneratorCSV generatorDensity = new GeneratorCSV("Density");
+
+            //foreach (var item in list)
+            //    try
+            //    {
+            //        generatorDensity.Generate(item.DisplayName, item.Population / item.Area);
+            //    }
+            //    catch (Exception) { }
+            //generatorDensity.Save();
+
+            GeneratorCSV generatorMonuments = new GeneratorCSV("Monuments");
 
             foreach (var item in list)
                 try
                 {
-                    generatorDensity.Generate(item.DisplayName, item.Population / item.Area);
+                    generatorMonuments.Generate(item.DisplayName, item.CountOfMonuments);
                 }
                 catch (Exception) { }
-            generatorDensity.Save();
+
+            generatorMonuments.Save();
         }
     }
 }

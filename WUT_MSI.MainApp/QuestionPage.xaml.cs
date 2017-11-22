@@ -36,7 +36,8 @@ namespace WUT_MSI.MainApp
 
             this.evaluator = evaluator;
             Question = evaluator.GetQuestion();
-            //Question = new Question<ICountry>("Pytanie", new List<IAnswer<ICountry>>() { new Answer<ICountry>(0, 1, "odpowiedź"), new Answer<ICountry>(0, 1, "odpowiedź") }, null);
+
+            Answers = Question.Answers.Where(i => GeneralHelper.CheckIfAnswerHasResult(i, evaluator.CurrentAnswerSet, Question.FuzzyFunction)).ToList();
 
             AnswerList.SelectionChanged += AnswerList_SelectionChanged;
             this.DataContext = Question;
@@ -47,7 +48,6 @@ namespace WUT_MSI.MainApp
             if (AnswerList.SelectedValue == null) return;
             try
             {
-
                 var question = evaluator[AnswerList.SelectedValue as Answer<ICountry>];
                 while (!question.Answers.Any(item => GeneralHelper.CheckIfAnswerHasResult(item, evaluator.CurrentAnswerSet, question.FuzzyFunction)))
                 {
