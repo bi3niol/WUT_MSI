@@ -33,10 +33,10 @@ namespace WUT_MSI.MainApp.Managers
             questions.Add(
                 new Question<ICountry>
                 (
-                    "Jak temperatura dominuje?",
+                    "Jak panuje temperatura?",
                     new List<IAnswer<ICountry>>()
                     {
-                        new Answer<ICountry>(0.8, 1.0, "Wysoka"),
+                        new Answer<ICountry>(0.8, 1, "Wysoka"),
                         new Answer<ICountry>(0.6, 0.8, "Średnia"),
                         new Answer<ICountry>(0.3, 0.5, "Umiarkowana"),
                         new Answer<ICountry>(0.1, 0.3, "Niska")
