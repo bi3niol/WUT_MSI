@@ -6,28 +6,29 @@
       xmlns:local="clr-namespace:WUT_MSI.MainApp"
       mc:Ignorable="d" 
       d:DesignHeight="350" d:DesignWidth="525"
-      Title="MSI - Rozmytość">
+      Title="MSI - Rozmytość" Background="#2196f3">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition/>
-            <RowDefinition Height="4*"/>
+            <RowDefinition/>
+            <RowDefinition Height="5*"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Label Content="Wyniki:"/>
-        <ListView x:Name="AnswerList" ItemsSource="{Binding}" Grid.Row="1" Margin="20">
+        <Label Content="Wyniki:" HorizontalAlignment="Center" Grid.Row="1" Foreground="White" FontWeight="Bold" FontSize="16"/>
+        <ListView x:Name="AnswerList" ItemsSource="{Binding}" Grid.Row="2" Margin="20" Background="#a5f9ff">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <Grid>
+                    <Grid Width="250">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="2*"/>
                             <ColumnDefinition/>
                         </Grid.ColumnDefinitions>
-                        <Label Content="{Binding DisplayName}"/>
-                        <Label Content="{Binding Result}" Grid.Column="1"/>
+                        <Label Content="{Binding DisplayName}" HorizontalAlignment="Left" FontSize="16"/>
+                        <Label Content="{Binding Result}" Grid.Column="1" HorizontalAlignment="Right" FontSize="16"/>
                     </Grid>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <Button Content="Wróć do menu" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" Click="Button_Click" Padding="10, 5"/>
+        <Button Content="Wróć do menu" Foreground="White" Background="#0069c0" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" Click="Button_Click" Padding="10, 5"/>
     </Grid>
 </Page>

@@ -73,6 +73,15 @@ namespace WUT_MSI.ModelsLib
         public float MaxGINI { get; set; } = float.MinValue;
         public float MinGINI { get; set; } = float.MaxValue;
 
+        public double MaxPKBPerPerson { get; set; } = 182291.666666667f;
+        public double MinPKBPerPerson { get; set; } = 0;
+
+        public double MaxMedicine { get; set; } = 1;
+        public double MinMedicine { get; set; } = 0;
+
+        public double MaxSafety { get; set; } = 1;
+        public double MinSafety { get; set; } = 0;
+
         public static void SetGINI(float giny)
         {
             if (Instance.MaxGINI < giny)

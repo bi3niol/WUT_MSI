@@ -21,6 +21,9 @@ namespace WUT_MSI.Models.classes
         public double Result { get; set; }
         public double CumSum { get; set; }
         public double QuestionsNum { get; set; }
+        public double PKB { get; set; }
+        public double Medicine { get; set; }
+        public double Safety { get; set; }
 
         public Country() {  }
 

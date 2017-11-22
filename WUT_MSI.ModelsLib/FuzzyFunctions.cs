@@ -118,13 +118,7 @@ namespace WUT_MSI.Models
         {
             public static double Invoke(ICountry country)
             {
-                if (country.GINI > 40 && country.GINI <= 55)
-                    return Math.Pow(0.9 * PopulationFuzzy.Invoke(country), 2);
-
-                if (country.GINI > 20 && country.GINI <= 70)
-                    return Math.Pow(0.6 * PopulationFuzzy.Invoke(country), 2);
-
-                return Math.Pow(0.25 * PopulationFuzzy.Invoke(country), 2);
+                return (country.Population == 0 ? 0 : country.PKB / country.Population) / (FuzzyProps.Instance.MaxPKBPerPerson - FuzzyProps.Instance.MinPKBPerPerson);
             }
         }
 
@@ -132,7 +126,7 @@ namespace WUT_MSI.Models
         {
             public static double Invoke(ICountry country)
             {
-                return (FuzzyProps.Instance.MaxGINI - country.GINI) / FuzzyProps.Instance.MaxGINI * (Math.Sin(Math.Pow(PopulationFuzzy.Invoke(country), 2)));
+                return country.Medicine;
             }
         }
 
@@ -140,13 +134,7 @@ namespace WUT_MSI.Models
         {
             public static double Invoke(ICountry country)
             {
-                if (country.GINI > 40 && country.GINI <= 45)
-                    return 0.8;
-
-                if (country.GINI > 20 && country.GINI <= 70)
-                    return 0.55;
-
-                return 0.3;
+                return country.Safety;
             }
         }
     }

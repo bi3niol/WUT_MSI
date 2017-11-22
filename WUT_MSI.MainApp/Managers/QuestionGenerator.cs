@@ -58,18 +58,18 @@ namespace WUT_MSI.MainApp.Managers
                     FuzzyFunctions.AreaFuzzy.Invoke
                 ));
 
-            //questions.Add(
-            //    new Question<ICountry>
-            //    (
-            //        "W jakim stopniu kraj jest rozwinięty?",
-            //        new List<IAnswer<ICountry>>()
-            //        {
-            //            new Answer<ICountry>(0.6,1, "Bardzo"),
-            //            new Answer<ICountry>(0.35, 0.6, "Średno"),
-            //            new Answer<ICountry>(0, 0.35, "Słabo"),
-            //        },
-            //        FuzzyFunctions.DevelopementFuzzy.Invoke
-            //    ));
+            questions.Add(
+                new Question<ICountry>
+                (
+                    "W jakim stopniu kraj jest rozwinięty?",
+                    new List<IAnswer<ICountry>>()
+                    {
+                        new Answer<ICountry>(0.2,1.8, "Bardzo"),
+                        new Answer<ICountry>(-0.2, 0.6, "Średno"),
+                        new Answer<ICountry>(-0.05, 0.05, "Słabo"),
+                    },
+                    FuzzyFunctions.DevelopementFuzzy.Invoke
+                ));
 
             questions.Add(
                 new Question<ICountry>
@@ -84,31 +84,31 @@ namespace WUT_MSI.MainApp.Managers
                     FuzzyFunctions.RainsFuzzy.Invoke
                 ));
 
-            //questions.Add(
-            //    new Question<ICountry>
-            //    (
-            //        "Jaki jest poziom bezpieczeństwa kraju?",
-            //        new List<IAnswer<ICountry>>()
-            //        {
-            //            new Answer<ICountry>(0.6, int.MaxValue, "Wysoki"),
-            //            new Answer<ICountry>(0.4, 0.6, "Średni"),
-            //            new Answer<ICountry>(0, 0.4, "Niski"),
-            //        },
-            //        FuzzyFunctions.SafetyFuzzy.Invoke
-            //    ));
+            questions.Add(
+                new Question<ICountry>
+                (
+                    "Jaki jest poziom bezpieczeństwa kraju?",
+                    new List<IAnswer<ICountry>>()
+                    {
+                        new Answer<ICountry>(0.6, 1.4, "Wysoki"),
+                        new Answer<ICountry>(0.1, 0.9, "Średni"),
+                        new Answer<ICountry>(-0.4, 0.4, "Niski"),
+                    },
+                    FuzzyFunctions.SafetyFuzzy.Invoke
+                ));
 
-            //questions.Add(
-            //   new Question<ICountry>
-            //   (
-            //       "Jaki jest poziom medycyny w kraju?",
-            //       new List<IAnswer<ICountry>>()
-            //       {
-            //            new Answer<ICountry>(0.7, int.MaxValue, "Wysoki"),
-            //            new Answer<ICountry>(0.5, 0.7, "Średni"),
-            //            new Answer<ICountry>(0, 0.5, "Niski"),
-            //       },
-            //       FuzzyFunctions.MedicineFuzzy.Invoke
-            //   ));
+            questions.Add(
+               new Question<ICountry>
+               (
+                   "Jaki jest poziom medycyny w kraju?",
+                   new List<IAnswer<ICountry>>()
+                   {
+                        new Answer<ICountry>(0.6, 1.4, "Wysoki"),
+                        new Answer<ICountry>(0.1, 0.9, "Średni"),
+                        new Answer<ICountry>(-0.4, 0.4, "Niski"),
+                   },
+                   FuzzyFunctions.MedicineFuzzy.Invoke
+               ));
 
             //questions.Add(
             //   new Question<ICountry>

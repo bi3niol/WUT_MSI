@@ -15,7 +15,7 @@
             <RowDefinition/>
             <RowDefinition Height="2*"/>
         </Grid.RowDefinitions>
-        <Label Content="MSI - Rozmytość" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontStyle="Oblique" FontWeight="Bold"/>
-        <Button Content="Start" VerticalAlignment="Center" Width="100" Click="Start_Click" Grid.Row="2" Padding="5"/>
+        <Label Foreground="White" Content="MSI - Rozmytość" FontSize="30" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Button Foreground="White" Background="#0069c0" Content="Start" VerticalAlignment="Center" Width="100" Click="Start_Click" Grid.Row="2" Padding="5"/>
     </Grid>
 </Page>

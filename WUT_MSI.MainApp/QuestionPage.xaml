@@ -6,18 +6,18 @@
       xmlns:local="clr-namespace:WUT_MSI.MainApp"
       mc:Ignorable="d" 
       d:DesignHeight="350" d:DesignWidth="525"
-      Title="MSI - Rozmytość">
+      Title="MSI - Rozmytość" Background="#2196f3">
 
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition Height="4*"/>
         </Grid.RowDefinitions>
-        <Label Content="{Binding DisplayQuestion}" VerticalAlignment="Center" HorizontalAlignment="Center" />
-        <ListView x:Name="AnswerList" ItemsSource="{Binding Answers}" Grid.Row="1" Margin="20">
+        <Label Content="{Binding DisplayQuestion}" Foreground="White" FontWeight="Bold" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <ListView x:Name="AnswerList" ItemsSource="{Binding Answers}" Grid.Row="1" Margin="20" Background="#a5f9ff">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <Label Content="{Binding DisplayLabel}"/>
+                    <Label Content="{Binding DisplayLabel}" FontSize="16"/>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>

@@ -11,6 +11,9 @@
     <Population>27657145</Population>
     <TimeZone>4</TimeZone>
     <Result>0</Result>
+    <PKB>18900</PKB>
+    <Medicine>0.2</Medicine>
+    <Safety>0.0</Safety>
   </Country>
   <Country>
     <DisplayName>Ă…land Islands</DisplayName>
@@ -23,6 +26,9 @@
     <Population>28875</Population>
     <TimeZone>2</TimeZone>
     <Result>0</Result>
+    <PKB>100</PKB>
+    <Medicine>0.4</Medicine>
+    <Safety>0.5</Safety>
   </Country>
   <Country>
     <DisplayName>Albania</DisplayName>
@@ -35,6 +41,9 @@
     <Population>2886026</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>12000</PKB>
+    <Medicine>0.2</Medicine>
+    <Safety>0.2</Safety>
   </Country>
   <Country>
     <DisplayName>Algeria</DisplayName>
@@ -47,6 +56,9 @@
     <Population>40400000</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>160000</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.3</Safety>
   </Country>
   <Country>
     <DisplayName>American Samoa</DisplayName>
@@ -59,6 +71,9 @@
     <Population>57100</Population>
     <TimeZone>-11</TimeZone>
     <Result>0</Result>
+    <PKB>1000</PKB>
+    <Medicine>0.1</Medicine>
+    <Safety>0.2</Safety>
   </Country>
   <Country>
     <DisplayName>Andorra</DisplayName>
@@ -71,6 +86,9 @@
     <Population>78014</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>3000</PKB>
+    <Medicine>0.6</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Angola</DisplayName>
@@ -83,6 +101,9 @@
     <Population>25868000</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>146700</PKB>
+    <Medicine>0.1</Medicine>
+    <Safety>0.2</Safety>
   </Country>
   <Country>
     <DisplayName>Anguilla</DisplayName>
@@ -95,6 +116,9 @@
     <Population>13452</Population>
     <TimeZone>-4</TimeZone>
     <Result>0</Result>
+    <PKB>311</PKB>
+    <Medicine>0.2</Medicine>
+    <Safety>0.3</Safety>
   </Country>
   <Country>
     <DisplayName>Antarctica</DisplayName>
@@ -107,6 +131,9 @@
     <Population>1000</Population>
     <TimeZone>-3</TimeZone>
     <Result>0</Result>
+    <PKB>0</PKB>
+    <Medicine>0</Medicine>
+    <Safety>0.2</Safety>
   </Country>
   <Country>
     <DisplayName>Antigua and Barbuda</DisplayName>
@@ -119,6 +146,9 @@
     <Population>86295</Population>
     <TimeZone>-4</TimeZone>
     <Result>0</Result>
+    <PKB>1200</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Argentina</DisplayName>
@@ -131,6 +161,9 @@
     <Population>43590400</Population>
     <TimeZone>-3</TimeZone>
     <Result>0</Result>
+    <PKB>550000</PKB>
+    <Medicine>0.8</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Armenia</DisplayName>
@@ -143,6 +176,9 @@
     <Population>2994400</Population>
     <TimeZone>4</TimeZone>
     <Result>0</Result>
+    <PKB>11000</PKB>
+    <Medicine>0.4</Medicine>
+    <Safety>0.3</Safety>
   </Country>
   <Country>
     <DisplayName>Aruba</DisplayName>
@@ -155,6 +191,9 @@
     <Population>107394</Population>
     <TimeZone>-4</TimeZone>
     <Result>0</Result>
+    <PKB>2700</PKB>
+    <Medicine>0.1</Medicine>
+    <Safety>0.4</Safety>
   </Country>
   <Country>
     <DisplayName>Australia</DisplayName>
@@ -167,6 +206,9 @@
     <Population>24117360</Population>
     <TimeZone>5</TimeZone>
     <Result>0</Result>
+    <PKB>1230000</PKB>
+    <Medicine>0.9</Medicine>
+    <Safety>1</Safety>
   </Country>
   <Country>
     <DisplayName>Austria</DisplayName>
@@ -179,6 +221,9 @@
     <Population>8725931</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>436000</PKB>
+    <Medicine>1</Medicine>
+    <Safety>0.8</Safety>
   </Country>
   <Country>
     <DisplayName>Azerbaijan</DisplayName>
@@ -191,6 +236,9 @@
     <Population>9730500</Population>
     <TimeZone>4</TimeZone>
     <Result>0</Result>
+    <PKB>75000</PKB>
+    <Medicine>0.6</Medicine>
+    <Safety>0.6</Safety>
   </Country>
   <Country>
     <DisplayName>Bahamas</DisplayName>
@@ -203,6 +251,9 @@
     <Population>378040</Population>
     <TimeZone>-5</TimeZone>
     <Result>0</Result>
+    <PKB>4000</PKB>
+    <Medicine>0.5</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Bahrain</DisplayName>
@@ -215,6 +266,9 @@
     <Population>1404900</Population>
     <TimeZone>3</TimeZone>
     <Result>0</Result>
+    <PKB>34000</PKB>
+    <Medicine>0.6</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Bangladesh</DisplayName>
@@ -227,6 +281,9 @@
     <Population>161006790</Population>
     <TimeZone>6</TimeZone>
     <Result>0</Result>
+    <PKB>173000</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.5</Safety>
   </Country>
   <Country>
     <DisplayName>Barbados</DisplayName>
@@ -239,6 +296,9 @@
     <Population>285000</Population>
     <TimeZone>-4</TimeZone>
     <Result>0</Result>
+    <PKB>4300</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.6</Safety>
   </Country>
   <Country>
     <DisplayName>Belarus</DisplayName>
@@ -251,6 +311,9 @@
     <Population>9498700</Population>
     <TimeZone>3</TimeZone>
     <Result>0</Result>
+    <PKB>76000</PKB>
+    <Medicine>0.5</Medicine>
+    <Safety>0.5</Safety>
   </Country>
   <Country>
     <DisplayName>Belgium</DisplayName>
@@ -263,6 +326,9 @@
     <Population>11319511</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>531000</PKB>
+    <Medicine>1.0</Medicine>
+    <Safety>0.8</Safety>
   </Country>
   <Country>
     <DisplayName>Belize</DisplayName>
@@ -275,6 +341,9 @@
     <Population>370300</Population>
     <TimeZone>-6</TimeZone>
     <Result>0</Result>
+    <PKB>1700</PKB>
+    <Medicine>0.4</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Benin</DisplayName>
@@ -287,6 +356,9 @@
     <Population>10653654</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>9600</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Bermuda</DisplayName>
@@ -299,6 +371,9 @@
     <Population>61954</Population>
     <TimeZone>-4</TimeZone>
     <Result>0</Result>
+    <PKB>5600</PKB>
+    <Medicine>0.5</Medicine>
+    <Safety>0.8</Safety>
   </Country>
   <Country>
     <DisplayName>Bhutan</DisplayName>
@@ -311,6 +386,9 @@
     <Population>775620</Population>
     <TimeZone>6</TimeZone>
     <Result>0</Result>
+    <PKB>1900</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.6</Safety>
   </Country>
   <Country>
     <DisplayName>Bolivia (Plurinational State of)</DisplayName>
@@ -323,6 +401,9 @@
     <Population>10985059</Population>
     <TimeZone>-4</TimeZone>
     <Result>0</Result>
+    <PKB>33000</PKB>
+    <Medicine>0.2</Medicine>
+    <Safety>0.4</Safety>
   </Country>
   <Country>
     <DisplayName>Bonaire, Sint Eustatius and Saba</DisplayName>
@@ -335,6 +416,9 @@
     <Population>17408</Population>
     <TimeZone>-4</TimeZone>
     <Result>0</Result>
+    <PKB>400</PKB>
+    <Medicine>0.2</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Bosnia and Herzegovina</DisplayName>
@@ -347,6 +431,9 @@
     <Population>3531159</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>18500</PKB>
+    <Medicine>0.4</Medicine>
+    <Safety>0.4</Safety>
   </Country>
   <Country>
     <DisplayName>Botswana</DisplayName>
@@ -359,6 +446,9 @@
     <Population>2141206</Population>
     <TimeZone>2</TimeZone>
     <Result>0</Result>
+    <PKB>16000</PKB>
+    <Medicine>0.1</Medicine>
+    <Safety>0.3</Safety>
   </Country>
   <Country>
     <DisplayName>Bouvet Island</DisplayName>
@@ -371,6 +461,9 @@
     <Population>0</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>400</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Brazil</DisplayName>
@@ -383,6 +476,9 @@
     <Population>206135893</Population>
     <TimeZone>-5</TimeZone>
     <Result>0</Result>
+    <PKB>1772500</PKB>
+    <Medicine>0.6</Medicine>
+    <Safety>0.6</Safety>
   </Country>
   <Country>
     <DisplayName>British Indian Ocean Territory</DisplayName>
@@ -395,6 +491,9 @@
     <Population>3000</Population>
     <TimeZone>6</TimeZone>
     <Result>0</Result>
+    <PKB>2</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Virgin Islands (British)</DisplayName>
@@ -407,6 +506,9 @@
     <Population>28514</Population>
     <TimeZone>-4</TimeZone>
     <Result>0</Result>
+    <PKB>600</PKB>
+    <Medicine>0.4</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Virgin Islands (U.S.)</DisplayName>
@@ -419,6 +521,9 @@
     <Population>114743</Population>
     <TimeZone>-4</TimeZone>
     <Result>0</Result>
+    <PKB>500</PKB>
+    <Medicine>0.4</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Brunei Darussalam</DisplayName>
@@ -431,6 +536,9 @@
     <Population>411900</Population>
     <TimeZone>8</TimeZone>
     <Result>0</Result>
+    <PKB>17000</PKB>
+    <Medicine>0.2</Medicine>
+    <Safety>0.4</Safety>
   </Country>
   <Country>
     <DisplayName>Bulgaria</DisplayName>
@@ -443,6 +551,9 @@
     <Population>7153784</Population>
     <TimeZone>2</TimeZone>
     <Result>0</Result>
+    <PKB>57000</PKB>
+    <Medicine>0.6</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Burundi</DisplayName>
@@ -455,6 +566,9 @@
     <Population>10114505</Population>
     <TimeZone>2</TimeZone>
     <Result>0</Result>
+    <PKB>2900</PKB>
+    <Medicine>0.2</Medicine>
+    <Safety>0.4</Safety>
   </Country>
   <Country>
     <DisplayName>Cambodia</DisplayName>
@@ -467,6 +581,9 @@
     <Population>15626444</Population>
     <TimeZone>7</TimeZone>
     <Result>0</Result>
+    <PKB>16700</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.4</Safety>
   </Country>
   <Country>
     <DisplayName>Cameroon</DisplayName>
@@ -479,6 +596,9 @@
     <Population>22709892</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>32000</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.5</Safety>
   </Country>
   <Country>
     <DisplayName>Cabo Verde</DisplayName>
@@ -491,6 +611,9 @@
     <Population>531239</Population>
     <TimeZone>-1</TimeZone>
     <Result>0</Result>
+    <PKB>1800</PKB>
+    <Medicine>0.1</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Cayman Islands</DisplayName>
@@ -503,6 +626,9 @@
     <Population>58238</Population>
     <TimeZone>-5</TimeZone>
     <Result>0</Result>
+    <PKB>350</PKB>
+    <Medicine>0.5</Medicine>
+    <Safety>0.5</Safety>
   </Country>
   <Country>
     <DisplayName>Central African Republic</DisplayName>
@@ -515,6 +641,9 @@
     <Population>4998000</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>1800</PKB>
+    <Medicine>0.1</Medicine>
+    <Safety>0.4</Safety>
   </Country>
   <Country>
     <DisplayName>Chad</DisplayName>
@@ -527,6 +656,9 @@
     <Population>14497000</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>12800</PKB>
+    <Medicine>0.1</Medicine>
+    <Safety>0.1</Safety>
   </Country>
   <Country>
     <DisplayName>Chile</DisplayName>
@@ -539,6 +671,9 @@
     <Population>18191900</Population>
     <TimeZone>-6</TimeZone>
     <Result>0</Result>
+    <PKB>258000</PKB>
+    <Medicine>0.6</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>China</DisplayName>
@@ -551,6 +686,9 @@
     <Population>1377422166</Population>
     <TimeZone>8</TimeZone>
     <Result>0</Result>
+    <PKB>11000000</PKB>
+    <Medicine>0.7</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Christmas Island</DisplayName>
@@ -563,6 +701,9 @@
     <Population>2072</Population>
     <TimeZone>7</TimeZone>
     <Result>0</Result>
+    <PKB>100</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.9</Safety>
   </Country>
   <Country>
     <DisplayName>Cocos (Keeling) Islands</DisplayName>
@@ -575,6 +716,9 @@
     <Population>550</Population>
     <TimeZone>6</TimeZone>
     <Result>0</Result>
+    <PKB>0.4</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.8</Safety>
   </Country>
   <Country>
     <DisplayName>Colombia</DisplayName>
@@ -587,6 +731,9 @@
     <Population>48759958</Population>
     <TimeZone>-5</TimeZone>
     <Result>0</Result>
+    <PKB>377000</PKB>
+    <Medicine>0.1</Medicine>
+    <Safety>0.3</Safety>
   </Country>
   <Country>
     <DisplayName>Comoros</DisplayName>
@@ -599,6 +746,9 @@
     <Population>806153</Population>
     <TimeZone>3</TimeZone>
     <Result>0</Result>
+    <PKB>648</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.5</Safety>
   </Country>
   <Country>
     <DisplayName>Congo</DisplayName>
@@ -611,6 +761,9 @@
     <Population>4741000</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>14000</PKB>
+    <Medicine>0.1</Medicine>
+    <Safety>0.3</Safety>
   </Country>
   <Country>
     <DisplayName>Congo (Democratic Republic of the)</DisplayName>
@@ -623,6 +776,9 @@
     <Population>85026000</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>35000</PKB>
+    <Medicine>0.1</Medicine>
+    <Safety>0.3</Safety>
   </Country>
   <Country>
     <DisplayName>Cook Islands</DisplayName>
@@ -635,6 +791,9 @@
     <Population>18100</Population>
     <TimeZone>-10</TimeZone>
     <Result>0</Result>
+    <PKB>300</PKB>
+    <Medicine>0.4</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Costa Rica</DisplayName>
@@ -647,6 +806,9 @@
     <Population>4890379</Population>
     <TimeZone>-6</TimeZone>
     <Result>0</Result>
+    <PKB>49000</PKB>
+    <Medicine>0.5</Medicine>
+    <Safety>0.8</Safety>
   </Country>
   <Country>
     <DisplayName>Croatia</DisplayName>
@@ -659,6 +821,9 @@
     <Population>4190669</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>57000</PKB>
+    <Medicine>0.6</Medicine>
+    <Safety>0.9</Safety>
   </Country>
   <Country>
     <DisplayName>Cuba</DisplayName>
@@ -671,6 +836,9 @@
     <Population>11239004</Population>
     <TimeZone>-5</TimeZone>
     <Result>0</Result>
+    <PKB>87000</PKB>
+    <Medicine>0.4</Medicine>
+    <Safety>0.4</Safety>
   </Country>
   <Country>
     <DisplayName>CuraĂ§ao</DisplayName>
@@ -683,6 +851,9 @@
     <Population>154843</Population>
     <TimeZone>-4</TimeZone>
     <Result>0</Result>
+    <PKB>3100</PKB>
+    <Medicine>0.6</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Cyprus</DisplayName>
@@ -695,6 +866,9 @@
     <Population>847000</Population>
     <TimeZone>2</TimeZone>
     <Result>0</Result>
+    <PKB>23000</PKB>
+    <Medicine>0.4</Medicine>
+    <Safety>0.4</Safety>
   </Country>
   <Country>
     <DisplayName>Czech Republic</DisplayName>
@@ -707,6 +881,9 @@
     <Population>10558524</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>205000</PKB>
+    <Medicine>0.7</Medicine>
+    <Safety>1.0</Safety>
   </Country>
   <Country>
     <DisplayName>Denmark</DisplayName>
@@ -719,6 +896,9 @@
     <Population>5717014</Population>
     <TimeZone>-4</TimeZone>
     <Result>0</Result>
+    <PKB>346000</PKB>
+    <Medicine>0.9</Medicine>
+    <Safety>0.8</Safety>
   </Country>
   <Country>
     <DisplayName>Djibouti</DisplayName>
@@ -731,6 +911,9 @@
     <Population>900000</Population>
     <TimeZone>3</TimeZone>
     <Result>0</Result>
+    <PKB>1500</PKB>
+    <Medicine>0.2</Medicine>
+    <Safety>0.4</Safety>
   </Country>
   <Country>
     <DisplayName>Dominica</DisplayName>
@@ -743,6 +926,9 @@
     <Population>71293</Population>
     <TimeZone>-4</TimeZone>
     <Result>0</Result>
+    <PKB>533</PKB>
+    <Medicine>0.2</Medicine>
+    <Safety>0.5</Safety>
   </Country>
   <Country>
     <DisplayName>Dominican Republic</DisplayName>
@@ -755,6 +941,9 @@
     <Population>10075045</Population>
     <TimeZone>-4</TimeZone>
     <Result>0</Result>
+    <PKB>64000</PKB>
+    <Medicine>0.4</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Ecuador</DisplayName>
@@ -767,6 +956,9 @@
     <Population>16545799</Population>
     <TimeZone>-6</TimeZone>
     <Result>0</Result>
+    <PKB>101000</PKB>
+    <Medicine>0.2</Medicine>
+    <Safety>0.5</Safety>
   </Country>
   <Country>
     <DisplayName>Egypt</DisplayName>
@@ -779,6 +971,9 @@
     <Population>91290000</Population>
     <TimeZone>2</TimeZone>
     <Result>0</Result>
+    <PKB>282000</PKB>
+    <Medicine>0.2</Medicine>
+    <Safety>0.1</Safety>
   </Country>
   <Country>
     <DisplayName>El Salvador</DisplayName>
@@ -791,6 +986,9 @@
     <Population>6520675</Population>
     <TimeZone>-6</TimeZone>
     <Result>0</Result>
+    <PKB>25000</PKB>
+    <Medicine>0.2</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Equatorial Guinea</DisplayName>
@@ -803,6 +1001,9 @@
     <Population>1222442</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>17000</PKB>
+    <Medicine>0.5</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Eritrea</DisplayName>
@@ -815,6 +1016,9 @@
     <Population>5352000</Population>
     <TimeZone>3</TimeZone>
     <Result>0</Result>
+    <PKB>3800</PKB>
+    <Medicine>0.2</Medicine>
+    <Safety>0.5</Safety>
   </Country>
   <Country>
     <DisplayName>Estonia</DisplayName>
@@ -827,6 +1031,9 @@
     <Population>1315944</Population>
     <TimeZone>2</TimeZone>
     <Result>0</Result>
+    <PKB>26000</PKB>
+    <Medicine>0.6</Medicine>
+    <Safety>1.0</Safety>
   </Country>
   <Country>
     <DisplayName>Ethiopia</DisplayName>
@@ -839,6 +1046,9 @@
     <Population>92206005</Population>
     <TimeZone>3</TimeZone>
     <Result>0</Result>
+    <PKB>53000</PKB>
+    <Medicine>0.1</Medicine>
+    <Safety>0.2</Safety>
   </Country>
   <Country>
     <DisplayName>Falkland Islands (Malvinas)</DisplayName>
@@ -851,6 +1061,9 @@
     <Population>2563</Population>
     <TimeZone>-4</TimeZone>
     <Result>0</Result>
+    <PKB>1</PKB>
+    <Medicine>0.2</Medicine>
+    <Safety>0.4</Safety>
   </Country>
   <Country>
     <DisplayName>Faroe Islands</DisplayName>
@@ -863,6 +1076,9 @@
     <Population>49376</Population>
     <TimeZone>0</TimeZone>
     <Result>0</Result>
+    <PKB>10</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Fiji</DisplayName>
@@ -875,6 +1091,9 @@
     <Population>867000</Population>
     <TimeZone>12</TimeZone>
     <Result>0</Result>
+    <PKB>4500</PKB>
+    <Medicine>0.2</Medicine>
+    <Safety>0.6</Safety>
   </Country>
   <Country>
     <DisplayName>Finland</DisplayName>
@@ -887,6 +1106,9 @@
     <Population>5491817</Population>
     <TimeZone>2</TimeZone>
     <Result>0</Result>
+    <PKB>270000</PKB>
+    <Medicine>0.8</Medicine>
+    <Safety>1.0</Safety>
   </Country>
   <Country>
     <DisplayName>France</DisplayName>
@@ -899,6 +1121,9 @@
     <Population>66710000</Population>
     <TimeZone>-10</TimeZone>
     <Result>0</Result>
+    <PKB>2400000</PKB>
+    <Medicine>1</Medicine>
+    <Safety>0.3</Safety>
   </Country>
   <Country>
     <DisplayName>French Polynesia</DisplayName>
@@ -911,6 +1136,9 @@
     <Population>271800</Population>
     <TimeZone>-10</TimeZone>
     <Result>0</Result>
+    <PKB>5600</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.5</Safety>
   </Country>
   <Country>
     <DisplayName>French Southern Territories</DisplayName>
@@ -923,6 +1151,9 @@
     <Population>140</Population>
     <TimeZone>5</TimeZone>
     <Result>0</Result>
+    <PKB>0.01</PKB>
+    <Medicine>0.4</Medicine>
+    <Safety>0.5</Safety>
   </Country>
   <Country>
     <DisplayName>Gabon</DisplayName>
@@ -935,6 +1166,9 @@
     <Population>1802278</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>17000</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Gambia</DisplayName>
@@ -947,6 +1181,9 @@
     <Population>1882450</Population>
     <TimeZone>0</TimeZone>
     <Result>0</Result>
+    <PKB>5000</PKB>
+    <Medicine>0.2</Medicine>
+    <Safety>0.6</Safety>
   </Country>
   <Country>
     <DisplayName>Georgia</DisplayName>
@@ -959,6 +1196,9 @@
     <Population>3720400</Population>
     <TimeZone>-5</TimeZone>
     <Result>0</Result>
+    <PKB>16000</PKB>
+    <Medicine>0.6</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Germany</DisplayName>
@@ -971,6 +1211,9 @@
     <Population>81770900</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>3300000</PKB>
+    <Medicine>1</Medicine>
+    <Safety>0.3</Safety>
   </Country>
   <Country>
     <DisplayName>Gibraltar</DisplayName>
@@ -983,6 +1226,9 @@
     <Population>33140</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>100</PKB>
+    <Medicine>0.5</Medicine>
+    <Safety>0.9</Safety>
   </Country>
   <Country>
     <DisplayName>Greece</DisplayName>
@@ -995,6 +1241,9 @@
     <Population>10858018</Population>
     <TimeZone>2</TimeZone>
     <Result>0</Result>
+    <PKB>235000</PKB>
+    <Medicine>0.7</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Greenland</DisplayName>
@@ -1007,6 +1256,9 @@
     <Population>55847</Population>
     <TimeZone>-4</TimeZone>
     <Result>0</Result>
+    <PKB>2400</PKB>
+    <Medicine>0.6</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Grenada</DisplayName>
@@ -1019,6 +1271,9 @@
     <Population>103328</Population>
     <TimeZone>-4</TimeZone>
     <Result>0</Result>
+    <PKB>890</PKB>
+    <Medicine>0.6</Medicine>
+    <Safety>1</Safety>
   </Country>
   <Country>
     <DisplayName>Guam</DisplayName>
@@ -1031,6 +1286,9 @@
     <Population>184200</Population>
     <TimeZone>10</TimeZone>
     <Result>0</Result>
+    <PKB>5000</PKB>
+    <Medicine>0.4</Medicine>
+    <Safety>0.4</Safety>
   </Country>
   <Country>
     <DisplayName>Guatemala</DisplayName>
@@ -1043,6 +1301,9 @@
     <Population>16176133</Population>
     <TimeZone>-6</TimeZone>
     <Result>0</Result>
+    <PKB>59000</PKB>
+    <Medicine>0.1</Medicine>
+    <Safety>0.2</Safety>
   </Country>
   <Country>
     <DisplayName>Guernsey</DisplayName>
@@ -1055,6 +1316,9 @@
     <Population>62999</Population>
     <TimeZone>0</TimeZone>
     <Result>0</Result>
+    <PKB>3000</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.6</Safety>
   </Country>
   <Country>
     <DisplayName>Guyana</DisplayName>
@@ -1067,6 +1331,9 @@
     <Population>746900</Population>
     <TimeZone>-4</TimeZone>
     <Result>0</Result>
+    <PKB>3000</PKB>
+    <Medicine>0.4</Medicine>
+    <Safety>0.5</Safety>
   </Country>
   <Country>
     <DisplayName>Haiti</DisplayName>
@@ -1079,6 +1346,9 @@
     <Population>11078033</Population>
     <TimeZone>-5</TimeZone>
     <Result>0</Result>
+    <PKB>8600</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.4</Safety>
   </Country>
   <Country>
     <DisplayName>Heard Island and McDonald Islands</DisplayName>
@@ -1091,6 +1361,9 @@
     <Population>0</Population>
     <TimeZone>5</TimeZone>
     <Result>0</Result>
+    <PKB>100</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Holy See</DisplayName>
@@ -1103,6 +1376,9 @@
     <Population>451</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>0.5</PKB>
+    <Medicine>0.1</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Honduras</DisplayName>
@@ -1115,6 +1391,9 @@
     <Population>8576532</Population>
     <TimeZone>-6</TimeZone>
     <Result>0</Result>
+    <PKB>19000</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.4</Safety>
   </Country>
   <Country>
     <DisplayName>Hong Kong</DisplayName>
@@ -1127,6 +1406,9 @@
     <Population>7324300</Population>
     <TimeZone>8</TimeZone>
     <Result>0</Result>
+    <PKB>275000</PKB>
+    <Medicine>0.9</Medicine>
+    <Safety>0.8</Safety>
   </Country>
   <Country>
     <DisplayName>Hungary</DisplayName>
@@ -1139,6 +1421,9 @@
     <Population>9823000</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>138000</PKB>
+    <Medicine>0.6</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>India</DisplayName>
@@ -1151,6 +1436,9 @@
     <Population>1295210000</Population>
     <TimeZone>5</TimeZone>
     <Result>0</Result>
+    <PKB>2100000</PKB>
+    <Medicine>0.2</Medicine>
+    <Safety>0.3</Safety>
   </Country>
   <Country>
     <DisplayName>Indonesia</DisplayName>
@@ -1163,6 +1451,9 @@
     <Population>258705000</Population>
     <TimeZone>7</TimeZone>
     <Result>0</Result>
+    <PKB>860000</PKB>
+    <Medicine>0.6</Medicine>
+    <Safety>0.9</Safety>
   </Country>
   <Country>
     <DisplayName>Iraq</DisplayName>
@@ -1175,6 +1466,9 @@
     <Population>37883543</Population>
     <TimeZone>3</TimeZone>
     <Result>0</Result>
+    <PKB>225000</PKB>
+    <Medicine>0.2</Medicine>
+    <Safety>0.3</Safety>
   </Country>
   <Country>
     <DisplayName>Isle of Man</DisplayName>
@@ -1187,6 +1481,9 @@
     <Population>84497</Population>
     <TimeZone>0</TimeZone>
     <Result>0</Result>
+    <PKB>1000</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.8</Safety>
   </Country>
   <Country>
     <DisplayName>Israel</DisplayName>
@@ -1199,6 +1496,9 @@
     <Population>8527400</Population>
     <TimeZone>2</TimeZone>
     <Result>0</Result>
+    <PKB>300000</PKB>
+    <Medicine>0.7</Medicine>
+    <Safety>0.9</Safety>
   </Country>
   <Country>
     <DisplayName>Italy</DisplayName>
@@ -1211,6 +1511,9 @@
     <Population>60665551</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>1800000</PKB>
+    <Medicine>1</Medicine>
+    <Safety>0.8</Safety>
   </Country>
   <Country>
     <DisplayName>Jamaica</DisplayName>
@@ -1223,6 +1526,9 @@
     <Population>2723246</Population>
     <TimeZone>-5</TimeZone>
     <Result>0</Result>
+    <PKB>14000</PKB>
+    <Medicine>0.4</Medicine>
+    <Safety>0.9</Safety>
   </Country>
   <Country>
     <DisplayName>Japan</DisplayName>
@@ -1235,6 +1541,9 @@
     <Population>126960000</Population>
     <TimeZone>9</TimeZone>
     <Result>0</Result>
+    <PKB>4380000</PKB>
+    <Medicine>1</Medicine>
+    <Safety>0.8</Safety>
   </Country>
   <Country>
     <DisplayName>Jersey</DisplayName>
@@ -1247,6 +1556,9 @@
     <Population>100800</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>2000</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.4</Safety>
   </Country>
   <Country>
     <DisplayName>Jordan</DisplayName>
@@ -1259,6 +1571,9 @@
     <Population>9531712</Population>
     <TimeZone>3</TimeZone>
     <Result>0</Result>
+    <PKB>35000</PKB>
+    <Medicine>0.2</Medicine>
+    <Safety>0.5</Safety>
   </Country>
   <Country>
     <DisplayName>Kazakhstan</DisplayName>
@@ -1271,6 +1586,9 @@
     <Population>17753200</Population>
     <TimeZone>5</TimeZone>
     <Result>0</Result>
+    <PKB>216000</PKB>
+    <Medicine>0.4</Medicine>
+    <Safety>0.6</Safety>
   </Country>
   <Country>
     <DisplayName>Kenya</DisplayName>
@@ -1283,6 +1601,9 @@
     <Population>47251000</Population>
     <TimeZone>3</TimeZone>
     <Result>0</Result>
+    <PKB>61000</PKB>
+    <Medicine>0.1</Medicine>
+    <Safety>0.4</Safety>
   </Country>
   <Country>
     <DisplayName>Kiribati</DisplayName>
@@ -1295,6 +1616,9 @@
     <Population>113400</Population>
     <TimeZone>12</TimeZone>
     <Result>0</Result>
+    <PKB>180</PKB>
+    <Medicine>0.1</Medicine>
+    <Safety>0.6</Safety>
   </Country>
   <Country>
     <DisplayName>Kuwait</DisplayName>
@@ -1307,6 +1631,9 @@
     <Population>4183658</Population>
     <TimeZone>3</TimeZone>
     <Result>0</Result>
+    <PKB>5000</PKB>
+    <Medicine>0.2</Medicine>
+    <Safety>0.6</Safety>
   </Country>
   <Country>
     <DisplayName>Kyrgyzstan</DisplayName>
@@ -1319,6 +1646,9 @@
     <Population>6047800</Population>
     <TimeZone>6</TimeZone>
     <Result>0</Result>
+    <PKB>5000</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.8</Safety>
   </Country>
   <Country>
     <DisplayName>Lao People's Democratic Republic</DisplayName>
@@ -1331,6 +1661,9 @@
     <Population>6492400</Population>
     <TimeZone>7</TimeZone>
     <Result>0</Result>
+    <PKB>11000</PKB>
+    <Medicine>0.4</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Latvia</DisplayName>
@@ -1343,6 +1676,9 @@
     <Population>1961600</Population>
     <TimeZone>2</TimeZone>
     <Result>0</Result>
+    <PKB>31000</PKB>
+    <Medicine>0.6</Medicine>
+    <Safety>1</Safety>
   </Country>
   <Country>
     <DisplayName>Lebanon</DisplayName>
@@ -1355,6 +1691,9 @@
     <Population>5988000</Population>
     <TimeZone>2</TimeZone>
     <Result>0</Result>
+    <PKB>49000</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.5</Safety>
   </Country>
   <Country>
     <DisplayName>Lesotho</DisplayName>
@@ -1367,6 +1706,9 @@
     <Population>1894194</Population>
     <TimeZone>2</TimeZone>
     <Result>0</Result>
+    <PKB>2000</PKB>
+    <Medicine>0.5</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Libya</DisplayName>
@@ -1379,6 +1721,9 @@
     <Population>6385000</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>41000</PKB>
+    <Medicine>0.1</Medicine>
+    <Safety>0</Safety>
   </Country>
   <Country>
     <DisplayName>Liechtenstein</DisplayName>
@@ -1391,6 +1736,9 @@
     <Population>37623</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>5800</PKB>
+    <Medicine>0.9</Medicine>
+    <Safety>0.8</Safety>
   </Country>
   <Country>
     <DisplayName>Lithuania</DisplayName>
@@ -1403,6 +1751,9 @@
     <Population>2872294</Population>
     <TimeZone>2</TimeZone>
     <Result>0</Result>
+    <PKB>48000</PKB>
+    <Medicine>0.4</Medicine>
+    <Safety>0.4</Safety>
   </Country>
   <Country>
     <DisplayName>Luxembourg</DisplayName>
@@ -1415,6 +1766,9 @@
     <Population>576200</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>65000</PKB>
+    <Medicine>0.9</Medicine>
+    <Safety>0.9</Safety>
   </Country>
   <Country>
     <DisplayName>Macao</DisplayName>
@@ -1427,6 +1781,9 @@
     <Population>649100</Population>
     <TimeZone>8</TimeZone>
     <Result>0</Result>
+    <PKB>55000</PKB>
+    <Medicine>0.5</Medicine>
+    <Safety>0.8</Safety>
   </Country>
   <Country>
     <DisplayName>Macedonia (the former Yugoslav Republic of)</DisplayName>
@@ -1439,6 +1796,9 @@
     <Population>2058539</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>11000</PKB>
+    <Medicine>0.5</Medicine>
+    <Safety>0.6</Safety>
   </Country>
   <Country>
     <DisplayName>Madagascar</DisplayName>
@@ -1451,6 +1811,9 @@
     <Population>22434363</Population>
     <TimeZone>3</TimeZone>
     <Result>0</Result>
+    <PKB>10700</PKB>
+    <Medicine>0.5</Medicine>
+    <Safety>0.9</Safety>
   </Country>
   <Country>
     <DisplayName>Malawi</DisplayName>
@@ -1463,6 +1826,9 @@
     <Population>16832910</Population>
     <TimeZone>2</TimeZone>
     <Result>0</Result>
+    <PKB>5700</PKB>
+    <Medicine>0.5</Medicine>
+    <Safety>0.8</Safety>
   </Country>
   <Country>
     <DisplayName>Malaysia</DisplayName>
@@ -1475,6 +1841,9 @@
     <Population>31405416</Population>
     <TimeZone>8</TimeZone>
     <Result>0</Result>
+    <PKB>320000</PKB>
+    <Medicine>0.7</Medicine>
+    <Safety>0.8</Safety>
   </Country>
   <Country>
     <DisplayName>Maldives</DisplayName>
@@ -1487,6 +1856,9 @@
     <Population>344023</Population>
     <TimeZone>5</TimeZone>
     <Result>0</Result>
+    <PKB>3000</PKB>
+    <Medicine>0.4</Medicine>
+    <Safety>0.8</Safety>
   </Country>
   <Country>
     <DisplayName>Malta</DisplayName>
@@ -1499,6 +1871,9 @@
     <Population>425384</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>10500</PKB>
+    <Medicine>0.7</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Marshall Islands</DisplayName>
@@ -1511,6 +1886,9 @@
     <Population>54880</Population>
     <TimeZone>12</TimeZone>
     <Result>0</Result>
+    <PKB>200</PKB>
+    <Medicine>0.4</Medicine>
+    <Safety>0.5</Safety>
   </Country>
   <Country>
     <DisplayName>Mauritius</DisplayName>
@@ -1523,6 +1901,9 @@
     <Population>1262879</Population>
     <TimeZone>4</TimeZone>
     <Result>0</Result>
+    <PKB>5000</PKB>
+    <Medicine>0.4</Medicine>
+    <Safety>0.6</Safety>
   </Country>
   <Country>
     <DisplayName>Mexico</DisplayName>
@@ -1535,6 +1916,9 @@
     <Population>122273473</Population>
     <TimeZone>-8</TimeZone>
     <Result>0</Result>
+    <PKB>1100000</PKB>
+    <Medicine>0.5</Medicine>
+    <Safety>0.5</Safety>
   </Country>
   <Country>
     <DisplayName>Micronesia (Federated States of)</DisplayName>
@@ -1547,6 +1931,9 @@
     <Population>102800</Population>
     <TimeZone>10</TimeZone>
     <Result>0</Result>
+    <PKB>5000</PKB>
+    <Medicine>0.5</Medicine>
+    <Safety>0.9</Safety>
   </Country>
   <Country>
     <DisplayName>Moldova (Republic of)</DisplayName>
@@ -1559,6 +1946,9 @@
     <Population>3553100</Population>
     <TimeZone>2</TimeZone>
     <Result>0</Result>
+    <PKB>7900</PKB>
+    <Medicine>0.6</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Monaco</DisplayName>
@@ -1571,6 +1961,9 @@
     <Population>38400</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>7000</PKB>
+    <Medicine>1</Medicine>
+    <Safety>1</Safety>
   </Country>
   <Country>
     <DisplayName>Mongolia</DisplayName>
@@ -1583,6 +1976,9 @@
     <Population>3093100</Population>
     <TimeZone>7</TimeZone>
     <Result>0</Result>
+    <PKB>12000</PKB>
+    <Medicine>0.5</Medicine>
+    <Safety>0.8</Safety>
   </Country>
   <Country>
     <DisplayName>Montenegro</DisplayName>
@@ -1595,6 +1991,9 @@
     <Population>621810</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>4500</PKB>
+    <Medicine>0.5</Medicine>
+    <Safety>0.6</Safety>
   </Country>
   <Country>
     <DisplayName>Montserrat</DisplayName>
@@ -1607,6 +2006,9 @@
     <Population>4922</Population>
     <TimeZone>-4</TimeZone>
     <Result>0</Result>
+    <PKB>63</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.2</Safety>
   </Country>
   <Country>
     <DisplayName>Mozambique</DisplayName>
@@ -1619,6 +2021,9 @@
     <Population>26423700</Population>
     <TimeZone>2</TimeZone>
     <Result>0</Result>
+    <PKB>17000</PKB>
+    <Medicine>0.2</Medicine>
+    <Safety>0.5</Safety>
   </Country>
   <Country>
     <DisplayName>Myanmar</DisplayName>
@@ -1631,6 +2036,9 @@
     <Population>51419420</Population>
     <TimeZone>6</TimeZone>
     <Result>0</Result>
+    <PKB>66000</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.6</Safety>
   </Country>
   <Country>
     <DisplayName>Namibia</DisplayName>
@@ -1643,6 +2051,9 @@
     <Population>2324388</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>13000</PKB>
+    <Medicine>0.2</Medicine>
+    <Safety>0.6</Safety>
   </Country>
   <Country>
     <DisplayName>Nauru</DisplayName>
@@ -1655,6 +2066,9 @@
     <Population>10084</Population>
     <TimeZone>12</TimeZone>
     <Result>0</Result>
+    <PKB>182</PKB>
+    <Medicine>0.2</Medicine>
+    <Safety>0.5</Safety>
   </Country>
   <Country>
     <DisplayName>Nepal</DisplayName>
@@ -1667,6 +2081,9 @@
     <Population>28431500</Population>
     <TimeZone>5</TimeZone>
     <Result>0</Result>
+    <PKB>19000</PKB>
+    <Medicine>0.4</Medicine>
+    <Safety>0.8</Safety>
   </Country>
   <Country>
     <DisplayName>Netherlands</DisplayName>
@@ -1679,6 +2096,9 @@
     <Population>17019800</Population>
     <TimeZone>-4</TimeZone>
     <Result>0</Result>
+    <PKB>750000</PKB>
+    <Medicine>0.9</Medicine>
+    <Safety>0.6</Safety>
   </Country>
   <Country>
     <DisplayName>New Caledonia</DisplayName>
@@ -1691,6 +2111,9 @@
     <Population>268767</Population>
     <TimeZone>11</TimeZone>
     <Result>0</Result>
+    <PKB>10000</PKB>
+    <Medicine>0.5</Medicine>
+    <Safety>0.8</Safety>
   </Country>
   <Country>
     <DisplayName>New Zealand</DisplayName>
@@ -1703,6 +2126,9 @@
     <Population>4697854</Population>
     <TimeZone>-11</TimeZone>
     <Result>0</Result>
+    <PKB>200000</PKB>
+    <Medicine>1</Medicine>
+    <Safety>1</Safety>
   </Country>
   <Country>
     <DisplayName>Nicaragua</DisplayName>
@@ -1715,6 +2141,9 @@
     <Population>6262703</Population>
     <TimeZone>-6</TimeZone>
     <Result>0</Result>
+    <PKB>12000</PKB>
+    <Medicine>0.2</Medicine>
+    <Safety>0.5</Safety>
   </Country>
   <Country>
     <DisplayName>Niger</DisplayName>
@@ -1727,6 +2156,9 @@
     <Population>20715000</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>8000</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.3</Safety>
   </Country>
   <Country>
     <DisplayName>Nigeria</DisplayName>
@@ -1739,6 +2171,9 @@
     <Population>186988000</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>570000</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.3</Safety>
   </Country>
   <Country>
     <DisplayName>Niue</DisplayName>
@@ -1751,6 +2186,9 @@
     <Population>1470</Population>
     <TimeZone>-11</TimeZone>
     <Result>0</Result>
+    <PKB>50</PKB>
+    <Medicine>0.4</Medicine>
+    <Safety>0.4</Safety>
   </Country>
   <Country>
     <DisplayName>Norfolk Island</DisplayName>
@@ -1763,6 +2201,9 @@
     <Population>2302</Population>
     <TimeZone>11</TimeZone>
     <Result>0</Result>
+    <PKB>100</PKB>
+    <Medicine>0.2</Medicine>
+    <Safety>0.5</Safety>
   </Country>
   <Country>
     <DisplayName>Korea (Democratic People's Republic of)</DisplayName>
@@ -1775,6 +2216,9 @@
     <Population>25281000</Population>
     <TimeZone>9</TimeZone>
     <Result>0</Result>
+    <PKB>17000</PKB>
+    <Medicine>0.5</Medicine>
+    <Safety>0.2</Safety>
   </Country>
   <Country>
     <DisplayName>Northern Mariana Islands</DisplayName>
@@ -1787,6 +2231,9 @@
     <Population>56940</Population>
     <TimeZone>10</TimeZone>
     <Result>0</Result>
+    <PKB>500</PKB>
+    <Medicine>0.2</Medicine>
+    <Safety>0.8</Safety>
   </Country>
   <Country>
     <DisplayName>Norway</DisplayName>
@@ -1799,6 +2246,9 @@
     <Population>5223256</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>500000</PKB>
+    <Medicine>0.9</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Oman</DisplayName>
@@ -1811,6 +2261,9 @@
     <Population>4420133</Population>
     <TimeZone>4</TimeZone>
     <Result>0</Result>
+    <PKB>81000</PKB>
+    <Medicine>0.4</Medicine>
+    <Safety>0.4</Safety>
   </Country>
   <Country>
     <DisplayName>Pakistan</DisplayName>
@@ -1823,6 +2276,9 @@
     <Population>194125062</Population>
     <TimeZone>5</TimeZone>
     <Result>0</Result>
+    <PKB>250000</PKB>
+    <Medicine>0.2</Medicine>
+    <Safety>0.3</Safety>
   </Country>
   <Country>
     <DisplayName>Palau</DisplayName>
@@ -1835,6 +2291,9 @@
     <Population>17950</Population>
     <TimeZone>9</TimeZone>
     <Result>0</Result>
+    <PKB>234</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Panama</DisplayName>
@@ -1847,6 +2306,9 @@
     <Population>3814672</Population>
     <TimeZone>-5</TimeZone>
     <Result>0</Result>
+    <PKB>49000</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.5</Safety>
   </Country>
   <Country>
     <DisplayName>Papua New Guinea</DisplayName>
@@ -1859,6 +2321,9 @@
     <Population>8083700</Population>
     <TimeZone>10</TimeZone>
     <Result>0</Result>
+    <PKB>16000</PKB>
+    <Medicine>0.7</Medicine>
+    <Safety>0.9</Safety>
   </Country>
   <Country>
     <DisplayName>Paraguay</DisplayName>
@@ -1871,6 +2336,9 @@
     <Population>6854536</Population>
     <TimeZone>-4</TimeZone>
     <Result>0</Result>
+    <PKB>31000</PKB>
+    <Medicine>0.5</Medicine>
+    <Safety>0.8</Safety>
   </Country>
   <Country>
     <DisplayName>Peru</DisplayName>
@@ -1883,6 +2351,9 @@
     <Population>31488700</Population>
     <TimeZone>-5</TimeZone>
     <Result>0</Result>
+    <PKB>202000</PKB>
+    <Medicine>0.5</Medicine>
+    <Safety>0.9</Safety>
   </Country>
   <Country>
     <DisplayName>Philippines</DisplayName>
@@ -1895,6 +2366,9 @@
     <Population>103279800</Population>
     <TimeZone>8</TimeZone>
     <Result>0</Result>
+    <PKB>291000</PKB>
+    <Medicine>0.4</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Pitcairn</DisplayName>
@@ -1907,6 +2381,9 @@
     <Population>56</Population>
     <TimeZone>-8</TimeZone>
     <Result>0</Result>
+    <PKB>1</PKB>
+    <Medicine>0.4</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Poland</DisplayName>
@@ -1919,6 +2396,9 @@
     <Population>38437239</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>545000</PKB>
+    <Medicine>0.8</Medicine>
+    <Safety>1</Safety>
   </Country>
   <Country>
     <DisplayName>Portugal</DisplayName>
@@ -1931,6 +2411,9 @@
     <Population>10374822</Population>
     <TimeZone>-1</TimeZone>
     <Result>0</Result>
+    <PKB>230000</PKB>
+    <Medicine>0.8</Medicine>
+    <Safety>0.9</Safety>
   </Country>
   <Country>
     <DisplayName>Puerto Rico</DisplayName>
@@ -1943,6 +2426,9 @@
     <Population>3474182</Population>
     <TimeZone>-4</TimeZone>
     <Result>0</Result>
+    <PKB>104000</PKB>
+    <Medicine>0.4</Medicine>
+    <Safety>0.6</Safety>
   </Country>
   <Country>
     <DisplayName>Qatar</DisplayName>
@@ -1955,6 +2441,9 @@
     <Population>2587564</Population>
     <TimeZone>3</TimeZone>
     <Result>0</Result>
+    <PKB>211000</PKB>
+    <Medicine>0.9</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Republic of Kosovo</DisplayName>
@@ -1967,6 +2456,9 @@
     <Population>1733842</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>5000</PKB>
+    <Medicine>0.5</Medicine>
+    <Safety>0.4</Safety>
   </Country>
   <Country>
     <DisplayName>Romania</DisplayName>
@@ -1979,6 +2471,9 @@
     <Population>19861408</Population>
     <TimeZone>2</TimeZone>
     <Result>0</Result>
+    <PKB>200000</PKB>
+    <Medicine>0.7</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Russian Federation</DisplayName>
@@ -1991,6 +2486,9 @@
     <Population>146599183</Population>
     <TimeZone>3</TimeZone>
     <Result>0</Result>
+    <PKB>1300000</PKB>
+    <Medicine>0.7</Medicine>
+    <Safety>0.6</Safety>
   </Country>
   <Country>
     <DisplayName>Rwanda</DisplayName>
@@ -2003,6 +2501,9 @@
     <Population>11553188</Population>
     <TimeZone>2</TimeZone>
     <Result>0</Result>
+    <PKB>8000</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.6</Safety>
   </Country>
   <Country>
     <DisplayName>Saint BarthĂ©lemy</DisplayName>
@@ -2015,6 +2516,9 @@
     <Population>9417</Population>
     <TimeZone>-4</TimeZone>
     <Result>0</Result>
+    <PKB>300</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.8</Safety>
   </Country>
   <Country>
     <DisplayName>Saint Kitts and Nevis</DisplayName>
@@ -2027,6 +2531,9 @@
     <Population>46204</Population>
     <TimeZone>-4</TimeZone>
     <Result>0</Result>
+    <PKB>850</PKB>
+    <Medicine>0.4</Medicine>
+    <Safety>0.6</Safety>
   </Country>
   <Country>
     <DisplayName>Saint Lucia</DisplayName>
@@ -2039,6 +2546,9 @@
     <Population>186000</Population>
     <TimeZone>-4</TimeZone>
     <Result>0</Result>
+    <PKB>1400</PKB>
+    <Medicine>0.4</Medicine>
+    <Safety>0.6</Safety>
   </Country>
   <Country>
     <DisplayName>Saint Martin (French part)</DisplayName>
@@ -2051,6 +2561,9 @@
     <Population>36979</Population>
     <TimeZone>-4</TimeZone>
     <Result>0</Result>
+    <PKB>400</PKB>
+    <Medicine>0.4</Medicine>
+    <Safety>0.6</Safety>
   </Country>
   <Country>
     <DisplayName>Saint Pierre and Miquelon</DisplayName>
@@ -2063,6 +2576,9 @@
     <Population>6069</Population>
     <TimeZone>-3</TimeZone>
     <Result>0</Result>
+    <PKB>100</PKB>
+    <Medicine>0.6</Medicine>
+    <Safety>0.8</Safety>
   </Country>
   <Country>
     <DisplayName>Saint Vincent and the Grenadines</DisplayName>
@@ -2075,6 +2591,9 @@
     <Population>109991</Population>
     <TimeZone>-4</TimeZone>
     <Result>0</Result>
+    <PKB>730</PKB>
+    <Medicine>0.4</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Samoa</DisplayName>
@@ -2087,6 +2606,9 @@
     <Population>194899</Population>
     <TimeZone>13</TimeZone>
     <Result>0</Result>
+    <PKB>820</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.5</Safety>
   </Country>
   <Country>
     <DisplayName>San Marino</DisplayName>
@@ -2099,6 +2621,9 @@
     <Population>33005</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>1800</PKB>
+    <Medicine>0.7</Medicine>
+    <Safety>0.9</Safety>
   </Country>
   <Country>
     <DisplayName>Saudi Arabia</DisplayName>
@@ -2111,6 +2636,9 @@
     <Population>32248200</Population>
     <TimeZone>3</TimeZone>
     <Result>0</Result>
+    <PKB>653000</PKB>
+    <Medicine>0.7</Medicine>
+    <Safety>0.6</Safety>
   </Country>
   <Country>
     <DisplayName>Serbia</DisplayName>
@@ -2123,6 +2651,9 @@
     <Population>7076372</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>44000</PKB>
+    <Medicine>0.7</Medicine>
+    <Safety>0.5</Safety>
   </Country>
   <Country>
     <DisplayName>Seychelles</DisplayName>
@@ -2135,6 +2666,9 @@
     <Population>91400</Population>
     <TimeZone>4</TimeZone>
     <Result>0</Result>
+    <PKB>1500</PKB>
+    <Medicine>0.2</Medicine>
+    <Safety>0.5</Safety>
   </Country>
   <Country>
     <DisplayName>Singapore</DisplayName>
@@ -2147,6 +2681,9 @@
     <Population>5535000</Population>
     <TimeZone>8</TimeZone>
     <Result>0</Result>
+    <PKB>307000</PKB>
+    <Medicine>1</Medicine>
+    <Safety>1</Safety>
   </Country>
   <Country>
     <DisplayName>Sint Maarten (Dutch part)</DisplayName>
@@ -2159,6 +2696,9 @@
     <Population>38247</Population>
     <TimeZone>-4</TimeZone>
     <Result>0</Result>
+    <PKB>1000</PKB>
+    <Medicine>0.1</Medicine>
+    <Safety>0.4</Safety>
   </Country>
   <Country>
     <DisplayName>Slovakia</DisplayName>
@@ -2171,6 +2711,9 @@
     <Population>5426252</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>100000</PKB>
+    <Medicine>0.8</Medicine>
+    <Safety>1</Safety>
   </Country>
   <Country>
     <DisplayName>Slovenia</DisplayName>
@@ -2183,6 +2726,9 @@
     <Population>2064188</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>49000</PKB>
+    <Medicine>0.7</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Solomon Islands</DisplayName>
@@ -2195,6 +2741,9 @@
     <Population>642000</Population>
     <TimeZone>11</TimeZone>
     <Result>0</Result>
+    <PKB>1100</PKB>
+    <Medicine>0.6</Medicine>
+    <Safety>0.8</Safety>
   </Country>
   <Country>
     <DisplayName>Somalia</DisplayName>
@@ -2207,6 +2756,9 @@
     <Population>11079000</Population>
     <TimeZone>3</TimeZone>
     <Result>0</Result>
+    <PKB>1370</PKB>
+    <Medicine>0.1</Medicine>
+    <Safety>0.1</Safety>
   </Country>
   <Country>
     <DisplayName>South Africa</DisplayName>
@@ -2219,6 +2771,9 @@
     <Population>55653654</Population>
     <TimeZone>2</TimeZone>
     <Result>0</Result>
+    <PKB>350000</PKB>
+    <Medicine>0.6</Medicine>
+    <Safety>0.5</Safety>
   </Country>
   <Country>
     <DisplayName>Korea (Republic of)</DisplayName>
@@ -2231,6 +2786,9 @@
     <Population>50801405</Population>
     <TimeZone>9</TimeZone>
     <Result>0</Result>
+    <PKB>1377000</PKB>
+    <Medicine>1</Medicine>
+    <Safety>0.8</Safety>
   </Country>
   <Country>
     <DisplayName>South Sudan</DisplayName>
@@ -2243,6 +2801,9 @@
     <Population>12131000</Population>
     <TimeZone>3</TimeZone>
     <Result>0</Result>
+    <PKB>11000</PKB>
+    <Medicine>0.2</Medicine>
+    <Safety>0.3</Safety>
   </Country>
   <Country>
     <DisplayName>Sri Lanka</DisplayName>
@@ -2255,6 +2816,9 @@
     <Population>20966000</Population>
     <TimeZone>5</TimeZone>
     <Result>0</Result>
+    <PKB>75000</PKB>
+    <Medicine>0.6</Medicine>
+    <Safety>0.8</Safety>
   </Country>
   <Country>
     <DisplayName>Sudan</DisplayName>
@@ -2267,6 +2831,9 @@
     <Population>39598700</Population>
     <TimeZone>3</TimeZone>
     <Result>0</Result>
+    <PKB>81000</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.6</Safety>
   </Country>
   <Country>
     <DisplayName>Suriname</DisplayName>
@@ -2279,6 +2846,9 @@
     <Population>541638</Population>
     <TimeZone>-3</TimeZone>
     <Result>0</Result>
+    <PKB>5200</PKB>
+    <Medicine>0.4</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Swaziland</DisplayName>
@@ -2291,6 +2861,9 @@
     <Population>1132657</Population>
     <TimeZone>2</TimeZone>
     <Result>0</Result>
+    <PKB>4400</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.6</Safety>
   </Country>
   <Country>
     <DisplayName>Sweden</DisplayName>
@@ -2303,6 +2876,9 @@
     <Population>9894888</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>570000</PKB>
+    <Medicine>0.9</Medicine>
+    <Safety>0.3</Safety>
   </Country>
   <Country>
     <DisplayName>Switzerland</DisplayName>
@@ -2315,6 +2891,9 @@
     <Population>8341600</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>670000</PKB>
+    <Medicine>1</Medicine>
+    <Safety>1</Safety>
   </Country>
   <Country>
     <DisplayName>Syrian Arab Republic</DisplayName>
@@ -2327,6 +2906,9 @@
     <Population>18564000</Population>
     <TimeZone>2</TimeZone>
     <Result>0</Result>
+    <PKB>3000</PKB>
+    <Medicine>0.1</Medicine>
+    <Safety>0.0</Safety>
   </Country>
   <Country>
     <DisplayName>Taiwan</DisplayName>
@@ -2339,6 +2921,9 @@
     <Population>23503349</Population>
     <TimeZone>8</TimeZone>
     <Result>0</Result>
+    <PKB>11000</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.5</Safety>
   </Country>
   <Country>
     <DisplayName>Tajikistan</DisplayName>
@@ -2351,6 +2936,9 @@
     <Population>8593600</Population>
     <TimeZone>5</TimeZone>
     <Result>0</Result>
+    <PKB>9000</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.5</Safety>
   </Country>
   <Country>
     <DisplayName>Tanzania, United Republic of</DisplayName>
@@ -2363,6 +2951,9 @@
     <Population>55155000</Population>
     <TimeZone>3</TimeZone>
     <Result>0</Result>
+    <PKB>48000</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.6</Safety>
   </Country>
   <Country>
     <DisplayName>Thailand</DisplayName>
@@ -2375,6 +2966,9 @@
     <Population>65327652</Population>
     <TimeZone>7</TimeZone>
     <Result>0</Result>
+    <PKB>404000</PKB>
+    <Medicine>0.4</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Timor-Leste</DisplayName>
@@ -2387,6 +2981,9 @@
     <Population>1167242</Population>
     <TimeZone>9</TimeZone>
     <Result>0</Result>
+    <PKB>4900</PKB>
+    <Medicine>0.4</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Tokelau</DisplayName>
@@ -2399,6 +2996,9 @@
     <Population>1411</Population>
     <TimeZone>13</TimeZone>
     <Result>0</Result>
+    <PKB>20</PKB>
+    <Medicine>0.2</Medicine>
+    <Safety>0.4</Safety>
   </Country>
   <Country>
     <DisplayName>Tonga</DisplayName>
@@ -2411,6 +3011,9 @@
     <Population>103252</Population>
     <TimeZone>13</TimeZone>
     <Result>0</Result>
+    <PKB>425</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.5</Safety>
   </Country>
   <Country>
     <DisplayName>Trinidad and Tobago</DisplayName>
@@ -2423,6 +3026,9 @@
     <Population>1349667</Population>
     <TimeZone>-4</TimeZone>
     <Result>0</Result>
+    <PKB>28000</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.6</Safety>
   </Country>
   <Country>
     <DisplayName>Tunisia</DisplayName>
@@ -2435,6 +3041,9 @@
     <Population>11154400</Population>
     <TimeZone>1</TimeZone>
     <Result>0</Result>
+    <PKB>47000</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.3</Safety>
   </Country>
   <Country>
     <DisplayName>Turkey</DisplayName>
@@ -2447,6 +3056,9 @@
     <Population>78741053</Population>
     <TimeZone>2</TimeZone>
     <Result>0</Result>
+    <PKB>717000</PKB>
+    <Medicine>0.6</Medicine>
+    <Safety>0.4</Safety>
   </Country>
   <Country>
     <DisplayName>Turkmenistan</DisplayName>
@@ -2459,6 +3071,9 @@
     <Population>4751120</Population>
     <TimeZone>5</TimeZone>
     <Result>0</Result>
+    <PKB>48000</PKB>
+    <Medicine>0.4</Medicine>
+    <Safety>0.6</Safety>
   </Country>
   <Country>
     <DisplayName>Turks and Caicos Islands</DisplayName>
@@ -2471,6 +3086,9 @@
     <Population>31458</Population>
     <TimeZone>-4</TimeZone>
     <Result>0</Result>
+    <PKB>800</PKB>
+    <Medicine>0.3</Medicine>
+    <Safety>0.5</Safety>
   </Country>
   <Country>
     <DisplayName>Tuvalu</DisplayName>
@@ -2483,6 +3101,9 @@
     <Population>10640</Population>
     <TimeZone>12</TimeZone>
     <Result>0</Result>
+    <PKB>38</PKB>
+    <Medicine>0.2</Medicine>
+    <Safety>0.6</Safety>
   </Country>
   <Country>
     <DisplayName>Uganda</DisplayName>
@@ -2495,6 +3116,9 @@
     <Population>33860700</Population>
     <TimeZone>3</TimeZone>
     <Result>0</Result>
+    <PKB>27000</PKB>
+    <Medicine>0.1</Medicine>
+    <Safety>0.4</Safety>
   </Country>
   <Country>
     <DisplayName>Ukraine</DisplayName>
@@ -2507,6 +3131,9 @@
     <Population>42692393</Population>
     <TimeZone>2</TimeZone>
     <Result>0</Result>
+    <PKB>131000</PKB>
+    <Medicine>0.5</Medicine>
+    <Safety>0.1</Safety>
   </Country>
   <Country>
     <DisplayName>United Arab Emirates</DisplayName>
@@ -2519,6 +3146,9 @@
     <Population>9856000</Population>
     <TimeZone>4</TimeZone>
     <Result>0</Result>
+    <PKB>400000</PKB>
+    <Medicine>0.4</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>United Kingdom of Great Britain and Northern Ireland</DisplayName>
@@ -2531,6 +3161,9 @@
     <Population>65110000</Population>
     <TimeZone>-8</TimeZone>
     <Result>0</Result>
+    <PKB>2860000</PKB>
+    <Medicine>1</Medicine>
+    <Safety>0.8</Safety>
   </Country>
   <Country>
     <DisplayName>United States of America</DisplayName>
@@ -2543,6 +3176,9 @@
     <Population>323947000</Population>
     <TimeZone>-12</TimeZone>
     <Result>0</Result>
+    <PKB>18000000</PKB>
+    <Medicine>1</Medicine>
+    <Safety>0.8</Safety>
   </Country>
   <Country>
     <DisplayName>Uruguay</DisplayName>
@@ -2555,6 +3191,9 @@
     <Population>3480222</Population>
     <TimeZone>-3</TimeZone>
     <Result>0</Result>
+    <PKB>57000</PKB>
+    <Medicine>0.6</Medicine>
+    <Safety>0.8</Safety>
   </Country>
   <Country>
     <DisplayName>Uzbekistan</DisplayName>
@@ -2567,6 +3206,9 @@
     <Population>31576400</Population>
     <TimeZone>5</TimeZone>
     <Result>0</Result>
+    <PKB>63000</PKB>
+    <Medicine>0.6</Medicine>
+    <Safety>0.6</Safety>
   </Country>
   <Country>
     <DisplayName>Vanuatu</DisplayName>
@@ -2579,6 +3221,9 @@
     <Population>277500</Population>
     <TimeZone>11</TimeZone>
     <Result>0</Result>
+    <PKB>812</PKB>
+    <Medicine>0.1</Medicine>
+    <Safety>0.5</Safety>
   </Country>
   <Country>
     <DisplayName>Venezuela (Bolivarian Republic of)</DisplayName>
@@ -2591,6 +3236,9 @@
     <Population>31028700</Population>
     <TimeZone>-4</TimeZone>
     <Result>0</Result>
+    <PKB>509000</PKB>
+    <Medicine>0.4</Medicine>
+    <Safety>0.6</Safety>
   </Country>
   <Country>
     <DisplayName>Viet Nam</DisplayName>
@@ -2603,6 +3251,9 @@
     <Population>92700000</Population>
     <TimeZone>7</TimeZone>
     <Result>0</Result>
+    <PKB>186000</PKB>
+    <Medicine>0.6</Medicine>
+    <Safety>0.6</Safety>
   </Country>
   <Country>
     <DisplayName>Wallis and Futuna</DisplayName>
@@ -2615,6 +3266,9 @@
     <Population>11750</Population>
     <TimeZone>12</TimeZone>
     <Result>0</Result>
+    <PKB>200</PKB>
+    <Medicine>0.1</Medicine>
+    <Safety>0.7</Safety>
   </Country>
   <Country>
     <DisplayName>Western Sahara</DisplayName>
@@ -2627,6 +3281,9 @@
     <Population>510713</Population>
     <TimeZone>0</TimeZone>
     <Result>0</Result>
+    <PKB>100</PKB>
+    <Medicine>0.2</Medicine>
+    <Safety>0.3</Safety>
   </Country>
   <Country>
     <DisplayName>Yemen</DisplayName>
@@ -2639,6 +3296,9 @@
     <Population>27478000</Population>
     <TimeZone>3</TimeZone>
     <Result>0</Result>
+    <PKB>37000</PKB>
+    <Medicine>0.2</Medicine>
+    <Safety>0.5</Safety>
   </Country>
   <Country>
     <DisplayName>Zambia</DisplayName>
@@ -2651,6 +3311,9 @@
     <Population>15933883</Population>
     <TimeZone>2</TimeZone>
     <Result>0</Result>
+    <PKB>26000</PKB>
+    <Medicine>0.1</Medicine>
+    <Safety>0.4</Safety>
   </Country>
   <Country>
     <DisplayName>Zimbabwe</DisplayName>
@@ -2663,5 +3326,8 @@
     <Population>14240168</Population>
     <TimeZone>2</TimeZone>
     <Result>0</Result>
+    <PKB>14700</PKB>
+    <Medicine>0.2</Medicine>
+    <Safety>0.5</Safety>
   </Country>
 </ArrayOfCountry>

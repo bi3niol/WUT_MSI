@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -46,7 +47,18 @@ namespace ConsoleApplication1
                     generatorDensity.Generate(item.DisplayName, item.Population / item.Area);
                 }
                 catch (Exception) { }
+
             generatorDensity.Save();
+
+            GeneratorCSV generatorPKB = new GeneratorCSV("PKBPerPerson");
+            foreach (var item in list)
+                try
+                {
+                    generatorPKB.Generate(item.DisplayName, item.Population==0?0: item.PKB * 1000000 / item.Population);
+                }
+                catch (Exception) { }
+
+            generatorPKB.Save();
         }
     }
 }

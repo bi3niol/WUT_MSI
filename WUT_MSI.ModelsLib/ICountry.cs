@@ -13,5 +13,8 @@ namespace WUT_MSI.Models
         ulong CountOfMonuments { get; }
         int Population { get; }
         int TimeZone { get; }
+        double PKB { get; }
+        double Medicine { get; }
+        double Safety { get; }
     }
 }
