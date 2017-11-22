@@ -23,7 +23,7 @@ namespace WUT_MSI.Models.classes
             Range = TopLimit - BottomLimit;
         }
 
-        public bool MatchToAnswer(TParam parameter, Func<TParam, double> FuzzyFunction,bool isChecking=false)
+        public bool MatchToAnswer(TParam parameter, Func<TParam, double> FuzzyFunction, bool isChecking = false)
         {
             double currentResult = FuzzyFunction(parameter);
             bool isMatch = true;// BottomLimit <= currentResult && TopLimit >= currentResult;
@@ -31,7 +31,7 @@ namespace WUT_MSI.Models.classes
             if (isMatch && !isChecking)
             {
                 var tmp = (1 - 2 * Math.Abs(Center - currentResult) / Range);
-                parameter.CumSum += tmp<0?0:tmp;
+                parameter.CumSum += tmp < 0 ? 0 : tmp;
                 parameter.QuestionsNum++;
                 parameter.Result = (int)(parameter.CumSum / parameter.QuestionsNum * 100);
             }
