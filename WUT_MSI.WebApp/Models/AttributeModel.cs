@@ -7,13 +7,13 @@ namespace WUT_MSI.WebApp.Models
 {
     public class AttributeModel
     {
-        public AttributeType AttributeType { get; private set; }
-        public int Value { get; private set; }
+        public int AttributeId { get; set; }
+        public int AttributeValueId { get; private set; }
 
-        public AttributeModel(AttributeType attributeType, int value)
+        public AttributeModel(int id, int value)
         {
-            AttributeType = attributeType;
-            Value = value;
+            AttributeId = id;
+            AttributeValueId = value;
         }
     }
 }

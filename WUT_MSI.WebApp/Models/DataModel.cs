@@ -7,8 +7,7 @@ namespace WUT_MSI.WebApp.Models
 {
     public class DataModel
     {
-        public string Country { get; set; }
-
+        public long CountryId { get; set; }
         public AttributeModel[] Attributes { get; set; }
     }
 }
