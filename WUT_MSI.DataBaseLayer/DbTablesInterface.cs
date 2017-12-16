@@ -7,11 +7,11 @@ using WUT_MSI.DataBaseLayer.Tables;
 
 namespace WUT_MSI.DataBaseLayer
 {
-    public class TablesInterface
+    public class DbTablesInterface
     {
         private DbLayer db;
 
-        public TablesInterface()
+        public DbTablesInterface()
         {
             this.db = new DbLayer();
         }
@@ -19,6 +19,12 @@ namespace WUT_MSI.DataBaseLayer
         public void Apply()
         {
             db.SaveChanges();
+        }
+
+        public void AddCountry(DbCountry country)
+        {
+            db.Countries.Add(country);
+            Apply();
         }
 
         public DbCountry[] GetCountries(Func<DbCountry,bool> predicate)
@@ -33,6 +39,12 @@ namespace WUT_MSI.DataBaseLayer
             return result != null; 
         }
 
+        public void AddAttribute(DbAttribute attribute)
+        {
+            db.Attributes.Add(attribute);
+            Apply();
+        }
+
         public DbAttribute[] GetAttributes(Func<DbAttribute, bool> predicate)
         {
             return db.Attributes.Where(predicate).ToArray();
@@ -45,6 +57,12 @@ namespace WUT_MSI.DataBaseLayer
             return result != null;
         }
 
+        public void AddAttributeValue(DbAttributeValue value)
+        {
+            db.AttributeValues.Add(value);
+            Apply();
+        }
+
         public DbAttributeValue[] GetAttributeValues(Func<DbAttributeValue, bool> predicate)
         {
             return db.AttributeValues.Where(predicate).ToArray();
@@ -55,6 +73,13 @@ namespace WUT_MSI.DataBaseLayer
             var result = db.AttributeValues.Remove(value);
             Apply();
             return result != null;
+        }
+
+        public void AddCountryAttributes(DbCountryAttributes[] attribute)
+        {
+            foreach(var element in attribute)
+                db.CountryAttributes.Add(element);
+            Apply();
         }
 
         public DbCountryAttributes[] GetCountryAttributes(DbCountry country)

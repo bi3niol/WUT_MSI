@@ -156,7 +156,7 @@ namespace WUT_MSI.MainApp.Managers
                    "Jaka jest gęstość zaludnienia?",
                    new List<IAnswer<ICountry>>()
                    {
-                        new Answer<ICountry>(0.0, 2.0, "Bardzo Duża"),
+                        new Answer<ICountry>(0.0, 2.0, "Bardzo duża"),
                         new Answer<ICountry>(-0.394, 0.406, "Duża"),
                         new Answer<ICountry>(-0.296, 0.304, "Średnia"),
                         new Answer<ICountry>(-0.12, 0.12, "Mała"),

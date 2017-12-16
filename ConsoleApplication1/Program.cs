@@ -17,7 +17,7 @@ namespace ConsoleApplication1
             List<Country> list;
 
             SerializationManager m = new SerializationManager();
-            list = m.Deserialize<List<Country>>("Countries.xml");
+            list = m.Deserialize<List<Country>>(@"..\..\..\WUT_MSI.ModelsLib\data\Countries.xml");
 
             //foreach (var item in list)
             //    Console.WriteLine(FuzzyFunctions.JetFuzzy.Invoke(item));

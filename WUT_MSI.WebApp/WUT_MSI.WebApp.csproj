@@ -153,7 +153,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\AttributeModels.cs" />
+    <Compile Include="Helpers\DataLoaderHelper.cs" />
+    <Compile Include="Models\AttributeModel.cs" />
     <Compile Include="Models\AttributeType.cs" />
     <Compile Include="Models\DataModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -207,6 +208,12 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WUT_MSI.DataBaseLayer\WUT_MSI.DataBaseLayer.csproj">
+      <Project>{d403001c-64e8-4b62-ac2e-7fae0667127e}</Project>
+      <Name>WUT_MSI.DataBaseLayer</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

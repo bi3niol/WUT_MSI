@@ -11,7 +11,7 @@ namespace WUT_MSI.WebApp.Helpers
     {
         public static DataModel[] GetDataModelsFromDb()
         {
-            var table = new TablesInterface();
+            var table = new DbTablesInterface();
             var result = new List<DataModel>();
 
             var countries = table.GetCountries(c => true);
