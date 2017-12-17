@@ -19,6 +19,5 @@ namespace WUT_MSI.DataBaseLayer
         {
             Database.SetInitializer(new DropCreateDatabaseAlways<DbLayer>());
         }
-        public System.Data.Entity.DbSet<WUT_MSI.WebApp.Models.DataModel> DataModels { get; set; }
     }
 }
