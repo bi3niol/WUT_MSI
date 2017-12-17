@@ -8,7 +8,7 @@ namespace WUT_MSI.DataBaseLayer
 {
     public enum AttributeType: int
     {
-        Distance,
+        Distance = 1,
         Climate,
         Area,
         Development,

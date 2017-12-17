@@ -12,16 +12,19 @@ namespace WUT_MSI.DataBaseGenerator
 {
     class Program
     {
+        private static DbTablesInterface db;
         static void Main(string[] args)
         {
+            db = new DbTablesInterface();
+            db.ClearDb();
             InitializeAttributes();
             InitializeCountries();
         }
 
         public static void InitializeAttributes()
         {
-            var db = new DbTablesInterface();
-            var values = new Dictionary<int, DbAttributeValue>
+           
+            var values2 = new Dictionary<int, DbAttributeValue>
             {
                 {0, new DbAttributeValue { Value = "Blisko" } },
                 {1, new DbAttributeValue { Value = "Średnio" } },
@@ -49,132 +52,146 @@ namespace WUT_MSI.DataBaseGenerator
                 {23, new DbAttributeValue { Value = "Tak" } },
                 {24, new DbAttributeValue { Value = "Nie" } },
             };
+            var values = new Dictionary<int, DbAttributeValue>();
 
-            foreach (var element in values)
-                db.AddAttributeValue(element.Value);
+            foreach (var element in values2)
+               values[element.Key] = db.AddAttributeValue(element.Value);
 
-            db.AddAttribute(new DbAttribute
+            DbAttribute attribute;
+            db.AddAttribute(attribute = new DbAttribute
             {
+                Id = AttributeType.Distance,
                 Name = "Jak daleko znajduje się państwo?",
-                AttributeValues = new DbAttributeValue[]
-                {
-                    values[0],
-                    values[1],
-                    values[2],
-                    values[3],
-                },
+                AttributeValues = new List<DbAttributeValue>(),
             });
-            db.AddAttribute(new DbAttribute
+
+            db.AddAttributeValueToAttribute(attribute, values[0]);
+            db.AddAttributeValueToAttribute(attribute, values[1]);
+            db.AddAttributeValueToAttribute(attribute, values[2]);
+            db.AddAttributeValueToAttribute(attribute, values[3]);
+
+            db.AddAttribute(attribute = new DbAttribute
             {
+                Id = AttributeType.Climate,
                 Name = "Jak panuje temperatura?",
-                AttributeValues = new DbAttributeValue[]
-                {
-                    values[4],
-                    values[5],
-                    values[6],
-                    values[7],
-                },
+                AttributeValues = new List<DbAttributeValue>(),
             });
-            db.AddAttribute(new DbAttribute
+
+            db.AddAttributeValueToAttribute(attribute, values[4]);
+            db.AddAttributeValueToAttribute(attribute, values[5]);
+            db.AddAttributeValueToAttribute(attribute, values[6]);
+            db.AddAttributeValueToAttribute(attribute, values[7]);
+
+            db.AddAttribute(attribute = new DbAttribute
             {
+                Id = AttributeType.Area,
                 Name = "Jak duży jest kraj?",
-                AttributeValues = new DbAttributeValue[]
-                {
-                     values[8],
-                    values[9],
-                    values[10],
-                    values[11],
-                },
+                AttributeValues = new List<DbAttributeValue>(),
             });
-            db.AddAttribute(new DbAttribute
+
+            db.AddAttributeValueToAttribute(attribute, values[8]);
+            db.AddAttributeValueToAttribute(attribute, values[9]);
+            db.AddAttributeValueToAttribute(attribute, values[10]);
+            db.AddAttributeValueToAttribute(attribute, values[11]);
+
+            db.AddAttribute(attribute = new DbAttribute
             {
+                Id = AttributeType.Development,
                 Name = "W jakim stopniu kraj jest rozwinięty?",
-                AttributeValues = new DbAttributeValue[]
-               {
-                    values[12],
-                    values[1],
-                    values[13],
-               },
+                AttributeValues = new List<DbAttributeValue>(),
             });
-            db.AddAttribute(new DbAttribute
+
+            db.AddAttributeValueToAttribute(attribute, values[12]);
+            db.AddAttributeValueToAttribute(attribute, values[1]);
+            db.AddAttributeValueToAttribute(attribute, values[13]);
+
+            db.AddAttribute(attribute = new DbAttribute
             {
+                Id = AttributeType.Rains,
                 Name = "Jak dużo opadów występuje?",
-                AttributeValues = new DbAttributeValue[]
-              {
-                    values[14],
-                    values[15],
-                    values[16],
-              },
+                AttributeValues = new List<DbAttributeValue>(),
             });
-            db.AddAttribute(new DbAttribute
+
+            db.AddAttributeValueToAttribute(attribute, values[14]);
+            db.AddAttributeValueToAttribute(attribute, values[15]);
+            db.AddAttributeValueToAttribute(attribute, values[16]);
+
+            db.AddAttribute(attribute = new DbAttribute
             {
+                Id = AttributeType.Safety,
                 Name = "Jaki jest poziom bezpieczeństwa kraju?",
-                AttributeValues = new DbAttributeValue[]
-              {
-                    values[17],
-                    values[10],
-                    values[18],
-              },
+                AttributeValues = new List<DbAttributeValue>(),
             });
-            db.AddAttribute(new DbAttribute
+
+            db.AddAttributeValueToAttribute(attribute, values[17]);
+            db.AddAttributeValueToAttribute(attribute, values[10]);
+            db.AddAttributeValueToAttribute(attribute, values[18]);
+
+            db.AddAttribute(attribute = new DbAttribute
             {
+                Id = AttributeType.Medicine,
                 Name = "Jaki jest poziom medycyny w kraju?",
-                AttributeValues = new DbAttributeValue[]
-              {
-                    values[17],
-                    values[10],
-                    values[18],
-              },
+                AttributeValues = new List<DbAttributeValue>(),
             });
-            db.AddAttribute(new DbAttribute
+
+            db.AddAttributeValueToAttribute(attribute, values[17]);
+            db.AddAttributeValueToAttribute(attribute, values[10]);
+            db.AddAttributeValueToAttribute(attribute, values[18]);
+
+            db.AddAttribute(attribute = new DbAttribute
             {
-                Name = "Jak dużo opadów występuje?",
-                AttributeValues = new DbAttributeValue[]
-              {
-                  values[14],
-                    values[1],
-                    values[16],
-              },
+                Id = AttributeType.Population,
+                Name = "Jak dużo ludności mieszka w kraju?",
+                AttributeValues = new List<DbAttributeValue>(),
             });
-            db.AddAttribute(new DbAttribute
+
+            db.AddAttributeValueToAttribute(attribute, values[14]);
+            db.AddAttributeValueToAttribute(attribute, values[1]);
+            db.AddAttributeValueToAttribute(attribute, values[16]);
+
+            db.AddAttribute(attribute = new DbAttribute
             {
+                Id = AttributeType.Density,
                 Name = "Jak duży jest kraj?",
-                AttributeValues = new DbAttributeValue[]
-                {
-                    values[19],
-                    values[20],
-                    values[21],
-                    values[22],
-                },
+                AttributeValues = new List<DbAttributeValue>(),
             });
-            db.AddAttribute(new DbAttribute
+
+            db.AddAttributeValueToAttribute(attribute, values[19]);
+            db.AddAttributeValueToAttribute(attribute, values[20]);
+            db.AddAttributeValueToAttribute(attribute, values[21]);
+            db.AddAttributeValueToAttribute(attribute, values[22]);
+
+            db.AddAttribute(attribute = new DbAttribute
             {
+                Id = AttributeType.Jet,
                 Name = "Jak duży chcesz mieć jetlag?",
-                AttributeValues = new DbAttributeValue[]
-                {
-                    values[9],
-                    values[10],
-                    values[11],
-                },
+                AttributeValues = new List<DbAttributeValue>(),
             });
-            db.AddAttribute(new DbAttribute
+
+            db.AddAttributeValueToAttribute(attribute, values[9]);
+            db.AddAttributeValueToAttribute(attribute, values[10]);
+            db.AddAttributeValueToAttribute(attribute, values[11]);
+
+            db.AddAttribute(attribute = new DbAttribute
             {
+                Id = AttributeType.Sea,
                 Name = "Czy leży nad morzem?",
-                AttributeValues = new DbAttributeValue[]
-                {
-                    values[23],
-                    values[24],
-                },
+                AttributeValues = new List<DbAttributeValue>(),
             });
-            db.AddAttribute(new DbAttribute
+
+            db.AddAttributeValueToAttribute(attribute, values[23]);
+            db.AddAttributeValueToAttribute(attribute, values[24]);
+
+            db.AddAttribute(attribute = new DbAttribute
             {
+                Id = AttributeType.Mountain,
                 Name = "Czy występują góry?",
-                AttributeValues = new DbAttributeValue[]
-                {
-                    values[23],
-                    values[24],
-                },
-            }); 
+                AttributeValues = new List<DbAttributeValue>(),
+            });
+
+            db.AddAttributeValueToAttribute(attribute, values[23]);
+            db.AddAttributeValueToAttribute(attribute, values[24]);
+
         }
 
         public static void InitializeCountries()

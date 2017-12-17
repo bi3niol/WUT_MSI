@@ -21,10 +21,28 @@ namespace WUT_MSI.DataBaseLayer
             db.SaveChanges();
         }
 
-        public void AddCountry(DbCountry country)
+        public void ClearDb()
         {
-            db.Countries.Add(country);
+            foreach (var element in GetCountryAttributes(item => true))
+                RemoveCountryAttributes(element);
+
+            foreach (var element in GetAttributeValues(item => true))
+                RemoveAttributeValue(element);
+
+            foreach (var element in GetAttributes(item => true))
+                RemoveAttribute(element);
+
+            foreach (var element in GetCountries(item => true))
+                RemoveCountry(element);
+
             Apply();
+        }
+
+        public DbCountry AddCountry(DbCountry country)
+        {
+            var result = db.Countries.Add(country);
+            Apply();
+            return result;
         }
 
         public DbCountry[] GetCountries(Func<DbCountry,bool> predicate)
@@ -39,10 +57,11 @@ namespace WUT_MSI.DataBaseLayer
             return result != null; 
         }
 
-        public void AddAttribute(DbAttribute attribute)
+        public DbAttribute AddAttribute(DbAttribute attribute)
         {
-            db.Attributes.Add(attribute);
+            var result = db.Attributes.Add(attribute);
             Apply();
+            return result;
         }
 
         public DbAttribute[] GetAttributes(Func<DbAttribute, bool> predicate)
@@ -57,10 +76,17 @@ namespace WUT_MSI.DataBaseLayer
             return result != null;
         }
 
-        public void AddAttributeValue(DbAttributeValue value)
+        public void AddAttributeValueToAttribute(DbAttribute attribute, DbAttributeValue value)
         {
-            db.AttributeValues.Add(value);
+            attribute.AttributeValues.Add(value);
             Apply();
+        }
+
+        public DbAttributeValue AddAttributeValue(DbAttributeValue value)
+        {
+            var result = db.AttributeValues.Add(value);
+            Apply();
+            return result;
         }
 
         public DbAttributeValue[] GetAttributeValues(Func<DbAttributeValue, bool> predicate)
@@ -75,10 +101,11 @@ namespace WUT_MSI.DataBaseLayer
             return result != null;
         }
 
-        public void AddCountryAttributes(DbCountryAttributes element)
+        public DbCountryAttributes AddCountryAttributes(DbCountryAttributes element)
         {
-            db.CountryAttributes.Add(element);
+            var result = db.CountryAttributes.Add(element);
             Apply();
+            return result;
         }
 
         public DbCountryAttributes[] GetCountryAttributes(Func<DbCountryAttributes, bool> predicate)

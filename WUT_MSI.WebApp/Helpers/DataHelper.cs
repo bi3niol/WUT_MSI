@@ -10,12 +10,18 @@ namespace WUT_MSI.WebApp.Helpers
 {
     public static class DataHelper
     {
+        private static DbTablesInterface db;
+
+        static DataHelper()
+        {
+            db = new DbTablesInterface();
+        }
+
         public static DataModel[] GetDataModelsFromDb()
         {
-            var table = new DbTablesInterface();
             var result = new List<DataModel>();
 
-            foreach (var element in table.GetCountryAttributes(item => true))
+            foreach (var element in db.GetCountryAttributes(item => true))
                 result.Add(new DataModel
                 {
                     CountryId = element.Country.Id,
@@ -55,6 +61,16 @@ namespace WUT_MSI.WebApp.Helpers
         public static void RemoveDataModel(long id)
         {
 
+        }
+
+        public static Dictionary<int, string> GetAttributeAllowedValues(AttributeType type)
+        {
+            return db.GetAttributeValue(type).ToDictionary(item => item.Id, item => item.Value);
+        }
+
+        public static Dictionary<AttributeType, string> GetAttributes()
+        {
+            return db.GetAttributes(item => true).ToDictionary(item => item.Id, item => item.Name);
         }
     }
 }
