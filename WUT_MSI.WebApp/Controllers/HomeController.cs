@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
+using WUT_MSI.WebApp.Helpers;
+using WUT_MSI.WebApp.Reducts;
 
 namespace WUT_MSI.WebApp.Controllers
 {
@@ -23,6 +21,15 @@ namespace WUT_MSI.WebApp.Controllers
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
+        public ActionResult GetReducts()
+        {
+            //AttributeManager attributesManager = new Reducts.AttributeManager(DataHelper.GetDataModelsFromDb());
+            AttributeManager attributesManager = new Reducts.AttributeManager(new Models.DataModel[0] { });
+            attributesManager.CalculateReducts();
 
             return View();
         }

@@ -157,6 +157,9 @@
     <Compile Include="Models\AttributeModel.cs" />
     <Compile Include="Models\DataModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reducts\Attribute.cs" />
+    <Compile Include="Reducts\AttributeManager.cs" />
+    <Compile Include="Reducts\Helpers\PermutationHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
