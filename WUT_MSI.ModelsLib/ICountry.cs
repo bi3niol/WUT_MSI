@@ -16,5 +16,7 @@ namespace WUT_MSI.Models
         double PKB { get; }
         double Medicine { get; }
         double Safety { get; }
+        bool Sea { get; }
+        bool Mountain { get; }
     }
 }
