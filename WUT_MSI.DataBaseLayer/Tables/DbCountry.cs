@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WUT_MSI.DataBaseLayer.Tables
 {
-    public class DbCountry: Entity<long>
+    public class DbCountry: Entity<int>
     {
         public string Name { get; set; }
     }

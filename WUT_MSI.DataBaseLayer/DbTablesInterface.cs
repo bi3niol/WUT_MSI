@@ -75,24 +75,27 @@ namespace WUT_MSI.DataBaseLayer
             return result != null;
         }
 
-        public void AddCountryAttributes(DbCountryAttributes[] attribute)
+        public void AddCountryAttributes(DbCountryAttributes element)
         {
-            foreach(var element in attribute)
-                db.CountryAttributes.Add(element);
+            db.CountryAttributes.Add(element);
             Apply();
         }
 
-        public DbCountryAttributes[] GetCountryAttributes(DbCountry country)
+        public DbCountryAttributes[] GetCountryAttributes(Func<DbCountryAttributes, bool> predicate)
         {
-            return db.CountryAttributes.Where(item => item.Country.Id == country.Id).ToArray();
+            return db.CountryAttributes.Where(predicate).ToArray();
         }
 
-        public bool RemoveCountryAttributes(DbCountry country)
+        public DbAttributeValue[] GetAttributeValue(AttributeType type)
         {
-            var attributes = GetCountryAttributes(country);
-            db.CountryAttributes.RemoveRange(attributes);
+            return GetAttributes(item => item.Id == type).FirstOrDefault()?.AttributeValues.ToArray();
+        }
+
+        public bool RemoveCountryAttributes(DbCountryAttributes element)
+        {
+            var result = db.CountryAttributes.Remove(element);
             Apply();
-            return attributes != null;
+            return result != null;
         }
     }
 }
