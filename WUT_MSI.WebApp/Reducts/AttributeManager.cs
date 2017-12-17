@@ -19,12 +19,15 @@ namespace WUT_MSI.WebApp.Reducts
 
         public List<Attribute> CalculateReducts()
         {
+            if (countries == null || countries.Count == 0)
+                return null;
+
             if (PermutationHelper.AllPermutations == null)
                 PermutationHelper.GenerateAllPermutations();
 
             List<Attribute> reducts = new List<Attribute>();
             List<int> maxSet = new List<int>();
-
+            
             for (int i = 0; i < countries[0].Attributes.Count(); i++)
                 maxSet.Add(i);
 

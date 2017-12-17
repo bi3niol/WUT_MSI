@@ -1,4 +1,5 @@
-﻿using System.Web.Mvc;
+﻿using System.Collections.Generic;
+using System.Web.Mvc;
 using WUT_MSI.WebApp.Helpers;
 using WUT_MSI.WebApp.Reducts;
 
@@ -28,9 +29,9 @@ namespace WUT_MSI.WebApp.Controllers
         public ActionResult GetReducts()
         {
             AttributeManager attributesManager = new Reducts.AttributeManager(DataHelper.GetDataModelsFromDb());
-            attributesManager.CalculateReducts();
+            List<Attribute> attributes = attributesManager.CalculateReducts();
 
-            return View();
+            return View(attributes);
         }
     }
 }

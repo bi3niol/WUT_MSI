@@ -17,7 +17,7 @@ namespace WUT_MSI.DataBaseLayer
 
         public DbLayer() : base()
         {
-            Database.SetInitializer(new DropCreateDatabaseAlways<DbLayer>());
+            Database.SetInitializer(new DropCreateDatabaseIfModelChanges<DbLayer>());
         }
     }
 }

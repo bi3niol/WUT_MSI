@@ -19,7 +19,10 @@ namespace WUT_MSI.WebApp.Reducts
         }
 
         public void AddPair(string key, string value)
-            => values[key].Add(value);
+        {
+            if (values.ContainsKey(key)) values[key].Add(value);
+            else values.Add(key, new List<string>() { value });
+        }
 
         public bool CheckIfIsNeeded(Attribute other)
         {
@@ -40,7 +43,7 @@ namespace WUT_MSI.WebApp.Reducts
                 if (thisValueList.Except(otherValueList).Any())
                 { IsNeeded = false; return false; }
 
-                if(otherValueList.Except(thisValueList).Any())
+                if (otherValueList.Except(thisValueList).Any())
                 { IsNeeded = false; return false; }
             }
 
