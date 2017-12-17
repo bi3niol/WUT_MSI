@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using WUT_MSI.DataBaseLayer;
 
 namespace WUT_MSI.WebApp.Reducts.Helpers
 {
@@ -14,8 +15,9 @@ namespace WUT_MSI.WebApp.Reducts.Helpers
             AllPermutations = new List<List<int>>();
 
             List<int> numbers = new List<int>();
+            DbTablesInterface database = new DbTablesInterface();
 
-            for (int i = 0; i < 12; i++)
+            for (int i = 0; i < database.GetAttributes(a => true).Length; i++)
                 numbers.Add(i);
             
             for (int i = 0; i < (1 << numbers.Count); i++)
@@ -28,6 +30,8 @@ namespace WUT_MSI.WebApp.Reducts.Helpers
 
                 AllPermutations.Add(partial);
             }
+
+            AllPermutations.RemoveAll(l => l.Count == 0 || l.Count == numbers.Count);
         }
     }
 }

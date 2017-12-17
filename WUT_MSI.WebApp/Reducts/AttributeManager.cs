@@ -17,15 +17,28 @@ namespace WUT_MSI.WebApp.Reducts
             countries = new List<DataModel>(attributes);
         }
 
-        public void CalculateReducts()
+        public List<Attribute> CalculateReducts()
         {
             if (PermutationHelper.AllPermutations == null)
                 PermutationHelper.GenerateAllPermutations();
 
+            List<Attribute> reducts = new List<Attribute>();
+            List<int> maxSet = new List<int>();
+
+            for (int i = 0; i < countries[0].Attributes.Count(); i++)
+                maxSet.Add(i);
+
+            Attribute maxReduct = GenerateAttributeSet(maxSet);
+
             foreach (List<int> set in PermutationHelper.AllPermutations)
             {
+                Attribute currentAttribute = GenerateAttributeSet(set);
 
+                if (currentAttribute.CheckIfIsNeeded(maxReduct))
+                    reducts.Add(currentAttribute);
             }
+
+            return reducts;
         }
 
         private Attribute GenerateAttributeSet(List<int> setRange)

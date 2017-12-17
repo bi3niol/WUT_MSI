@@ -27,8 +27,7 @@ namespace WUT_MSI.WebApp.Controllers
 
         public ActionResult GetReducts()
         {
-            //AttributeManager attributesManager = new Reducts.AttributeManager(DataHelper.GetDataModelsFromDb());
-            AttributeManager attributesManager = new Reducts.AttributeManager(new Models.DataModel[0] { });
+            AttributeManager attributesManager = new Reducts.AttributeManager(DataHelper.GetDataModelsFromDb());
             attributesManager.CalculateReducts();
 
             return View();
