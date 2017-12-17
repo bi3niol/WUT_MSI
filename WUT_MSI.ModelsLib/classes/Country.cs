@@ -24,6 +24,8 @@ namespace WUT_MSI.Models.classes
         public double PKB { get; set; }
         public double Medicine { get; set; }
         public double Safety { get; set; }
+        public bool Sea { get; set; }
+        public bool Mountain { get; set; }
 
         public Country() {  }
 
