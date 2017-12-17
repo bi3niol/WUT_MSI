@@ -8,11 +8,13 @@ using WUT_MSI.DataBaseLayer.Tables;
 
 namespace WUT_MSI.DataBaseLayer
 {
-    internal class DbLayer: DbContext
+    public class DbLayer: DbContext
     {
         public DbSet<DbCountry> Countries { get; set; }
         public DbSet<DbAttribute> Attributes { get; set; }
         public DbSet<DbAttributeValue> AttributeValues { get; set; }
         public DbSet<DbCountryAttributes> CountryAttributes { get; set; }
+
+        public System.Data.Entity.DbSet<WUT_MSI.WebApp.Models.DataModel> DataModels { get; set; }
     }
 }
