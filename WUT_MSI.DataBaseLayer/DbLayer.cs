@@ -15,7 +15,6 @@ namespace WUT_MSI.DataBaseLayer
         public DbSet<DbAttributeValue> AttributeValues { get; set; }
         public DbSet<DbCountryAttributes> CountryAttributes { get; set; }
 
-
         public DbLayer() : base()
         {
             Database.SetInitializer(new DropCreateDatabaseIfModelChanges<DbLayer>());

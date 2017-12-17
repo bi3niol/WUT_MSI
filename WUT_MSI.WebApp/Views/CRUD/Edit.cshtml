@@ -19,7 +19,8 @@
         <div class="form-group">
             @Html.LabelFor(model => model.Country_Id, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.DropDownList("Country_Id", ViewBag.Countries as SelectList);
+                @Html.DropDownListFor(m=>m.Country_Id, ViewBag.Countries as SelectList);
+                @*@Html.DropDownList("Country_Id", ViewBag.Countries as SelectList);*@
                 @*@Html.EditorFor(model => model.Country_Id, new { htmlAttributes = new { @class = "form-control" } })*@
                 @Html.ValidationMessageFor(model => model.Country_Id, "", new { @class = "text-danger" })
             </div>
@@ -28,7 +29,8 @@
         <div class="form-group">
             @Html.LabelFor(model => model.DistanceAttribute_Id, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.DropDownList("DistanceAttribute_Id", ViewBag.DistanceAttributes as SelectList);
+                @Html.DropDownListFor(m=>m.DistanceAttribute_Id, ViewBag.DistanceAttributes as SelectList);
+                @*@Html.DropDownList("DistanceAttribute_Id", ViewBag.DistanceAttributes as SelectList);*@
                 @*@Html.EditorFor(model => model.DistanceAttribute_Id, new { htmlAttributes = new { @class = "form-control" } })*@
                 @Html.ValidationMessageFor(model => model.DistanceAttribute_Id, "", new { @class = "text-danger" })
             </div>
