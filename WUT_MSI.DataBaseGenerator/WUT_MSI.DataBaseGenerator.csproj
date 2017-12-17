@@ -50,11 +50,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataBaseGenerator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Question.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -65,6 +69,10 @@
     <ProjectReference Include="..\WUT_MSI.ModelsLib\WUT_MSI.ModelsLib.csproj">
       <Project>{b3c3ff61-f5fe-4607-a9e4-926b9fedd946}</Project>
       <Name>WUT_MSI.ModelsLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WUT_MSI.WebApp\WUT_MSI.WebApp.csproj">
+      <Project>{fb959ac2-acba-417e-b92e-84b93658dd3d}</Project>
+      <Name>WUT_MSI.WebApp</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -56,43 +56,43 @@
 @foreach (var item in Model) {
     <tr>
         <td>
-            @Html.DisplayFor(modelItem => item.Country_Id)
+            @Html.DisplayFor(modelItem => item.Country.Name)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.DistanceAttribute_Id)
+            @Html.DisplayFor(modelItem => item.DistanceAttributeValue.Value)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.ClimateAttribute_Id)
+            @Html.DisplayFor(modelItem => item.ClimateAttributeValue.Value)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.AreaAttribute_Id)
+            @Html.DisplayFor(modelItem => item.AreaAttributeValue.Value)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.DevelopmentAttribute_Id)
+            @Html.DisplayFor(modelItem => item.DevelopmentAttributeValue.Value)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.RainsAttribute_Id)
+            @Html.DisplayFor(modelItem => item.RainsAttributeValue.Value)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.SafetyAttribute_Id)
+            @Html.DisplayFor(modelItem => item.SafetyAttributeValue.Value)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.MedicineAttribute_Id)
+            @Html.DisplayFor(modelItem => item.MedicineAttributeValue.Value)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.PopulationAttribute_Id)
+            @Html.DisplayFor(modelItem => item.PopulationAttributeValue.Value)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.DensityAttribute_Id)
+            @Html.DisplayFor(modelItem => item.DensityAttributeValue.Value)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.JetAttribute_Id)
+            @Html.DisplayFor(modelItem => item.JetAttributeValue.Value)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.SeaAttribute_Id)
+            @Html.DisplayFor(modelItem => item.SeaAttributeValue.Value)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.MountainAttribute_Id)
+            @Html.DisplayFor(modelItem => item.MountainAttributeValue.Value)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
