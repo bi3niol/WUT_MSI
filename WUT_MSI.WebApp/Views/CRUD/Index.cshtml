@@ -1,0 +1,105 @@
+﻿@model IEnumerable<WUT_MSI.DataBaseLayer.Tables.DbCountryAttributes>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Country_Id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DistanceAttribute_Id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ClimateAttribute_Id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AreaAttribute_Id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DevelopmentAttribute_Id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RainsAttribute_Id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SafetyAttribute_Id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MedicineAttribute_Id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PopulationAttribute_Id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DensityAttribute_Id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.JetAttribute_Id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SeaAttribute_Id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MountainAttribute_Id)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Country.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DistanceAttributeValue.Value)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ClimateAttributeValue.Value)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AreaAttributeValue.Value)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DevelopmentAttributeValue.Value)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RainsAttributeValue.Value)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SafetyAttributeValue.Value)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MedicineAttributeValue.Value)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PopulationAttributeValue.Value)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DensityAttributeValue.Value)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.JetAttributeValue.Value)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SeaAttributeValue.Value)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MountainAttributeValue.Value)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>
