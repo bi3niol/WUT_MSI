@@ -50,7 +50,7 @@ namespace WUT_MSI.DataBaseLayer
             return db.Countries.Where(predicate).ToArray();
         }
 
-        public DbCountry GetAttributeValue(int id)
+        public DbCountry GetCountry(int id)
         {
             return db.Countries.FirstOrDefault(item => item.Id == id);
         }
@@ -128,7 +128,7 @@ namespace WUT_MSI.DataBaseLayer
             return db.CountryAttributes.Where(predicate).ToArray();
         }
 
-        public DbCountryAttributes GetAttributeValue(long id)
+        public DbCountryAttributes GetCountryAttributes(long id)
         {
             return db.CountryAttributes.FirstOrDefault(item => item.Id == id);
         }
