@@ -14,34 +14,33 @@ namespace WUT_MSI.WebApp.Controllers
 {
     public class CRUDController : Controller
     {
-        private DbLayer db = new DbLayer();
         private DbTablesInterface tablesInterface = new DbTablesInterface();
         // GET: CRUD
         public ActionResult Index()
         {
-            return View(db.CountryAttributes.ToList());
+            return View(tablesInterface.GetCountryAttributes(a=>true));
         }
 
-        // GET: CRUD/Details/5
-        public ActionResult Details(long? id)
-        {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            DbCountryAttributes dbCountryAttributes = db.CountryAttributes.Find(id);
-            if (dbCountryAttributes == null)
-            {
-                return HttpNotFound();
-            }
-            return View(dbCountryAttributes);
-        }
+        //// GET: CRUD/Details/5
+        //public ActionResult Details(long? id)
+        //{
+        //    if (id == null)
+        //    {
+        //        return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+        //    }
+        //    DbCountryAttributes dbCountryAttributes = tablesInterface.GetCountryAttributes(id.Value);
+        //    if (dbCountryAttributes == null)
+        //    {
+        //        return HttpNotFound();
+        //    }
+        //    return View(dbCountryAttributes);
+        //}
 
         // GET: CRUD/Create
         public ActionResult Create()
         {
             var model = new CRUDModel();
-            SetViewBag(model);
+            SetListsToModel(model);
             return View(model);
         }
 
@@ -54,9 +53,10 @@ namespace WUT_MSI.WebApp.Controllers
         {
             if (ModelState.IsValid)
             {
+                model.UpdateOrCreateCountryAttributes(tablesInterface, true);
                 return RedirectToAction("Index");
             }
-            SetViewBag(model);
+            SetListsToModel(model);
             return View(model);
         }
 
@@ -67,12 +67,12 @@ namespace WUT_MSI.WebApp.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            DbCountryAttributes dbCountryAttributes = db.CountryAttributes.Find(id);
+            DbCountryAttributes dbCountryAttributes = tablesInterface.GetCountryAttributes(id.Value);
             if (dbCountryAttributes == null)
             {
                 return HttpNotFound();
             }
-            return View(dbCountryAttributes);
+            return View(CRUDModel.GedModel(dbCountryAttributes));
         }
 
         // POST: CRUD/Edit/5
@@ -80,15 +80,15 @@ namespace WUT_MSI.WebApp.Controllers
         // Aby uzyskać więcej szczegółów, zobacz https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Country_Id,DistanceAttribute_Id,ClimateAttribute_Id,AreaAttribute_Id,DevelopmentAttribute_Id,RainsAttribute_Id,SafetyAttribute_Id,MedicineAttribute_Id,PopulationAttribute_Id,DensityAttribute_Id,JetAttribute_Id,SeaAttribute_Id,MountainAttribute_Id")] DbCountryAttributes dbCountryAttributes)
+        public ActionResult Edit([Bind(Include = "Id,Country_Id,DistanceAttribute_Id,ClimateAttribute_Id,AreaAttribute_Id,DevelopmentAttribute_Id,RainsAttribute_Id,SafetyAttribute_Id,MedicineAttribute_Id,PopulationAttribute_Id,DensityAttribute_Id,JetAttribute_Id,SeaAttribute_Id,MountainAttribute_Id")] CRUDModel model)
         {
             if (ModelState.IsValid)
             {
-                db.Entry(dbCountryAttributes).State = EntityState.Modified;
-                db.SaveChanges();
+                model.UpdateOrCreateCountryAttributes(tablesInterface);
                 return RedirectToAction("Index");
             }
-            return View(dbCountryAttributes);
+            SetListsToModel(model);
+            return View(model);
         }
 
         // GET: CRUD/Delete/5
@@ -98,28 +98,30 @@ namespace WUT_MSI.WebApp.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            DbCountryAttributes dbCountryAttributes = db.CountryAttributes.Find(id);
+            DbCountryAttributes dbCountryAttributes = tablesInterface.GetCountryAttributes(id.Value);
             if (dbCountryAttributes == null)
             {
                 return HttpNotFound();
             }
-            return View(dbCountryAttributes);
-        }
-
-        // POST: CRUD/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(long id)
-        {
-            DbCountryAttributes dbCountryAttributes = db.CountryAttributes.Find(id);
-            db.CountryAttributes.Remove(dbCountryAttributes);
-            db.SaveChanges();
+            tablesInterface.RemoveCountryAttributes(dbCountryAttributes);
             return RedirectToAction("Index");
         }
 
-        private void SetViewBag(CRUDModel model)
+        //// POST: CRUD/Delete/5
+        //[HttpPost, ActionName("Delete")]
+        //[ValidateAntiForgeryToken]
+        //public ActionResult DeleteConfirmed(long id)
+        //{
+        //    DbCountryAttributes dbCountryAttributes = db.CountryAttributes.Find(id);
+        //    db.CountryAttributes.Remove(dbCountryAttributes);
+        //    db.SaveChanges();
+        //    return RedirectToAction("Index");
+        //}
+
+        private void SetListsToModel(CRUDModel model)
         {
-            model.CountryId = new SelectList(db.Countries, "Id", "Name", model.Country_Id == 0 ? db.Countries.FirstOrDefault()?.Id : model.Country_Id);
+            var countries = tablesInterface.GetCountries(c => true);
+            model.CountryId = new SelectList(countries, "Id", "Name", model.Country_Id == 0 ? countries.FirstOrDefault()?.Id : model.Country_Id);
 
             var attributes = tablesInterface.GetAttributeValue(AttributeType.Distance);
             model.DistanceAttributeId = new SelectList(attributes, "Id", "Value", model.DistanceAttribute_Id == 0 ? attributes.FirstOrDefault()?.Id : model.DistanceAttribute_Id);
@@ -161,7 +163,7 @@ namespace WUT_MSI.WebApp.Controllers
         {
             if (disposing)
             {
-                db.Dispose();
+                //
             }
             base.Dispose(disposing);
         }

@@ -61,9 +61,22 @@ namespace WUT_MSI.WebApp.Models
             }
             else
             {
-                res = null;
+                res = db.GetCountryAttributes(Id);
             }
 
+            res.JetAttributeValue = db.GetAttributeValue(JetAttribute_Id);
+            res.MedicineAttributeValue = db.GetAttributeValue(MedicineAttribute_Id);
+            res.MountainAttributeValue = db.GetAttributeValue(MountainAttribute_Id);
+            res.PopulationAttributeValue = db.GetAttributeValue(PopulationAttribute_Id);
+            res.RainsAttributeValue = db.GetAttributeValue(RainsAttribute_Id);
+            res.SafetyAttributeValue = db.GetAttributeValue(SafetyAttribute_Id);
+            res.SeaAttributeValue = db.GetAttributeValue(SeaAttribute_Id);
+            res.AreaAttributeValue = db.GetAttributeValue(AreaAttribute_Id);
+            res.ClimateAttributeValue = db.GetAttributeValue(ClimateAttribute_Id);
+            res.Country = db.GetCountry(Country_Id);
+            res.DensityAttributeValue = db.GetAttributeValue(DensityAttribute_Id);
+            res.DevelopmentAttributeValue = db.GetAttributeValue(DevelopmentAttribute_Id);
+            res.DistanceAttributeValue = db.GetAttributeValue(DistanceAttribute_Id);
 
             if (isNew)
                 res = db.AddCountryAttributes(res);
