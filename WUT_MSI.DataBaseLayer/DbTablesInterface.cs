@@ -50,6 +50,11 @@ namespace WUT_MSI.DataBaseLayer
             return db.Countries.Where(predicate).ToArray();
         }
 
+        public DbCountry GetCountry(int id)
+        {
+            return db.Countries.FirstOrDefault(item => item.Id == id);
+        }
+
         public bool RemoveCountry(DbCountry country)
         {
             var result = db.Countries.Remove(country);
@@ -67,6 +72,11 @@ namespace WUT_MSI.DataBaseLayer
         public DbAttribute[] GetAttributes(Func<DbAttribute, bool> predicate)
         {
             return db.Attributes.Where(predicate).ToArray();
+        }
+
+        public DbAttribute GetAttribute(AttributeType id)
+        {
+            return db.Attributes.FirstOrDefault(item => item.Id == id);
         }
 
         public bool RemoveAttribute(DbAttribute attribute)
@@ -94,6 +104,11 @@ namespace WUT_MSI.DataBaseLayer
             return db.AttributeValues.Where(predicate).ToArray();
         }
 
+        public DbAttributeValue GetAttributeValue(int id)
+        {
+            return db.AttributeValues.FirstOrDefault(item => item.Id == id);
+        }
+
         public bool RemoveAttributeValue(DbAttributeValue value)
         {
             var result = db.AttributeValues.Remove(value);
@@ -111,6 +126,11 @@ namespace WUT_MSI.DataBaseLayer
         public DbCountryAttributes[] GetCountryAttributes(Func<DbCountryAttributes, bool> predicate)
         {
             return db.CountryAttributes.Where(predicate).ToArray();
+        }
+
+        public DbCountryAttributes GetCountryAttributes(long id)
+        {
+            return db.CountryAttributes.FirstOrDefault(item => item.Id == id);
         }
 
         public DbAttributeValue[] GetAttributeValue(AttributeType type)
