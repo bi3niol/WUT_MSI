@@ -161,6 +161,8 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Helpers\DataHelper.cs" />
+    <Compile Include="MinimalRules\DifferenceMatrix.cs" />
+    <Compile Include="MinimalRules\DifferenceMatrixGenerator.cs" />
     <Compile Include="Models\AttributeModel.cs" />
     <Compile Include="Models\DataModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

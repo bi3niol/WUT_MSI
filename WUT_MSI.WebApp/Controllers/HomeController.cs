@@ -33,7 +33,7 @@ namespace WUT_MSI.WebApp.Controllers
             DbTablesInterface database = new DbTablesInterface();
             DbAttribute[] dbAttributes = database.GetAttributes(a => true);
 
-            AttributeManager attributesManager = new Reducts.AttributeManager(DataHelper.GetDataModelsFromDb());
+            AttributeManager attributesManager = new AttributeManager(DataHelper.GetDataModelsFromDb());
             List<Attribute> attributes = attributesManager.CalculateReducts();
 
             List<List<string>> values = new List<List<string>>();

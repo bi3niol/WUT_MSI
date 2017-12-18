@@ -44,7 +44,7 @@ namespace WUT_MSI.WebApp.Reducts
             return reducts;
         }
 
-        private Attribute GenerateAttributeSet(List<int> setRange)
+        public Attribute GenerateAttributeSet(List<int> setRange)
         {
             Attribute attribute = new Attribute(setRange);
 
@@ -53,7 +53,7 @@ namespace WUT_MSI.WebApp.Reducts
                 StringBuilder builder = new StringBuilder();
 
                 foreach (int attributeId in setRange)
-                    builder.Append(country.Attributes[attributeId].AttributeValueId);
+                    builder.Append($"_{country.Attributes[attributeId].AttributeValueId}");
 
                 attribute.AddPair(builder.ToString(), country.CountryName);
             }

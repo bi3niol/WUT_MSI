@@ -1,5 +1,6 @@
 ﻿using System.Linq;
 using System.Collections.Generic;
+using System;
 
 namespace WUT_MSI.WebApp.Reducts
 {
@@ -41,6 +42,35 @@ namespace WUT_MSI.WebApp.Reducts
             }
 
             return false;
+        }
+
+        internal bool AreInSameSet(string first, string second)
+        {
+            foreach (List<string> set in Values.Values)
+                if (set.Contains(first) && set.Contains(second))
+                    return true;
+            
+            return false;
+        }
+
+        public List<int> GetKeyDiffrenceFromValue(string first, string second)
+        {
+            string firstKey = null;
+            string secondKey = null;
+
+            foreach (var pair in Values)
+            {
+                if (pair.Value.Contains(first))
+                    firstKey = pair.Key;
+
+                if (pair.Value.Contains(second))
+                    secondKey = pair.Key;
+            }
+
+            string[] keyValueFirst = firstKey.Split('_');
+            string[] keyValueSecond = secondKey.Split('_');
+
+            return keyValueFirst.Except(keyValueSecond).Select(s => int.Parse(s)).ToList();
         }
     }
 }
