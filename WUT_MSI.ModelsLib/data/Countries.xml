@@ -14,6 +14,8 @@
     <PKB>18900</PKB>
     <Medicine>0.2</Medicine>
     <Safety>0.0</Safety>
+    <Sea>false</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Ă…land Islands</DisplayName>
@@ -29,6 +31,8 @@
     <PKB>100</PKB>
     <Medicine>0.4</Medicine>
     <Safety>0.5</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Albania</DisplayName>
@@ -44,6 +48,8 @@
     <PKB>12000</PKB>
     <Medicine>0.2</Medicine>
     <Safety>0.2</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Algeria</DisplayName>
@@ -59,6 +65,8 @@
     <PKB>160000</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.3</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>American Samoa</DisplayName>
@@ -74,6 +82,8 @@
     <PKB>1000</PKB>
     <Medicine>0.1</Medicine>
     <Safety>0.2</Safety>
+    <Sea>false</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Andorra</DisplayName>
@@ -89,6 +99,8 @@
     <PKB>3000</PKB>
     <Medicine>0.6</Medicine>
     <Safety>0.7</Safety>
+    <Sea>false</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Angola</DisplayName>
@@ -104,6 +116,8 @@
     <PKB>146700</PKB>
     <Medicine>0.1</Medicine>
     <Safety>0.2</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Anguilla</DisplayName>
@@ -119,6 +133,8 @@
     <PKB>311</PKB>
     <Medicine>0.2</Medicine>
     <Safety>0.3</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Antarctica</DisplayName>
@@ -134,6 +150,8 @@
     <PKB>0</PKB>
     <Medicine>0</Medicine>
     <Safety>0.2</Safety>
+    <Sea>false</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Antigua and Barbuda</DisplayName>
@@ -149,6 +167,8 @@
     <PKB>1200</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.7</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Argentina</DisplayName>
@@ -164,6 +184,8 @@
     <PKB>550000</PKB>
     <Medicine>0.8</Medicine>
     <Safety>0.7</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Armenia</DisplayName>
@@ -179,6 +201,8 @@
     <PKB>11000</PKB>
     <Medicine>0.4</Medicine>
     <Safety>0.3</Safety>
+    <Sea>false</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Aruba</DisplayName>
@@ -194,6 +218,8 @@
     <PKB>2700</PKB>
     <Medicine>0.1</Medicine>
     <Safety>0.4</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Australia</DisplayName>
@@ -209,6 +235,8 @@
     <PKB>1230000</PKB>
     <Medicine>0.9</Medicine>
     <Safety>1</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Austria</DisplayName>
@@ -224,6 +252,8 @@
     <PKB>436000</PKB>
     <Medicine>1</Medicine>
     <Safety>0.8</Safety>
+    <Sea>false</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Azerbaijan</DisplayName>
@@ -239,6 +269,8 @@
     <PKB>75000</PKB>
     <Medicine>0.6</Medicine>
     <Safety>0.6</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Bahamas</DisplayName>
@@ -254,6 +286,8 @@
     <PKB>4000</PKB>
     <Medicine>0.5</Medicine>
     <Safety>0.7</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Bahrain</DisplayName>
@@ -269,6 +303,8 @@
     <PKB>34000</PKB>
     <Medicine>0.6</Medicine>
     <Safety>0.7</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Bangladesh</DisplayName>
@@ -284,6 +320,8 @@
     <PKB>173000</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.5</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Barbados</DisplayName>
@@ -299,6 +337,8 @@
     <PKB>4300</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.6</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Belarus</DisplayName>
@@ -314,6 +354,8 @@
     <PKB>76000</PKB>
     <Medicine>0.5</Medicine>
     <Safety>0.5</Safety>
+    <Sea>false</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Belgium</DisplayName>
@@ -329,6 +371,8 @@
     <PKB>531000</PKB>
     <Medicine>1.0</Medicine>
     <Safety>0.8</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Belize</DisplayName>
@@ -344,6 +388,8 @@
     <PKB>1700</PKB>
     <Medicine>0.4</Medicine>
     <Safety>0.7</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Benin</DisplayName>
@@ -359,6 +405,8 @@
     <PKB>9600</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.7</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Bermuda</DisplayName>
@@ -374,6 +422,8 @@
     <PKB>5600</PKB>
     <Medicine>0.5</Medicine>
     <Safety>0.8</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Bhutan</DisplayName>
@@ -389,6 +439,8 @@
     <PKB>1900</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.6</Safety>
+    <Sea>false</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Bolivia (Plurinational State of)</DisplayName>
@@ -404,6 +456,8 @@
     <PKB>33000</PKB>
     <Medicine>0.2</Medicine>
     <Safety>0.4</Safety>
+    <Sea>false</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Bonaire, Sint Eustatius and Saba</DisplayName>
@@ -419,6 +473,8 @@
     <PKB>400</PKB>
     <Medicine>0.2</Medicine>
     <Safety>0.7</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Bosnia and Herzegovina</DisplayName>
@@ -434,6 +490,8 @@
     <PKB>18500</PKB>
     <Medicine>0.4</Medicine>
     <Safety>0.4</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Botswana</DisplayName>
@@ -449,6 +507,8 @@
     <PKB>16000</PKB>
     <Medicine>0.1</Medicine>
     <Safety>0.3</Safety>
+    <Sea>false</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Bouvet Island</DisplayName>
@@ -464,6 +524,8 @@
     <PKB>400</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.7</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Brazil</DisplayName>
@@ -479,6 +541,8 @@
     <PKB>1772500</PKB>
     <Medicine>0.6</Medicine>
     <Safety>0.6</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>British Indian Ocean Territory</DisplayName>
@@ -494,6 +558,8 @@
     <PKB>2</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.7</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Virgin Islands (British)</DisplayName>
@@ -509,6 +575,8 @@
     <PKB>600</PKB>
     <Medicine>0.4</Medicine>
     <Safety>0.7</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Virgin Islands (U.S.)</DisplayName>
@@ -524,6 +592,8 @@
     <PKB>500</PKB>
     <Medicine>0.4</Medicine>
     <Safety>0.7</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Brunei Darussalam</DisplayName>
@@ -539,6 +609,8 @@
     <PKB>17000</PKB>
     <Medicine>0.2</Medicine>
     <Safety>0.4</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Bulgaria</DisplayName>
@@ -554,6 +626,8 @@
     <PKB>57000</PKB>
     <Medicine>0.6</Medicine>
     <Safety>0.7</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Burundi</DisplayName>
@@ -569,6 +643,8 @@
     <PKB>2900</PKB>
     <Medicine>0.2</Medicine>
     <Safety>0.4</Safety>
+    <Sea>false</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Cambodia</DisplayName>
@@ -584,6 +660,8 @@
     <PKB>16700</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.4</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Cameroon</DisplayName>
@@ -599,6 +677,8 @@
     <PKB>32000</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.5</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Cabo Verde</DisplayName>
@@ -614,6 +694,8 @@
     <PKB>1800</PKB>
     <Medicine>0.1</Medicine>
     <Safety>0.7</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Cayman Islands</DisplayName>
@@ -629,6 +711,8 @@
     <PKB>350</PKB>
     <Medicine>0.5</Medicine>
     <Safety>0.5</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Central African Republic</DisplayName>
@@ -644,6 +728,8 @@
     <PKB>1800</PKB>
     <Medicine>0.1</Medicine>
     <Safety>0.4</Safety>
+    <Sea>false</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Chad</DisplayName>
@@ -659,6 +745,8 @@
     <PKB>12800</PKB>
     <Medicine>0.1</Medicine>
     <Safety>0.1</Safety>
+    <Sea>false</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Chile</DisplayName>
@@ -674,6 +762,8 @@
     <PKB>258000</PKB>
     <Medicine>0.6</Medicine>
     <Safety>0.7</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>China</DisplayName>
@@ -689,6 +779,8 @@
     <PKB>11000000</PKB>
     <Medicine>0.7</Medicine>
     <Safety>0.7</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Christmas Island</DisplayName>
@@ -704,6 +796,8 @@
     <PKB>100</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.9</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Cocos (Keeling) Islands</DisplayName>
@@ -719,6 +813,8 @@
     <PKB>0.4</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.8</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Colombia</DisplayName>
@@ -734,6 +830,8 @@
     <PKB>377000</PKB>
     <Medicine>0.1</Medicine>
     <Safety>0.3</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Comoros</DisplayName>
@@ -749,6 +847,8 @@
     <PKB>648</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.5</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Congo</DisplayName>
@@ -764,6 +864,8 @@
     <PKB>14000</PKB>
     <Medicine>0.1</Medicine>
     <Safety>0.3</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Congo (Democratic Republic of the)</DisplayName>
@@ -779,6 +881,8 @@
     <PKB>35000</PKB>
     <Medicine>0.1</Medicine>
     <Safety>0.3</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Cook Islands</DisplayName>
@@ -794,6 +898,8 @@
     <PKB>300</PKB>
     <Medicine>0.4</Medicine>
     <Safety>0.7</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Costa Rica</DisplayName>
@@ -809,6 +915,8 @@
     <PKB>49000</PKB>
     <Medicine>0.5</Medicine>
     <Safety>0.8</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Croatia</DisplayName>
@@ -824,6 +932,8 @@
     <PKB>57000</PKB>
     <Medicine>0.6</Medicine>
     <Safety>0.9</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Cuba</DisplayName>
@@ -839,6 +949,8 @@
     <PKB>87000</PKB>
     <Medicine>0.4</Medicine>
     <Safety>0.4</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>CuraĂ§ao</DisplayName>
@@ -854,6 +966,8 @@
     <PKB>3100</PKB>
     <Medicine>0.6</Medicine>
     <Safety>0.7</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Cyprus</DisplayName>
@@ -869,6 +983,8 @@
     <PKB>23000</PKB>
     <Medicine>0.4</Medicine>
     <Safety>0.4</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Czech Republic</DisplayName>
@@ -884,6 +1000,8 @@
     <PKB>205000</PKB>
     <Medicine>0.7</Medicine>
     <Safety>1.0</Safety>
+    <Sea>false</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Denmark</DisplayName>
@@ -899,6 +1017,8 @@
     <PKB>346000</PKB>
     <Medicine>0.9</Medicine>
     <Safety>0.8</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Djibouti</DisplayName>
@@ -914,6 +1034,8 @@
     <PKB>1500</PKB>
     <Medicine>0.2</Medicine>
     <Safety>0.4</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Dominica</DisplayName>
@@ -929,6 +1051,8 @@
     <PKB>533</PKB>
     <Medicine>0.2</Medicine>
     <Safety>0.5</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Dominican Republic</DisplayName>
@@ -944,6 +1068,8 @@
     <PKB>64000</PKB>
     <Medicine>0.4</Medicine>
     <Safety>0.7</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Ecuador</DisplayName>
@@ -959,6 +1085,8 @@
     <PKB>101000</PKB>
     <Medicine>0.2</Medicine>
     <Safety>0.5</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Egypt</DisplayName>
@@ -974,6 +1102,8 @@
     <PKB>282000</PKB>
     <Medicine>0.2</Medicine>
     <Safety>0.1</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>El Salvador</DisplayName>
@@ -989,6 +1119,8 @@
     <PKB>25000</PKB>
     <Medicine>0.2</Medicine>
     <Safety>0.7</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Equatorial Guinea</DisplayName>
@@ -1004,6 +1136,8 @@
     <PKB>17000</PKB>
     <Medicine>0.5</Medicine>
     <Safety>0.7</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Eritrea</DisplayName>
@@ -1019,6 +1153,8 @@
     <PKB>3800</PKB>
     <Medicine>0.2</Medicine>
     <Safety>0.5</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Estonia</DisplayName>
@@ -1034,6 +1170,8 @@
     <PKB>26000</PKB>
     <Medicine>0.6</Medicine>
     <Safety>1.0</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Ethiopia</DisplayName>
@@ -1049,6 +1187,8 @@
     <PKB>53000</PKB>
     <Medicine>0.1</Medicine>
     <Safety>0.2</Safety>
+    <Sea>false</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Falkland Islands (Malvinas)</DisplayName>
@@ -1064,6 +1204,8 @@
     <PKB>1</PKB>
     <Medicine>0.2</Medicine>
     <Safety>0.4</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Faroe Islands</DisplayName>
@@ -1079,6 +1221,8 @@
     <PKB>10</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.7</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Fiji</DisplayName>
@@ -1094,6 +1238,8 @@
     <PKB>4500</PKB>
     <Medicine>0.2</Medicine>
     <Safety>0.6</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Finland</DisplayName>
@@ -1109,6 +1255,8 @@
     <PKB>270000</PKB>
     <Medicine>0.8</Medicine>
     <Safety>1.0</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>France</DisplayName>
@@ -1124,6 +1272,8 @@
     <PKB>2400000</PKB>
     <Medicine>1</Medicine>
     <Safety>0.3</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>French Polynesia</DisplayName>
@@ -1139,6 +1289,8 @@
     <PKB>5600</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.5</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>French Southern Territories</DisplayName>
@@ -1154,6 +1306,8 @@
     <PKB>0.01</PKB>
     <Medicine>0.4</Medicine>
     <Safety>0.5</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Gabon</DisplayName>
@@ -1169,6 +1323,8 @@
     <PKB>17000</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.7</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Gambia</DisplayName>
@@ -1184,6 +1340,8 @@
     <PKB>5000</PKB>
     <Medicine>0.2</Medicine>
     <Safety>0.6</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Georgia</DisplayName>
@@ -1199,6 +1357,8 @@
     <PKB>16000</PKB>
     <Medicine>0.6</Medicine>
     <Safety>0.7</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Germany</DisplayName>
@@ -1214,6 +1374,8 @@
     <PKB>3300000</PKB>
     <Medicine>1</Medicine>
     <Safety>0.3</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Gibraltar</DisplayName>
@@ -1229,6 +1391,8 @@
     <PKB>100</PKB>
     <Medicine>0.5</Medicine>
     <Safety>0.9</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Greece</DisplayName>
@@ -1244,6 +1408,8 @@
     <PKB>235000</PKB>
     <Medicine>0.7</Medicine>
     <Safety>0.7</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Greenland</DisplayName>
@@ -1259,6 +1425,8 @@
     <PKB>2400</PKB>
     <Medicine>0.6</Medicine>
     <Safety>0.7</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Grenada</DisplayName>
@@ -1274,6 +1442,8 @@
     <PKB>890</PKB>
     <Medicine>0.6</Medicine>
     <Safety>1</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Guam</DisplayName>
@@ -1289,6 +1459,8 @@
     <PKB>5000</PKB>
     <Medicine>0.4</Medicine>
     <Safety>0.4</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Guatemala</DisplayName>
@@ -1304,6 +1476,8 @@
     <PKB>59000</PKB>
     <Medicine>0.1</Medicine>
     <Safety>0.2</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Guernsey</DisplayName>
@@ -1319,6 +1493,8 @@
     <PKB>3000</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.6</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Guyana</DisplayName>
@@ -1334,6 +1510,8 @@
     <PKB>3000</PKB>
     <Medicine>0.4</Medicine>
     <Safety>0.5</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Haiti</DisplayName>
@@ -1349,6 +1527,8 @@
     <PKB>8600</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.4</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Heard Island and McDonald Islands</DisplayName>
@@ -1364,6 +1544,8 @@
     <PKB>100</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.7</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Holy See</DisplayName>
@@ -1379,6 +1561,8 @@
     <PKB>0.5</PKB>
     <Medicine>0.1</Medicine>
     <Safety>0.7</Safety>
+    <Sea>false</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Honduras</DisplayName>
@@ -1394,6 +1578,8 @@
     <PKB>19000</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.4</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Hong Kong</DisplayName>
@@ -1409,6 +1595,8 @@
     <PKB>275000</PKB>
     <Medicine>0.9</Medicine>
     <Safety>0.8</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Hungary</DisplayName>
@@ -1424,6 +1612,8 @@
     <PKB>138000</PKB>
     <Medicine>0.6</Medicine>
     <Safety>0.7</Safety>
+    <Sea>false</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>India</DisplayName>
@@ -1439,6 +1629,8 @@
     <PKB>2100000</PKB>
     <Medicine>0.2</Medicine>
     <Safety>0.3</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Indonesia</DisplayName>
@@ -1454,6 +1646,8 @@
     <PKB>860000</PKB>
     <Medicine>0.6</Medicine>
     <Safety>0.9</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Iraq</DisplayName>
@@ -1469,6 +1663,8 @@
     <PKB>225000</PKB>
     <Medicine>0.2</Medicine>
     <Safety>0.3</Safety>
+    <Sea>false</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Isle of Man</DisplayName>
@@ -1484,6 +1680,8 @@
     <PKB>1000</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.8</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Israel</DisplayName>
@@ -1499,6 +1697,8 @@
     <PKB>300000</PKB>
     <Medicine>0.7</Medicine>
     <Safety>0.9</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Italy</DisplayName>
@@ -1514,6 +1714,8 @@
     <PKB>1800000</PKB>
     <Medicine>1</Medicine>
     <Safety>0.8</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Jamaica</DisplayName>
@@ -1529,6 +1731,8 @@
     <PKB>14000</PKB>
     <Medicine>0.4</Medicine>
     <Safety>0.9</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Japan</DisplayName>
@@ -1544,6 +1748,8 @@
     <PKB>4380000</PKB>
     <Medicine>1</Medicine>
     <Safety>0.8</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Jersey</DisplayName>
@@ -1559,6 +1765,8 @@
     <PKB>2000</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.4</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Jordan</DisplayName>
@@ -1574,6 +1782,8 @@
     <PKB>35000</PKB>
     <Medicine>0.2</Medicine>
     <Safety>0.5</Safety>
+    <Sea>false</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Kazakhstan</DisplayName>
@@ -1589,6 +1799,8 @@
     <PKB>216000</PKB>
     <Medicine>0.4</Medicine>
     <Safety>0.6</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Kenya</DisplayName>
@@ -1604,6 +1816,8 @@
     <PKB>61000</PKB>
     <Medicine>0.1</Medicine>
     <Safety>0.4</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Kiribati</DisplayName>
@@ -1619,6 +1833,8 @@
     <PKB>180</PKB>
     <Medicine>0.1</Medicine>
     <Safety>0.6</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Kuwait</DisplayName>
@@ -1634,6 +1850,8 @@
     <PKB>5000</PKB>
     <Medicine>0.2</Medicine>
     <Safety>0.6</Safety>
+    <Sea>false</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Kyrgyzstan</DisplayName>
@@ -1649,6 +1867,8 @@
     <PKB>5000</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.8</Safety>
+    <Sea>false</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Lao People's Democratic Republic</DisplayName>
@@ -1664,6 +1884,8 @@
     <PKB>11000</PKB>
     <Medicine>0.4</Medicine>
     <Safety>0.7</Safety>
+    <Sea>false</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Latvia</DisplayName>
@@ -1679,6 +1901,8 @@
     <PKB>31000</PKB>
     <Medicine>0.6</Medicine>
     <Safety>1</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Lebanon</DisplayName>
@@ -1694,6 +1918,8 @@
     <PKB>49000</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.5</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Lesotho</DisplayName>
@@ -1709,6 +1935,8 @@
     <PKB>2000</PKB>
     <Medicine>0.5</Medicine>
     <Safety>0.7</Safety>
+    <Sea>false</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Libya</DisplayName>
@@ -1724,6 +1952,8 @@
     <PKB>41000</PKB>
     <Medicine>0.1</Medicine>
     <Safety>0</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Liechtenstein</DisplayName>
@@ -1739,6 +1969,8 @@
     <PKB>5800</PKB>
     <Medicine>0.9</Medicine>
     <Safety>0.8</Safety>
+    <Sea>false</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Lithuania</DisplayName>
@@ -1754,6 +1986,8 @@
     <PKB>48000</PKB>
     <Medicine>0.4</Medicine>
     <Safety>0.4</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Luxembourg</DisplayName>
@@ -1769,6 +2003,8 @@
     <PKB>65000</PKB>
     <Medicine>0.9</Medicine>
     <Safety>0.9</Safety>
+    <Sea>false</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Macao</DisplayName>
@@ -1784,6 +2020,8 @@
     <PKB>55000</PKB>
     <Medicine>0.5</Medicine>
     <Safety>0.8</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Macedonia (the former Yugoslav Republic of)</DisplayName>
@@ -1799,6 +2037,8 @@
     <PKB>11000</PKB>
     <Medicine>0.5</Medicine>
     <Safety>0.6</Safety>
+    <Sea>false</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Madagascar</DisplayName>
@@ -1814,6 +2054,8 @@
     <PKB>10700</PKB>
     <Medicine>0.5</Medicine>
     <Safety>0.9</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Malawi</DisplayName>
@@ -1829,6 +2071,8 @@
     <PKB>5700</PKB>
     <Medicine>0.5</Medicine>
     <Safety>0.8</Safety>
+    <Sea>false</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Malaysia</DisplayName>
@@ -1844,6 +2088,8 @@
     <PKB>320000</PKB>
     <Medicine>0.7</Medicine>
     <Safety>0.8</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Maldives</DisplayName>
@@ -1859,6 +2105,8 @@
     <PKB>3000</PKB>
     <Medicine>0.4</Medicine>
     <Safety>0.8</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Malta</DisplayName>
@@ -1874,6 +2122,8 @@
     <PKB>10500</PKB>
     <Medicine>0.7</Medicine>
     <Safety>0.7</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Marshall Islands</DisplayName>
@@ -1889,6 +2139,8 @@
     <PKB>200</PKB>
     <Medicine>0.4</Medicine>
     <Safety>0.5</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Mauritius</DisplayName>
@@ -1904,6 +2156,8 @@
     <PKB>5000</PKB>
     <Medicine>0.4</Medicine>
     <Safety>0.6</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Mexico</DisplayName>
@@ -1919,6 +2173,8 @@
     <PKB>1100000</PKB>
     <Medicine>0.5</Medicine>
     <Safety>0.5</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Micronesia (Federated States of)</DisplayName>
@@ -1934,6 +2190,8 @@
     <PKB>5000</PKB>
     <Medicine>0.5</Medicine>
     <Safety>0.9</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Moldova (Republic of)</DisplayName>
@@ -1949,6 +2207,8 @@
     <PKB>7900</PKB>
     <Medicine>0.6</Medicine>
     <Safety>0.7</Safety>
+    <Sea>false</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Monaco</DisplayName>
@@ -1964,6 +2224,8 @@
     <PKB>7000</PKB>
     <Medicine>1</Medicine>
     <Safety>1</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Mongolia</DisplayName>
@@ -1979,6 +2241,8 @@
     <PKB>12000</PKB>
     <Medicine>0.5</Medicine>
     <Safety>0.8</Safety>
+    <Sea>false</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Montenegro</DisplayName>
@@ -1994,6 +2258,8 @@
     <PKB>4500</PKB>
     <Medicine>0.5</Medicine>
     <Safety>0.6</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Montserrat</DisplayName>
@@ -2009,6 +2275,8 @@
     <PKB>63</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.2</Safety>
+    <Sea>false</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Mozambique</DisplayName>
@@ -2024,6 +2292,8 @@
     <PKB>17000</PKB>
     <Medicine>0.2</Medicine>
     <Safety>0.5</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Myanmar</DisplayName>
@@ -2039,6 +2309,8 @@
     <PKB>66000</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.6</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Namibia</DisplayName>
@@ -2054,6 +2326,8 @@
     <PKB>13000</PKB>
     <Medicine>0.2</Medicine>
     <Safety>0.6</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Nauru</DisplayName>
@@ -2069,6 +2343,8 @@
     <PKB>182</PKB>
     <Medicine>0.2</Medicine>
     <Safety>0.5</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Nepal</DisplayName>
@@ -2084,6 +2360,8 @@
     <PKB>19000</PKB>
     <Medicine>0.4</Medicine>
     <Safety>0.8</Safety>
+    <Sea>false</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Netherlands</DisplayName>
@@ -2099,6 +2377,8 @@
     <PKB>750000</PKB>
     <Medicine>0.9</Medicine>
     <Safety>0.6</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>New Caledonia</DisplayName>
@@ -2114,6 +2394,8 @@
     <PKB>10000</PKB>
     <Medicine>0.5</Medicine>
     <Safety>0.8</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>New Zealand</DisplayName>
@@ -2129,6 +2411,8 @@
     <PKB>200000</PKB>
     <Medicine>1</Medicine>
     <Safety>1</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Nicaragua</DisplayName>
@@ -2144,6 +2428,8 @@
     <PKB>12000</PKB>
     <Medicine>0.2</Medicine>
     <Safety>0.5</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Niger</DisplayName>
@@ -2159,6 +2445,8 @@
     <PKB>8000</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.3</Safety>
+    <Sea>false</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Nigeria</DisplayName>
@@ -2174,6 +2462,8 @@
     <PKB>570000</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.3</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Niue</DisplayName>
@@ -2189,6 +2479,8 @@
     <PKB>50</PKB>
     <Medicine>0.4</Medicine>
     <Safety>0.4</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Norfolk Island</DisplayName>
@@ -2204,6 +2496,8 @@
     <PKB>100</PKB>
     <Medicine>0.2</Medicine>
     <Safety>0.5</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Korea (Democratic People's Republic of)</DisplayName>
@@ -2219,6 +2513,8 @@
     <PKB>17000</PKB>
     <Medicine>0.5</Medicine>
     <Safety>0.2</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Northern Mariana Islands</DisplayName>
@@ -2234,6 +2530,8 @@
     <PKB>500</PKB>
     <Medicine>0.2</Medicine>
     <Safety>0.8</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Norway</DisplayName>
@@ -2249,6 +2547,8 @@
     <PKB>500000</PKB>
     <Medicine>0.9</Medicine>
     <Safety>0.7</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Oman</DisplayName>
@@ -2264,6 +2564,8 @@
     <PKB>81000</PKB>
     <Medicine>0.4</Medicine>
     <Safety>0.4</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Pakistan</DisplayName>
@@ -2279,6 +2581,8 @@
     <PKB>250000</PKB>
     <Medicine>0.2</Medicine>
     <Safety>0.3</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Palau</DisplayName>
@@ -2294,6 +2598,8 @@
     <PKB>234</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.7</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Panama</DisplayName>
@@ -2309,6 +2615,8 @@
     <PKB>49000</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.5</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Papua New Guinea</DisplayName>
@@ -2324,6 +2632,8 @@
     <PKB>16000</PKB>
     <Medicine>0.7</Medicine>
     <Safety>0.9</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Paraguay</DisplayName>
@@ -2339,6 +2649,8 @@
     <PKB>31000</PKB>
     <Medicine>0.5</Medicine>
     <Safety>0.8</Safety>
+    <Sea>false</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Peru</DisplayName>
@@ -2354,6 +2666,8 @@
     <PKB>202000</PKB>
     <Medicine>0.5</Medicine>
     <Safety>0.9</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Philippines</DisplayName>
@@ -2369,6 +2683,8 @@
     <PKB>291000</PKB>
     <Medicine>0.4</Medicine>
     <Safety>0.7</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Pitcairn</DisplayName>
@@ -2384,6 +2700,8 @@
     <PKB>1</PKB>
     <Medicine>0.4</Medicine>
     <Safety>0.7</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Poland</DisplayName>
@@ -2399,6 +2717,8 @@
     <PKB>545000</PKB>
     <Medicine>0.8</Medicine>
     <Safety>1</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Portugal</DisplayName>
@@ -2414,6 +2734,8 @@
     <PKB>230000</PKB>
     <Medicine>0.8</Medicine>
     <Safety>0.9</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Puerto Rico</DisplayName>
@@ -2429,6 +2751,8 @@
     <PKB>104000</PKB>
     <Medicine>0.4</Medicine>
     <Safety>0.6</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Qatar</DisplayName>
@@ -2444,6 +2768,8 @@
     <PKB>211000</PKB>
     <Medicine>0.9</Medicine>
     <Safety>0.7</Safety>
+    <Sea>false</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Republic of Kosovo</DisplayName>
@@ -2459,6 +2785,8 @@
     <PKB>5000</PKB>
     <Medicine>0.5</Medicine>
     <Safety>0.4</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Romania</DisplayName>
@@ -2474,6 +2802,8 @@
     <PKB>200000</PKB>
     <Medicine>0.7</Medicine>
     <Safety>0.7</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Russian Federation</DisplayName>
@@ -2489,6 +2819,8 @@
     <PKB>1300000</PKB>
     <Medicine>0.7</Medicine>
     <Safety>0.6</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Rwanda</DisplayName>
@@ -2504,6 +2836,8 @@
     <PKB>8000</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.6</Safety>
+    <Sea>false</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Saint BarthĂ©lemy</DisplayName>
@@ -2519,6 +2853,8 @@
     <PKB>300</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.8</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Saint Kitts and Nevis</DisplayName>
@@ -2534,6 +2870,8 @@
     <PKB>850</PKB>
     <Medicine>0.4</Medicine>
     <Safety>0.6</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Saint Lucia</DisplayName>
@@ -2549,6 +2887,8 @@
     <PKB>1400</PKB>
     <Medicine>0.4</Medicine>
     <Safety>0.6</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Saint Martin (French part)</DisplayName>
@@ -2564,6 +2904,8 @@
     <PKB>400</PKB>
     <Medicine>0.4</Medicine>
     <Safety>0.6</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Saint Pierre and Miquelon</DisplayName>
@@ -2579,6 +2921,8 @@
     <PKB>100</PKB>
     <Medicine>0.6</Medicine>
     <Safety>0.8</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Saint Vincent and the Grenadines</DisplayName>
@@ -2594,6 +2938,8 @@
     <PKB>730</PKB>
     <Medicine>0.4</Medicine>
     <Safety>0.7</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Samoa</DisplayName>
@@ -2609,6 +2955,8 @@
     <PKB>820</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.5</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>San Marino</DisplayName>
@@ -2624,6 +2972,8 @@
     <PKB>1800</PKB>
     <Medicine>0.7</Medicine>
     <Safety>0.9</Safety>
+    <Sea>false</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Saudi Arabia</DisplayName>
@@ -2639,6 +2989,8 @@
     <PKB>653000</PKB>
     <Medicine>0.7</Medicine>
     <Safety>0.6</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Serbia</DisplayName>
@@ -2654,6 +3006,8 @@
     <PKB>44000</PKB>
     <Medicine>0.7</Medicine>
     <Safety>0.5</Safety>
+    <Sea>false</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Seychelles</DisplayName>
@@ -2669,6 +3023,8 @@
     <PKB>1500</PKB>
     <Medicine>0.2</Medicine>
     <Safety>0.5</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Singapore</DisplayName>
@@ -2684,6 +3040,8 @@
     <PKB>307000</PKB>
     <Medicine>1</Medicine>
     <Safety>1</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Sint Maarten (Dutch part)</DisplayName>
@@ -2699,6 +3057,8 @@
     <PKB>1000</PKB>
     <Medicine>0.1</Medicine>
     <Safety>0.4</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Slovakia</DisplayName>
@@ -2714,6 +3074,8 @@
     <PKB>100000</PKB>
     <Medicine>0.8</Medicine>
     <Safety>1</Safety>
+    <Sea>false</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Slovenia</DisplayName>
@@ -2729,6 +3091,8 @@
     <PKB>49000</PKB>
     <Medicine>0.7</Medicine>
     <Safety>0.7</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Solomon Islands</DisplayName>
@@ -2744,6 +3108,8 @@
     <PKB>1100</PKB>
     <Medicine>0.6</Medicine>
     <Safety>0.8</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Somalia</DisplayName>
@@ -2759,6 +3125,8 @@
     <PKB>1370</PKB>
     <Medicine>0.1</Medicine>
     <Safety>0.1</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>South Africa</DisplayName>
@@ -2774,6 +3142,8 @@
     <PKB>350000</PKB>
     <Medicine>0.6</Medicine>
     <Safety>0.5</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Korea (Republic of)</DisplayName>
@@ -2789,6 +3159,8 @@
     <PKB>1377000</PKB>
     <Medicine>1</Medicine>
     <Safety>0.8</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>South Sudan</DisplayName>
@@ -2804,6 +3176,8 @@
     <PKB>11000</PKB>
     <Medicine>0.2</Medicine>
     <Safety>0.3</Safety>
+    <Sea>false</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Sri Lanka</DisplayName>
@@ -2819,6 +3193,8 @@
     <PKB>75000</PKB>
     <Medicine>0.6</Medicine>
     <Safety>0.8</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Sudan</DisplayName>
@@ -2834,6 +3210,8 @@
     <PKB>81000</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.6</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Suriname</DisplayName>
@@ -2849,6 +3227,8 @@
     <PKB>5200</PKB>
     <Medicine>0.4</Medicine>
     <Safety>0.7</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Swaziland</DisplayName>
@@ -2864,6 +3244,8 @@
     <PKB>4400</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.6</Safety>
+    <Sea>false</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Sweden</DisplayName>
@@ -2879,6 +3261,8 @@
     <PKB>570000</PKB>
     <Medicine>0.9</Medicine>
     <Safety>0.3</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Switzerland</DisplayName>
@@ -2894,6 +3278,8 @@
     <PKB>670000</PKB>
     <Medicine>1</Medicine>
     <Safety>1</Safety>
+    <Sea>false</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Syrian Arab Republic</DisplayName>
@@ -2909,6 +3295,8 @@
     <PKB>3000</PKB>
     <Medicine>0.1</Medicine>
     <Safety>0.0</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Taiwan</DisplayName>
@@ -2924,6 +3312,8 @@
     <PKB>11000</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.5</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Tajikistan</DisplayName>
@@ -2939,6 +3329,8 @@
     <PKB>9000</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.5</Safety>
+    <Sea>false</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Tanzania, United Republic of</DisplayName>
@@ -2954,6 +3346,8 @@
     <PKB>48000</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.6</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Thailand</DisplayName>
@@ -2969,6 +3363,8 @@
     <PKB>404000</PKB>
     <Medicine>0.4</Medicine>
     <Safety>0.7</Safety>
+    <Sea>false</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Timor-Leste</DisplayName>
@@ -2984,6 +3380,8 @@
     <PKB>4900</PKB>
     <Medicine>0.4</Medicine>
     <Safety>0.7</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Tokelau</DisplayName>
@@ -2999,6 +3397,8 @@
     <PKB>20</PKB>
     <Medicine>0.2</Medicine>
     <Safety>0.4</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Tonga</DisplayName>
@@ -3014,6 +3414,8 @@
     <PKB>425</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.5</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Trinidad and Tobago</DisplayName>
@@ -3029,6 +3431,8 @@
     <PKB>28000</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.6</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Tunisia</DisplayName>
@@ -3044,6 +3448,8 @@
     <PKB>47000</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.3</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Turkey</DisplayName>
@@ -3059,6 +3465,8 @@
     <PKB>717000</PKB>
     <Medicine>0.6</Medicine>
     <Safety>0.4</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Turkmenistan</DisplayName>
@@ -3074,6 +3482,8 @@
     <PKB>48000</PKB>
     <Medicine>0.4</Medicine>
     <Safety>0.6</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Turks and Caicos Islands</DisplayName>
@@ -3089,6 +3499,8 @@
     <PKB>800</PKB>
     <Medicine>0.3</Medicine>
     <Safety>0.5</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Tuvalu</DisplayName>
@@ -3104,6 +3516,8 @@
     <PKB>38</PKB>
     <Medicine>0.2</Medicine>
     <Safety>0.6</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Uganda</DisplayName>
@@ -3119,6 +3533,8 @@
     <PKB>27000</PKB>
     <Medicine>0.1</Medicine>
     <Safety>0.4</Safety>
+    <Sea>false</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Ukraine</DisplayName>
@@ -3134,6 +3550,8 @@
     <PKB>131000</PKB>
     <Medicine>0.5</Medicine>
     <Safety>0.1</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>United Arab Emirates</DisplayName>
@@ -3149,6 +3567,8 @@
     <PKB>400000</PKB>
     <Medicine>0.4</Medicine>
     <Safety>0.7</Safety>
+    <Sea>false</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>United Kingdom of Great Britain and Northern Ireland</DisplayName>
@@ -3164,6 +3584,8 @@
     <PKB>2860000</PKB>
     <Medicine>1</Medicine>
     <Safety>0.8</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>United States of America</DisplayName>
@@ -3179,6 +3601,8 @@
     <PKB>18000000</PKB>
     <Medicine>1</Medicine>
     <Safety>0.8</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Uruguay</DisplayName>
@@ -3194,6 +3618,8 @@
     <PKB>57000</PKB>
     <Medicine>0.6</Medicine>
     <Safety>0.8</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Uzbekistan</DisplayName>
@@ -3209,6 +3635,8 @@
     <PKB>63000</PKB>
     <Medicine>0.6</Medicine>
     <Safety>0.6</Safety>
+    <Sea>false</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Vanuatu</DisplayName>
@@ -3224,6 +3652,8 @@
     <PKB>812</PKB>
     <Medicine>0.1</Medicine>
     <Safety>0.5</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Venezuela (Bolivarian Republic of)</DisplayName>
@@ -3239,6 +3669,8 @@
     <PKB>509000</PKB>
     <Medicine>0.4</Medicine>
     <Safety>0.6</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Viet Nam</DisplayName>
@@ -3254,6 +3686,8 @@
     <PKB>186000</PKB>
     <Medicine>0.6</Medicine>
     <Safety>0.6</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Wallis and Futuna</DisplayName>
@@ -3269,6 +3703,8 @@
     <PKB>200</PKB>
     <Medicine>0.1</Medicine>
     <Safety>0.7</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Western Sahara</DisplayName>
@@ -3284,6 +3720,8 @@
     <PKB>100</PKB>
     <Medicine>0.2</Medicine>
     <Safety>0.3</Safety>
+    <Sea>true</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Yemen</DisplayName>
@@ -3299,6 +3737,8 @@
     <PKB>37000</PKB>
     <Medicine>0.2</Medicine>
     <Safety>0.5</Safety>
+    <Sea>true</Sea>
+    <Mountain>true</Mountain>
   </Country>
   <Country>
     <DisplayName>Zambia</DisplayName>
@@ -3314,6 +3754,8 @@
     <PKB>26000</PKB>
     <Medicine>0.1</Medicine>
     <Safety>0.4</Safety>
+    <Sea>false</Sea>
+    <Mountain>false</Mountain>
   </Country>
   <Country>
     <DisplayName>Zimbabwe</DisplayName>
@@ -3329,5 +3771,7 @@
     <PKB>14700</PKB>
     <Medicine>0.2</Medicine>
     <Safety>0.5</Safety>
+    <Sea>false</Sea>
+    <Mountain>false</Mountain>
   </Country>
 </ArrayOfCountry>

@@ -49,28 +49,5 @@ namespace WUT_MSI.WebApp.Helpers
         {
             return new AttributeModel(AttributeType.Mountain, value.Id, value.Value);
         }
-
-        public static void AddDataModel(DataModel model)
-        {
-
-        }
-        public static void UpdateDataModel(DataModel model)
-        {
-
-        }
-        public static void RemoveDataModel(long id)
-        {
-
-        }
-
-        public static Dictionary<int, string> GetAttributeAllowedValues(AttributeType type)
-        {
-            return db.GetAttributeValue(type).ToDictionary(item => item.Id, item => item.Value);
-        }
-
-        public static Dictionary<AttributeType, string> GetAttributes()
-        {
-            return db.GetAttributes(item => true).ToDictionary(item => item.Id, item => item.Name);
-        }
     }
 }
