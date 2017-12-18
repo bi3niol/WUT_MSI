@@ -72,7 +72,9 @@ namespace WUT_MSI.WebApp.Controllers
             {
                 return HttpNotFound();
             }
-            return View(CRUDModel.GedModel(dbCountryAttributes));
+            var model = CRUDModel.GedModel(dbCountryAttributes);
+            SetListsToModel(model);
+            return View(model);
         }
 
         // POST: CRUD/Edit/5
