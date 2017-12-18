@@ -1,20 +1,17 @@
-﻿using System;
+﻿using System.Linq;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 
 namespace WUT_MSI.WebApp.Reducts
 {
     public class Attribute
     {
-        public bool IsNeeded { get; private set; }
+        public List<int> Names { get; private set; }
 
-        private List<int> names;
         private Dictionary<string, List<string>> values;
 
-        public Attribute(List<int> _names)
+        public Attribute(List<int> names)
         {
-            names = _names;
+            Names = names;
             values = new Dictionary<string, List<string>>();
         }
 
@@ -27,29 +24,24 @@ namespace WUT_MSI.WebApp.Reducts
         public bool CheckIfIsNeeded(Attribute other)
         {
             if (values.Count != other.values.Count)
-            { IsNeeded = false; return false; }
+                return true;
 
-            if (this.values.Keys.Except(other.values.Keys).Any())
-            { IsNeeded = false; return false; }
+            var thisValues = values.Values.ToList();
+            var otherValues = other.values.Values.ToList();
 
-            if (other.values.Keys.Except(this.values.Keys).Any())
-            { IsNeeded = false; return false; }
-
-            foreach (var p in this.values)
+            for (int i = 0; i < thisValues.Count; i++)
             {
-                List<string> thisValueList = p.Value;
-                List<string> otherValueList = other.values[p.Key];
+                if (thisValues[i].Count != otherValues[i].Count)
+                    return true;
 
-                if (thisValueList.Except(otherValueList).Any())
-                { IsNeeded = false; return false; }
+                if (thisValues[i].Except(otherValues[i]).Any())
+                    return true;
 
-                if (otherValueList.Except(thisValueList).Any())
-                { IsNeeded = false; return false; }
+                if (otherValues[i].Except(thisValues[i]).Any())
+                    return true;
             }
 
-            IsNeeded = true;
-
-            return true;
+            return false;
         }
     }
 }

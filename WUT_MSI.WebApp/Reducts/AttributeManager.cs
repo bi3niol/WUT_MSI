@@ -37,7 +37,7 @@ namespace WUT_MSI.WebApp.Reducts
             {
                 Attribute currentAttribute = GenerateAttributeSet(set);
 
-                if (currentAttribute.CheckIfIsNeeded(maxReduct))
+                if (!currentAttribute.CheckIfIsNeeded(maxReduct))
                     reducts.Add(currentAttribute);
             }
 
