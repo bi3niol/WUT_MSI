@@ -122,43 +122,43 @@ namespace WUT_MSI.WebApp.Controllers
             DbAttributeValue Rain = null, DbAttributeValue Safety = null, DbAttributeValue Medicine = null, DbAttributeValue Population = null,
             DbAttributeValue Density = null, DbAttributeValue Jet = null, DbAttributeValue Sea = null, DbAttributeValue Mountain = null)
         {
-            ViewBag.Countries = new SelectList(db.Countries,"Id", "Name", country==null?db.Countries.FirstOrDefault():country);
+            ViewBag.Countries = db.Countries.Select(x => new SelectListItem() { Text = "Name", Value = "Id" }); ;// new SelectList(db.Countries,"Id", "Name", country==null?db.Countries.FirstOrDefault():country);
 
-            var attributes = db.Attributes.Find(AttributeType.Distance).AttributeValues;
-            ViewBag.DistanceAttributes = new SelectList(attributes, "Id", "Value", Distance==null?attributes.FirstOrDefault():Distance);
+            var attributes = db.Attributes.Find(AttributeType.Distance).AttributeValues.Select(x=>new SelectListItem() { Text = "Value", Value = "Id" });
+            ViewBag.DistanceAttributes = attributes;// new SelectList(attributes, "Id", "Value", Distance==null?attributes.FirstOrDefault():Distance);
 
-            attributes = db.Attributes.Find(AttributeType.Climate).AttributeValues;
-            ViewBag.ClimateAttributes = new SelectList(attributes, "Id", "Value", Climate == null ? attributes.FirstOrDefault() : Climate);
+            attributes = db.Attributes.Find(AttributeType.Climate).AttributeValues.Select(x => new SelectListItem() { Text = "Value", Value = "Id" }); ;
+            ViewBag.ClimateAttributes = attributes;//new SelectList(attributes, "Id", "Value", Climate == null ? attributes.FirstOrDefault() : Climate);
 
-            attributes = db.Attributes.Find(AttributeType.Area).AttributeValues;
-            ViewBag.AreaAttributeValues = new SelectList(attributes, "Id", "Value", Area == null ? attributes.FirstOrDefault() : Area);
+            attributes = db.Attributes.Find(AttributeType.Area).AttributeValues.Select(x => new SelectListItem() { Text = "Value", Value = "Id" }); ;
+            ViewBag.AreaAttributeValues = attributes;// new SelectList(attributes, "Id", "Value", Area == null ? attributes.FirstOrDefault() : Area);
 
-            attributes = db.Attributes.Find(AttributeType.Development).AttributeValues;
-            ViewBag.DevelopmentAttributeValues = new SelectList(attributes, "Id", "Value", Development == null ? attributes.FirstOrDefault() : Development);
+            attributes = db.Attributes.Find(AttributeType.Development).AttributeValues.Select(x => new SelectListItem() { Text = "Value", Value = "Id" }); ;
+            ViewBag.DevelopmentAttributeValues = attributes;// new SelectList(attributes, "Id", "Value", Development == null ? attributes.FirstOrDefault() : Development);
 
-            attributes = db.Attributes.Find(AttributeType.Rains).AttributeValues;
-            ViewBag.RainsAttributeValues = new SelectList(attributes, "Id", "Value", Rain == null ? attributes.FirstOrDefault() : Rain);
+            attributes = db.Attributes.Find(AttributeType.Rains).AttributeValues.Select(x => new SelectListItem() { Text = "Value", Value = "Id" }); ;
+            ViewBag.RainsAttributeValues = attributes;//new SelectList(attributes, "Id", "Value", Rain == null ? attributes.FirstOrDefault() : Rain);
 
-            attributes = db.Attributes.Find(AttributeType.Safety).AttributeValues;
-            ViewBag.SafetyAttributeValues = new SelectList(attributes, "Id", "Value", Safety == null ? attributes.FirstOrDefault() : Safety);
+            attributes = db.Attributes.Find(AttributeType.Safety).AttributeValues.Select(x => new SelectListItem() { Text = "Value", Value = "Id" }); ;
+            ViewBag.SafetyAttributeValues = attributes;// new SelectList(attributes, "Id", "Value", Safety == null ? attributes.FirstOrDefault() : Safety);
 
-            attributes = db.Attributes.Find(AttributeType.Medicine).AttributeValues;
-            ViewBag.MedicineAttributeValues = new SelectList(attributes, "Id", "Value", Medicine == null ? attributes.FirstOrDefault() : Medicine);
+            attributes = db.Attributes.Find(AttributeType.Medicine).AttributeValues.Select(x => new SelectListItem() { Text = "Value", Value = "Id" }); ;
+            ViewBag.MedicineAttributeValues = attributes;//new SelectList(attributes, "Id", "Value", Medicine == null ? attributes.FirstOrDefault() : Medicine);
 
-            attributes = db.Attributes.Find(AttributeType.Population).AttributeValues;
-            ViewBag.PopulationAttributeValues = new SelectList(attributes, "Id", "Value", Population == null ? attributes.FirstOrDefault() : Population);
+            attributes = db.Attributes.Find(AttributeType.Population).AttributeValues.Select(x => new SelectListItem() { Text = "Value", Value = "Id" }); ;
+            ViewBag.PopulationAttributeValues = attributes;// new SelectList(attributes, "Id", "Value", Population == null ? attributes.FirstOrDefault() : Population);
 
-            attributes = db.Attributes.Find(AttributeType.Density).AttributeValues;
-            ViewBag.DensityAttributeValues = new SelectList(attributes, "Id", "Value", Density == null ? attributes.FirstOrDefault() : Density);
+            attributes = db.Attributes.Find(AttributeType.Density).AttributeValues.Select(x => new SelectListItem() { Text = "Value", Value = "Id" }); ;
+            ViewBag.DensityAttributeValues = attributes;//new SelectList(attributes, "Id", "Value", Density == null ? attributes.FirstOrDefault() : Density);
 
-            attributes = db.Attributes.Find(AttributeType.Jet).AttributeValues;
-            ViewBag.JetAttributeValues = new SelectList(attributes, "Id", "Value", Jet == null ? attributes.FirstOrDefault() : Jet);
+            attributes = db.Attributes.Find(AttributeType.Jet).AttributeValues.Select(x => new SelectListItem() { Text = "Value", Value = "Id" }); ;
+            ViewBag.JetAttributeValues = attributes;//new SelectList(attributes, "Id", "Value", Jet == null ? attributes.FirstOrDefault() : Jet);
 
-            attributes = db.Attributes.Find(AttributeType.Sea).AttributeValues;
-            ViewBag.SeaAttributeValues = new SelectList(attributes, "Id", "Value", Sea == null ? attributes.FirstOrDefault() : Sea);
+            attributes = db.Attributes.Find(AttributeType.Sea).AttributeValues.Select(x => new SelectListItem() { Text = "Value", Value = "Id" }); ;
+            ViewBag.SeaAttributeValues = attributes;//new SelectList(attributes, "Id", "Value", Sea == null ? attributes.FirstOrDefault() : Sea);
 
-            attributes = db.Attributes.Find(AttributeType.Mountain).AttributeValues;
-            ViewBag.MountainAttributeValues = new SelectList(attributes, "Id", "Value", Mountain == null ? attributes.FirstOrDefault() : Mountain);
+            attributes = db.Attributes.Find(AttributeType.Mountain).AttributeValues.Select(x => new SelectListItem() { Text = "Value", Value = "Id" }); ;
+            ViewBag.MountainAttributeValues = attributes;//new SelectList(attributes, "Id", "Value", Mountain == null ? attributes.FirstOrDefault() : Mountain);
         }
 
         protected override void Dispose(bool disposing)

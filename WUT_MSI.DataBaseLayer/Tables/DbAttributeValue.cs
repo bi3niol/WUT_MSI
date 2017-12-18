@@ -9,6 +9,9 @@ namespace WUT_MSI.DataBaseLayer.Tables
 {
     public class DbAttributeValue: Entity<int>
     {
+        //[ForeignKey("ParentAttribute")]
+        //public AttributeType ParentAttributeId { get; set; }
+        //public DbAttribute ParentAttribute { get; set; }
         public string Value { get; set; }
     }
 }

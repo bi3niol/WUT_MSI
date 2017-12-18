@@ -1,0 +1,27 @@
+﻿@model List<List<string>>
+
+@{
+    ViewBag.Title = "Reducts";
+}
+
+<h2>Reducts</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            <p>Name of Attributes in Reduct</p>
+        </th>
+    </tr>
+
+    @foreach (var attribute in Model)
+    {
+        <tr>
+            <td>
+                @foreach (var name in attribute)
+                {
+                    <p>@name</p>
+                }
+            </td>
+        </tr>
+    }
+</table>
