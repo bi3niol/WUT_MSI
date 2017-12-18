@@ -6,28 +6,27 @@ namespace WUT_MSI.WebApp.Reducts
     public class Attribute
     {
         public List<int> Names { get; private set; }
-
-        private Dictionary<string, List<string>> values;
+        public Dictionary<string, List<string>> Values;
 
         public Attribute(List<int> names)
         {
             Names = names;
-            values = new Dictionary<string, List<string>>();
+            Values = new Dictionary<string, List<string>>();
         }
 
         public void AddPair(string key, string value)
         {
-            if (values.ContainsKey(key)) values[key].Add(value);
-            else values.Add(key, new List<string>() { value });
+            if (Values.ContainsKey(key)) Values[key].Add(value);
+            else Values.Add(key, new List<string>() { value });
         }
 
         public bool CheckIfIsNeeded(Attribute other)
         {
-            if (values.Count != other.values.Count)
+            if (Values.Count != other.Values.Count)
                 return true;
 
-            var thisValues = values.Values.ToList();
-            var otherValues = other.values.Values.ToList();
+            var thisValues = Values.Values.ToList();
+            var otherValues = other.Values.Values.ToList();
 
             for (int i = 0; i < thisValues.Count; i++)
             {

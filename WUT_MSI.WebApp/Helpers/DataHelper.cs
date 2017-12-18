@@ -25,6 +25,7 @@ namespace WUT_MSI.WebApp.Helpers
                 result.Add(new DataModel
                 {
                     CountryId = element.Country.Id,
+                    CountryName = element.Country.Name,
                     Attributes = new AttributeModel[]
                     {
                         MapToAttributeModel(AttributeType.Distance, element.DistanceAttributeValue),

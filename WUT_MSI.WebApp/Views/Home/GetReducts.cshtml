@@ -1,33 +1,27 @@
-﻿@model IEnumerable<WUT_MSI.WebApp.Reducts.Attribute>
+﻿@model List<List<string>>
 
 @{
-    ViewBag.Title = "GetReducts";
+    ViewBag.Title = "Reducts";
 }
 
-<h2>GetReducts</h2>
+<h2>Reducts</h2>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.IsNeeded)
+            <p>Name of Attributes in Reduct</p>
         </th>
-        <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.IsNeeded)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
-        </td>
-    </tr>
-}
-
+    @foreach (var attribute in Model)
+    {
+        <tr>
+            <td>
+                @foreach (var name in attribute)
+                {
+                    <p>@name</p>
+                }
+            </td>
+        </tr>
+    }
 </table>
