@@ -8,39 +8,40 @@ using System.Web;
 using System.Web.Mvc;
 using WUT_MSI.DataBaseLayer;
 using WUT_MSI.DataBaseLayer.Tables;
+using WUT_MSI.WebApp.Models;
 
 namespace WUT_MSI.WebApp.Controllers
 {
     public class CRUDController : Controller
     {
-        private DbLayer db = new DbLayer();
-
+        private DbTablesInterface tablesInterface = new DbTablesInterface();
         // GET: CRUD
         public ActionResult Index()
         {
-            return View(db.CountryAttributes.ToList());
+            return View(tablesInterface.GetCountryAttributes(a=>true));
         }
 
-        // GET: CRUD/Details/5
-        public ActionResult Details(long? id)
-        {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            DbCountryAttributes dbCountryAttributes = db.CountryAttributes.Find(id);
-            if (dbCountryAttributes == null)
-            {
-                return HttpNotFound();
-            }
-            return View(dbCountryAttributes);
-        }
+        //// GET: CRUD/Details/5
+        //public ActionResult Details(long? id)
+        //{
+        //    if (id == null)
+        //    {
+        //        return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+        //    }
+        //    DbCountryAttributes dbCountryAttributes = tablesInterface.GetCountryAttributes(id.Value);
+        //    if (dbCountryAttributes == null)
+        //    {
+        //        return HttpNotFound();
+        //    }
+        //    return View(dbCountryAttributes);
+        //}
 
         // GET: CRUD/Create
         public ActionResult Create()
         {
-            SetViewBag();
-            return View();
+            var model = new CRUDModel();
+            SetListsToModel(model);
+            return View(model);
         }
 
         // POST: CRUD/Create
@@ -48,16 +49,15 @@ namespace WUT_MSI.WebApp.Controllers
         // Aby uzyskać więcej szczegółów, zobacz https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Country_Id,DistanceAttribute_Id,ClimateAttribute_Id,AreaAttribute_Id,DevelopmentAttribute_Id,RainsAttribute_Id,SafetyAttribute_Id,MedicineAttribute_Id,PopulationAttribute_Id,DensityAttribute_Id,JetAttribute_Id,SeaAttribute_Id,MountainAttribute_Id")] DbCountryAttributes dbCountryAttributes)
+        public ActionResult Create([Bind(Include = "Id,Country_Id,DistanceAttribute_Id,ClimateAttribute_Id,AreaAttribute_Id,DevelopmentAttribute_Id,RainsAttribute_Id,SafetyAttribute_Id,MedicineAttribute_Id,PopulationAttribute_Id,DensityAttribute_Id,JetAttribute_Id,SeaAttribute_Id,MountainAttribute_Id")] CRUDModel model)
         {
             if (ModelState.IsValid)
             {
-                db.CountryAttributes.Add(dbCountryAttributes);
-                db.SaveChanges();
+                model.UpdateOrCreateCountryAttributes(tablesInterface, true);
                 return RedirectToAction("Index");
             }
-
-            return View(dbCountryAttributes);
+            SetListsToModel(model);
+            return View(model);
         }
 
         // GET: CRUD/Edit/5
@@ -67,12 +67,12 @@ namespace WUT_MSI.WebApp.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            DbCountryAttributes dbCountryAttributes = db.CountryAttributes.Find(id);
+            DbCountryAttributes dbCountryAttributes = tablesInterface.GetCountryAttributes(id.Value);
             if (dbCountryAttributes == null)
             {
                 return HttpNotFound();
             }
-            return View(dbCountryAttributes);
+            return View(CRUDModel.GedModel(dbCountryAttributes));
         }
 
         // POST: CRUD/Edit/5
@@ -80,15 +80,15 @@ namespace WUT_MSI.WebApp.Controllers
         // Aby uzyskać więcej szczegółów, zobacz https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Country_Id,DistanceAttribute_Id,ClimateAttribute_Id,AreaAttribute_Id,DevelopmentAttribute_Id,RainsAttribute_Id,SafetyAttribute_Id,MedicineAttribute_Id,PopulationAttribute_Id,DensityAttribute_Id,JetAttribute_Id,SeaAttribute_Id,MountainAttribute_Id")] DbCountryAttributes dbCountryAttributes)
+        public ActionResult Edit([Bind(Include = "Id,Country_Id,DistanceAttribute_Id,ClimateAttribute_Id,AreaAttribute_Id,DevelopmentAttribute_Id,RainsAttribute_Id,SafetyAttribute_Id,MedicineAttribute_Id,PopulationAttribute_Id,DensityAttribute_Id,JetAttribute_Id,SeaAttribute_Id,MountainAttribute_Id")] CRUDModel model)
         {
             if (ModelState.IsValid)
             {
-                db.Entry(dbCountryAttributes).State = EntityState.Modified;
-                db.SaveChanges();
+                model.UpdateOrCreateCountryAttributes(tablesInterface);
                 return RedirectToAction("Index");
             }
-            return View(dbCountryAttributes);
+            SetListsToModel(model);
+            return View(model);
         }
 
         // GET: CRUD/Delete/5
@@ -98,74 +98,72 @@ namespace WUT_MSI.WebApp.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            DbCountryAttributes dbCountryAttributes = db.CountryAttributes.Find(id);
+            DbCountryAttributes dbCountryAttributes = tablesInterface.GetCountryAttributes(id.Value);
             if (dbCountryAttributes == null)
             {
                 return HttpNotFound();
             }
-            return View(dbCountryAttributes);
-        }
-
-        // POST: CRUD/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(long id)
-        {
-            DbCountryAttributes dbCountryAttributes = db.CountryAttributes.Find(id);
-            db.CountryAttributes.Remove(dbCountryAttributes);
-            db.SaveChanges();
+            tablesInterface.RemoveCountryAttributes(dbCountryAttributes);
             return RedirectToAction("Index");
         }
 
-        private void SetViewBag(DbCountry country=null,
-            DbAttributeValue Distance = null, DbAttributeValue Climate = null, DbAttributeValue Area = null, DbAttributeValue Development = null,
-            DbAttributeValue Rain = null, DbAttributeValue Safety = null, DbAttributeValue Medicine = null, DbAttributeValue Population = null,
-            DbAttributeValue Density = null, DbAttributeValue Jet = null, DbAttributeValue Sea = null, DbAttributeValue Mountain = null)
+        //// POST: CRUD/Delete/5
+        //[HttpPost, ActionName("Delete")]
+        //[ValidateAntiForgeryToken]
+        //public ActionResult DeleteConfirmed(long id)
+        //{
+        //    DbCountryAttributes dbCountryAttributes = db.CountryAttributes.Find(id);
+        //    db.CountryAttributes.Remove(dbCountryAttributes);
+        //    db.SaveChanges();
+        //    return RedirectToAction("Index");
+        //}
+
+        private void SetListsToModel(CRUDModel model)
         {
-            ViewBag.Countries = db.Countries.Select(x => new SelectListItem() { Text = "Name", Value = "Id" }); ;// new SelectList(db.Countries,"Id", "Name", country==null?db.Countries.FirstOrDefault():country);
+            var countries = tablesInterface.GetCountries(c => true);
+            model.CountryId = new SelectList(countries, "Id", "Name", model.Country_Id == 0 ? countries.FirstOrDefault()?.Id : model.Country_Id);
 
-            var attributes = db.Attributes.Find(AttributeType.Distance).AttributeValues.Select(x=>new SelectListItem() { Text = "Value", Value = "Id" });
-            ViewBag.DistanceAttributes = attributes;// new SelectList(attributes, "Id", "Value", Distance==null?attributes.FirstOrDefault():Distance);
+            var attributes = tablesInterface.GetAttributeValue(AttributeType.Distance);
+            model.DistanceAttributeId = new SelectList(attributes, "Id", "Value", model.DistanceAttribute_Id == 0 ? attributes.FirstOrDefault()?.Id : model.DistanceAttribute_Id);
+            attributes = tablesInterface.GetAttributeValue(AttributeType.Climate);
+            model.ClimateAttributeId = new SelectList(attributes, "Id", "Value", model.ClimateAttribute_Id == 0 ? attributes.FirstOrDefault()?.Id : model.ClimateAttribute_Id);
 
-            attributes = db.Attributes.Find(AttributeType.Climate).AttributeValues.Select(x => new SelectListItem() { Text = "Value", Value = "Id" }); ;
-            ViewBag.ClimateAttributes = attributes;//new SelectList(attributes, "Id", "Value", Climate == null ? attributes.FirstOrDefault() : Climate);
+            attributes = tablesInterface.GetAttributeValue(AttributeType.Area);
+            model.AreaAttributeId = new SelectList(attributes, "Id", "Value", model.AreaAttribute_Id == 0 ? attributes.FirstOrDefault()?.Id : model.AreaAttribute_Id);
 
-            attributes = db.Attributes.Find(AttributeType.Area).AttributeValues.Select(x => new SelectListItem() { Text = "Value", Value = "Id" }); ;
-            ViewBag.AreaAttributeValues = attributes;// new SelectList(attributes, "Id", "Value", Area == null ? attributes.FirstOrDefault() : Area);
+            attributes = tablesInterface.GetAttributeValue(AttributeType.Development);
+            model.DevelopmentAttributeId = new SelectList(attributes, "Id", "Value", model.DevelopmentAttribute_Id == 0 ? attributes.FirstOrDefault()?.Id : model.DevelopmentAttribute_Id);
 
-            attributes = db.Attributes.Find(AttributeType.Development).AttributeValues.Select(x => new SelectListItem() { Text = "Value", Value = "Id" }); ;
-            ViewBag.DevelopmentAttributeValues = attributes;// new SelectList(attributes, "Id", "Value", Development == null ? attributes.FirstOrDefault() : Development);
+            attributes = tablesInterface.GetAttributeValue(AttributeType.Rains);
+            model.RainsAttributeId = new SelectList(attributes, "Id", "Value", model.RainsAttribute_Id == 0 ? attributes.FirstOrDefault()?.Id : model.RainsAttribute_Id);
 
-            attributes = db.Attributes.Find(AttributeType.Rains).AttributeValues.Select(x => new SelectListItem() { Text = "Value", Value = "Id" }); ;
-            ViewBag.RainsAttributeValues = attributes;//new SelectList(attributes, "Id", "Value", Rain == null ? attributes.FirstOrDefault() : Rain);
+            attributes = tablesInterface.GetAttributeValue(AttributeType.Safety);
+            model.SafetyAttributeId = new SelectList(attributes, "Id", "Value", model.SafetyAttribute_Id == 0 ? attributes.FirstOrDefault()?.Id : model.SafetyAttribute_Id);
 
-            attributes = db.Attributes.Find(AttributeType.Safety).AttributeValues.Select(x => new SelectListItem() { Text = "Value", Value = "Id" }); ;
-            ViewBag.SafetyAttributeValues = attributes;// new SelectList(attributes, "Id", "Value", Safety == null ? attributes.FirstOrDefault() : Safety);
+            attributes = tablesInterface.GetAttributeValue(AttributeType.Medicine);
+            model.MedicineAttributeId = new SelectList(attributes, "Id", "Value", model.MedicineAttribute_Id == 0 ? attributes.FirstOrDefault()?.Id : model.MedicineAttribute_Id);
 
-            attributes = db.Attributes.Find(AttributeType.Medicine).AttributeValues.Select(x => new SelectListItem() { Text = "Value", Value = "Id" }); ;
-            ViewBag.MedicineAttributeValues = attributes;//new SelectList(attributes, "Id", "Value", Medicine == null ? attributes.FirstOrDefault() : Medicine);
+            attributes = tablesInterface.GetAttributeValue(AttributeType.Population);
+            model.PopulationAttributeId = new SelectList(attributes, "Id", "Value", model.PopulationAttribute_Id == 0 ? attributes.FirstOrDefault()?.Id : model.PopulationAttribute_Id);
 
-            attributes = db.Attributes.Find(AttributeType.Population).AttributeValues.Select(x => new SelectListItem() { Text = "Value", Value = "Id" }); ;
-            ViewBag.PopulationAttributeValues = attributes;// new SelectList(attributes, "Id", "Value", Population == null ? attributes.FirstOrDefault() : Population);
+            attributes = tablesInterface.GetAttributeValue(AttributeType.Density);
+            model.DensityAttributeId = new SelectList(attributes, "Id", "Value", model.DensityAttribute_Id == 0 ? attributes.FirstOrDefault()?.Id : model.DensityAttribute_Id);
 
-            attributes = db.Attributes.Find(AttributeType.Density).AttributeValues.Select(x => new SelectListItem() { Text = "Value", Value = "Id" }); ;
-            ViewBag.DensityAttributeValues = attributes;//new SelectList(attributes, "Id", "Value", Density == null ? attributes.FirstOrDefault() : Density);
+            attributes = tablesInterface.GetAttributeValue(AttributeType.Jet);
+            model.JetAttributeId = new SelectList(attributes, "Id", "Value", model.JetAttribute_Id == 0 ? attributes.FirstOrDefault()?.Id : model.JetAttribute_Id);
 
-            attributes = db.Attributes.Find(AttributeType.Jet).AttributeValues.Select(x => new SelectListItem() { Text = "Value", Value = "Id" }); ;
-            ViewBag.JetAttributeValues = attributes;//new SelectList(attributes, "Id", "Value", Jet == null ? attributes.FirstOrDefault() : Jet);
+            attributes = tablesInterface.GetAttributeValue(AttributeType.Sea);
+            model.SeaAttributeId = new SelectList(attributes, "Id", "Value", model.SeaAttribute_Id == 0 ? attributes.FirstOrDefault()?.Id : model.SeaAttribute_Id);
 
-            attributes = db.Attributes.Find(AttributeType.Sea).AttributeValues.Select(x => new SelectListItem() { Text = "Value", Value = "Id" }); ;
-            ViewBag.SeaAttributeValues = attributes;//new SelectList(attributes, "Id", "Value", Sea == null ? attributes.FirstOrDefault() : Sea);
-
-            attributes = db.Attributes.Find(AttributeType.Mountain).AttributeValues.Select(x => new SelectListItem() { Text = "Value", Value = "Id" }); ;
-            ViewBag.MountainAttributeValues = attributes;//new SelectList(attributes, "Id", "Value", Mountain == null ? attributes.FirstOrDefault() : Mountain);
+            attributes = tablesInterface.GetAttributeValue(AttributeType.Mountain);
+            model.MountainAttributeId = new SelectList(attributes, "Id", "Value", model.MountainAttribute_Id == 0 ? attributes.FirstOrDefault()?.Id : model.MountainAttribute_Id);
         }
 
         protected override void Dispose(bool disposing)
         {
             if (disposing)
             {
-                db.Dispose();
+                //
             }
             base.Dispose(disposing);
         }

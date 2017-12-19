@@ -8,6 +8,7 @@ using WUT_MSI.DataBaseLayer.Tables;
 using WUT_MSI.Models;
 using WUT_MSI.Models.classes;
 using WUT_MSI.ModelsLib.classes.helpers;
+using WUT_MSI.WebApp.Helpers;
 using WUT_MSI.WebApp.Models;
 
 namespace WUT_MSI.DataBaseGenerator
@@ -37,27 +38,51 @@ namespace WUT_MSI.DataBaseGenerator
                     {1, new DbAttributeValue { Value = "Średnio" } },
                     {2, new DbAttributeValue { Value = "Daleko" } },
                     {3, new DbAttributeValue { Value = "Bardzo daleko" } },
+
                     {4, new DbAttributeValue { Value = "Wysoka" } },
                     {5, new DbAttributeValue { Value = "Średnia" } },
                     {6, new DbAttributeValue { Value = "Umiarkowana" } },
                     {7, new DbAttributeValue { Value = "Niska" } },
+
                     {8, new DbAttributeValue { Value = "Bardzo duży" } },
                     {9, new DbAttributeValue { Value = "Duży" } },
                     {10, new DbAttributeValue { Value = "Średni" } },
                     {11, new DbAttributeValue { Value = "Mały" } },
+
                     {12, new DbAttributeValue { Value = "Bardzo" } },
-                    {13, new DbAttributeValue { Value = "Słabo" } },
-                    {14, new DbAttributeValue { Value = "Dużo" } },
-                    {15, new DbAttributeValue { Value = "Umarkowanie" } },
-                    {16, new DbAttributeValue { Value = "Mało" } },
-                    {17, new DbAttributeValue { Value = "Wysoki" } },
-                    {18, new DbAttributeValue { Value = "Niski" } },
-                    {19, new DbAttributeValue { Value = "Bardzo duża" } },
-                    {20, new DbAttributeValue { Value = "Duża" } },
-                    {21, new DbAttributeValue { Value = "Średnia" } },
-                    {22, new DbAttributeValue { Value = "Mała" } },
-                    {23, new DbAttributeValue { Value = "Tak" } },
-                    {24, new DbAttributeValue { Value = "Nie" } },
+                    {13, new DbAttributeValue { Value = "Średnio" } },
+                    {14, new DbAttributeValue { Value = "Słabo" } },
+
+                    {15, new DbAttributeValue { Value = "Dużo" } },
+                    {16, new DbAttributeValue { Value = "Umarkowanie" } },
+                    {17, new DbAttributeValue { Value = "Mało" } },
+
+                    {18, new DbAttributeValue { Value = "Wysoki" } },
+                    {19, new DbAttributeValue { Value = "Średni" } },
+                    {20, new DbAttributeValue { Value = "Niski" } },
+
+                    {21, new DbAttributeValue { Value = "Wysoki" } },
+                    {22, new DbAttributeValue { Value = "Średni" } },
+                    {23, new DbAttributeValue { Value = "Niski" } },
+
+                    {24, new DbAttributeValue { Value = "Dużo" } },
+                    {25, new DbAttributeValue { Value = "Średnio" } },
+                    {26, new DbAttributeValue { Value = "Mało" } },
+
+                    {27, new DbAttributeValue { Value = "Bardzo duża" } },
+                    {28, new DbAttributeValue { Value = "Duża" } },
+                    {29, new DbAttributeValue { Value = "Średnia" } },
+                    {30, new DbAttributeValue { Value = "Mała" } },
+
+                    {31, new DbAttributeValue { Value = "Duży" } },
+                    {32, new DbAttributeValue { Value = "Średni" } },
+                    {33, new DbAttributeValue { Value = "Mały" } },
+
+                    {34, new DbAttributeValue { Value = "Tak" } },
+                    {35, new DbAttributeValue { Value = "Nie" } },
+
+                    {36, new DbAttributeValue { Value = "Tak" } },
+                    {37, new DbAttributeValue { Value = "Nie" } },
                 };
             var values = new Dictionary<int, DbAttributeValue>();
 
@@ -154,8 +179,8 @@ namespace WUT_MSI.DataBaseGenerator
             });
 
             db.AddAttributeValueToAttribute(attribute, values[12]);
-            db.AddAttributeValueToAttribute(attribute, values[1]);
             db.AddAttributeValueToAttribute(attribute, values[13]);
+            db.AddAttributeValueToAttribute(attribute, values[14]);
 
             questions.Add(new Question
             {
@@ -163,8 +188,8 @@ namespace WUT_MSI.DataBaseGenerator
                 Answears = new List<Answear>
                 {
                     new Answear(values[12],0.2,1.8),
-                    new Answear(values[1],-0.2,0.6),
-                    new Answear(values[13],-0.05,0.05),
+                    new Answear(values[13],-0.2,0.6),
+                    new Answear(values[14],-0.05,0.05),
                 },
                 MatchingValue = 0.66,
                 Function = FuzzyFunctions.DevelopementFuzzy.Invoke,
@@ -177,18 +202,18 @@ namespace WUT_MSI.DataBaseGenerator
                 AttributeValues = new List<DbAttributeValue>(),
             });
 
-            db.AddAttributeValueToAttribute(attribute, values[14]);
             db.AddAttributeValueToAttribute(attribute, values[15]);
             db.AddAttributeValueToAttribute(attribute, values[16]);
+            db.AddAttributeValueToAttribute(attribute, values[17]);
 
             questions.Add(new Question
             {
                 AttributeType = AttributeType.Rains,
                 Answears = new List<Answear>
                 {
-                    new Answear(values[14],0.1,0.3),
-                    new Answear(values[15],0.6,0.8),
-                    new Answear(values[16],0.3,0.4),
+                    new Answear(values[15],0.1,0.3),
+                    new Answear(values[16],0.6,0.8),
+                    new Answear(values[17],0.3,0.4),
                 },
                 MatchingValue = 0.66,
                 Function = FuzzyFunctions.RainsFuzzy.Invoke,
@@ -201,18 +226,18 @@ namespace WUT_MSI.DataBaseGenerator
                 AttributeValues = new List<DbAttributeValue>(),
             });
 
-            db.AddAttributeValueToAttribute(attribute, values[17]);
-            db.AddAttributeValueToAttribute(attribute, values[10]);
             db.AddAttributeValueToAttribute(attribute, values[18]);
+            db.AddAttributeValueToAttribute(attribute, values[19]);
+            db.AddAttributeValueToAttribute(attribute, values[20]);
 
             questions.Add(new Question
             {
                 AttributeType = AttributeType.Safety,
                 Answears = new List<Answear>
                 {
-                    new Answear(values[17],0.6,1.4),
-                    new Answear(values[10],0.1,0.9),
-                    new Answear(values[18],-0.4,0.4),
+                    new Answear(values[18],0.6,1.4),
+                    new Answear(values[19],0.1,0.9),
+                    new Answear(values[20],-0.4,0.4),
                 },
                 MatchingValue = 0.66,
                 Function = FuzzyFunctions.SafetyFuzzy.Invoke,
@@ -225,18 +250,18 @@ namespace WUT_MSI.DataBaseGenerator
                 AttributeValues = new List<DbAttributeValue>(),
             });
 
-            db.AddAttributeValueToAttribute(attribute, values[17]);
-            db.AddAttributeValueToAttribute(attribute, values[10]);
-            db.AddAttributeValueToAttribute(attribute, values[18]);
+            db.AddAttributeValueToAttribute(attribute, values[21]);
+            db.AddAttributeValueToAttribute(attribute, values[22]);
+            db.AddAttributeValueToAttribute(attribute, values[23]);
 
             questions.Add(new Question
             {
                 AttributeType = AttributeType.Medicine,
                 Answears = new List<Answear>
                 {
-                    new Answear(values[17],0.6,1.4),
-                    new Answear(values[10],0.1,0.9),
-                    new Answear(values[18],-0.4,0.4),
+                    new Answear(values[21],0.6,1.4),
+                    new Answear(values[22],0.1,0.9),
+                    new Answear(values[23],-0.4,0.4),
                 },
                 MatchingValue = 0.66,
                 Function = FuzzyFunctions.MedicineFuzzy.Invoke,
@@ -249,18 +274,18 @@ namespace WUT_MSI.DataBaseGenerator
                 AttributeValues = new List<DbAttributeValue>(),
             });
 
-            db.AddAttributeValueToAttribute(attribute, values[14]);
-            db.AddAttributeValueToAttribute(attribute, values[1]);
-            db.AddAttributeValueToAttribute(attribute, values[16]);
+            db.AddAttributeValueToAttribute(attribute, values[24]);
+            db.AddAttributeValueToAttribute(attribute, values[25]);
+            db.AddAttributeValueToAttribute(attribute, values[26]);
 
             questions.Add(new Question
             {
                 AttributeType = AttributeType.Population,
                 Answears = new List<Answear>
                 {
-                    new Answear(values[14],0.02,1.98),
-                    new Answear(values[1],-0.02,0.06),
-                    new Answear(values[16],-0.04,0.04),
+                    new Answear(values[24],0.02,1.98),
+                    new Answear(values[25],-0.02,0.06),
+                    new Answear(values[26],-0.04,0.04),
                 },
                 MatchingValue = 0.66,
                 Function = FuzzyFunctions.PopulationFuzzy.Invoke,
@@ -269,24 +294,24 @@ namespace WUT_MSI.DataBaseGenerator
             db.AddAttribute(attribute = new DbAttribute
             {
                 Id = AttributeType.Density,
-                Name = "Jak duży jest kraj?",
+                Name = "Jaka jest gęstość zaludnienia?",
                 AttributeValues = new List<DbAttributeValue>(),
             });
 
-            db.AddAttributeValueToAttribute(attribute, values[19]);
-            db.AddAttributeValueToAttribute(attribute, values[20]);
-            db.AddAttributeValueToAttribute(attribute, values[21]);
-            db.AddAttributeValueToAttribute(attribute, values[22]);
+            db.AddAttributeValueToAttribute(attribute, values[27]);
+            db.AddAttributeValueToAttribute(attribute, values[28]);
+            db.AddAttributeValueToAttribute(attribute, values[29]);
+            db.AddAttributeValueToAttribute(attribute, values[30]);
 
             questions.Add(new Question
             {
                 AttributeType = AttributeType.Density,
                 Answears = new List<Answear>
                 {
-                    new Answear(values[19],0.0,2.0),
-                    new Answear(values[20],-0.394,0.406),
-                    new Answear(values[21],-0.296,0.304),
-                    new Answear(values[22],-0.12,0.12),
+                    new Answear(values[27],0.0,2.0),
+                    new Answear(values[28],-0.394,0.406),
+                    new Answear(values[29],-0.296,0.304),
+                    new Answear(values[30],-0.12,0.12),
                 },
                 MatchingValue = 0.75,
                 Function = FuzzyFunctions.DensityFuzzy.Invoke,
@@ -299,18 +324,18 @@ namespace WUT_MSI.DataBaseGenerator
                 AttributeValues = new List<DbAttributeValue>(),
             });
 
-            db.AddAttributeValueToAttribute(attribute, values[9]);
-            db.AddAttributeValueToAttribute(attribute, values[10]);
-            db.AddAttributeValueToAttribute(attribute, values[11]);
+            db.AddAttributeValueToAttribute(attribute, values[31]);
+            db.AddAttributeValueToAttribute(attribute, values[32]);
+            db.AddAttributeValueToAttribute(attribute, values[33]);
 
             questions.Add(new Question
             {
                 AttributeType = AttributeType.Jet,
                 Answears = new List<Answear>
                 {
-                    new Answear(values[9],0.6,1.4),
-                    new Answear(values[10],0.1,0.9),
-                    new Answear(values[11],-0.4,0.4),
+                    new Answear(values[31],0.6,1.4),
+                    new Answear(values[32],0.1,0.9),
+                    new Answear(values[33],-0.4,0.4),
                 },
                 MatchingValue = 0.66,
                 Function = FuzzyFunctions.JetFuzzy.Invoke,
@@ -319,20 +344,20 @@ namespace WUT_MSI.DataBaseGenerator
             db.AddAttribute(attribute = new DbAttribute
             {
                 Id = AttributeType.Sea,
-                Name = "Czy leży nad morzem?",
+                Name = "Czy ma dostęp do morza lub oceanu?",
                 AttributeValues = new List<DbAttributeValue>(),
             });
 
-            db.AddAttributeValueToAttribute(attribute, values[23]);
-            db.AddAttributeValueToAttribute(attribute, values[24]);
+            db.AddAttributeValueToAttribute(attribute, values[34]);
+            db.AddAttributeValueToAttribute(attribute, values[35]);
 
             questions.Add(new Question
             {
                 AttributeType = AttributeType.Sea,
                 Answears = new List<Answear>
                 {
-                    new Answear(values[23],0.5,1.5),
-                    new Answear(values[24],-0.5,0.5),
+                    new Answear(values[34],0.5,1.5),
+                    new Answear(values[35],-0.5,0.5),
                 },
                 MatchingValue = 0.5,
                 Function = element => element.Sea ? 1 : 0,
@@ -345,8 +370,8 @@ namespace WUT_MSI.DataBaseGenerator
                 AttributeValues = new List<DbAttributeValue>(),
             });
 
-            db.AddAttributeValueToAttribute(attribute, values[23]);
-            db.AddAttributeValueToAttribute(attribute, values[24]);
+            db.AddAttributeValueToAttribute(attribute, values[36]);
+            db.AddAttributeValueToAttribute(attribute, values[37]);
 
 
             questions.Add(new Question
@@ -354,8 +379,8 @@ namespace WUT_MSI.DataBaseGenerator
                 AttributeType = AttributeType.Mountain,
                 Answears = new List<Answear>
                 {
-                    new Answear(values[23],0.5,1.5),
-                    new Answear(values[24],-0.5,0.5),
+                    new Answear(values[36],0.5,1.5),
+                    new Answear(values[37],-0.5,0.5),
                 },
                 MatchingValue = 0.5,
                 Function = element => element.Mountain ? 1 : 0,
