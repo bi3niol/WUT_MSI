@@ -52,6 +52,7 @@
     <Compile Include="DbLayer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DbTablesInterface.cs" />
+    <Compile Include="QuestionStrings.cs" />
     <Compile Include="Tables\DbAttribute.cs" />
     <Compile Include="Tables\DbAttributeValue.cs" />
     <Compile Include="Tables\DbCountry.cs" />
