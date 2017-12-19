@@ -5,16 +5,18 @@ using System.Web;
 
 namespace WUT_MSI.WebApp.MinimalRules
 {
-    public class DifferenceMatrix
+    public class DiscernabilityMatrix
     {
-        private List<int>[,] matrix;
+        private string[,] matrix;
 
-        public DifferenceMatrix()
+        public DiscernabilityMatrix()
         {
-            matrix = DifferenceMatrixGenerator.Generate();
+            matrix = DiscernabilityMatrixGenerator.Generate();
         }
 
-        public List<int> this[int i, int k]
+        public int GetLength(int i) => matrix.GetLength(i);
+
+        public string this[int i, int k]
         {
             get
             {
@@ -31,9 +33,14 @@ namespace WUT_MSI.WebApp.MinimalRules
             }
         }
 
-        public List<int> CalculateValueFor(int i)
+        public List<string> CalculateValueFor(int i)
         {
-            throw new NotImplementedException();
+            List<string> function = new List<string>();
+
+            for (int k = 0; k < matrix.GetLength(1); k++)
+                function.Add(matrix[i, k]);
+            
+            return function.Distinct().ToList();
         }
     }
 }

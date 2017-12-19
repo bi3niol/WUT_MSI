@@ -3,6 +3,8 @@ using System.Web.Mvc;
 using WUT_MSI.DataBaseLayer;
 using WUT_MSI.DataBaseLayer.Tables;
 using WUT_MSI.WebApp.Helpers;
+using WUT_MSI.WebApp.MinimalRules;
+using WUT_MSI.WebApp.MinimalRules.Helpers;
 using WUT_MSI.WebApp.Reducts;
 
 namespace WUT_MSI.WebApp.Controllers
@@ -49,6 +51,19 @@ namespace WUT_MSI.WebApp.Controllers
             }
 
             return View(values);
+        }
+
+        public ActionResult GetMinimalRules()
+        {
+            MinimalRuleManager minimalRuleManager = new MinimalRuleManager();
+            List<MinimalRule> minimalRules = minimalRuleManager.GenerateRules();
+
+            List<MinimalRuleVM> minimalRulesVM = new List<MinimalRuleVM>();
+
+            foreach (MinimalRule rule in minimalRules)
+                minimalRulesVM.Add(new MinimalRuleVM(rule.Name, MinimalRuleLookConverter.Convert(rule.Function)));
+
+            return View(minimalRulesVM);
         }
     }
 }

@@ -161,8 +161,12 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Helpers\DataHelper.cs" />
-    <Compile Include="MinimalRules\DifferenceMatrix.cs" />
-    <Compile Include="MinimalRules\DifferenceMatrixGenerator.cs" />
+    <Compile Include="MinimalRules\DiscernabilityMatrix.cs" />
+    <Compile Include="MinimalRules\DiscernabilityMatrixGenerator.cs" />
+    <Compile Include="MinimalRules\Helpers\MinimalRuleLookConverter.cs" />
+    <Compile Include="MinimalRules\Helpers\MinimalRuleVM.cs" />
+    <Compile Include="MinimalRules\MinimalRule.cs" />
+    <Compile Include="MinimalRules\MinimalRuleManager.cs" />
     <Compile Include="Models\AttributeModel.cs" />
     <Compile Include="Models\DataModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -218,6 +222,7 @@
     <Content Include="Views\CRUD\Edit.cshtml" />
     <Content Include="Views\CRUD\Index.cshtml" />
     <Content Include="Views\Home\GetReducts.cshtml" />
+    <Content Include="Views\Home\GetMinimalRules.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

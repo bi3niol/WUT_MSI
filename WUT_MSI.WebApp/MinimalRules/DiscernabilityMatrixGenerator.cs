@@ -8,11 +8,11 @@ using WUT_MSI.WebApp.Reducts;
 
 namespace WUT_MSI.WebApp.MinimalRules
 {
-    public class DifferenceMatrixGenerator
+    public class DiscernabilityMatrixGenerator
     {
-        private static List<int> lambda = new List<int>() { -1 };
+        private static string lambda = "";
 
-        public static List<int>[,] Generate()
+        public static string[,] Generate()
         {
             DataModel[] dataModel = DataHelper.GetDataModelsFromDb();
             AttributeManager attributeManager = new AttributeManager(dataModel);
@@ -23,12 +23,15 @@ namespace WUT_MSI.WebApp.MinimalRules
 
             Reducts.Attribute maxAttribute = attributeManager.GenerateAttributeSet(maxSet);
 
-            List<int>[,] matrix = new List<int>[dataModel.Length, dataModel.Length];
+            string[,] matrix = new string[dataModel.Length, dataModel.Length];
 
             for (int i = 0; i < dataModel.Length; i++)
             {
                 for (int k = 0; k < dataModel.Length; k++)
                 {
+                    if(i == k)
+                    { matrix[i, k] = null; break; }
+
                     string first = dataModel[i].CountryName;
                     string second = dataModel[k].CountryName;
 
