@@ -53,7 +53,7 @@ namespace WUT_MSI.WebApp.Reducts
             return false;
         }
 
-        public List<int> GetKeyDiffrenceFromValue(string first, string second)
+        public string GetKeyDiffrenceFromValue(string first, string second)
         {
             string firstKey = null;
             string secondKey = null;
@@ -70,7 +70,9 @@ namespace WUT_MSI.WebApp.Reducts
             string[] keyValueFirst = firstKey.Split('_');
             string[] keyValueSecond = secondKey.Split('_');
 
-            return keyValueFirst.Except(keyValueSecond).Select(s => int.Parse(s)).ToList();
+            List<string> result = keyValueFirst.Except(keyValueSecond).ToList();
+            
+            return result.Count == 0 ? null : result.Aggregate((s1, s2) => $"{s1}_{s2}");
         }
     }
 }
