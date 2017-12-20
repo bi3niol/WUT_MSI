@@ -20,7 +20,7 @@ namespace WUT_MSI.WebApp.Helpers
             MinimalRules = list.ToArray();
         }
 
-        private static AttributeType StartGenerate()
+        public static AttributeType StartGenerate()
         {
             CurrentRules = new Dictionary<Conjunction, string>();
 
@@ -35,7 +35,7 @@ namespace WUT_MSI.WebApp.Helpers
             return LastQuestion;
         }
 
-        private static GetQuestionResult GetNextQuestion(int answear)
+        public static GetQuestionResult GetNextQuestion(int answear)
         {
             var rules = CurrentRules.ToArray();
             foreach(var element in rules)

@@ -125,7 +125,7 @@ namespace WUT_MSI.DataBaseLayer
 
         public DbCountryAttributes[] GetCountryAttributes(Func<DbCountryAttributes, bool> predicate)
         {
-            return db.CountryAttributes.Where(predicate).ToArray();
+            return db.CountryAttributes.Where(predicate).OrderBy(c=>c.Country.Id).ToArray();
         }
 
         public DbCountryAttributes GetCountryAttributes(long id)

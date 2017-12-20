@@ -155,6 +155,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CountryFinderController.cs" />
     <Compile Include="Controllers\CRUDController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
@@ -163,10 +164,11 @@
     <Compile Include="Helpers\AnswearHelper.cs" />
     <Compile Include="Helpers\DataHelper.cs" />
     <Compile Include="Helpers\QuestionHelper.cs" />
+    <Compile Include="InconscientyReduction\InconscientyReductor.cs" />
     <Compile Include="Logic\Alternative.cs" />
     <Compile Include="Logic\Conjunction.cs" />
-    <Compile Include="Logic\IExpression.cs" />
     <Compile Include="Logic\Factor.cs" />
+    <Compile Include="Logic\IExpression.cs" />
     <Compile Include="Logic\Result.cs" />
     <Compile Include="MinimalRules\DiscernabilityMatrix.cs" />
     <Compile Include="MinimalRules\DiscernabilityMatrixGenerator.cs" />
@@ -177,6 +179,7 @@
     <Compile Include="Models\AttributeModel.cs" />
     <Compile Include="Models\CRUDModel.cs" />
     <Compile Include="Models\DataModel.cs" />
+    <Compile Include="Models\FindCountryQuestionVM.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reducts\Attribute.cs" />
     <Compile Include="Reducts\AttributeManager.cs" />
@@ -229,6 +232,8 @@
     <Content Include="Views\CRUD\Create.cshtml" />
     <Content Include="Views\CRUD\Index.cshtml" />
     <Content Include="Views\Home\GetMinimalRules.cshtml" />
+    <Content Include="Views\CountryFinder\Index.cshtml" />
+    <Content Include="Views\CountryFinder\GetQuestion.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
