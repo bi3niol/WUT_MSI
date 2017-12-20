@@ -16,6 +16,10 @@ namespace WUT_MSI.WebApp.Models
         [DisplayName("Wybierz Odpowiedź")]
         public int AnswerId { get; set; }
         public IEnumerable<SelectListItem> Answers { get; set; }
+        public FindCountryQuestionVM()
+        {
+
+        }
         public FindCountryQuestionVM(DbAttribute attribute)
         {
             Question = attribute.Name;

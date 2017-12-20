@@ -12,7 +12,9 @@ namespace WUT_MSI.WebApp.Logic
 
         public Conjunction(List<string> expression)
         {
+            alternatives = new List<Alternative>();
             foreach (var element in expression)
+                if(!string.IsNullOrWhiteSpace(element))
                 alternatives.Add(new Alternative(element));
         }
 
