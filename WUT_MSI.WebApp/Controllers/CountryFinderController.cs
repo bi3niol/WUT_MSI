@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using WUT_MSI.DataBaseLayer;
+using WUT_MSI.WebApp.Helpers;
+using WUT_MSI.WebApp.MinimalRules;
 using WUT_MSI.WebApp.Models;
 
 namespace WUT_MSI.WebApp.Controllers
@@ -18,20 +20,13 @@ namespace WUT_MSI.WebApp.Controllers
         }
         public ActionResult StartFind()
         {
-            //TODO: Resetowanie pytan
-
-            return RedirectToAction("GetQuestion");
+            MinimalRuleManager minimalRuleManager = new MinimalRuleManager();
+            List<MinimalRule> minimalRules = minimalRuleManager.GenerateRules();
+            QuestionHelper.Initialize(minimalRules);
+            return GetQuestion(QuestionHelper.StartGenerate());
         }
-        public ActionResult GetQuestion()
+        public ActionResult GetQuestion(AttributeType questionId = AttributeType.Area)
         {
-            AttributeType questionId=AttributeType.Area;
-            //sprawdzenie czy jest jeszcze jakies pytanie, jesli nie to znaczy ze znaleziono panstwo
-            bool hasQuestion = false;//TODO:
-            if (hasQuestion)
-                questionId = AttributeType.Area;//TODO: get questionId
-            else
-                return ShowFoundCountries();
-            //Pobieranie pytania (IdPytania)
             var question = new FindCountryQuestionVM(tablesInterface.GetAttribute(questionId));
             return View(question);
         }
@@ -39,14 +34,23 @@ namespace WUT_MSI.WebApp.Controllers
         public ActionResult GetQuestion([Bind(Include = "AnswerId")]FindCountryQuestionVM model)
         {
             //TODO: Set Question
-
-            return RedirectToAction("GetQuestion");
+            var res = QuestionHelper.GetNextQuestion(model.AnswerId);
+            switch (res.Result)
+            {
+                case QuestionResult.Question:
+                    return GetQuestion(res.Question);
+                case QuestionResult.NoAnswear:
+                case QuestionResult.Answear:
+                    return ShowFoundCountries(res.Countries);
+                default:
+                    break;
+            }
+            return RedirectToAction("Index");
         }
 
-        private ActionResult ShowFoundCountries()
+        private ActionResult ShowFoundCountries(string[] countries)
         {
-            var country = new List<string>() { "Poland" };//TODO;
-            return View(country);
+            return View(countries);
         }
     }
 }
