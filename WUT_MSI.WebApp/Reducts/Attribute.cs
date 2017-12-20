@@ -46,11 +46,12 @@ namespace WUT_MSI.WebApp.Reducts
 
         internal bool AreInSameSet(string first, string second)
         {
-            foreach (List<string> set in Values.Values)
-                if (set.Contains(first) && set.Contains(second))
-                    return true;
-            
-            return false;
+            //foreach (List<string> set in Values.Values)
+            //    if (set.Contains(first) && set.Contains(second))
+            //        return true;
+
+            //return false;
+            return first.Equals(second);
         }
 
         public string GetKeyDiffrenceFromValue(string first, string second)
