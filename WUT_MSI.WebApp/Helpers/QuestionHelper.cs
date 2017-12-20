@@ -30,7 +30,7 @@ namespace WUT_MSI.WebApp.Helpers
             Questions = CurrentRules.First().Key.GetAttributes();
         }
 
-        public static KeyValuePair<bool,string> SetAnswear(int answear)
+        public static KeyValuePair<bool,string[]> SetAnswear(int answear)
         {
             var rules = CurrentRules.ToArray();
             foreach(var element in rules)
@@ -38,7 +38,7 @@ namespace WUT_MSI.WebApp.Helpers
                 switch (element.Key.GetValue(LastQuestion, answear))
                 {
                     case Result.True:
-                        return new KeyValuePair<bool, string>(true, element.Value);
+                        return new KeyValuePair<bool, string[]>(true, new string[] { element.Value });
                     case Result.False:
                         CurrentRules.Remove(element.Key);
                         break;
@@ -46,12 +46,12 @@ namespace WUT_MSI.WebApp.Helpers
             }
 
             if (CurrentRules.Count() == 0)
-                return new KeyValuePair<bool, string>(false, null);
+                return new KeyValuePair<bool, string[]>(true, new string[0]);
 
             if(CurrentRules.Count()==1)
-                return new KeyValuePair<bool, string>(true, CurrentRules.First().Value);
+                return new KeyValuePair<bool, string[]>(true, new string[] { CurrentRules.First().Value });
 
-            return new KeyValuePair<bool, string>(false, null);
+            return new KeyValuePair<bool, string[]>(false, null);
         }
 
         public static AttributeType GetNextQuestion()
