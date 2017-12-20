@@ -158,6 +158,7 @@
     <Compile Include="Controllers\CountryFinderController.cs" />
     <Compile Include="Controllers\CRUDController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ReductsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -224,14 +225,12 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Home\GetReducts.cshtml" />
+    <Content Include="Views\Reducts\GetReducts.cshtml" />
     <Content Include="Views\CRUD\Edit.cshtml" />
     <Content Include="Views\CRUD\Create.cshtml" />
     <Content Include="Views\CRUD\Index.cshtml" />
-    <Content Include="Views\Home\GetMinimalRules.cshtml" />
+    <Content Include="Views\Reducts\GetMinimalRules.cshtml" />
     <Content Include="Views\CountryFinder\Index.cshtml" />
     <Content Include="Views\CountryFinder\GetQuestion.cshtml" />
     <Content Include="Views\CountryFinder\ShowFoundCountries.cshtml" />
