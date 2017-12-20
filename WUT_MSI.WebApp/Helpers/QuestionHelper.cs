@@ -20,7 +20,7 @@ namespace WUT_MSI.WebApp.Helpers
             MinimalRules = list.ToArray();
         }
 
-        public static AttributeType StartGenerate()
+        public static void StartGenerate()
         {
             CurrentRules = new Dictionary<Conjunction, string>();
 
@@ -28,14 +28,9 @@ namespace WUT_MSI.WebApp.Helpers
                 CurrentRules.Add(new Conjunction(element.Function), element.Name);
 
             Questions = CurrentRules.First().Key.GetAttributes();
-
-            LastQuestion = Questions.First();
-            Questions.Remove(LastQuestion);
-
-            return LastQuestion;
         }
 
-        public static GetQuestionResult GetNextQuestion(int answear)
+        public static KeyValuePair<bool,string[]> SetAnswear(int answear)
         {
             var rules = CurrentRules.ToArray();
             foreach(var element in rules)
@@ -43,11 +38,7 @@ namespace WUT_MSI.WebApp.Helpers
                 switch (element.Key.GetValue(LastQuestion, answear))
                 {
                     case Result.True:
-                        return new GetQuestionResult
-                        {
-                            Result = QuestionResult.Answear,
-                            Countries = new string[] { element.Value },
-                        };
+                        return new KeyValuePair<bool, string[]>(true, new string[] { element.Value });
                     case Result.False:
                         CurrentRules.Remove(element.Key);
                         break;
@@ -55,51 +46,23 @@ namespace WUT_MSI.WebApp.Helpers
             }
 
             if (CurrentRules.Count() == 0)
-                return new GetQuestionResult
-                {
-                    Result = QuestionResult.NoAnswear,
-                };
+                return new KeyValuePair<bool, string[]>(true, new string[0]);
 
             if(CurrentRules.Count()==1)
-                return new GetQuestionResult
-                {
-                    Result = QuestionResult.Answear,
-                    Countries = new string[] { CurrentRules.First().Value },
-                };
+                return new KeyValuePair<bool, string[]>(true, new string[] { CurrentRules.First().Value });
 
+            return new KeyValuePair<bool, string[]>(false, null);
+        }
+
+        public static AttributeType GetNextQuestion()
+        {
             if (Questions.Count() == 0)
                 Questions = CurrentRules.First().Key.GetAttributes();
 
             LastQuestion = Questions.First();
             Questions.Remove(LastQuestion);
 
-            return new GetQuestionResult
-            {
-                Result = QuestionResult.Question,
-                Question = LastQuestion,
-            };
+            return LastQuestion;
         }
-    }
-
-    public class GetQuestionResult
-    {
-        public QuestionResult Result { get; set; }
-        public string[] Countries { get; set; }
-        public AttributeType Question { get; set; }
-    }
-    public enum QuestionResult
-    {
-        /// <summary>
-        /// Daje następne pytanie
-        /// </summary>
-        Question,
-        /// <summary>
-        /// Nie ma pasującej odpowiedzi
-        /// </summary>
-        NoAnswear,
-        /// <summary>
-        /// Jest odpowiedź
-        /// </summary>
-        Answear
     }
 }

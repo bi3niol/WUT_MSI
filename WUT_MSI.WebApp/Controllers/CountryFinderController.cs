@@ -23,7 +23,8 @@ namespace WUT_MSI.WebApp.Controllers
             MinimalRuleManager minimalRuleManager = new MinimalRuleManager();
             List<MinimalRule> minimalRules = minimalRuleManager.GenerateRules();
             QuestionHelper.Initialize(minimalRules);
-            return GetQuestion(QuestionHelper.StartGenerate());
+            QuestionHelper.StartGenerate();
+            return RedirectToAction("GetQuestion", new { questionId = QuestionHelper.GetNextQuestion() });
         }
         public ActionResult GetQuestion(AttributeType questionId = AttributeType.Area)
         {
@@ -34,18 +35,13 @@ namespace WUT_MSI.WebApp.Controllers
         public ActionResult GetQuestion([Bind(Include = "AnswerId")]FindCountryQuestionVM model)
         {
             //TODO: Set Question
-            var res = QuestionHelper.GetNextQuestion(model.AnswerId);
-            switch (res.Result)
-            {
-                case QuestionResult.Question:
-                    return GetQuestion(res.Question);
-                case QuestionResult.NoAnswear:
-                case QuestionResult.Answear:
-                    return ShowFoundCountries(res.Countries);
-                default:
-                    break;
-            }
-            return RedirectToAction("Index");
+            var res = QuestionHelper.SetAnswear(model.AnswerId);
+            if(res.Key)
+                return ShowFoundCountries(res.Value);
+
+            return GetQuestion(QuestionHelper.GetNextQuestion());
+
+            //return RedirectToAction("Index");
         }
 
         private ActionResult ShowFoundCountries(string[] countries)
