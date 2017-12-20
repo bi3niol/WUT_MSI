@@ -424,10 +424,10 @@ namespace WUT_MSI.DataBaseGenerator
                     attributes[i].Add(matching.First().Key);
             }
 
-            var permutations = new List<DbAttributeValue[]>();
-            GeneratePermutations(0, attributes, permutations, new List<DbAttributeValue>(), allAttributes.Length - 1);
+            var variation = new List<DbAttributeValue[]>();
+            GenerateVariations(0, attributes, variation, new List<DbAttributeValue>(), allAttributes.Length - 1);
 
-            foreach (var element in permutations)
+            foreach (var element in variation)
                 db.AddCountryAttributes(new DbCountryAttributes
                 {
                     Country = dbCountry,
@@ -446,16 +446,16 @@ namespace WUT_MSI.DataBaseGenerator
                 });
         }
 
-        private void GeneratePermutations(int step, List<DbAttributeValue>[] values, List<DbAttributeValue[]> permutations, List<DbAttributeValue> currentPermutation, int maxStep)
+        private void GenerateVariations(int step, List<DbAttributeValue>[] values, List<DbAttributeValue[]> variations, List<DbAttributeValue> currentVariation, int maxStep)
         {
             for(int i=0; i<values[step].Count(); i++)
             {
-                currentPermutation.Add(values[step][i]);
+                currentVariation.Add(values[step][i]);
                 if (step < maxStep)
-                    GeneratePermutations(step + 1, values, permutations, currentPermutation, maxStep);
+                    GenerateVariations(step + 1, values, variations, currentVariation, maxStep);
                 else
-                    permutations.Add(currentPermutation.ToArray());
-                currentPermutation.Remove(values[step][i]);
+                    variations.Add(currentVariation.ToArray());
+                currentVariation.Remove(values[step][i]);
             }
         }
 }

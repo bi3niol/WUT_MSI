@@ -162,6 +162,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Helpers\DataHelper.cs" />
+    <Compile Include="InconscientyReduction\InconscientyReductor.cs" />
     <Compile Include="MinimalRules\DiscernabilityMatrix.cs" />
     <Compile Include="MinimalRules\DiscernabilityMatrixGenerator.cs" />
     <Compile Include="MinimalRules\Helpers\MinimalRuleLookConverter.cs" />
