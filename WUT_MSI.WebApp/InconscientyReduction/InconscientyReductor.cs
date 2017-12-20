@@ -39,15 +39,16 @@ namespace WUT_MSI.WebApp.InconscientyReduction
             /* Checking for Repetitions */
             Dictionary<int, List<int>> repetitions = new Dictionary<int, List<int>>();
 
-            for (int i = 0; i < originalMatrix.Length; i++)
-                for (int k = i; k < originalMatrix.Length; k++)
+            for (int i = 0; i < originalMatrix.GetLength(0); i++)
+                for (int k = i + 1; k < originalMatrix.GetLength(1); k++)
                 {
-                    if (i == k) continue;
-
                     if (IsInconscienty(beforeMatrix[i], beforeMatrix[k]))
                         if (repetitions.ContainsKey(i)) repetitions[i].Add(k);
                         else repetitions.Add(i, new List<int>() { k });
                 }
+
+            if (repetitions.Count == 0)
+                return originalMatrix;
 
             /* Dealing with Repetitions */
             List<List<string[]>> tempBefore = new List<List<string[]>>();
@@ -164,7 +165,7 @@ namespace WUT_MSI.WebApp.InconscientyReduction
 
         private static bool IsInconscienty(string[] s1, string[] s2)
         {
-            for (int i = 0; i < s1.Length; i++)
+            for (int i = 1; i < s1.Length; i++)
                 if (s1[i] != s2[i])
                     return false;
 

@@ -11,7 +11,7 @@ namespace WUT_MSI.WebApp.MinimalRules
 
         public DiscernabilityMatrix()
         {
-            matrix = DiscernabilityMatrixGenerator.Generate();
+            matrix = InconscientyReduction.InconscientyReductor.GenerateReducted();
         }
 
         public int GetLength(int i) => matrix.GetLength(i);
