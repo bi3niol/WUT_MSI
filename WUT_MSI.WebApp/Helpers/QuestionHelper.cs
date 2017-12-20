@@ -25,9 +25,21 @@ namespace WUT_MSI.WebApp.Helpers
             CurrentRules = new Dictionary<Conjunction, string>();
 
             foreach (var element in MinimalRules)
-                CurrentRules.Add(new Conjunction(element.Function), element.Name);
+                if(IsEmptyCollection(element.Function))
+                    CurrentRules.Add(new Conjunction(element.Function), element.Name);
 
             Questions = CurrentRules.First().Key.GetAttributes();
+        }
+
+        private static bool IsEmptyCollection(List<string> function)
+        {
+            if (function.Count == 0)
+                return false;
+
+            foreach (var element in function)
+                if (!string.IsNullOrWhiteSpace(element))
+                    return true;
+            return false;
         }
 
         public static KeyValuePair<bool,string[]> SetAnswear(int answear)
@@ -38,7 +50,7 @@ namespace WUT_MSI.WebApp.Helpers
                 switch (element.Key.GetValue(LastQuestion, answear))
                 {
                     case Result.True:
-                        return new KeyValuePair<bool, string[]>(true, new string[] { element.Value });
+                        return new KeyValuePair<bool, string[]>(true, new string[] { AnswearHelper.GetCountryName(element.Value) });
                     case Result.False:
                         CurrentRules.Remove(element.Key);
                         break;
@@ -49,7 +61,7 @@ namespace WUT_MSI.WebApp.Helpers
                 return new KeyValuePair<bool, string[]>(true, new string[0]);
 
             if(CurrentRules.Count()==1)
-                return new KeyValuePair<bool, string[]>(true, new string[] { CurrentRules.First().Value });
+                return new KeyValuePair<bool, string[]>(true, new string[] { AnswearHelper.GetCountryName(CurrentRules.First().Value) });
 
             return new KeyValuePair<bool, string[]>(false, null);
         }

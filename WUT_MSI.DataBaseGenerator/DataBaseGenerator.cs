@@ -418,9 +418,10 @@ namespace WUT_MSI.DataBaseGenerator
 
                 matching = matching.OrderByDescending(item => item.Value).ToList();
 
-                attributes[i].AddRange(matching.Take(2).TakeWhile(item => item.Value >= questions[i].MatchingValue).Select(item=>item.Key));
 
-                if (attributes[i].Count() == 0)
+                //attributes[i].AddRange(matching.Take(2).TakeWhile(item => item.Value >= questions[i].MatchingValue).Select(item => item.Key));
+
+                //if (attributes[i].Count() == 0)
                     attributes[i].Add(matching.First().Key);
             }
 

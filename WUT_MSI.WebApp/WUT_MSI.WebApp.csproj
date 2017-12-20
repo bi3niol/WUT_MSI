@@ -233,6 +233,7 @@
     <Content Include="Views\Reducts\GetMinimalRules.cshtml" />
     <Content Include="Views\CountryFinder\Index.cshtml" />
     <Content Include="Views\CountryFinder\GetQuestion.cshtml" />
+    <Content Include="Views\CountryFinder\ShowFoundCountries.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

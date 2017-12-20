@@ -14,7 +14,7 @@ namespace WUT_MSI.WebApp.MinimalRules.Helpers
 
             foreach (string s in minimalRules)
             {
-                if (string.IsNullOrEmpty(s)) break;
+                if (string.IsNullOrEmpty(s)) continue;
 
                 builder.Append("( ");
                 builder.Append(s.Replace('_', '|'));

@@ -20,5 +20,16 @@ namespace WUT_MSI.WebApp.Controllers
         {
             return RedirectToAction("Index", "CountryFinder");
         }
+
+        private bool IsEmptyCollection(List<string> function)
+        {
+            if (function.Count == 0)
+                return false;
+
+            foreach (var element in function)
+                if (!string.IsNullOrWhiteSpace(element))
+                    return true;
+            return false;
+        }
     }
 }

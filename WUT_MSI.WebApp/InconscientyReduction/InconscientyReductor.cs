@@ -43,7 +43,6 @@ namespace WUT_MSI.WebApp.InconscientyReduction
                 for (int k = 0; k < originalMatrix.GetLength(1); k++)
                 {
                     if (i == k) continue;
-
                     if (IsInconscienty(beforeMatrix[i], beforeMatrix[k]))
                         if (repetitions.ContainsKey(i)) repetitions[i].Add(k);
                         else repetitions.Add(i, new List<int>() { k });

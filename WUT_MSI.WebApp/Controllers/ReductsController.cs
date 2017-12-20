@@ -45,7 +45,7 @@ namespace WUT_MSI.WebApp.Controllers
             List<MinimalRuleVM> minimalRulesVM = new List<MinimalRuleVM>();
 
             foreach (MinimalRule rule in minimalRules)
-                minimalRulesVM.Add(new MinimalRuleVM(rule.Name, MinimalRuleLookConverter.Convert(rule.Function)));
+                minimalRulesVM.Add(new MinimalRuleVM(AnswearHelper.GetCountryName(rule.Name), MinimalRuleLookConverter.Convert(rule.Function)));
 
             return View(minimalRulesVM);
         }

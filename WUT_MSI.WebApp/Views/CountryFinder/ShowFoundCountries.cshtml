@@ -1,0 +1,26 @@
+﻿@model IEnumerable<string>
+
+@{
+    ViewBag.Title = "ShowFoundCountries";
+}
+
+<h2>Wynik poszukiwań</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            Znalezione kraje
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @item
+        </td>
+    </tr>
+}
+    @Html.ActionLink("Zacznij od nowa", "Index")
+
+</table>
