@@ -24,6 +24,7 @@ namespace WUT_MSI.WebApp.Helpers
             foreach (var element in db.GetCountryAttributes(item => true))
                 result.Add(new DataModel
                 {
+                    Id = element.Id,
                     CountryId = element.Country.Id,
                     CountryName = element.Country.Name,
                     Attributes = new AttributeModel[]

@@ -9,12 +9,13 @@ namespace WUT_MSI.WebApp.Helpers
     public static class AnswearHelper
     {
         private static Dictionary<int, AttributeType> mapping;
+        private static DbTablesInterface db;
 
         static AnswearHelper()
         {
             mapping = new Dictionary<int, AttributeType>();
 
-            var db = new DbTablesInterface();
+            db = new DbTablesInterface();
 
             foreach (var element in db.GetAttributes(item => true))
                 foreach (var value in element.AttributeValues)
@@ -27,6 +28,13 @@ namespace WUT_MSI.WebApp.Helpers
             if (mapping.TryGetValue(valueId, out type))
                 return type;
             throw new ArgumentException("Nie ma wartości o podanym id");
+        }
+
+        public static string GetCountryName(string ruleId)
+        {
+            int id = int.Parse(ruleId);
+
+            return db.GetCountryAttributes(id)?.Country.Name;
         }
     }
 }

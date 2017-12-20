@@ -417,10 +417,11 @@ namespace WUT_MSI.DataBaseGenerator
                     matching.Add(new KeyValuePair<DbAttributeValue, double>(questions[i][k].Value,questions[i][k].Matching(country, questions[i].Function)));
 
                 matching = matching.OrderByDescending(item => item.Value).ToList();
+                
 
-                attributes[i].AddRange(matching.Take(2).TakeWhile(item => item.Value >= questions[i].MatchingValue).Select(item=>item.Key));
+                //attributes[i].AddRange(matching.Take(2).TakeWhile(item => item.Value >= questions[i].MatchingValue).Select(item=>item.Key));
 
-                if (attributes[i].Count() == 0)
+                //if (attributes[i].Count() == 0)
                     attributes[i].Add(matching.First().Key);
             }
 
