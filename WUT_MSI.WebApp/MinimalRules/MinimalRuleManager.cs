@@ -9,17 +9,16 @@ namespace WUT_MSI.WebApp.MinimalRules
 {
     public class MinimalRuleManager
     {
-        private DiscernabilityMatrix matrix;
         private List<MinimalRule> minimalRules;
 
         public MinimalRuleManager()
         {
-            matrix = new DiscernabilityMatrix();
             minimalRules = new List<MinimalRule>();
         }
 
         public List<MinimalRule> GenerateRules()
         {
+            DiscernabilityMatrix matrix = new DiscernabilityMatrix();
             DataModel[] dataModel = DataHelper.GetDataModelsFromDb();
 
             for (int i = 0; i < matrix.GetLength(0); i++)
