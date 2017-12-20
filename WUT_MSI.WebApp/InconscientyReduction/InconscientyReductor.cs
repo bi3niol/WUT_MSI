@@ -50,24 +50,116 @@ namespace WUT_MSI.WebApp.InconscientyReduction
                 }
 
             /* Dealing with Repetitions */
+            List<List<string[]>> tempBefore = new List<List<string[]>>();
+
             foreach (var pair in repetitions)
-                ReductInconscientyRecords(maxAttribute, beforeMatrix, pair.Key, pair.Value);
+                tempBefore.Add(ReductInconscientyRecords(dataModel, maxAttribute, beforeMatrix, pair.Key, pair.Value));
+
+            List<string[]> resultFromReduct = new List<string[]>();
+
+            foreach (List<string[]> s in tempBefore)
+                resultFromReduct = resultFromReduct.Except(s).ToList();
 
             /* Restoring Matrix Representation */
-            string[,] matrix = new string[beforeMatrix.Count, originalMatrix.Length];
+            string[,] matrix = new string[resultFromReduct.Count, originalMatrix.Length];
 
-            for (int i = 0; i < beforeMatrix.Count; i++)
+            for (int i = 0; i < resultFromReduct.Count; i++)
                 for (int k = 0; k < originalMatrix.Length; k++)
-                    matrix[i, k] = beforeMatrix[i][k];
+                    matrix[i, k] = resultFromReduct[i][k];
 
             return matrix;
         }
 
-        private static void ReductInconscientyRecords(Reducts.Attribute maxAttribute, List<string[]> beforeMatrix, int key, List<int> value)
+        private static List<string[]> ReductInconscientyRecords(DataModel[] dataModel,
+            Reducts.Attribute maxAttribute, List<string[]> beforeMatrix, int key, List<int> value)
         {
             // Dla każdego zestawu rekordów danego państwa, dla których nie zgadza się odpowiedź (przy tych samych wartosciach atrybutów)
             // Wyznacz zbiór W oraz A_W i AW oraz policz przybliżenia.
             // Usuń ten, dla którego przybliżenie górne/dolne jest mniejsze.
+
+
+            DataModel[] countries = dataModel.Where(c => c.CountryId == key).ToArray(); // Main Country
+
+            List<DataModel[]> restCountries = new List<DataModel[]>();
+            restCountries.Add(countries);
+
+            foreach (int v in value)
+                restCountries.Add(dataModel.Where(c => c.CountryId.ToString() == beforeMatrix[v][0]).ToArray());
+
+            Dictionary<DataModel[], List<string>> A_WsetDictionary = new Dictionary<DataModel[], List<string>>();
+            //Dictionary<DataModel[], List<string>> AWsetDictionary = new Dictionary<DataModel[], List<string>>();
+
+            foreach (DataModel[] model in restCountries) // Model is my W set
+            {
+                A_WsetDictionary.Add(model, GetA_WSet(maxAttribute, model)); // A_W set
+                //AWsetDictionary.Add(model, GetAWSet(maxAttribute, model)); // AW set
+            }
+
+            float UPower = dataModel.Length;
+            Dictionary<DataModel[], float> approximationValue = new Dictionary<DataModel[], float>();
+
+            foreach (var pair in A_WsetDictionary)
+                approximationValue.Add(pair.Key, pair.Value.Count() / UPower);
+
+            float maxValue = approximationValue.Max(p => p.Value);
+            approximationValue.OrderByDescending(p => p.Key);
+
+            for (int i = 0; i < approximationValue.Count; i++)
+            {
+                if (approximationValue.ElementAt(i).Value == maxValue) continue;
+
+                beforeMatrix.RemoveAt(value[i]);
+            }
+
+            return beforeMatrix;
+        }
+
+        private static List<string> GetAWSet(Reducts.Attribute maxAttribute, DataModel[] model)
+        {
+            List<string> resultAWset = new List<string>();
+
+            foreach (List<string> names in maxAttribute.Values.Values)
+            {
+                List<string> modelNames = model.Select(c => c.CountryName).ToList();
+
+                if (ContainsAWset(modelNames, names))
+                    resultAWset.AddRange(names);
+            }
+
+            return resultAWset;
+        }
+
+        private static bool ContainsAWset(List<string> modelNames, List<string> names)
+        {
+            foreach (string name in names)
+                if (modelNames.Contains(name))
+                    return true;
+
+            return false;
+        }
+
+        private static List<string> GetA_WSet(Reducts.Attribute maxAttribute, DataModel[] model)
+        {
+            List<string> resultA_Wset = new List<string>();
+
+            foreach (List<string> names in maxAttribute.Values.Values)
+            {
+                List<string> modelNames = model.Select(c => c.CountryName).ToList();
+
+                if (ContainsA_Wset(modelNames, names))
+                    resultA_Wset.AddRange(names);
+            }
+
+            return resultA_Wset;
+        }
+
+        private static bool ContainsA_Wset(List<string> modelNames, List<string> names)
+        {
+            foreach (string name in names)
+                if (!modelNames.Contains(name))
+                    return false;
+
+            return true;
         }
 
         private static bool IsInconscienty(string[] s1, string[] s2)
