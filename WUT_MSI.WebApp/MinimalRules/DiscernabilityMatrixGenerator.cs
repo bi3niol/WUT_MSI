@@ -30,7 +30,7 @@ namespace WUT_MSI.WebApp.MinimalRules
                 for (int k = 0; k < dataModel.Length; k++)
                 {
                     if(i == k)
-                    { matrix[i, k] = null; break; }
+                    { matrix[i, k] = null; continue; }
 
                     string first = dataModel[i].CountryName;
                     string second = dataModel[k].CountryName;
