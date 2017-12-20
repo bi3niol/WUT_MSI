@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
@@ -13,42 +14,55 @@ namespace WUT_MSI.WebApp.Models
     {
         public long Id { get; set; }
         [Required]
+        [DisplayName("Kraj")]
         public int Country_Id { get; set; }
         public IEnumerable<SelectListItem> CountryId { get; set; }
         [Required]
+        [DisplayName(QuestionStrings.Distance)]
         public int DistanceAttribute_Id { get; set; }
         public IEnumerable<SelectListItem> DistanceAttributeId { get; set; }
         [Required]
+        [DisplayName(QuestionStrings.Climate)]
         public int ClimateAttribute_Id { get; set; }
         public IEnumerable<SelectListItem> ClimateAttributeId { get; set; }
         [Required]
+        [DisplayName(QuestionStrings.Area)]
         public int AreaAttribute_Id { get; set; }
         public IEnumerable<SelectListItem> AreaAttributeId { get; set; }
         [Required]
+        [DisplayName(QuestionStrings.Development)]
         public int DevelopmentAttribute_Id { get; set; }
         public IEnumerable<SelectListItem> DevelopmentAttributeId { get; set; }
         [Required]
+        [DisplayName(QuestionStrings.Rains)]
         public int RainsAttribute_Id { get; set; }
         public IEnumerable<SelectListItem> RainsAttributeId { get; set; }
         [Required]
+        [DisplayName(QuestionStrings.Safety)]
         public int SafetyAttribute_Id { get; set; }
         public IEnumerable<SelectListItem> SafetyAttributeId { get; set; }
         [Required]
+        [DisplayName(QuestionStrings.Medicine)]
         public int MedicineAttribute_Id { get; set; }
         public IEnumerable<SelectListItem> MedicineAttributeId { get; set; }
         [Required]
+        [DisplayName(QuestionStrings.Population)]
         public int PopulationAttribute_Id { get; set; }
         public IEnumerable<SelectListItem> PopulationAttributeId { get; set; }
         [Required]
+        [DisplayName(QuestionStrings.Density)]
         public int DensityAttribute_Id { get; set; }
         public IEnumerable<SelectListItem> DensityAttributeId { get; set; }
         [Required]
+        [DisplayName(QuestionStrings.Jet)]
         public int JetAttribute_Id { get; set; }
         public IEnumerable<SelectListItem> JetAttributeId { get; set; }
         [Required]
+        [DisplayName(QuestionStrings.Sea)]
         public int SeaAttribute_Id { get; set; }
         public IEnumerable<SelectListItem> SeaAttributeId { get; set; }
         [Required]
+        [DisplayName(QuestionStrings.Mountain)]
         public int MountainAttribute_Id { get; set; }
         public IEnumerable<SelectListItem> MountainAttributeId { get; set; }
 
