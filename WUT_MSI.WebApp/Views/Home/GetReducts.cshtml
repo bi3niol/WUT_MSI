@@ -4,24 +4,18 @@
     ViewBag.Title = "Reducts";
 }
 
-<h2>Reducts</h2>
-
+<h2>Redukty</h2>
+<h4>Name of Attributes in Reduct</h4>
 <table class="table">
-    <tr>
-        <th>
-            <p>Name of Attributes in Reduct</p>
-        </th>
-    </tr>
-
     @foreach (var attribute in Model)
     {
         <tr>
-            <td>
-                @foreach (var name in attribute)
+            @foreach (var name in attribute)
                 {
+                <td>
                     <p>@name</p>
-                }
-            </td>
+                </td>
+            }
         </tr>
     }
 </table>

@@ -16,6 +16,11 @@ namespace WUT_MSI.WebApp.Controllers
             return View();
         }
 
+        public ActionResult StartFindCountry()
+        {
+            return RedirectToAction("Index", "CountryFinder");
+        }
+
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
@@ -46,7 +51,7 @@ namespace WUT_MSI.WebApp.Controllers
 
                 foreach (int name in attribute.Names)
                     names.Add(dbAttributes[name].Name);
-
+                names.Sort();
                 values.Add(names);
             }
 
