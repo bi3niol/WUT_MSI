@@ -36,17 +36,15 @@ namespace WUT_MSI.WebApp.Controllers
         {
             //TODO: Set Question
             var res = QuestionHelper.SetAnswear(model.AnswerId);
-            if(res.Key)
-                return ShowFoundCountries(res.Value);
+            if (res.Key)
+                return RedirectToAction("ShowFoundCountries", new { countries = string.Join(";",res.Value) });
 
             return GetQuestion(QuestionHelper.GetNextQuestion());
-
-            //return RedirectToAction("Index");
         }
-
-        private ActionResult ShowFoundCountries(string[] countries)
+        [HttpGet]
+        public ActionResult ShowFoundCountries(string countries)
         {
-            return View(countries);
+            return View(countries.Split(';'));
         }
     }
 }
