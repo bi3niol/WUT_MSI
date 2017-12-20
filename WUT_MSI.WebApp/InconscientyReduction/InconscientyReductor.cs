@@ -104,13 +104,14 @@ namespace WUT_MSI.WebApp.InconscientyReduction
                 approximationValue.Add(pair.Key, pair.Value.Count() / UPower);
 
             float maxValue = approximationValue.Max(p => p.Value);
-            approximationValue.OrderByDescending(p => p.Key);
+            //approximationValue = approximationValue.OrderByDescending(p => p.Key).ToDictionary(k => k.Key, v => v.Value);
 
             for (int i = 0; i < approximationValue.Count; i++)
             {
                 if (approximationValue.ElementAt(i).Value == maxValue) continue;
 
-                beforeMatrix.RemoveAt(value[i]);
+                foreach (int v in value.OrderByDescending(v => v).ToList())
+                    beforeMatrix.RemoveAt(v);
             }
 
             return beforeMatrix;
