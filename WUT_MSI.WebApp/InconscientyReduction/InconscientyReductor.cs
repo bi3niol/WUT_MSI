@@ -40,8 +40,10 @@ namespace WUT_MSI.WebApp.InconscientyReduction
             Dictionary<int, List<int>> repetitions = new Dictionary<int, List<int>>();
 
             for (int i = 0; i < originalMatrix.GetLength(0); i++)
-                for (int k = i + 1; k < originalMatrix.GetLength(1); k++)
+                for (int k = 0; k < originalMatrix.GetLength(1); k++)
                 {
+                    if (i == k) continue;
+
                     if (IsInconscienty(beforeMatrix[i], beforeMatrix[k]))
                         if (repetitions.ContainsKey(i)) repetitions[i].Add(k);
                         else repetitions.Add(i, new List<int>() { k });
@@ -103,13 +105,14 @@ namespace WUT_MSI.WebApp.InconscientyReduction
                 approximationValue.Add(pair.Key, pair.Value.Count() / UPower);
 
             float maxValue = approximationValue.Max(p => p.Value);
-            approximationValue.OrderByDescending(p => p.Key);
+            //approximationValue = approximationValue.OrderByDescending(p => p.Key).ToDictionary(k => k.Key, v => v.Value);
 
             for (int i = 0; i < approximationValue.Count; i++)
             {
                 if (approximationValue.ElementAt(i).Value == maxValue) continue;
 
-                beforeMatrix.RemoveAt(value[i]);
+                foreach (int v in value.OrderByDescending(v => v).ToList())
+                    beforeMatrix.RemoveAt(v);
             }
 
             return beforeMatrix;
